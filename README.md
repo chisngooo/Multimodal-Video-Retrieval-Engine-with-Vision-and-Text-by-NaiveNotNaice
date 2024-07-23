@@ -1,15 +1,16 @@
-# Ho Chi Minh AI Challenge 2024
+<h1><center>Pipeline HCM AI CHALLENGE 2023 <br> Event Retrieval from Visual Data</center></h1>
 
-[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-blue?style=flat-square)](Comming soon)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](#LICENSE)
+## Setup 
+```
+pip install git+https://github.com/openai/CLIP.git
+pip install -r requirements.txt
+```
 
-This directory contains the source code providing a web-based user interface developed to support to browse in and retrieve from mixed multimedia collections.
-If there is anything that needs to be improved, please submit a [Pull Requests](https://github.com/SharkTien/HCM-AIC24/pulls)
+## Run 
+```
+python app.py
+```
+
+URL: http://0.0.0.0:5001/home?index=0
 
 
-## disclaimer
-
-
-## Open-source protocol
-
-The MIT License (MIT)
