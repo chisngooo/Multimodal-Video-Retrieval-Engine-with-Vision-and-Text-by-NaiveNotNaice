@@ -34,6 +34,7 @@ class Myfaiss:
         
     def image_search(self, id_query, k): 
         query_feats = self.index.reconstruct(id_query).reshape(1,-1)
+        query_feats = query_feats / np.linalg.norm(query_feats, axis=1, keepdims=True)  # Normalize
 
         scores, idx_image = self.index.search(query_feats, k=k)
         idx_image = idx_image.flatten()
@@ -51,6 +52,7 @@ class Myfaiss:
         ###### TEXT FEATURES EXACTING ######
         text = clip.tokenize([text]).to(self.device)  
         text_features = self.model.encode_text(text).cpu().detach().numpy().astype(np.float32)
+        text_features = text_features / np.linalg.norm(text_features, axis=1, keepdims=True)  # Normalize
 
         ###### SEARCHING #####
         scores, idx_image = self.index.search(text_features, k=k)
