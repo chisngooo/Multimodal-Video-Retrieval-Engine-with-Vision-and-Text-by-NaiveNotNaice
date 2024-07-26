@@ -85,9 +85,7 @@
         }
         .search{
           width: 300px;
-          height: 100%;
-          padding: 20px;
-         
+          margin-bottom: 20px;
         }
         .search label{
           position: absolute;
@@ -368,9 +366,18 @@
 
         <!-- <div style="height: 5px; width: 100%; background-color: black; margin-bottom: 5px; margin-top: 5px;"></div> -->
         <div class="left-side" style="min-width:40vh; padding: 20px;">
+          <div class="search">
+           
+            <label for="">
+              <i class="fa fa-search" aria-hidden="true"></i>
+            </label>
+            <input id="text_query" type="text" placeholder="Text query">
+          </div>
+          
           <form class="button_group" style="
                   display: grid; grid-template-columns: 2rem 1fr; gap: 10px;
               ">
+              
               <label for="OCR">OCR:</label>
               <div>
                 <textarea type="text" id="OCR" placeholder="Enter OCR text:" maxlength="200" oninput="updateCharCount()"></textarea>
@@ -506,9 +513,9 @@
         }
 
         function search(){
-            text_query = document.getElementById('OCR').value;
+            text_query = document.getElementById('text_query').value;
             window.location.href = "/textsearch?textquery="+text_query;
-            document.getElementById('OCR').innerHTML = text_query;
+            document.getElementById('text_query').innerHTML = text_query;
         }
         
         const toolbar = document.getElementById('toolbar');
