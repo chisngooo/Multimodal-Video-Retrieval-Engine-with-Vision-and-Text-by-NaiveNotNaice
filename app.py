@@ -22,7 +22,7 @@ from utils.faiss import Myfaiss
 import json
 
 # Đọc dữ liệu từ các file JSON với mã hóa UTF-8
-with open('DataBase/merge_data.json', 'r', encoding='utf-8') as file:
+with open('DataBase/merged_data.json', 'r', encoding='utf-8') as file:
     data = json.load(file)
 
 
