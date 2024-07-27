@@ -241,7 +241,10 @@
                 border: 1px solid blue;
             } */
             /* poup */
-            
+            .hoverImg {
+              font-size: 1px;
+            }
+
             .button_group textarea {
                 padding: 10px;
                 height: 100px;
@@ -303,6 +306,28 @@
               overflow-y: scroll;
               background-color: #fff;
               
+            }
+
+            .place-list {
+              display: block;
+              background-color: #fff;
+              margin-top: 5px;
+              border: none;
+              border-radius: 10px;
+              height: 100px;
+              padding: 1px;
+              overflow: hidden;
+              overflow-y: scroll;
+            }
+
+            .placeItem {
+              width: 100%;
+              border: none;
+              font-size: 14px;
+            }
+
+            .placeItem:hover {
+              background-color: #89d8d3;
             }
 
             @supports (display: flex) {
@@ -398,8 +423,9 @@
         let hoverImg = document.getElementsByClassName("hoverImg");
         const checkbox = document.getElementById('Place');
         const searchplace = document.querySelector('.search');
+        const placeList = document.querySelector('.place-list');
         const searchInput = document.getElementById('place_query');
-
+          
 
         checkbox.addEventListener('change', () => {
           if (checkbox.checked) {
@@ -508,9 +534,9 @@
 
 
         function search(a) {
-          placeList = document.querySelector('place-list');
           
           placeList.innerHTML = ``;
+          places = ['bedroom','hospital','hotel','pool','garden','sky','ground','playground']
           for (place of places) {
               if (removeToneMark(place).includes(a)) {
                   item = document.createElement("button");
