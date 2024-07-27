@@ -281,53 +281,83 @@
             }
 
            
-            .search{
+            .search, .searchod{
+              width: 200px;
               margin: 30px;
               display: none;
             }
-
-            .search label{
-              position: absolute;
-              font-size: 18px;
-              padding: 10px;
+            
+            .Odlabel, #OD, .Odlabel2 {
+              display: none;
             }
 
-            
-            .search input{
+            .search input, .searchod input{
+              width: 200px;
               height: 40px;
               border: none;
               border-radius: 10px;
-              padding-left: 20%;
+              display: flex;
               font-size: 14px;
+              padding-left: 10px;
             }
 
-            .search_result { 
+            .search_result {
+              width: 150px; 
               height: 100px;
-              overflow-y: scroll;
               background-color: #fff;
-              
             }
 
-            .place-list {
+            .place-list, .od-list {
               display: block;
               background-color: #fff;
               margin-top: 5px;
               border: none;
               border-radius: 10px;
-              height: 100px;
-              padding: 1px;
+              height: 200px;
+              padding: 0;
               overflow: hidden;
               overflow-y: scroll;
             }
 
-            .placeItem {
-              width: 100%;
+            .placeItem, .odItem {
+              cursor: pointer;
               border: none;
+              width: 200px;
+              height: 25px;
               font-size: 14px;
             }
 
-            .placeItem:hover {
+            .odItem:hover ,.placeItem:hover {
               background-color: #89d8d3;
+            }
+
+            #videoModal {
+                position: absolute;
+                width: 100%;
+                height: 70vh;
+                left: 50vh;
+                top: 15vh;
+                max-width: 800px;
+                background-color: #fff;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                border-radius: 8px;
+                overflow: hidden;
+            }
+            #closeBtn {
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                background: none;
+                border: none;
+                font-size: 24px;
+                cursor: pointer;
+            }
+            video {
+                width: 80%;
+                height: auto;
+                display: block;
+                margin: auto;
+                border-radius: 10px;
             }
 
             @supports (display: flex) {
@@ -376,21 +406,24 @@
                 <div class="char-counter" id="charCounterASR">0/200</div>  
               </div>
               <input class= "checkbox_options" type="checkbox" id="OD">
-              <label for="OD">OD</label>    
-              <label></label>        
+              <label for="OD" class="Odlabel">OD</label>    
+              <label class="Odlabel2"></label>        
               <input class= "checkbox_options" type="checkbox" id="Place">
-              <label for="Place">Place</label>
+              <label for="Place" class="Placelabel">Place</label>
               <label></label>  
           </form>      
             <div class="search">
-              <label for="">
-                <i class="fa fa-search" aria-hidden="true"></i>
-              </label>
               <input id="place_query" type="text" placeholder="Place query">
-          
               <div class="search-result">
                 <ul class="place-list">
-                  
+                </ul>
+              </div>
+            </div>
+
+            <div class="searchod">
+              <input id="od_query" type="text" placeholder="OD query">
+              <div class="search-result-od">
+                <ul class="od-list">
                 </ul>
               </div>
             </div>
@@ -411,7 +444,13 @@
           <div id="div_total_page">Total: 1200 page</div>
           <div style="margin-bottom: 50px;"></div>  
         </div>
-
+        
+        <div id="videoModal">
+            <button id="closeBtn">&times;</button>
+            <video controls>
+                <source src="../video/scene_0.mp4" type="video/mp4">
+            </video>
+        </div>
       </div>
     <script>
         var data = '{{ data|tojson }}';
@@ -422,22 +461,49 @@
         let btn_select = document.getElementsByClassName("btn_select");
         let hoverImg = document.getElementsByClassName("hoverImg");
         const checkbox = document.getElementById('Place');
+        const checkboxOD = document.getElementById('OD');
         const searchplace = document.querySelector('.search');
+        const searchod = document.querySelector('.searchod');
         const placeList = document.querySelector('.place-list');
         const searchInput = document.getElementById('place_query');
-          
+        const ODList = document.querySelector('.od-list');
+        const searchInputOD = document.getElementById('od_query');
+        const ODlabel = document.querySelector('.Odlabel');
+        const ODlabel2 = document.querySelector('.Odlabel2');
+        document.getElementById('closeBtn').addEventListener('click', function() {
+            document.getElementById('videoModal').style.display = 'none';
+        });
 
         checkbox.addEventListener('change', () => {
           if (checkbox.checked) {
             searchplace.style.display = 'block';
+            checkboxOD.style.display = 'block';
+            ODlabel.style.display = 'block';
+            ODlabel2.style.display = 'block';
           } else {
             searchplace.style.display = 'none';
+            checkboxOD.style.display = 'none';
+            ODlabel.style.display = 'none';
+            ODlabel2.style.display = 'none';
+          }
+        });
+        
+        checkboxOD.addEventListener('change', () => {
+          if (checkbox.checked) {
+            searchod.style.display = 'block';
+          } else {
+            searchod.style.display = 'none';
           }
         });
         
         searchInput.addEventListener('input', () => {
-          search(removeToneMark(searchInput.value.toLowerCase()));
+          searchPlace(removeToneMark(searchInput.value.toLowerCase()));
         });
+        
+        searchInputOD.addEventListener('input', () => {
+          searchOD(removeToneMark(searchInputOD.value.toLowerCase()));
+        });
+
 
         function updateCharCount() {
             const textarea = document.getElementById('OCR');
@@ -500,7 +566,7 @@
                 // console.log('item: ' + JSON.stringify(item))
                 $("#div_img").append(
                     `<div class= "container_img_btn">
-                        <button class="btn_knn" onClick="go_img_search(${item.id})">IR</button>
+                        // <button class="btn_knn" onClick="go_img_search(${item.id})">IR</button>
                         <img class="hoverImg" onclick="show_list_segment(${item.id})" src="get_img?fpath=${item.imgpath}">
                     </div>`
                 )
@@ -508,22 +574,22 @@
         
         }
         
-        function go_img_search(id){
-            window.open("/imgsearch?imgid="+id);
-        }
+        // function go_img_search(id){
+        //     window.open("/imgsearch?imgid="+id);
+        // }
 
         function on_load(){
             var url = new URL(window.location.href);
             var imgpath = url.searchParams.get("imgpath");
             if("query" in data){
-              document.getElementById("OCR").value = data["query"]
+              document.getElementById("text_query").value = data["query"]
             }
             add_paging();
             add_img("div_img");
         }
 
         function show_list_segment(id){
-            window.open("/showsegment?imgid="+id);
+            // window.open("/showsegment?imgid="+id);
         }
 
         function search(){
@@ -533,17 +599,36 @@
         }
 
 
-        function search(a) {
+        function searchPlace(a) {
           
           placeList.innerHTML = ``;
-          places = ['bedroom','hospital','hotel','pool','garden','sky','ground','playground']
+          places = ['airfie', 'airplane_cab', 'airport_termin', 'alco', 'all', 'amphitheat', 'amusement_arca', 'amusement_pa', 'apartment_building/outdo', 'aquari', 'aqueduc', 'arcad', 'arc', 'archaelogical_excavatio', 'archiv', 'arena/hocke', 'arena/performanc', 'arena/rode', 'army_bas', 'art_galler', 'art_schoo', 'art_studi', 'artists_lof', 'assembly_lin', 'athletic_field/outdoo', 'atrium/publi', 'atti', 'auditoriu', 'auto_factor', 'auto_showroo', 'badland', 'bakery/sho', 'balcony/exterio', 'balcony/interio', 'ball_pi', 'ballroo', 'bamboo_fores', 'bank_vaul', 'banquet_hal', 'ba', 'bar', 'barndoo', 'baseball_fiel', 'basemen', 'basketball_court/indoo', 'bathroo', 'bazaar/indoo', 'bazaar/outdoo', 'beac', 'beach_hous', 'beauty_salo', 'bedchambe', 'bedroo', 'beer_garde', 'beer_hal', 'bert', 'biology_laborator', 'boardwal', 'boat_dec', 'boathous', 'bookstor', 'booth/indoo', 'botanical_garde', 'bow_window/indoo', 'bowling_alle', 'boxing_rin', 'bridg', 'building_facad', 'bullrin', 'burial_chambe', 'bus_interio', 'bus_station/indoo', 'butchers_sho', 'butt', 'cabin/outdoo', 'cafeteri', 'campsit', 'campu', 'canal/natura', 'canal/urba', 'candy_stor', 'canyo', 'car_interio', 'carrouse', 'castl', 'catacom', 'cemeter', 'chale', 'chemistry_la', 'childs_roo', 'church/indoo', 'church/outdoo', 'classroo', 'clean_roo', 'clif', 'close', 'clothing_stor', 'coas', 'cockpi', 'coffee_sho', 'computer_room', 'conference_center', 'conference_room', 'construction_site', 'corn_field', 'corral', 'corridor', 'cottage', 'courthouse', 'courtyard', 'creek', 'crevasse', 'crosswalk', 'dam', 'delicatessen', 'department_store', 'desert/sand', 'desert/vegetation', 'desert_road', 'diner/outdoor', 'dining_hall', 'dining_room', 'discotheque', 'doorway/outdoor', 'dorm_room', 'downtown', 'dressing_room', 'driveway', 'drugstore', 'elevator/door', 'elevator_lobby', 'elevator_shaft', 'embassy', 'engine_room', 'entrance_hall', 'escalator/indoor', 'excavation', 'fabric_store', 'farm', 'fastfood_restaurant', 'field/cultivated', 'field/wild', 'field_road', 'fire_escape', 'fire_station', 'fishpond', 'flea_market/indoor', 'florist_shop/indoor', 'food_court', 'football_field', 'forest/broadleaf', 'forest_path', 'forest_road', 'formal_garden', 'fountain', 'galley', 'garage/indoor', 'garage/outdoor', 'gas_station', 'gazebo/exterior', 'general_store/indoor', 'general_store/outdoor', 'gift_shop', 'glacier', 'golf_course', 'greenhouse/indoor', 'greenhouse/outdoor', 'grotto', 'gymnasium/indoor', 'hangar/indoor', 'hangar/outdoor', 'harbor', 'hardware_store', 'hayfield', 'heliport', 'highway', 'home_office', 'home_theater', 'hospital', 'hospital_room', 'hot_spring', 'hotel/outdoor', 'hotel_room', 'house', 'hunting_lodge/outdoor', 'ice_cream_parlor', 'ice_floe', 'ice_shelf', 'ice_skating_rink/indoor', 'ice_skating_rink/outdoor', 'iceberg', 'igloo', 'industrial_area', 'inn/outdoor', 'islet', 'jacuzzi/indoor', 'jail_cell', 'japanese_garden', 'jewelry_shop', 'junkyard', 'kasbah', 'kennel/outdoor', 'kindergarden_classroom', 'kitchen', 'lagoon', 'lake/natural', 'landfill', 'landing_deck', 'laundromat', 'lawn', 'lecture_room', 'legislative_chamber', 'library/indoor', 'library/outdoor', 'lighthouse', 'living_room', 'loading_dock', 'lobby', 'lock_chamber', 'locker_room', 'mansion', 'manufactured_home', 'market/indoor', 'market/outdoor', 'marsh', 'martial_arts_gym', 'mausoleum', 'medina', 'mezzanine', 'moat/water', 'mosque/outdoor', 'motel', 'mountain', 'mountain_path', 'mountain_snowy', 'movie_theater/indoor', 'museum/indoor', 'museum/outdoor', 'music_studio', 'natural_history_museum', 'nursery', 'nursing_home', 'oast_house', 'ocean', 'office', 'office_building', 'office_cubicles', 'oilrig', 'operating_room', 'orchard', 'orchestra_pit', 'pagoda', 'palace', 'pantry', 'park', 'parking_garage/indoor', 'parking_garage/outdoor', 'parking_lot', 'pasture', 'patio', 'pavilion', 'pet_shop', 'pharmacy', 'phone_booth', 'physics_laboratory', 'picnic_area', 'pier', 'pizzeria', 'playground', 'playroom', 'plaza', 'pond', 'porch', 'promenade', 'pub/indoor', 'racecourse', 'raceway', 'raft', 'railroad_track', 'rainforest', 'reception', 'recreation_room', 'repair_shop', 'residential_neighborhood', 'restaurant', 'restaurant_kitchen', 'restaurant_patio', 'rice_paddy', 'river', 'rock_arch', 'roof_garden', 'rope_bridge', 'ruin', 'runway', 'sandbox', 'sauna', 'schoolhouse', 'science_museum', 'server_room', 'shed', 'shoe_shop', 'shopfront', 'shopping_mall/indoor', 'shower', 'ski_resort', 'ski_slope', 'sky', 'skyscraper', 'slum', 'snowfield', 'soccer_field', 'stable', 'stadium/baseball', 'stadium/football', 'stadium/soccer', 'stage/indoor', 'stage/outdoor', 'staircase', 'storage_room', 'street', 'subway_station/platform', 'supermarket', 'sushi_bar', 'swamp', 'swimming_hole', 'swimming_pool/indoor', 'swimming_pool/outdoor', 'synagogue/outdoor', 'television_room', 'television_studio', 'temple/asia', 'throne_room', 'ticket_booth', 'topiary_garden', 'tower', 'toyshop', 'train_interior', 'train_station/platform', 'tree_farm', 'tree_house', 'trench', 'tundra', 'underwater/ocean_deep', 'utility_room', 'valley', 'vegetable_garden', 'veterinarians_office', 'viaduct', 'village', 'vineyard', 'volcano', 'volleyball_court/outdoor', 'waiting_room', 'water_park', 'water_tower', 'waterfall', 'watering_hole', 'wave', 'wet_bar', 'wheat_field', 'wind_farm', 'windmill', 'yard', 'youth_hostel', 'zen_garden']
           for (place of places) {
               if (removeToneMark(place).includes(a)) {
-                  item = document.createElement("button");
+                  item = document.createElement("li");
                   item.classList.add('placeItem');
-                  item.innerHTML = `${place}
+                  item.innerHTML = `
+                  <button class="placeItem" onclick="searchInput.value = '${place}'; this.blur();">
+                  ${place}
                   `;
                   placeList.appendChild(item);
+              }
+          }
+        }
+
+        function searchOD(a) {
+          
+          ODList.innerHTML = ``;
+          ods = ['__background__', 'person', 'bicycle', 'car', 'motorcycle', 'airplane', 'bus', 'train', 'truck', 'boat', 'traffic light', 'fire hydrant', 'stop sign', 'parking meter', 'bench', 'bird', 'cat', 'dog', 'horse', 'sheep', 'cow', 'elephant', 'bear', 'zebra', 'giraffe', 'backpack', 'umbrella', 'handbag', 'tie', 'suitcase', 'frisbee', 'skis', 'snowboard', 'sports ball', 'kite', 'baseball bat', 'baseball glove', 'skateboard', 'surfboard', 'tennis racket', 'bottle', 'wine glass', 'cup', 'fork', 'knife', 'spoon', 'bowl', 'banana', 'apple', 'sandwich', 'orange', 'broccoli', 'carrot', 'hot dog', 'pizza', 'donut', 'cake', 'chair', 'couch', 'potted plant', 'bed', 'dining table', 'toilet', 'tv', 'laptop', 'mouse', 'remote', 'keyboard', 'cell phone', 'microwave', 'oven', 'toaster', 'sink', 'refrigerator', 'book', 'clock', 'vase', 'scissors', 'teddy bear', 'hair drier', 'toothbrush']
+          for (od of ods) {
+              if (removeToneMark(od).includes(a)) {
+                  item = document.createElement("li");
+                  item.classList.add('odItem');
+                  item.innerHTML = `
+                  <button class="odItem" onclick="searchInputOD.value = '${od}'; this.blur();">
+                  ${od}
+                  `;
+                  ODList.appendChild(item);
               }
           }
         }

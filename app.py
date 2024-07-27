@@ -133,7 +133,7 @@ def get_img():
 
     # print(img.shape)
     img = cv2.putText(img, image_name, (30, 80), cv2.FONT_HERSHEY_SIMPLEX, 
-                   3, (255, 0, 0), 4, cv2.LINE_AA)
+                   2.3, (255, 0, 0), 4, cv2.LINE_AA)
 
     ret, jpeg = cv2.imencode('.jpg', img)
     return  Response((b'--frame\r\n'
