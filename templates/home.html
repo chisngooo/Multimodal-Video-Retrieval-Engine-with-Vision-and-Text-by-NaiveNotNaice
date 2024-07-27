@@ -287,9 +287,6 @@
               display: none;
             }
             
-            .Odlabel, #OD, .Odlabel2 {
-              display: none;
-            }
 
             .search input, .searchod input{
               width: 200px;
@@ -407,7 +404,7 @@
               </div>
               <input class= "checkbox_options" type="checkbox" id="OD">
               <label for="OD" class="Odlabel">OD</label>    
-              <label class="Odlabel2"></label>        
+              <label></label>        
               <input class= "checkbox_options" type="checkbox" id="Place">
               <label for="Place" class="Placelabel">Place</label>
               <label></label>  
@@ -468,8 +465,7 @@
         const searchInput = document.getElementById('place_query');
         const ODList = document.querySelector('.od-list');
         const searchInputOD = document.getElementById('od_query');
-        const ODlabel = document.querySelector('.Odlabel');
-        const ODlabel2 = document.querySelector('.Odlabel2');
+
         document.getElementById('closeBtn').addEventListener('click', function() {
             document.getElementById('videoModal').style.display = 'none';
         });
@@ -477,19 +473,13 @@
         checkbox.addEventListener('change', () => {
           if (checkbox.checked) {
             searchplace.style.display = 'block';
-            checkboxOD.style.display = 'block';
-            ODlabel.style.display = 'block';
-            ODlabel2.style.display = 'block';
           } else {
-            searchplace.style.display = 'none';
-            checkboxOD.style.display = 'none';
-            ODlabel.style.display = 'none';
-            ODlabel2.style.display = 'none';
+            searchplace.style.display = 'none'
           }
         });
         
         checkboxOD.addEventListener('change', () => {
-          if (checkbox.checked) {
+          if (checkboxOD.checked) {
             searchod.style.display = 'block';
           } else {
             searchod.style.display = 'none';
