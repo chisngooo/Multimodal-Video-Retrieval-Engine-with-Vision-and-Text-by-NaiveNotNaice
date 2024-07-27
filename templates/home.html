@@ -288,6 +288,8 @@
               font-size: 18px;
               padding: 10px;
             }
+
+            
             .search input{
               height: 40px;
               border: none;
@@ -295,9 +297,17 @@
               padding-left: 20%;
               font-size: 14px;
             }
+
+            .search_result { 
+              height: 100px;
+              overflow-y: scroll;
+              background-color: #fff;
+              
+            }
+
             @supports (display: flex) {
-            @media screen and (min-width: 1024px) {
-              article {
+              @media screen and (min-width: 1024px) {
+                article {
                 display: flex;
               }
               .container {
@@ -351,10 +361,13 @@
               <label for="">
                 <i class="fa fa-search" aria-hidden="true"></i>
               </label>
-              <input id="text_query" type="text" placeholder="Text query">
-            </div>
-            <div>
-              
+              <input id="place_query" type="text" placeholder="Place query">
+          
+              <div class="search-result">
+                <ul class="place-list">
+                  
+                </ul>
+              </div>
             </div>
             
     
@@ -385,6 +398,8 @@
         let hoverImg = document.getElementsByClassName("hoverImg");
         const checkbox = document.getElementById('Place');
         const searchplace = document.querySelector('.search');
+        const searchInput = document.getElementById('place_query');
+
 
         checkbox.addEventListener('change', () => {
           if (checkbox.checked) {
@@ -392,6 +407,10 @@
           } else {
             searchplace.style.display = 'none';
           }
+        });
+        
+        searchInput.addEventListener('input', () => {
+          search(removeToneMark(searchInput.value.toLowerCase()));
         });
 
         function updateCharCount() {
@@ -485,6 +504,35 @@
             text_query = document.getElementById('text_query').value;
             window.location.href = "/textsearch?textquery="+text_query;
             document.getElementById('text_query').innerHTML = text_query;
+        }
+
+
+        function search(a) {
+          placeList = document.querySelector('place-list');
+          
+          placeList.innerHTML = ``;
+          for (place of places) {
+              if (removeToneMark(place).includes(a)) {
+                  item = document.createElement("button");
+                  item.classList.add('placeItem');
+                  item.innerHTML = `${place}
+                  `;
+                  placeList.appendChild(item);
+              }
+          }
+        }
+
+        function removeToneMark(str) {
+            // remove accents
+            var from = "àáãảạăằắẳẵặâầấẩẫậèéẻẽẹêềếểễệđùúủũụưừứửữựòóỏõọôồốổỗộơờớởỡợìíỉĩịäëïîöüûñçýỳỹỵỷ",
+                to   = "aaaaaaaaaaaaaaaaaeeeeeeeeeeeduuuuuuuuuuuoooooooooooooooooiiiiiaeiiouuncyyyyy";
+            for (var i=0, l=from.length ; i < l ; i++) {
+              str = str.replace(RegExp(from[i], "gi"), to[i]);
+            }
+
+            str = str.toLowerCase().trim()
+
+            return str;
         }
 
     </script>
