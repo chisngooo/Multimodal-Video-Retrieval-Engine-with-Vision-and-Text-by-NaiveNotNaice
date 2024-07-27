@@ -8,13 +8,27 @@ import pandas as pd
 import glob 
 import json 
 
+from utils.search_by_od import search_frames_with_all_objects
+from utils.search_by_place import search_frames_with_any_place
 from utils.query_processing import Translation
 from utils.faiss import Myfaiss
 
+# from sklearn.metrics.pairwise import cosine_similarity
+# from transformers import BertModel, BertTokenizer
+
+
 # http://0.0.0.0:5001/home?index=0
 
-# app = Flask(__name__, template_folder='templates', static_folder='static')
+import json
 
+# Đọc dữ liệu từ các file JSON với mã hóa UTF-8
+with open('DataBase/merged_data.json', 'r', encoding='utf-8') as file:
+    data = json.load(file)
+
+
+
+
+# app = Flask(__name__, template_folder='templates', static_folder='static')
 app = Flask(__name__, template_folder='templates')
 
 ####### CONFIG #########
@@ -125,7 +139,55 @@ def get_img():
     return  Response((b'--frame\r\n'
                      b'Content-Type: image/jpeg\r\n\r\n' + jpeg.tobytes() + b'\r\n\r\n'),
                     mimetype='multipart/x-mixed-replace; boundary=frame')
+    
+    
+@app.route('/placesearch')
+def place_search():
+    query_place = request.args.get('placequery')
+    frame_ids = search_frames_with_any_place(query_place, data)
 
+    pagefile = [{'imgpath': DictImagePath[frame_id], 'id': frame_id} for frame_id in frame_ids]
+    data = {'num_page': int(LenDictPath / 100) + 1, 'pagefile': pagefile}
+    
+    return render_template('home.html', data=data)
+
+
+@app.route('/objectsearch')
+def object_search():
+    query_objects = request.args.getlist('objectquery')
+    frame_ids = search_frames_with_all_objects(query_objects, data)
+
+    pagefile = [{'imgpath': DictImagePath[frame_id], 'id': frame_id} for frame_id in frame_ids]
+    data = {'num_page': int(LenDictPath / 100) + 1, 'pagefile': pagefile}
+    
+    return render_template('home.html', data=data)
+
+
+def encode_text(text):
+    inputs = tokenizer(text, return_tensors='pt', max_length=512, truncation=True, padding='max_length')
+    with torch.no_grad():
+        outputs = model(**inputs)
+    return outputs.last_hidden_state[:, 0, :].squeeze()
+
+def search_with_bert(query, query_type, data, top_n=100):
+    query_embedding = encode_text(query).numpy().reshape(1, -1)
+    scores = []
+
+    for frame_id, frame_data in data.items():
+        if query_type == 'ocr':
+            embedding = np.array(frame_data['ocr_embedding']).reshape(1, -1)
+        elif query_type == 'asr':
+            embedding = np.array(frame_data['asr_embedding']).reshape(1, -1)
+        else:
+            raise ValueError("Invalid query type")
+
+        score = cosine_similarity(query_embedding, embedding)[0][0]
+        scores.append((frame_id, score))
+
+    # Sắp xếp theo điểm số và lấy top_n
+    sorted_scores = sorted(scores, key=lambda x: x[1], reverse=True)
+    top_results = sorted_scores[:top_n]
+    return [frame_id for frame_id, score in top_results]
 
 
 if __name__ == '__main__':

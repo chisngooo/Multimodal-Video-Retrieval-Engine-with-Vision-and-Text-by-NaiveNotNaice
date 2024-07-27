@@ -1,0 +1,4059 @@
+{
+    "frame_42": {
+        "objects": [],
+        "ocr": "? TOAN CANH",
+        "place": "booth/indoor",
+        "asr": "những ngày đầu của mình.",
+        "id": 0
+    },
+    "frame_98": {
+        "objects": [],
+        "ocr": "& Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "home_theater",
+        "asr": "cả.",
+        "id": 1
+    },
+    "frame_215": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "ph6:NghAn 4 2Thuphi X3.Min .Khac nngay thang nam S6 the BHYT ten,dia chi nguoi nha khi can bao tin Ci- JANLYNGUOIBENH Dien thoai so vicn02gi34phngay 04/07/2024 4.Nai gi thiol.Co quanytd X2.7den 3.Khac tiep vaopt.KKB 3.Khoa dieu tiX Yaovien do benhnavtan thie Khoa ng/th/namS6ngay Dui 17.Chuyen vien1.Ton trn 2Tendn 3.K khoa Khoa Virut-Kys 16Gia36pha 04/07/2024 000 -Chuyendon ren 18.Ravien 1Ravian xin i sHaw 4d 191oyd0 0 HAN MA MA chuyi  Ravig BolBaclowcKahbilf ap waokh KHAN TRUONG XU LY OBENH BACH HAU  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com nu thst",
+        "place": "booth/indoor",
+        "asr": "hai tỉnh nghệ an và bắc giang đã triển khai lấy mẫu xét nghiệm bệnh bạch hầu với các trường hợp có tiếp xúc gần với người đã tử vong.",
+        "id": 2
+    },
+    "frame_347": {
+        "objects": [
+            "bottle",
+            "oven",
+            "laptop",
+            "person",
+            "chair",
+            "cell phone",
+            "refrigerator"
+        ],
+        "ocr": "KHAN TRUONG XU LY O BENH BACH HAU & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "waiting_room",
+        "asr": "ô kê.",
+        "id": 3
+    },
+    "frame_405": {
+        "objects": [
+            "laptop",
+            "tv",
+            "person",
+            "chair"
+        ],
+        "ocr": "DCA NGUY CO MAC BENH DAI VI CHU QUAN & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "office",
+        "asr": "một trong những nguyên nhân.",
+        "id": 4
+    },
+    "frame_463": {
+        "objects": [
+            "fork",
+            "person"
+        ],
+        "ocr": "NGUY CO MAC BENH DAI VI CHU QUAN & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "hospital_room",
+        "asr": "làm công tác phòng chống dịch bệnh nguy hiểm.",
+        "id": 5
+    },
+    "frame_523": {
+        "objects": [
+            "cup",
+            "scissors",
+            "oven",
+            "person",
+            "knife",
+            "chair",
+            "spoon"
+        ],
+        "ocr": "M NGUY CO MAC BENH DAI Vi CHU QUAN & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "hospital_room",
+        "asr": "ngày gặp khó khăn là do sự chủ quan của người dân.",
+        "id": 6
+    },
+    "frame_579": {
+        "objects": [
+            "cow",
+            "person",
+            "dog"
+        ],
+        "ocr": "VM NGUY CO MAC BENH DAI Vi CHU QUAN & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "loading_dock",
+        "asr": "ghi nhận tại đồng nai.",
+        "id": 7
+    },
+    "frame_622": {
+        "objects": [
+            "truck",
+            "cow",
+            "person",
+            "potted plant"
+        ],
+        "ocr": "60C SU2 ISU2U NGUY CO MAC BENH DAI Vi CHU QUAN & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "parking_garage/indoor",
+        "asr": "hơn.",
+        "id": 8
+    },
+    "frame_810": {
+        "objects": [
+            "bench",
+            "person",
+            "cell phone"
+        ],
+        "ocr": "M  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "television_studio",
+        "asr": "thưa quý vị hai tỉnh nghệ an và bắc giang đã triển khai lấy mẫu xét nghiệm bạch hầu với các trường hợp có tiếp xúc trong đó bắc giang là mười lăm người và nghệ an là một trăm mười chín người các biện pháp đã được triển khai.",
+        "id": 9
+    },
+    "frame_1110": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "YFtidenngay huphi thang uyu S6 theBHYT tendia chigui nha khi can bao tin: G N1 JANLYNGUOIBENH Dien thoai so vi@n:02 gi 34ph ngay 04/07/2024 14.Noi giot thieulCo quany te X2.Twen 3Khac =tiep aoCdpcm 2KKB 3Khoa dieu triX Vaoviondo bonhnatdnthtr Khoa ng/th/namS6 nay Dui 17.Chuyen vien1.Tdn tan 2.Tandun 3.CK khoa Khoa Vinut Ky 16Gi36phat 04/07/2024 00 0 -Chuyen dn ven BRavie 1Ravien ]xinvd]3Baw 4. Oua ve 19Tonydieu tri0 HANDOAN MA MA chuyend au khaa 2.kavinBal BachciaeKnbclufng A.CAp npuyennhan VmahnSuyrfo Benh chinh AB vaokh nuven ahan KHAN TRUONGXULYOBENH BACHHAU tudl & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com qua dido irj",
+        "place": "booth/indoor",
+        "asr": "nhằm xử lý triệt để ổ dịch tổ chức điều tra và điều trị kháng sinh dự phòng cho tất cả các trường hợp cướp sức gân cũng y tế dự phòng cũng yêu cầu hai sở y tế trên chỉ đạo các cơ quan lên.",
+        "id": 10
+    },
+    "frame_1290": {
+        "objects": [
+            "bottle",
+            "oven",
+            "laptop",
+            "person",
+            "remote",
+            "chair",
+            "cell phone"
+        ],
+        "ocr": "G Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "locker_room",
+        "asr": "qua rà soát thống kê các đối tượng chưa được tiêm hoặc là tiêm chưa.",
+        "id": 11
+    },
+    "frame_1464": {
+        "objects": [
+            "bench",
+            "person",
+            "cell phone"
+        ],
+        "ocr": "M  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "television_studio",
+        "asr": "đầy đủ vắc xin phòng bệnh bạch hầu lưu ý các địa bàn vùng sâu vùng xa vùng đồng bào dân tộc có sinh sống khu vực đi lại khó khăn.",
+        "id": 12
+    },
+    "frame_2041": {
+        "objects": [
+            "person",
+            "cell phone"
+        ],
+        "ocr": "M ViÃ©t Nam homnay  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "television_studio",
+        "asr": "trong các kết quả xét nghiệm của một trăm mười chín người tiếp xúc với ca tử vong do bệnh bạch hầu ở nghệ an thì chỉ có duy nhất trường hợp đã ở cùng bệnh nhân là dương tính và được phát hiện khi đang làm việc tại bắc giang hiện cô gái này vừa được chuyển từ bệnh viện bệnh nhiệt đới trung ương về nghệ an để cách ly theo dõi tiếp với những trường hợp tiếp xúc gần dù có kết quả âm tính nhưng vẫn phải cách ly theo dõi sức khoẻ và được điều trị dự phòng bằng kháng sinh trong vòng bảy ngày theo dõi sức khoẻ trong vòng mười bốn ngày kể từ khi tiếp xúc gần lần cuối với ca bệnh. t.",
+        "id": 13
+    },
+    "frame_2514": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "M  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "village",
+        "asr": "kể từ khi bác xin phòng bà.",
+        "id": 14
+    },
+    "frame_2565": {
+        "objects": [
+            "cow",
+            "umbrella",
+            "person",
+            "horse"
+        ],
+        "ocr": " Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "farm",
+        "asr": "hầu được tiêm miễn phí trong chương trình tiêm chủng mới.",
+        "id": 15
+    },
+    "frame_2634": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "M  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "chalet",
+        "asr": "rộng đã cơ bản thanh toán được bệnh.",
+        "id": 16
+    },
+    "frame_2700": {
+        "objects": [
+            "person"
+        ],
+        "ocr": " Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "corn_field",
+        "asr": "phần lớn đã có miễn dịch cộng đồng.",
+        "id": 17
+    },
+    "frame_2776": {
+        "objects": [
+            "elephant",
+            "motorcycle",
+            "person"
+        ],
+        "ocr": "M  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "forest_path",
+        "asr": "thời gian gần đây bệnh quay trở lại chủ yếu ở những vùng trũng phệt.",
+        "id": 18
+    },
+    "frame_2873": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "& Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "cabin/outdoor",
+        "asr": "tiêm chủng có bệnh bạch hầu lưu hành nhiều năm qua như là kỳ lạ.",
+        "id": 19
+    },
+    "frame_2958": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "DIEUTRIDU PHONG CHONGUIDATIEPXUCVOI CA BACHHAU & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "stage/outdoor",
+        "asr": "sơn một huyện đặc biệt khó khăn của tỉnh nghệ an.",
+        "id": 20
+    },
+    "frame_3024": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "DIEU TRI DUPHONG CHONGUIDATIEP XÃœCVÃ–I CA BACHHAU & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "art_school",
+        "asr": "hoặc trước đó là huyện mèo vàng của tỉnh.",
+        "id": 21
+    },
+    "frame_3096": {
+        "objects": [
+            "motorcycle",
+            "person",
+            "chair"
+        ],
+        "ocr": "M1 CAR 23  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "art_school",
+        "asr": "hà giang việc tiêm phòng vắc xin ba trong một.",
+        "id": 22
+    },
+    "frame_3167": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "VA C Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "nursery",
+        "asr": "gồm bao mũi cơ bản tiêm cho trẻ.",
+        "id": 23
+    },
+    "frame_3222": {
+        "objects": [
+            "person"
+        ],
+        "ocr": " Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "vineyard",
+        "asr": "từ hai tháng tuổi sau đó hai mũi.",
+        "id": 24
+    },
+    "frame_3276": {
+        "objects": [
+            "handbag",
+            "person",
+            "chair"
+        ],
+        "ocr": "C Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "bazaar/outdoor",
+        "asr": "nghiêm nhắc lại vào lúc mười tám tháng.",
+        "id": 25
+    },
+    "frame_3336": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "M C Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "beauty_salon",
+        "asr": "và lúc thứ bốn đến sáu tuổi.",
+        "id": 26
+    },
+    "frame_3394": {
+        "objects": [
+            "remote",
+            "person"
+        ],
+        "ocr": "M & Hotline : 0889 24 24 24  vtv24hotline@gmail.com",
+        "place": "art_school",
+        "asr": "unk người lớn thì nên tiêm phòng mười năm.",
+        "id": 27
+    },
+    "frame_3465": {
+        "objects": [
+            "bowl",
+            "person"
+        ],
+        "ocr": "M & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "ice_cream_parlor",
+        "asr": "một lần nhất là với những người sống ở vùng có nguy.",
+        "id": 28
+    },
+    "frame_3542": {
+        "objects": [
+            "handbag",
+            "person",
+            "chair",
+            "backpack"
+        ],
+        "ocr": "& Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "sandbox",
+        "asr": "sơ cao có bệnh bạch hầu lưu hành.",
+        "id": 29
+    },
+    "frame_3605": {
+        "objects": [
+            "person",
+            "frisbee",
+            "book"
+        ],
+        "ocr": " Hotline : 0889 24 24 24  vtv24hotline@gmail.com",
+        "place": "sandbox",
+        "asr": "nhìn hỏng ở lớp không.",
+        "id": 30
+    },
+    "frame_3892": {
+        "objects": [
+            "person",
+            "cell phone"
+        ],
+        "ocr": "M ViÃ©t Nam homnay Q Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "television_studio",
+        "asr": "thưa quý vị tại tỉnh nghệ an sau ca bệnh bạch hầu tử vong thì ngành y tế đã phối hợp với chính quyền địa phương tập trung triển khai các giải pháp khoanh vùng kiểm soát ổ dịch mục tiêu là ổn định tâm lý cho người dân yên tâm tránh tình trạng hoang mang lo lắng do không hiểu đúng về vậy.",
+        "id": 31
+    },
+    "frame_4173": {
+        "objects": [
+            "umbrella",
+            "person",
+            "car"
+        ],
+        "ocr": " Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "chalet",
+        "asr": "nhờ.",
+        "id": 32
+    },
+    "frame_4240": {
+        "objects": [
+            "person",
+            "chair"
+        ],
+        "ocr": "& Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "television_studio",
+        "asr": "em cục thi thông ở bản phà khảo xã phà.",
+        "id": 33
+    },
+    "frame_4318": {
+        "objects": [
+            "person",
+            "vase"
+        ],
+        "ocr": "M KHAN TRUONGXULY OBENH BACHHAU & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "television_studio",
+        "asr": "ánh nguyễn kỳ sơn nằm trong giường phái cách ly.",
+        "id": 34
+    },
+    "frame_4387": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "M KHAN TRUONG XULYÃ–BENH BACHHAU  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "television_studio",
+        "asr": "theo dõi tại nhà sau khi có tiếp xúc gân.",
+        "id": 35
+    },
+    "frame_4447": {
+        "objects": [
+            "fork",
+            "tie",
+            "person",
+            "chair"
+        ],
+        "ocr": "M KHAN TRUONG XULYÃ–BENH BACHHAU Q Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "martial_arts_gym",
+        "asr": "unk bệnh nhân tử vong do bệnh bạch hầu.",
+        "id": 36
+    },
+    "frame_4509": {
+        "objects": [
+            "person",
+            "toothbrush"
+        ],
+        "ocr": "M KHAN TRUONG XULY Ã–BENHBACHHAU  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "martial_arts_gym",
+        "asr": "mỗi ngày em được gắn ý bác sĩ đến lê mầu.",
+        "id": 37
+    },
+    "frame_4574": {
+        "objects": [
+            "motorcycle",
+            "person"
+        ],
+        "ocr": "0915.488 M  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "playroom",
+        "asr": "cấp thuốc và hướng dẫn cách khử thuận.",
+        "id": 38
+    },
+    "frame_4633": {
+        "objects": [
+            "cup",
+            "bottle",
+            "person",
+            "toothbrush"
+        ],
+        "ocr": "M  Hotline : 0889 24 24 24  vtv24hotline@gmail.com",
+        "place": "chemistry_lab",
+        "asr": "vệ sinh phòng chống dịch bệnh tại nhà.",
+        "id": 39
+    },
+    "frame_4775": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "BNJ /1 Em CUT THI THONG  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "home_theater",
+        "asr": "sau khi được cán bộ y tế hướng dẫn thì nhà em cất lý tại nhà và uống thuốc đúng giờ và cửu quân.",
+        "id": 40
+    },
+    "frame_4912": {
+        "objects": [
+            "motorcycle",
+            "person",
+            "chair"
+        ],
+        "ocr": "0015.4017 Q Hotline : 0889 24 24 24  vtv24hotline@gmail.com",
+        "place": "shoe_shop",
+        "asr": "ý chi bác sĩ đã dạy lại.",
+        "id": 41
+    },
+    "frame_4962": {
+        "objects": [
+            "bowl",
+            "person"
+        ],
+        "ocr": "Zaromrx Zaromax Zaromax WN Zaromax 500 500 dir  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "pharmacy",
+        "asr": "unk à ít khi.",
+        "id": 42
+    },
+    "frame_5095": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "M ViÃ©t Nam homnay C Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "hospital_room",
+        "asr": "unk đi tiếp xúc với người ngoài và ở nhà thường xuyên và vệ sinh sạch sẽ rửa bằng xà phòng.",
+        "id": 43
+    },
+    "frame_5237": {
+        "objects": [
+            "truck",
+            "train",
+            "person"
+        ],
+        "ocr": "M Q Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "village",
+        "asr": "sau khi điều tra dịch tễ ngăn.",
+        "id": 44
+    },
+    "frame_5299": {
+        "objects": [
+            "person"
+        ],
+        "ocr": " Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "village",
+        "asr": "lý thế tại nghệ an đã xác định unk.",
+        "id": 45
+    },
+    "frame_5359": {
+        "objects": [
+            "motorcycle",
+            "person"
+        ],
+        "ocr": "M  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "slum",
+        "asr": "unk một trăm mười chín trường hợp tiếp xúc gần với bệnh.",
+        "id": 46
+    },
+    "frame_5420": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "TAXI 1284 MANFASHIO  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "locker_room",
+        "asr": "tiếng tử vong do bệnh bạch hầu.",
+        "id": 47
+    },
+    "frame_5476": {
+        "objects": [
+            "person",
+            "chair"
+        ],
+        "ocr": "M  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "sauna",
+        "asr": "đó có hai người đã rời khỏi đĩa bài.",
+        "id": 48
+    },
+    "frame_5529": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "VM & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "locker_room",
+        "asr": "ra tình bắt giang làm việc.",
+        "id": 49
+    },
+    "frame_5576": {
+        "objects": [
+            "motorcycle",
+            "dining table",
+            "person",
+            "chair"
+        ],
+        "ocr": "C Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "general_store/outdoor",
+        "asr": "tỉnh nghệ an đã tiến hành truy vệ.",
+        "id": 50
+    },
+    "frame_5627": {
+        "objects": [
+            "person"
+        ],
+        "ocr": " Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "television_studio",
+        "asr": "khoăn vồng phun tiêu đặc hữu trồng.",
+        "id": 51
+    },
+    "frame_5674": {
+        "objects": [
+            "scissors",
+            "person"
+        ],
+        "ocr": "R1  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "martial_arts_gym",
+        "asr": "các khu vực bị cách ly.",
+        "id": 52
+    },
+    "frame_5993": {
+        "objects": [
+            "motorcycle",
+            "person",
+            "cell phone"
+        ],
+        "ocr": " Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "inn/outdoor",
+        "asr": "hiện tại trên địa bàn của xã phà đánh của huyện kỳ sơn thì có đến bốn bạn ở với khoảng hai trăm hộ dân nằm trong diện phải cách ly để phòng chống dịch bệnh bạch hầu và mỗi ngày thì các y bác sĩ sẽ tiến hành cấp phạt thuốc hướng dựng khử khụng à cho người dân từ cách ly tại nhà và cho đến thời điểm này thì trên địa bàn đã chưa xuất hiện à những ca bệnh bạch hầu mới.",
+        "id": 53
+    },
+    "frame_6323": {
+        "objects": [
+            "dining table",
+            "person",
+            "chair"
+        ],
+        "ocr": "g & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "general_store/outdoor",
+        "asr": "càng ban chỉ đạo.",
+        "id": 54
+    },
+    "frame_6379": {
+        "objects": [
+            "person",
+            "toothbrush"
+        ],
+        "ocr": "VM & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "martial_arts_gym",
+        "asr": "hướng dẫn cho người nga.",
+        "id": 55
+    },
+    "frame_6671": {
+        "objects": [
+            "person",
+            "chair"
+        ],
+        "ocr": "BÃ¤c sy CK ll SAM VAN HAI GiÃ¤m dÃ¶c Trung tam Y tÃ© huyÃ©n Ky So'n, NgheAn & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "bazaar/outdoor",
+        "asr": "và những người tiếp xúc gần khoanh vùng từ khách ly theo dõi tại nhà nếu mà có cái triệu chứng có ho đau họng chảy nước muối có sốt thì đến cơ sở y tế gần nhất đặc biệt là trạm y tế xã phá đánh để kiểm tra sức khỏe.",
+        "id": 56
+    },
+    "frame_6974": {
+        "objects": [
+            "cup",
+            "motorcycle",
+            "handbag",
+            "person",
+            "dining table"
+        ],
+        "ocr": " Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "general_store/outdoor",
+        "asr": "trung tâm kiểm soát bệnh tật nghệ an đã.",
+        "id": 57
+    },
+    "frame_7047": {
+        "objects": [
+            "motorcycle",
+            "person"
+        ],
+        "ocr": " Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "village",
+        "asr": "hợp với chính quyền địa phương tổ chức lấy màu sạch nhau.",
+        "id": 58
+    },
+    "frame_7109": {
+        "objects": [
+            "cup",
+            "scissors",
+            "person",
+            "toothbrush"
+        ],
+        "ocr": "& Hotline : 0889 24 24 24 V vtv24hotline@gmail.com",
+        "place": "hospital_room",
+        "asr": "hiệm phun hoa tiếp xử trùng.",
+        "id": 59
+    },
+    "frame_7179": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "& Hotline : 0889 24 24 24 V vtv24hotline@gmail.com",
+        "place": "martial_arts_gym",
+        "asr": "kết liên cho những người tiếp xúc gần có các biểu hiện đau họng.",
+        "id": 60
+    },
+    "frame_7251": {
+        "objects": [
+            "bottle",
+            "cup",
+            "motorcycle",
+            "person",
+            "remote"
+        ],
+        "ocr": "HONDJ  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "art_school",
+        "asr": "tho số đồng thời tiến hành.",
+        "id": 61
+    },
+    "frame_7314": {
+        "objects": [
+            "person",
+            "toothbrush"
+        ],
+        "ocr": "M C Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "beauty_salon",
+        "asr": "tiêm vắc xin phòng bạch hầu cho các đối tượng.",
+        "id": 62
+    },
+    "frame_7377": {
+        "objects": [
+            "person",
+            "chair"
+        ],
+        "ocr": "M C Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "attic",
+        "asr": "tưởng trong độ tuổi tiếp tục chưa được tiêm phòng.",
+        "id": 63
+    },
+    "frame_7704": {
+        "objects": [
+            "potted plant",
+            "person",
+            "car"
+        ],
+        "ocr": "TEMEH TRUNG TAM KIEM SOAT BENHTA CONGSO2 OUYEN HUNO MOANTHANHO VINM-NNOHEAN & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "beer_garden",
+        "asr": "xin đối với những người mà tiếp xúc nhân ấy thì chúng ta đã có cái hướng dẫn là họ cho họ cách ly tà nhà cho họ uống thuốc dự phòng tự theo dõi sức khoẻ và khai báo y tế khi có những cái biểu hiện bất thường về sức khoẻ cái các cái cán bộ y tế thì thường xuyên kết nối qua điện thoại để và trực tiếp để mà theo dõi sức khoẻ và hướng dẫn người dân các biện pháp phòng chống.",
+        "id": 64
+    },
+    "frame_8182": {
+        "objects": [
+            "person",
+            "sink"
+        ],
+        "ocr": "HYGIENE TECHNIQUE OUNGGIAYTETIEM VNVC TRUNSTAMTIEMCHUNS C Hotline : 0889 24 24 24  vtv24hotline@gmail.com",
+        "place": "hospital_room",
+        "asr": "hiện tại đã có cái chứng minh hiệu quả là tiêm phòng vắc xin có thể lên đến chín mươi lăm phần trăm ở việt nam hiện tại thì chưa có cái vắc xin một thành phần bạch hầu nó sẽ được tiêm trong các vắc xin phối hợp.",
+        "id": 65
+    },
+    "frame_8402": {
+        "objects": [
+            "chair",
+            "umbrella",
+            "person",
+            "tie"
+        ],
+        "ocr": "TRUNGTAM TIEM CHUNGVACIJN CHCYREEM&NCITLA VNVC IUNGOVNVC DAVDU  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "shopping_mall/indoor",
+        "asr": "bộ y tế cũng yêu cầu các địa phương rà soát.",
+        "id": 66
+    },
+    "frame_8468": {
+        "objects": [
+            "person",
+            "chair"
+        ],
+        "ocr": "TAIVHVE  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "cafeteria",
+        "asr": "đảm bảo công tác hậu cần về vắc xin.",
+        "id": 67
+    },
+    "frame_8532": {
+        "objects": [
+            "bottle",
+            "tv",
+            "sink",
+            "person",
+            "chair"
+        ],
+        "ocr": "27 VNVC DENGHI PHUHUYNH NGLIOLALOC.TIEM  Hotline : 0889 24 24 24  vtv24hotline@gmail.com",
+        "place": "hospital_room",
+        "asr": "thuốc kháng sinh điều trị dự phòng huyết thanh kháng.",
+        "id": 68
+    },
+    "frame_8597": {
+        "objects": [
+            "bottle",
+            "person",
+            "sink",
+            "chair"
+        ],
+        "ocr": "INVC MTENCHUNGVACXI VN 2 ANGUOILON Dung Clinhanas VNVC can bo tiem chÃ¼ng RA,DOI CHIEU Du HO1OGA AMAC  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "biology_laboratory",
+        "asr": "tổng hòa chức để triển khai thác.",
+        "id": 69
+    },
+    "frame_8659": {
+        "objects": [
+            "tv",
+            "person",
+            "sink"
+        ],
+        "ocr": "& Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "hospital_room",
+        "asr": "các nhiệm vụ chống dệt đồng thời khuyến cáo người.",
+        "id": 70
+    },
+    "frame_8722": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "N1 C Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "beauty_salon",
+        "asr": "dừng không nên quá hoang mang lo lắng.",
+        "id": 71
+    },
+    "frame_8783": {
+        "objects": [
+            "bottle",
+            "tv",
+            "mouse",
+            "person",
+            "keyboard",
+            "chair"
+        ],
+        "ocr": "M1 ENGHI PHUHUYNH  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "biology_laboratory",
+        "asr": "vì dịch bệnh bạch hầu mà cần tuân.",
+        "id": 72
+    },
+    "frame_8839": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "M1 & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "beauty_salon",
+        "asr": "thủ nghiệp tốt các quy định về phòng.",
+        "id": 73
+    },
+    "frame_8896": {
+        "objects": [
+            "tv",
+            "person",
+            "refrigerator"
+        ],
+        "ocr": " Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "pharmacy",
+        "asr": "trong thiết bình.",
+        "id": 74
+    },
+    "frame_9290": {
+        "objects": [
+            "person",
+            "cell phone"
+        ],
+        "ocr": "M ViÃ©t Nam homnay  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "television_studio",
+        "asr": "liên quan các trường hợp tiếp xúc gần với ca bệnh bạch hầu đã tử vong ở nghệ an và ca phát hiện ở bắc giang dù đều có kết quả âm tính nhưng vẫn cần cách ly điều trị dự phòng bằng kháng sinh trong vòng bảy ngày theo dõi sức khoẻ trong vòng mười bốn ngày kể từ khi tiếp xúc gần lần cuối với ca bệnh biện pháp tốt nhất để phòng bạch hầu đó là tiêm chủng hiện vắc xin phòng bạch hầu được bào chế dễ dạng phối hợp với các vắc xin khác trong chương trình.",
+        "id": 75
+    },
+    "frame_10303": {
+        "objects": [
+            "bottle",
+            "person"
+        ],
+        "ocr": "VM TIEM NHAC VAC XIN PHÃ¶NG BACH HAU LÃ¤n 1: 18 thÃ¤ng LÃ¤n 2: 4-6 tu6i 10 nÃ¤m/lÃ¤n  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "conference_center",
+        "asr": "tiêm chủng mở rộng triển khai tiêm miễn phí vắc xin ba trong một phòng bệnh bạch hầu ho gà uốn ván cho trẻ tổng cộng năm mũi gồm ba cơ bản và hai mũi nhắc lại cụ thể là mũi một tiêm vào lúc hai tháng tuổi một tháng sau tiêm mũi thứ hai và mũi ba tiêm vào lúc bốn tháng tuổi đến mười tám tháng tuổi tiêm mũi nhắc lần một trải từ bốn đến sáu tháng tuổi tiêm nhắc lại lần hai với vắc xin có thành phần.bạch hầu giảm liều còn đối với người lớn nhất là người sống ở vùng dịch lưu hành vùng có ghi nhận ca bệnh bạch hầu thì nên nhắc lại mười năm một lần để duy trì kháng thể bảo vệ cơ thể chống lại vi khuẩn bạch hầu lâu dài.",
+        "id": 76
+    },
+    "frame_11388": {
+        "objects": [
+            "person",
+            "chair"
+        ],
+        "ocr": "M1 BÃ¤c si NGUYEN TRUNG CAP PhÃ³GiÃ¤m dÃ¶c BÃ©nh viÃ©n BÃ©nh nhiet dÃ³i Trung uo'ng  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "conference_center",
+        "asr": "trong cái chương trình tiêu chuẩn mở rộng là các cái vắc xin là năm mươi mũi vắc xin thường thường thì mùi rộng là là có các cái a vắc xin hầu tích hợp trong đó rồi cho nên là à và sau khi tiêm hết năm mũi thì ít nhất cái thời gian bảo vệ là được mười năm nữa một người đã tiêu dùng để đủ thì cũng có thể sau mười năm thì mới cần phải đi tìm nhắc lại và khi nhắc lại cũng chỉ cần nhắc lại với cái vắc xin riêng đối mạch hầu.",
+        "id": 77
+    },
+    "frame_12707": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "M ViÃ©t Nam homnay BI XU PHATDODANG THONG TIN SAI SUTHATVE BENH BACHHAU & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "television_studio",
+        "asr": "một chủ tài khoản facebook tại huyện hiệp hoa tỉnh bắc giang vừa bị xử phạt hành chính năm triệu đồng do đăng thông tin sai sự thật về bệnh bạch hầu người này đăng thông tin vào ngày mùng tám tháng bảy tại trung tâm y tế huyện hiệp hoa người dân sếp hàng dài chờ xét nghiệm bạch hầu đưa tin về một nam thanh niên tử vong do tiếp xúc với cô gái mắc bạch hầu và đưa tin cô gái này đã di chuyển nhiều quán hát trên địa bàn huyện hiệp hoà bắc giang và sóc sơn hà nội chủ tài khoản cho biết đã nhận thức được hành vi.đã gây ảnh hưởng tiêu cực đến dư luận và đã đăng bài đính chính xin lỗi cộng đồng mạng xã hội.tại tỉnh bến tre thì bốn người đã phải nhập viện nghi do ngộ độc mê tha non những người này cùng nhau uống rượu vào ngày mùng năm tháng bảy sau đó cả bốn có biểu hiện lơ mơ tiếp xúc chậm khó thở tại bệnh viện thì các nạn nhân được lọc máu cấp cứu hiện ba người đã ổn định một người còn nguy kịch gia đình cho biết là sau khi uống hết rượu thì những người này đã lấy chai cồn rửa tay ra uống tiếp tình trạng ngộ độc rượu có mẹt.",
+        "id": 78
+    },
+    "frame_13601": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "Turlicu TRUNG TAM CHÃ–NG DOC/Poison Control Center DONVIHOISUO Intensive Care Unit Q Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "highway",
+        "asr": "unk non đã từng.",
+        "id": 79
+    },
+    "frame_13640": {
+        "objects": [
+            "bottle",
+            "cup",
+            "person",
+            "bed",
+            "chair"
+        ],
+        "ocr": "Turlicu  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "hospital_room",
+        "asr": "xảy ra nhiều lần xong đa phần là do.",
+        "id": 80
+    },
+    "frame_13694": {
+        "objects": [
+            "sports ball",
+            "chair",
+            "person",
+            "bed"
+        ],
+        "ocr": "Tuficu NHAPVIEN CAPCUU DOUONG CON RUA TAY THAY RUOU & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "hospital_room",
+        "asr": "unk nạn nhân uống các loại rượu không có.",
+        "id": 81
+    },
+    "frame_13770": {
+        "objects": [
+            "bottle",
+            "cup",
+            "person",
+            "bed",
+            "chair"
+        ],
+        "ocr": "46 Tulieu NHAPVIEN CAP CUUDOUONG CON RUA TAY THAY RUOU & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "hospital_room",
+        "asr": "nguồn gốc không đảm bảo chất lượng còn các vụ ngộ độc mê thanon do nạn nhân.",
+        "id": 82
+    },
+    "frame_13832": {
+        "objects": [
+            "person",
+            "toothbrush"
+        ],
+        "ocr": "T'uli&u N NHAPVIEN CAPCUUDOUÃ–NG CON RUATAY THAY RUOU & Hotline : 0889 24 24 24  vtv24hotline@gmail.com",
+        "place": "hospital_room",
+        "asr": "chủ động pha.",
+        "id": 83
+    },
+    "frame_13889": {
+        "objects": [
+            "bowl",
+            "person",
+            "bed"
+        ],
+        "ocr": "l'ur lieu VM NHAPVIEN CAP CUUDOUONG CON RUA TAY THAY RUOU & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "hospital",
+        "asr": "các loại cồn uống thì cũng đã từng xảy ra.",
+        "id": 84
+    },
+    "frame_13967": {
+        "objects": [
+            "bottle",
+            "tv",
+            "dining table",
+            "laptop",
+            "chair",
+            "person",
+            "traffic light"
+        ],
+        "ocr": "Tulieu & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "hospital_room",
+        "asr": "con là chất cực kỳ độc hại thường sử dụng trong công nghiệp.",
+        "id": 85
+    },
+    "frame_14036": {
+        "objects": [
+            "tv",
+            "person"
+        ],
+        "ocr": "Tulieu M  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "airplane_cabin",
+        "asr": "chỉ cần uống từ năm mươi lít thì có thể gây ngộ độc.",
+        "id": 86
+    },
+    "frame_14125": {
+        "objects": [
+            "tv",
+            "person"
+        ],
+        "ocr": "Turlieu M . Vismo 816 64 45 99 23 NIHONKOHDEN  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "physics_laboratory",
+        "asr": "bạn nặng ba mươi mươi liếp thì có thể gây tử vong.",
+        "id": 87
+    },
+    "frame_14443": {
+        "objects": [
+            "person",
+            "cell phone"
+        ],
+        "ocr": "M ViÃ©tNam homnay  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "television_studio",
+        "asr": "trước đó trên địa bàn xã mỹ nhơn huyện ba chi tỉnh bến tre thì cũng đã xảy ra vụ ngộ độc rượu làm hai người tử vong các bác sĩ khuyến cáo là rượu có nguồn gốc thông thường ethanol nếu sử dụng không điều độ quá liều hoặc là lạm dụng dẫn đến hậu quả đáng tiếc riêng đối với rượu ethanol thì tuyệt đối không nên uống.",
+        "id": 88
+    },
+    "frame_14758": {
+        "objects": [
+            "bottle",
+            "tv",
+            "person"
+        ],
+        "ocr": "M VietNam ViÃ©t nom Q Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "television_studio",
+        "asr": "bên cạnh đó thì chúng ta thấy rằng uống nhiều rượu thì sẽ ảnh hưởng rất.",
+        "id": 89
+    },
+    "frame_15017": {
+        "objects": [
+            "kite",
+            "bottle",
+            "tv",
+            "person"
+        ],
+        "ocr": "M ViÃ©tNam hÃ¶mnay  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "television_studio",
+        "asr": "là nặng nề đến chức năng của gan nhiều người thì gan đã bị mất chức năng lọc đi chất độc bởi vì uống quá nhiều rượu và nghiêm trọng hơn đó là nhiều người thì rơi vào tình trạng đó là bị nghiện rượu lệ thuộc vào rượu dẫn đến những hệ lụy liên quan đến bệnh thần kinh và khó kiểm soát được hành vi của mình.",
+        "id": 90
+    },
+    "frame_15238": {
+        "objects": [
+            "tv",
+            "person",
+            "tie"
+        ],
+        "ocr": "M VietNam Viet & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "television_studio",
+        "asr": "n.",
+        "id": 91
+    },
+    "frame_15355": {
+        "objects": [
+            "tv",
+            "car",
+            "kite",
+            "person",
+            "cell phone"
+        ],
+        "ocr": "M ViÃ©tNam homnay  Hotline : 0889 24 24 24  vtv24hotline@gmail.com AI6M9W",
+        "place": "television_studio",
+        "asr": "công an tỉnh nam định vừa triệt phá đường dây cá độ bóng đá qua mạng với số tiền giao dịch lên đến một trăm năm mươi tỷ đồng cầm đầu đứng.",
+        "id": 92
+    },
+    "frame_15488": {
+        "objects": [
+            "person"
+        ],
+        "ocr": " Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "hospital_room",
+        "asr": "dây này là trần văn vinh.",
+        "id": 93
+    },
+    "frame_15543": {
+        "objects": [
+            "keyboard",
+            "tv",
+            "person",
+            "chair"
+        ],
+        "ocr": "M DOLL Q Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "office",
+        "asr": "unk đỗ trung quân vinh vào quân.",
+        "id": 94
+    },
+    "frame_15594": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "M VielNam homnay & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "discotheque",
+        "asr": "chung nhau mua tài khoản cá độ bóng đá.",
+        "id": 95
+    },
+    "frame_15650": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "VM TRIETPHADUONGDAY CADOBÃ³NGDA15OTYDONG & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "locker_room",
+        "asr": "đá rồi chia cắt làm nhiêu tài khoản đánh.",
+        "id": 96
+    },
+    "frame_15714": {
+        "objects": [
+            "person",
+            "chair"
+        ],
+        "ocr": "TRIET PHADUNG DAY CADBÃ³NGDA150TYDONG  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "ticket_booth",
+        "asr": "bạc cho các con bạc chỉ.",
+        "id": 97
+    },
+    "frame_15778": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "TRIETPHADUONGDAYCADOBÃ³NGDA15OTYDONG & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "conference_center",
+        "asr": "riêng trong thời điểm diễn ra ơ rô số tiền giao dịch.",
+        "id": 98
+    },
+    "frame_15844": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "Thuc hienBich Man,Ngoc V PX03 Cong an tinh Nam Dinh  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "playroom",
+        "asr": "từ các tài khoản này lên tới một trăm năm mươi tỷ đồng.",
+        "id": 99
+    },
+    "frame_15914": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "VM Thuc hien:Bich Man,Ngoc VÃ¼ PX03 Cong an tinh Nam Dinh & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "hospital_room",
+        "asr": "từ đầu mối này công an tỉnh nam định đã phát.",
+        "id": 100
+    },
+    "frame_16058": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "& Hotline : 0889 24 24 24  vtv24hotline@gmail.com",
+        "place": "television_studio",
+        "asr": "hiện và triệt phá thêm ba đường dây tổ chức đánh bạc đánh bạc qua mạng tại hà nội và tuyên quang.",
+        "id": 101
+    },
+    "frame_16318": {
+        "objects": [
+            "car",
+            "kite",
+            "person",
+            "remote",
+            "cell phone"
+        ],
+        "ocr": "M1 ViÃ©t Nam homnay  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "television_studio",
+        "asr": "công an tỉnh đắc lắc vừa bắt tạm giam hồ thị dung trú tại huyện e sáp điều tra về hành vi lừa đảo chiếm đoạt tài sản trước đó khi biết một người phụ nữ giàu.",
+        "id": 102
+    },
+    "frame_16559": {
+        "objects": [
+            "bottle",
+            "person",
+            "book"
+        ],
+        "ocr": "V1 ViÃ©t Nam homnay  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "reception",
+        "asr": "giao bán hai căn nhà trên địa bàn dung đã liên hệ để hỏi mua tuy nhiên hai căn nhà này đang được chủ nhà.",
+        "id": 103
+    },
+    "frame_16768": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "VM1 THUEXEOMDÃ³NG GIANHANVIENNGANHANGDELUADAO & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "hospital_room",
+        "asr": "thế chấp nên dung nói sẽ liên hệ với nhân viên ngân hàng để đến thẩm định để giải ngân trả nợ số tiền ba phẩy ba tỷ đồng rồi lấy sổ.",
+        "id": 104
+    },
+    "frame_17028": {
+        "objects": [
+            "clock",
+            "bottle",
+            "person",
+            "book"
+        ],
+        "ocr": "M1  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "hospital_room",
+        "asr": "bộ đỏ về sau đó dùng thuê hai người lái xe ôm giả lán nhân viên ngân hàng và là nạn nhân chuyển khoản hơn năm trăm triệu đồng.",
+        "id": 105
+    },
+    "frame_17296": {
+        "objects": [
+            "kite",
+            "laptop",
+            "person"
+        ],
+        "ocr": "M ViÃ©t Nam homnay  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com A164M98",
+        "place": "television_studio",
+        "asr": "ba đối tượng trộm cắp điện thoại tại tỉnh lâm đồng vừa bị lực lượng công an bắt giữ khi đang chạy trốn các đối tượng này đã ăn.",
+        "id": 106
+    },
+    "frame_17466": {
+        "objects": [
+            "tv",
+            "person",
+            "chair",
+            "snowboard"
+        ],
+        "ocr": "vanvn.vn 27 & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com MNNE",
+        "place": "office",
+        "asr": "trộm mười bảy chiếc điện thoại di động tại hội chợ triển lãm ở phường một.",
+        "id": 107
+    },
+    "frame_17548": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "BATNHÃ³M TROM17CHIECDIEN THOAITRONGHOI CHO Q Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "conference_center",
+        "asr": "thành phố bảo lộc hai trong số ba đối tượng.",
+        "id": 108
+    },
+    "frame_17628": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "ocr": "M BAT NHÃ³M TROM17CHIEC DIEN THOAI TRONG HOI CHO  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "conference_center",
+        "asr": "này đều đã có tiền án tiền sự cũng về tội danh trên.",
+        "id": 109
+    },
+    "frame_17697": {
+        "objects": [
+            "remote",
+            "person",
+            "cell phone"
+        ],
+        "ocr": "VN1 ::  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "jewelry_shop",
+        "asr": "đi.",
+        "id": 110
+    },
+    "frame_17938": {
+        "objects": [
+            "tv",
+            "person",
+            "cell phone",
+            "car"
+        ],
+        "ocr": "M ViÃ©t Nam homnay  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com AI6tM9",
+        "place": "television_studio",
+        "asr": "phạt nguội tức là phạt qua hình ảnh vi phạm được ghi lại từ hệ thống cam me ra giám sát hình thức này đã được áp dụng từ nhiều năm nay và cho thấy hiệu quả rõ rệt quan trọng hơn nữa là giúp thay đổi ý thức của người dân khi tham gia giao thông tại tỉnh bình định.",
+        "id": 111
+    },
+    "frame_18288": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "VM HIEUQUA TUHINH THUC XULY PHAT NGUOI & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "volleyball_court/outdoor",
+        "asr": "khu vực điểm giao thông nối quốc lộ mười chín với quốc lộ mười chín cũ đoạn qua xã phước lộc huyện tuyền phước được lắp sáu camera ở.",
+        "id": 112
+    },
+    "frame_18461": {
+        "objects": [
+            "airplane",
+            "person"
+        ],
+        "ocr": "HIEUQUA TU HINH THUC XULY PHAT NGUO  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "heliport",
+        "asr": "góc khác nhau các camera có thể ghi nhận lại căn.",
+        "id": 113
+    },
+    "frame_18546": {
+        "objects": [
+            "airplane",
+            "person"
+        ],
+        "ocr": "HIEU QUA TUHINH THUC XULY PHAT NGUOI  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "wind_farm",
+        "asr": "nỗi như là vượt quá tốc độ cho phép đi không đúng làn đường phần đường.",
+        "id": 114
+    },
+    "frame_18633": {
+        "objects": [
+            "truck",
+            "person",
+            "chair",
+            "car"
+        ],
+        "ocr": "My Cho VM5 OMR3-1T D ShC ung Ni N C Y- A ACNSCL 13.70:704576 A 13.63:704x576 QN-CMR1-FT-QN-NH 18.79:704576 QN-CMR1-TT-NH-QN 13.82704576 QN-CMR NH-00 DnhDaVide .70704576 0N.FD1.S-QN-NH-1 1530:704576 3.69:704x576 QN-CMR1-BS-QN-NH-2 18.84:704x576 QN-CMR2-BS-DD-NH-1 QN.CMR2.BS.DD.NH-2 TZ & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com 7.063Mbps 720576(VA17.70 HELP",
+        "place": "home_theater",
+        "asr": "quy định xe không che chắn rời vải phòng khách.",
+        "id": 115
+    },
+    "frame_18702": {
+        "objects": [
+            "laptop",
+            "person",
+            "chair"
+        ],
+        "ocr": "M & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "office",
+        "asr": "sách giao thông tỉnh đang quản lý một trăm năm mươi cam.",
+        "id": 116
+    },
+    "frame_18782": {
+        "objects": [
+            "microwave",
+            "tv",
+            "laptop",
+            "person",
+            "keyboard",
+            "remote",
+            "chair",
+            "cell phone"
+        ],
+        "ocr": " Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "computer_room",
+        "asr": "mè ra tại các nút giao thông có lưu lượng phương tiện đông tình trạng.",
+        "id": 117
+    },
+    "frame_18851": {
+        "objects": [
+            "bicycle",
+            "motorcycle",
+            "umbrella",
+            "person"
+        ],
+        "ocr": " Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "residential_neighborhood",
+        "asr": "giao thông diễn biến phức tạp.",
+        "id": 118
+    },
+    "frame_18922": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "VM TO HAV & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "heliport",
+        "asr": "từ đầu năm đến nay đơn vị đã lập năm trăm biên bản xử lý cấp.",
+        "id": 119
+    },
+    "frame_19020": {
+        "objects": [
+            "bicycle",
+            "person",
+            "car"
+        ],
+        "ocr": "27 C Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "campus",
+        "asr": "phương tiện bằng hình thức phạt tuổi.",
+        "id": 120
+    },
+    "frame_19101": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "M  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "sky",
+        "asr": "đó cũng chính là lý do vì sao đồng chí tâm sự hơn nhiều hơn nữa.",
+        "id": 121
+    },
+    "frame_19177": {
+        "objects": [
+            "motorcycle",
+            "person",
+            "car"
+        ],
+        "ocr": "M1  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "park",
+        "asr": "với ưu điểm thuộc bằng hai bốn trên hai bốn giây.",
+        "id": 122
+    },
+    "frame_19249": {
+        "objects": [
+            "airplane",
+            "person"
+        ],
+        "ocr": "M C Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "sky",
+        "asr": "cử thì hệ thống camera tạo.",
+        "id": 123
+    },
+    "frame_19469": {
+        "objects": [
+            "bed",
+            "person",
+            "book"
+        ],
+        "ocr": " Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "hospital_room",
+        "asr": "cái ý thức thói quen người tham giao thông phải chấp hành tốt khi tham giao thông góp phần nâng cao được cái ý thức người tham gia giao thông phòng ngừa tài năng giao thông xảy ra.",
+        "id": 124
+    },
+    "frame_19686": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "C Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "car_interior",
+        "asr": "lớp đặt camera đây từ tối tiếp.",
+        "id": 125
+    },
+    "frame_19748": {
+        "objects": [
+            "knife",
+            "person"
+        ],
+        "ocr": "@alhua  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "office_cubicles",
+        "asr": "thấy xe đồ nó chạy.",
+        "id": 126
+    },
+    "frame_19807": {
+        "objects": [
+            "truck",
+            "motorcycle",
+            "person",
+            "car"
+        ],
+        "ocr": "M1  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "highway",
+        "asr": "chậm lại hết.",
+        "id": 127
+    },
+    "frame_19941": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "BÃ¤NGUYEN THI TUYET Xa PhuÃ¶c Lc,huyen Tuy PhuÃ³cBinh Dinh  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "playground",
+        "asr": "cho nên là nó an toàn khu đây á là nó an toàn cho nên không có gì mà mà xe rồi chạy chậm như chạy nhanh.",
+        "id": 128
+    },
+    "frame_20069": {
+        "objects": [
+            "truck",
+            "motorcycle",
+            "person",
+            "car"
+        ],
+        "ocr": "ANTOA GIAOTHO KHONGC CHOBAN & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "fire_station",
+        "asr": "phương thủ.",
+        "id": 129
+    },
+    "frame_20256": {
+        "objects": [
+            "person",
+            "cell phone"
+        ],
+        "ocr": "M ViÃ©t Nam homnay  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "television_studio",
+        "asr": "không có chuyện phạt cho tồn tại với những vi phạm về phòng cháy chữa cháy đây là khẳng định của các đơn vị của bộ công an tại họp báo về kết quả công tác sáu tháng đầu năm và chiều ngày hôm qua giám đốc công an.",
+        "id": 130
+    },
+    "frame_20438": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "A HOCONGAN HOP BAO THONG BAOTi HHKE QUA CLTACCONG AN GTHANG DAU NAM2024  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "conference_center",
+        "asr": "unk thành phố hà nội cho biết là.",
+        "id": 131
+    },
+    "frame_20483": {
+        "objects": [
+            "bottle",
+            "tv",
+            "book",
+            "cup",
+            "dining table",
+            "laptop",
+            "person",
+            "chair"
+        ],
+        "ocr": "LE  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "conference_center",
+        "asr": "qua kiểm tra rà soát thông.",
+        "id": 132
+    },
+    "frame_20552": {
+        "objects": [
+            "bottle",
+            "laptop",
+            "person",
+            "chair",
+            "cell phone"
+        ],
+        "ocr": "M KHONG PHAT CHOTON TAIVÃ–IVI PHAMPHONG CHAY  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "kindergarden_classroom",
+        "asr": "kê toàn thành phố hiện có đến bẩy trăm cơ sở.",
+        "id": 133
+    },
+    "frame_20622": {
+        "objects": [
+            "bottle",
+            "tv",
+            "book",
+            "cup",
+            "person",
+            "chair"
+        ],
+        "ocr": "DAIDIENLANHDAO A03 DAIDIENLANHDAO A04 KHONG PHAT CHO TON TAIVOIVI PHAM PHONG CHAY  Hotline : 0889 24 24 24  vtv24hotline@gmail.com",
+        "place": "conference_center",
+        "asr": "thống phép và sai phép xây dựng thuộc.",
+        "id": 134
+    },
+    "frame_20672": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "M BO CONG AN HOP BAO THONG BAO TiNH HiNH. KET OUA TAC CONGAN6THANGDAU NAM2024 Ha Noi, ngay 8 thang 7 nam 2024 KHONG PHAT CHO TÃ–N TAIVÃ–IVI PHAMPHONG CHAY & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "conference_center",
+        "asr": "nhiều loại hình như là nhà unk.",
+        "id": 135
+    },
+    "frame_20721": {
+        "objects": [
+            "tennis racket",
+            "person",
+            "book"
+        ],
+        "ocr": "M TACCON Ha KHONG PHATCHO TON TAIVOIVI PHAM PHONG CHAY & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "conference_center",
+        "asr": "trọ chung cư mini nhà ở kết hợp sản xuất kỳ.",
+        "id": 136
+    },
+    "frame_20783": {
+        "objects": [
+            "knife",
+            "bottle",
+            "person"
+        ],
+        "ocr": "M KHONG PHAT CHO TON TAIVOIVI PHAMPHONG CHAY  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "conference_center",
+        "asr": "doanh trừng mầm non riêng với.",
+        "id": 137
+    },
+    "frame_20850": {
+        "objects": [
+            "cup",
+            "bottle",
+            "person",
+            "chair"
+        ],
+        "ocr": "DAIDIENLANHDAO A03 DAIDIENLANH DAO A04 Thuc hienNguyÃ©n Ngan,Thanh Xuan  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "classroom",
+        "asr": "tới loại hình nhà trọ thì thành phố đã kiểm tra xong toàn bộ gần.",
+        "id": 138
+    },
+    "frame_20922": {
+        "objects": [
+            "bottle",
+            "book",
+            "person",
+            "chair",
+            "cell phone"
+        ],
+        "ocr": "DAIDIENLANHDAO DAIDIENLANHDAO C03 Thuc hienNguyÃ©n Ngan,Thanh Xuan  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "conference_center",
+        "asr": "ba mươi bảy nghìn cơ sở hơn ba nghìn.",
+        "id": 139
+    },
+    "frame_21002": {
+        "objects": [
+            "tv",
+            "person"
+        ],
+        "ocr": "Thuc hienNguyÃ©n Ngan,Thanh Xuan & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "toyshop",
+        "asr": "một trăm cơ sở bị xử phạt yêu cầu gần mười sáu.",
+        "id": 140
+    },
+    "frame_21151": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "VN1 37.000 nha tro >3.100 co s0vi pham XÃ¼ phat >12,8 ty dong & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "hospital",
+        "asr": "một nghìn năm trăm cơ sở rừng hoạt động vì vi phạm phòng cháy chữa cháy lực lượng công an cũng đã kiểm tra gần hai trăm chung cư mini đình chỉ và.",
+        "id": 141
+    },
+    "frame_21293": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "37.000 nha tro > 3.100 co sÃ¶ vi pham xu phat >12,8 ty dÃ¶ng  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "escalator/indoor",
+        "asr": "tặng đình chỉ mười tám trường hợp yêu cầu hai mươi hai.",
+        "id": 142
+    },
+    "frame_21373": {
+        "objects": [
+            "handbag",
+            "person",
+            "backpack"
+        ],
+        "ocr": " Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "escalator/indoor",
+        "asr": "trung cư mi ni dừng hoạt động với những cơ sở bị tại.",
+        "id": 143
+    },
+    "frame_21448": {
+        "objects": [
+            "person",
+            "chair"
+        ],
+        "ocr": " Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "jail_cell",
+        "asr": "đình chỉ sẽ giám sát việc.",
+        "id": 144
+    },
+    "frame_21518": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "& Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "stage/indoor",
+        "asr": "phục đến khi đủ điều kiện an toàn mới được phép hoạt động trở lại.",
+        "id": 145
+    },
+    "frame_21590": {
+        "objects": [
+            "bicycle",
+            "person"
+        ],
+        "ocr": "VM 40D EMG OND  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "television_studio",
+        "asr": "những.",
+        "id": 146
+    },
+    "frame_21651": {
+        "objects": [
+            "person",
+            "chair"
+        ],
+        "ocr": "Q Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "campsite",
+        "asr": "điều này đã làm thế độ tấn công của mình.",
+        "id": 147
+    },
+    "frame_22051": {
+        "objects": [
+            "bench",
+            "person",
+            "cell phone"
+        ],
+        "ocr": "M & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "television_studio",
+        "asr": "trong các vụ cháy nổ xảy ra ở các hộ dân vừa qua nguyên nhân liên quan đến điện chiếm tỷ lệ lớn trong khi đó không phải người dân nào cũng có kiến thức xử lý tại chỗ các sự cố về điện hay là có kiến thức để có thể phát hiện các hỏng hóc đường điện tại các chung cư cũ nơi mà mạng lưới điện xuống cấp và chắp vá nếu không được thay mới và tăng phụ tải thì nhiều nguy cơ chập cháy dễ xảy ra.",
+        "id": 148
+    },
+    "frame_22525": {
+        "objects": [
+            "person"
+        ],
+        "ocr": " Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "slum",
+        "asr": "cơ sở nguyễn đình chiểu quận phú nhuận có tới đời hơn ba mươi lăm hệ thống điện ban đầu dùng chóp quà.",
+        "id": 149
+    },
+    "frame_22653": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "MAT AN TOAN DIEN CHUNG CU CU & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "construction_site",
+        "asr": "cho tivi năm xưa dở.",
+        "id": 150
+    },
+    "frame_22712": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "M MAT AN TOAN DIEN CHUNG CU CO Q Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "boxing_ring",
+        "asr": "khó đáp ứng với nhu cầu mới.",
+        "id": 151
+    },
+    "frame_22777": {
+        "objects": [
+            "motorcycle",
+            "person",
+            "car"
+        ],
+        "ocr": "MAT AN TOAN DIEN CHUNG CU'CU & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "stage/outdoor",
+        "asr": "thành phố hồ chí minh có khoảng năm tư.",
+        "id": 152
+    },
+    "frame_22847": {
+        "objects": [
+            "person"
+        ],
+        "ocr": " Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "apartment_building/outdoor",
+        "asr": "chăn chung cư có tuổi đời vài chục năm.",
+        "id": 153
+    },
+    "frame_22917": {
+        "objects": [
+            "airplane",
+            "person",
+            "potted plant"
+        ],
+        "ocr": "& Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "embassy",
+        "asr": "hệ thống điện đã cũ và hầu như không đáp ứng.",
+        "id": 154
+    },
+    "frame_23003": {
+        "objects": [
+            "potted plant",
+            "person",
+            "vase"
+        ],
+        "ocr": "M  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "florist_shop/indoor",
+        "asr": "cụm sát cho các nhu cầu mới như tủ lạnh máy lạnh.",
+        "id": 155
+    },
+    "frame_23082": {
+        "objects": [
+            "bowl",
+            "person",
+            "vase"
+        ],
+        "ocr": "M & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "kitchen",
+        "asr": "bếp từ cắt đầy ba mươi.",
+        "id": 156
+    },
+    "frame_23150": {
+        "objects": [
+            "tv",
+            "person",
+            "chair",
+            "backpack"
+        ],
+        "ocr": "ANTOANDELAMVIEC, UMVECPHAIAN TOAN Q Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "hospital_room",
+        "asr": "năm là cái đường dây điện nó rất là nhỏ.",
+        "id": 157
+    },
+    "frame_23272": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "M. BÃ¤DUONGKIMLIEN Chung cu 346 Phan VÃ¤n Tri,quan Binh Thanh,TP.Ho Chi Minh Q Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "television_studio",
+        "asr": "tải điện nó có chịu nổi có những cái thiết bị mà mà người ta đang bị thêm.",
+        "id": 158
+    },
+    "frame_23388": {
+        "objects": [
+            "giraffe",
+            "person",
+            "potted plant"
+        ],
+        "ocr": "Q Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "medina",
+        "asr": "theo quy định thì ngành điện chỉ quản lý đến đồng.",
+        "id": 159
+    },
+    "frame_23466": {
+        "objects": [
+            "bicycle",
+            "person"
+        ],
+        "ocr": "& Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "bathroom",
+        "asr": "hồ điện còn sau đó là trách nhiệm của khách hàng.",
+        "id": 160
+    },
+    "frame_23546": {
+        "objects": [
+            "scissors",
+            "person"
+        ],
+        "ocr": "M  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "hospital_room",
+        "asr": "nhưng việc đòi hỏi khách hàng có đủ kiến thức.",
+        "id": 161
+    },
+    "frame_23610": {
+        "objects": [
+            "remote",
+            "person"
+        ],
+        "ocr": "MSADELAMVIEC.  Hotline : 0889 24 24 24  vtv24hotline@gmail.com",
+        "place": "assembly_line",
+        "asr": "kinh nang kinh phí để lắp đặt sử dụng.",
+        "id": 162
+    },
+    "frame_23725": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "M 03G  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "archive",
+        "asr": "điện trong gia đình nhất là ở chung cư cũ là điều rất khó thỏ thúy kéo một cái sở giáo.",
+        "id": 163
+    },
+    "frame_23906": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "M VietNam homnay & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "hospital_room",
+        "asr": "dù chính cái thiết bị quốc tả đó thôi để mà tăng cường lên cái tải chứ họ sẽ không thay hết.",
+        "id": 164
+    },
+    "frame_24030": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "M & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "atrium/public",
+        "asr": "tất cả một hệ thống trong nhà hay thiệt để nữa.",
+        "id": 165
+    },
+    "frame_24115": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "VM Q Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "clean_room",
+        "asr": "họ phải nhờ tin tức hay là họ sẽ tự một cái thợ điện nào đó.",
+        "id": 166
+    },
+    "frame_24216": {
+        "objects": [
+            "train",
+            "person"
+        ],
+        "ocr": "& Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "balcony/exterior",
+        "asr": "không ít trường hợp người dân tự ý lắp đặt câu mơ.",
+        "id": 167
+    },
+    "frame_24294": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "ViÃ©t Nam homnay  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "fire_escape",
+        "asr": "để dẫn đến quá tải phát nhiệt từ.",
+        "id": 168
+    },
+    "frame_24354": {
+        "objects": [
+            "truck",
+            "person",
+            "potted plant"
+        ],
+        "ocr": "M Thuc hien: Tru'ng Giang,Van Duo'ng & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "balcony/exterior",
+        "asr": "trên đường dây sau công tơ.",
+        "id": 169
+    },
+    "frame_24411": {
+        "objects": [
+            "person",
+            "chair"
+        ],
+        "ocr": "& Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "elevator_shaft",
+        "asr": "đặc biệt luôn tiềm ẩn nguy cơ cháy vì địa.",
+        "id": 170
+    },
+    "frame_24476": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "& Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "server_room",
+        "asr": "nếu ăn toàn thì nhân viên ngành điện.",
+        "id": 171
+    },
+    "frame_24546": {
+        "objects": [
+            "remote",
+            "person"
+        ],
+        "ocr": " Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "hospital_room",
+        "asr": "vẫn thường xuyên phải tư vấn thêm như thế này.",
+        "id": 172
+    },
+    "frame_24607": {
+        "objects": [
+            "knife",
+            "person",
+            "chair"
+        ],
+        "ocr": " Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "hospital_room",
+        "asr": "một đường dây điện hồi trước đã.",
+        "id": 173
+    },
+    "frame_24876": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "M LAMMEC & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "hospital_room",
+        "asr": "unk nó thiết kế cho mình rất là nhỏ do vậy cái lượng tải nó cung cấp cho cái thiết bị điện của mình không có đủ nếu như mà quá tải là đường dây nó sẽ bị cháy do vậy tránh trường hợp đó mình sẽ bằng cách là ngay dưới cái si điện của mình đến cái tải mà thiết bị của mình chẳng hạn như cái ma là.",
+        "id": 174
+    },
+    "frame_25156": {
+        "objects": [
+            "potted plant",
+            "person",
+            "car"
+        ],
+        "ocr": "VM C Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "courtyard",
+        "asr": "đi.",
+        "id": 175
+    },
+    "frame_25234": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "M KIEM SOAT BENH DAI  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "ice_cream_parlor",
+        "asr": "điều này đã khiến nhiều người mơ ước được thấy thế mạnh của mình.",
+        "id": 176
+    },
+    "frame_25588": {
+        "objects": [
+            "cat",
+            "stop sign",
+            "person",
+            "dog"
+        ],
+        "ocr": "M BENH DAI 1:40:13:02  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "television_studio",
+        "asr": "thưa quý vị theo thống kê của bộ y tế năm hai nghìn không trăm hai tư này tình hình bệnh dại tiếp tục gia tăng đột biến chỉ tính riêng hai tháng đầu năm nay thôi thì đã ghi nhận hai mươi hai trường hợp tử vong cao gấp đôi so với cùng kỳ của năm ngoái chỉ có mười trường hợp cho đến nay đến thời điểm này bệnh dại vẫn đang diễn biến phức tạp hơn tại nhiều địa phương.",
+        "id": 177
+    },
+    "frame_26245": {
+        "objects": [
+            "laptop",
+            "person"
+        ],
+        "ocr": "VM 53 TRUONG HOP TU VONG 1 BINH THUAN DAK LAK BEN TRE & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "conference_center",
+        "asr": "theo báo cáo của bộ y tế từ đầu năm đến nay cả nước xảy ra năm mươi ba trường hợp tử vong trên người do bệnh dại tại hai mươi chín tỉnh thành phố các tỉnh có số ca tử vong cao nhất là bình thuận bảy ca đắc lắc năm và bến tre bốn còn theo báo cáo của các cơ quan quản lý chuyên ngành phú y từ đầu năm đến nay cả nước xảy ra một trăm năm mươi chín ổ dịch bệnh dại tại ba mươi từ tỉnh thành phố.",
+        "id": 178
+    },
+    "frame_26607": {
+        "objects": [
+            "person"
+        ],
+        "ocr": " Hotline : 0889 24 24 24  vtv24hotline@gmail.com",
+        "place": "rice_paddy",
+        "asr": "vấn đề mấu chốt.",
+        "id": 179
+    },
+    "frame_26666": {
+        "objects": [
+            "bird",
+            "person",
+            "chair"
+        ],
+        "ocr": "M1  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "corn_field",
+        "asr": "trong quản lý đàn chó hiện nay chưa được giải quyết là.",
+        "id": 180
+    },
+    "frame_26739": {
+        "objects": [
+            "person",
+            "dog"
+        ],
+        "ocr": "& Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "archaelogical_excavation",
+        "asr": "và chính quyền các cấp chưa quan tâm chưa tổ chức.",
+        "id": 181
+    },
+    "frame_26814": {
+        "objects": [
+            "person",
+            "dog"
+        ],
+        "ocr": "M & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "slum",
+        "asr": "thực hiện nghiêm các quy định về quản lý nuôi chó.",
+        "id": 182
+    },
+    "frame_26904": {
+        "objects": [
+            "person",
+            "dog"
+        ],
+        "ocr": "M C Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "loading_dock",
+        "asr": "và tiêm vắc xin phòng bệnh dại ý thức trách nhiệm của chủ nuôi chó.",
+        "id": 183
+    },
+    "frame_26992": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "VN HUÃ¶NG UNG TIEM PHNG VAc XIN DAI CHO CHÃ³, MEO NAM 2024 PHONG NGUABENHDAILATRACH NHIEM CUA TOAN XAHO TIEM PHONG VAC XIN DAI CHO CHÃ³, MEO MOI NAM 1 LAN KHONG THA RONG CHO MEO KHIDUA CHODEN NOI CONG CONG PHAIROMOM BEP CODAY XiCH VA CONGUOI DAN CHO IIEMCHETNGUOIWHUVG PHONGTRANHDUOC  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "bookstore",
+        "asr": "ở nhiều nơi vẫn còn rất kém và thiếu trách nhiệm.",
+        "id": 184
+    },
+    "frame_27076": {
+        "objects": [
+            "truck",
+            "motorcycle",
+            "person"
+        ],
+        "ocr": "M Thuc hien: Bich Ngoc,ChÃ¼c Duong Q Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "slum",
+        "asr": "nhiều người có sở thích nuôi chó nhưng không tuân thủ nghi.",
+        "id": 185
+    },
+    "frame_27156": {
+        "objects": [
+            "elephant",
+            "person"
+        ],
+        "ocr": "& Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "desert/vegetation",
+        "asr": "ngặt các quy định về quản lý nuôi và tiêm.",
+        "id": 186
+    },
+    "frame_27219": {
+        "objects": [
+            "cow",
+            "person",
+            "dog",
+            "horse"
+        ],
+        "ocr": "& Hotline : 0889 24 24 24  vtv24hotline@gmail.com",
+        "place": "stable",
+        "asr": "vaccine phòng bệnh dại nhiều địa phương.",
+        "id": 187
+    },
+    "frame_27310": {
+        "objects": [
+            "elephant",
+            "person",
+            "chair",
+            "potted plant"
+        ],
+        "ocr": "MA Q Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "roof_garden",
+        "asr": "chưa thực hiện nghiêm công tác xử phạt.",
+        "id": 188
+    },
+    "frame_27819": {
+        "objects": [
+            "cat",
+            "person",
+            "dog"
+        ],
+        "ocr": "VM1 BENH DAI 1:40:00:80 & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "television_studio",
+        "asr": "chỉ tính riêng tại tỉnh đồng nai từ đầu năm đến nay toàn tỉnh đã phát hiện mười chín ổ bệnh dại ghi nhận một trường hợp tử vong tăng gấp năm lần so với cùng kỳ của năm trước chiếm hơn hai mươi phần trăm số ổ bệnh dại của các tỉnh phía nam tuy vậy thì công tác phòng chống bệnh dại tại một số nơi vẫn gặp nhiều vấn đề khó khăn tình hình thực tế cho thấy là một trong những nguyên nhân hàng đầu làm công tác phòng chống dịch bệnh này gặp nhiều khó khăn đó chính là chủ quan của người dân ghi nhận sau đây tại tỉnh đồng nai.",
+        "id": 189
+    },
+    "frame_28299": {
+        "objects": [
+            "clock",
+            "person",
+            "chair",
+            "potted plant"
+        ],
+        "ocr": "IRUNSTAKEI SOAT BENTA BAY MANH HOC TAP VA LAM THEO TU TUONG. b DAOBUC.PHONG CACH HO CHiMIN CDC  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "hospital",
+        "asr": "tuy nhiên không theo đuổi người kia.",
+        "id": 190
+    },
+    "frame_28406": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "M1 Viet Nam homnay  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "conference_center",
+        "asr": "cả hai mùa thi không có tác dụng gì nhiều đâu ạ nhất là mùa thiền nằm ngủ.",
+        "id": 191
+    },
+    "frame_28533": {
+        "objects": [
+            "laptop",
+            "tv",
+            "person",
+            "chair"
+        ],
+        "ocr": "TEMVACINP NGUY CO MAC BENH DAI VI CHU QUAN & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "biology_laboratory",
+        "asr": "người phụ nữ này bị mèo cắn vào tay gần cả tuần rồi mới được.",
+        "id": 192
+    },
+    "frame_28623": {
+        "objects": [
+            "knife",
+            "person"
+        ],
+        "ocr": "NGUY COMAC BENH DAI VI CHU QUAN  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "hospital_room",
+        "asr": "unk chích ngừa mặc dù bác sĩ cố gắng giải.",
+        "id": 193
+    },
+    "frame_28704": {
+        "objects": [
+            "laptop",
+            "person"
+        ],
+        "ocr": "DKELL NGUY CO MAC BENH DAIVI CHU QUAN  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "conference_center",
+        "asr": "thích nhưng người này vẫn khăng khăng đề nghị bác sĩ cho tìm hai môn.",
+        "id": 194
+    },
+    "frame_28794": {
+        "objects": [
+            "book",
+            "cup",
+            "toothbrush",
+            "person",
+            "carrot"
+        ],
+        "ocr": "M NGUY COMAC BENH DAIVI CHU QUAN  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "classroom",
+        "asr": "mũi thay vì năm mũi vắc xin phòng dài theo đúng phác đồ điều trị.",
+        "id": 195
+    },
+    "frame_28875": {
+        "objects": [
+            "laptop",
+            "bottle",
+            "person",
+            "spoon"
+        ],
+        "ocr": "NGUY COMAC BENH DAIVI CHU QUAN  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "office_cubicles",
+        "asr": "mèo ở nhà đẻ cô.",
+        "id": 196
+    },
+    "frame_29025": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "M & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "conference_center",
+        "asr": "thấy dễ thương cô bác ơ cô nựng vậy thôi chứ nó mua nó quảng hồn nó nó quập cô nhưng mà mèo mới mới sanh chừng khoảng hai mươi ngày thôi.",
+        "id": 197
+    },
+    "frame_29204": {
+        "objects": [
+            "teddy bear",
+            "laptop",
+            "person",
+            "chair"
+        ],
+        "ocr": "M TU6THANG TUOI HECANTIEMPHONG CUM nu  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "reception",
+        "asr": "theo cán bộ trung tâm kiểm soát bệnh tật xì đi xì tỉnh đồng nai.",
+        "id": 198
+    },
+    "frame_29317": {
+        "objects": [
+            "tie",
+            "dining table",
+            "laptop",
+            "mouse",
+            "person",
+            "keyboard",
+            "chair"
+        ],
+        "ocr": "OTMUINHENHANG EYEUVUIKHOE 61  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "office",
+        "asr": "tình trạng người dân bị chó mèo cắn mà không điều trị đúng cách.",
+        "id": 199
+    },
+    "frame_29418": {
+        "objects": [
+            "keyboard",
+            "person",
+            "cell phone"
+        ],
+        "ocr": "M C Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "veterinarians_office",
+        "asr": "vẫn còn xảy ra thậm chí có người còn không đi tìm phòng dài.",
+        "id": 200
+    },
+    "frame_29530": {
+        "objects": [
+            "microwave",
+            "tv",
+            "laptop",
+            "person",
+            "keyboard"
+        ],
+        "ocr": "271 & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "physics_laboratory",
+        "asr": "đáng lo ngại nữa là khi điều tra dịch tễ học mì bảy ổ dịch cho dạy trên địa.",
+        "id": 201
+    },
+    "frame_29660": {
+        "objects": [
+            "keyboard",
+            "person",
+            "book"
+        ],
+        "ocr": "M 1-PHONGBENIDAL Tinh .Ngay .Huy doi suc khang 051 Dal duc. 4. n.ngaiy tiem tiem nga neas 2.31 C Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "office",
+        "asr": "bàn từ đầu năm đến nay xi đi xi tỉnh phát hiện số trường hợp này không phải là nhỏ.",
+        "id": 202
+    },
+    "frame_29770": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "HUONG DAN CHi DINH DIEU TRI DU PHONG BENH DAI XU LY VET THUONG  ccvnaviucva ngng vng15pt. a d aunng dung dich ahunnn cdnidl. ngmd natnthudmtthgrnhaun aywtunnbbu phh ngftquin/b mol saukhi a thim drm/phong b huyl thann khang dal vao tat ca cac vet thuong Ty tng rung hopc thd h dung hang invam phng udn van TOM TAT CHi DINH DIEU TRI DU PHONG BENH DAI TiNHTRANG DONG VAT PHAN DOVET TINH TRANG e dng vit ds du m ong d DIEUTRI VETTHUONG TAITHOIDIEM TRONG VONO DUPHONG PHACBOTIEM THUONG CAN NGUOI 10NGAY 01 S.cho dong vd anldmtran Khbng di4u tr 1.Phac d6 diutr du phong sau da lanh we npionopwiupd Tem vdoin da phong dei MAC BI Binh thudng Binh thusng 1900nx19 E citoldm tran dia Om.coxult hin Tidm vilic xin dal DOI bi dn thuong rou chong del Co iu chng de mAt.tich ngayvadodu .A ho indng teo d Timvic xin da ngayva d du duc con v Tiem vioxndo Bint thubng vetcan/cao Binh thuong 2.Phac d6 diu trl du phong sau chly mau  vung m.coxuion Tiam vilc xin dai phol nhiem cho nguoi da tiem xa thdn kinh ngay va dddu phong dai trung uang Couchong d Tmnuyet thanh ho dngeo db khang dai va vdc duocon v in dai ngay Vetcan cao/su -vat cncao gn shiduvd 3.Phac dd tem dv phang truc -Cohng d -Binh thong Tidm huy6t thanh pholnhim Khdng theo de khang dal va vac ducc can e xin dal ngay & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com Duan khdng chd valoai trbonh dal-By Vin V inDich Trung g",
+        "place": "booth/indoor",
+        "asr": "trong mười bảy cái ổ dịch à dẹp.",
+        "id": 203
+    },
+    "frame_29846": {
+        "objects": [
+            "kite",
+            "person"
+        ],
+        "ocr": "HU'YNADAN CHIDINHDIEU TRIDUPHONGBENH DAI XULY VET THUONG XÃ¶i rÃºa tÃ¡t cÃ¤ cÃ¡c vÃ©t cÃ¡n/vao vÃ³i nuÃ³c vÃ¡ xÃ¡ phng trong vng 15 phÃºt , sau dÃ³ sÃ¡t khuan lai bang dung dich sÃ¡t khuÃ¡n nhu cÃ¶n con i ot, ... - KhÃ¶ng lam uong thÃ©mvÃ©t thuong.TrÃ¤nh khau kin ngayvÃ©t thuong,nÃ©u bÃ¤t buÃ¶c phai khau thi khau ngÃ¤t quang/b mÃ¼i sau khi hong bÃ© huyÃ©t thanh khÃ¤ng dai vÃ¤o tÃ¤t cÃ¤ cÃ¤c vÃ©t thuong - Tuy tÃ¼ng tr  cÃ³ thÃ© sÃº dung khÃ¡ng sinh va tiÃ©m phong un vÃ¡n. TOM DINHDIEUTRI DUPHONG BENH DAI & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com PHAN",
+        "place": "booth/indoor",
+        "asr": "tài trên chó mà phát hiện được.",
+        "id": 204
+    },
+    "frame_30043": {
+        "objects": [
+            "person",
+            "potted plant"
+        ],
+        "ocr": "BS.CKIPHANVAN PHUC Trung khoa Phng chÃ¶ng bnh truyÃ©nnhiÃ©m,Trung tÃ¤m KiÃ©m soÃ¡t bÃ©nh tÃ¡t tinhÃ¶ngNai  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "campus",
+        "asr": "đấy thì có à trên muỗng mưới người hả đích thực là bị những con chó dài mà có trải nghiệm dương tính này cắn à.",
+        "id": 205
+    },
+    "frame_30258": {
+        "objects": [
+            "bottle",
+            "person",
+            "chair",
+            "refrigerator"
+        ],
+        "ocr": "DENGH! TATCANHANVIENQUY KHACHHANG VAOTRUS PHA 1-DEO KHAUTRANG 2-DOTHANNHIET 3-RUA TAYSATKHUAN  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "pharmacy",
+        "asr": "chống đỏ hoặc đấu đỏ chỉ là người dễ chủ quan.",
+        "id": 206
+    },
+    "frame_30362": {
+        "objects": [
+            "cup",
+            "person",
+            "chair",
+            "spoon"
+        ],
+        "ocr": "& Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "biology_laboratory",
+        "asr": "không tiêm vắc xin không tiêm kháng thật có những trường hợp.",
+        "id": 207
+    },
+    "frame_30588": {
+        "objects": [
+            "person",
+            "potted plant"
+        ],
+        "ocr": " Hotline : 0889 24 24 24  vtv24hotline@gmail.com",
+        "place": "campus",
+        "asr": "mình phải bận đồng người ta hoặc là thông báo với chính quyền để có cái biện pháp nào đó đưa họ đi tìm can thiệp cho nó chuẩn mực.",
+        "id": 208
+    },
+    "frame_30807": {
+        "objects": [
+            "bottle",
+            "potted plant",
+            "truck",
+            "person",
+            "dog"
+        ],
+        "ocr": "ISUZU M 1-222.28 & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "slum",
+        "asr": "ngày bốn tháng bảy mới đây một người dân.",
+        "id": 209
+    },
+    "frame_30954": {
+        "objects": [
+            "person",
+            "horse"
+        ],
+        "ocr": "VN1 IsU2u Thuc hienCong Trung,Hoang VÃ¼ & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "slum",
+        "asr": "tài huyền định quán đã tử vong sau hơn một tháng bị chó nhà cắn mà không đi tìm phòng dịch bệnh dài trên chó mèo vẫn đang diện mục.",
+        "id": 210
+    },
+    "frame_31170": {
+        "objects": [
+            "cow",
+            "person"
+        ],
+        "ocr": "VM  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "kennel/outdoor",
+        "asr": "miếng phức tạp và nguy cơ tử vong vì bệnh dại vẫn rất cao vì chính sự chủ quan của người dân.",
+        "id": 211
+    },
+    "frame_31692": {
+        "objects": [
+            "cat",
+            "bottle",
+            "cup",
+            "bowl",
+            "person",
+            "dog",
+            "tie"
+        ],
+        "ocr": "M BENH DAI THIEU THUOC\" 1:40:08:88  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "television_studio",
+        "asr": "không chỉ gặp khó khăn vì ý thức phòng bệnh của một số bộ phận người dân mà đồng nai cũng đang thiếu nguồn lực cũng như thiếu thuốc nguồn lực y tế để phòng bệnh nguy hiểm này trong khi bệnh dại vẫn chưa có thuốc điều trị đặc hiệu nên một trăm phần trăm bệnh nhân đã lên cơn dại sẽ tử vong thực tế tại đồng nai những ngày vừa qua cho thấy người dân và cán bộ y tế gặp nhiều khó khăn do thiếu cả vắc xin phòng dại và cả thiếu cả huyết thanh điều trị.",
+        "id": 212
+    },
+    "frame_32137": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "NOILDANG KY TIEMNGUA  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "reception",
+        "asr": "nhiều doanh nghiệp năng động đã xảy ra tại chỗ thiếu năm.",
+        "id": 213
+    },
+    "frame_32221": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "VM1 & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "locker_room",
+        "asr": "em bé này vừa bị chó cắn vào vùng hãng bác sĩ chỉ định tiếp.",
+        "id": 214
+    },
+    "frame_32322": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "VM & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "nursery",
+        "asr": "trung quốc thanh khán giả càng sớm càng tốt tuy nhiên trung tâm kiểm soát.",
+        "id": 215
+    },
+    "frame_32416": {
+        "objects": [
+            "laptop",
+            "person",
+            "chair"
+        ],
+        "ocr": "DIA PHUONG THIÃ‰U THUÃ¶C PHNG VAIEU TRI BENH DAI Q Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "office",
+        "asr": "quận tập từ đồng nai đã cạn loại hút than này khiến mẹ con.",
+        "id": 216
+    },
+    "frame_32504": {
+        "objects": [
+            "clock",
+            "person",
+            "potted plant"
+        ],
+        "ocr": "LRINGAMXIEM SOATBEN TAT TINGDONGIUAL BAY MANH HOC TAP VA LAM THEO TU TUOMG, AOC.PHONG CACH HO CHIMTNH CDC DIA PHUONGTHIEU THUOCPHONGVADIEU TRI BENHDA  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "hospital",
+        "asr": "bệnh nhân phải tất tả đi tìm chỗ khác nhiều trường hợp.",
+        "id": 217
+    },
+    "frame_32597": {
+        "objects": [
+            "cup",
+            "person",
+            "cell phone"
+        ],
+        "ocr": "DIAPMUUINGINIEUINUULPNUNGVADIEUIKIDENNDAI  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "beer_garden",
+        "asr": "chính cử cũng đã xảy ra võ sĩ bảo là.",
+        "id": 218
+    },
+    "frame_32728": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "21 ViÃ©t Nam homnay & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "office",
+        "asr": "bây giờ ngờ cái trường hợp này á nếu như mà tốt nhất á là anh cho nên cho con đi chích huyết thai.",
+        "id": 219
+    },
+    "frame_32853": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "C Hotline : 0889 24 24 24  vtv24hotline@gmail.com",
+        "place": "hospital_room",
+        "asr": "thanh chứ bây giờ chích vắc xin á là trong vòng mười bảy.",
+        "id": 220
+    },
+    "frame_32952": {
+        "objects": [
+            "cup",
+            "donut",
+            "person"
+        ],
+        "ocr": "M C Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "ice_cream_parlor",
+        "asr": "mỹ là hai mấy ngày mới có tác dụng được còn đi thì cũng đi đấy.",
+        "id": 221
+    },
+    "frame_33117": {
+        "objects": [
+            "person"
+        ],
+        "ocr": " Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "jail_cell",
+        "asr": "mấy vòng mấy bận ấy đi từ trạng bom lên biên hòa đi ba bốn chỗ ấy mới chỉ ra được cái chỗ mà mà mà chích nghe.",
+        "id": 222
+    },
+    "frame_33288": {
+        "objects": [
+            "bench",
+            "person",
+            "chair",
+            "refrigerator"
+        ],
+        "ocr": " Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "corridor",
+        "asr": "hiện nay chỉ vài cơ sở y tế tại đồng nai có loại.",
+        "id": 223
+    },
+    "frame_33401": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "PHONG TIEM1 VACCINATIONROOM No1 1.9 Q Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "drugstore",
+        "asr": "thành khán giả tuy nhiên phần lớn tập trung tại thành phố biên hoàn.",
+        "id": 224
+    },
+    "frame_33497": {
+        "objects": [
+            "person",
+            "toothbrush"
+        ],
+        "ocr": "VM1  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "hospital_room",
+        "asr": "đã vậy việc mua huyết thanh của các đơn vị cũng gặp khó khăn.",
+        "id": 225
+    },
+    "frame_33679": {
+        "objects": [
+            "umbrella",
+            "person",
+            "book"
+        ],
+        "ocr": "NM WUILONO BOBOHG ACTMAMMAU HUMG..AD SAFETY BOX ADD & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "art_school",
+        "asr": "năm nay trung tâm kiểm soát bệnh tật tỉnh đồng nai mua được khoảng một ngàn liều với số lượng này thì chỉ khoảng vài tuần là hết mặc dù số ổ dịch dại.",
+        "id": 226
+    },
+    "frame_33964": {
+        "objects": [
+            "person",
+            "bus"
+        ],
+        "ocr": "M1 BAY MANH HOC TAP VA LAM THEO TU TUONG HAI DAO DUC.PHONG CACH HO CHiMIN CDC PhÃ³ng viÃ©n CONG TRUNG congtrungvtv9@vtv.vn  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "hospital",
+        "asr": "unk phát số lượng người dân bị chó mèo cào cắn tăng cao tuy nhiên tại tỉnh đồng nai thì đang rất thiếu huyết thanh khán giả do vậy người dân phải tìm về thành phố hồ chí minh để trích lại huyết thăm này.",
+        "id": 227
+    },
+    "frame_34183": {
+        "objects": [
+            "person",
+            "chair",
+            "boat"
+        ],
+        "ocr": "VM & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "boxing_ring",
+        "asr": "không chỉ thiếu huyết thanh kháng dai vắc xin tim chó mèo cũng chưa đầy đủ.",
+        "id": 228
+    },
+    "frame_34345": {
+        "objects": [
+            "cow",
+            "person"
+        ],
+        "ocr": "M  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "veterinarians_office",
+        "asr": "theo thống kê tống đan chó mèo tại đồng nai ước tính khoảng ba trăm ngàn con nhưng lượng phát sinh phòng dài còn hiểu nhau.",
+        "id": 229
+    },
+    "frame_34484": {
+        "objects": [
+            "person",
+            "chair"
+        ],
+        "ocr": "& Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "shopfront",
+        "asr": "luật đến nay chỉ có khoảng một trăm hai mươi ngàn liền.",
+        "id": 230
+    },
+    "frame_34778": {
+        "objects": [
+            "sports ball",
+            "person"
+        ],
+        "ocr": "V Ong NGUYEN TRUNG GIANG Chi cuc truong Chicuc ChÃ¤n nuoi vaThu y tinhDong Nai  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "bamboo_forest",
+        "asr": "chúng tôi dự kiến là sẽ tham mưu cho ủy ban dân tỉnh tỉnh hội đồng dân tỉnh ban hành nghị quyết để mà hỗ trợ cái cái vắc xin dạy để tiêm đồng loạt cho các đối tượng nông hộ nuôi nông hộ trên địa bàn.",
+        "id": 231
+    },
+    "frame_35243": {
+        "objects": [
+            "potted plant",
+            "motorcycle",
+            "person",
+            "dog",
+            "chair"
+        ],
+        "ocr": "NguÃ¶n:Dai PT-TH DÃ–ng Nai Thuc hienCong Trung,Hoang VÃ¼ & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "residential_neighborhood",
+        "asr": "theo đại diện chi cục chăn nuôi và thú y tỉnh đồng nai ngay cả khi có đầy đủ vắc xin thì cũng cần tới năm năm tiêm phòng mới có thể khống chế được dịch giải trên địa bàn.",
+        "id": 232
+    },
+    "frame_35744": {
+        "objects": [
+            "cat",
+            "stop sign",
+            "person",
+            "dog"
+        ],
+        "ocr": "M BENH DAI 1:40:03:00 & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "television_studio",
+        "asr": "theo đánh giá của cục thú y bộ nông nghiệp và phát triển nông thôn những tỉnh thành phố quyết liệt trong phòng chống bệnh dại thì ở đó không có trường hợp người tử vong bị bệnh dại tỷ lệ tiêm phòng trên đàn chó mèo đạt rất cao vì vậy để phòng chống và kiểm soát hiệu quả bệnh dại thì cần triển khai quyết liệt các vấn đề sau thứ nhất.",
+        "id": 233
+    },
+    "frame_36289": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "VN1 PHONG CHÃ¶NG BENH DAI QUAN LY TOT TONG DAN CHO ID PHAT HIEN XU LY KIP THOI CHO. MEO CÃ– DAU HIEU MAC BENH & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "conference_center",
+        "asr": "là cần quản lý tốt tổng đàn chó phát hiện xử lý kịp thời chó mèo có dấu hiệu mắc bệnh chó mèo nuôi phải được tiêm phòng và cuối cùng là điều trị dự phòng cho người bị chó mèo cắn cào liếm sẽ được phòng bệnh dại.",
+        "id": 234
+    },
+    "frame_36834": {
+        "objects": [
+            "cat",
+            "stop sign",
+            "person",
+            "dog"
+        ],
+        "ocr": "VM1 BENH DAI 1:40:12.28 & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "television_studio",
+        "asr": "người dân tuyệt đối không áp dụng các phương pháp phản khoa học như đắp lá này thích lể bôi dầu gió hay bôi lọ nghệ lên vết thương bị chó hoặc mèo cắn việc làm này không làm không những là làm giảm đi cái thời gian chúng ta nhanh chóng được tiếp cận với tia vắc xin mà còn gây nhiễm trùng vết thương nữa.",
+        "id": 235
+    },
+    "frame_37580": {
+        "objects": [
+            "person",
+            "chair",
+            "cell phone"
+        ],
+        "ocr": "M ViÃ©t Nam hÃ¶mnay C Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "television_studio",
+        "asr": "nhằm giải quyết dứt điểm ô nhiễm môi trường ở làng nghề sản xuất giấy phong khê thành phố bắc ninh các cơ quan chức năng tỉnh bắc ninh vừa ban hành và triển khai kế hoạch thực hiện đề án tổng thể xử lý ô nhiễm môi trường phường phong khê xử lý nghiêm cơ sở vi phạm pháp luật dừng hoạt động sản xuất và di dời trước ngày ba mốt tháng mười hai đối với các cơ sở trong làng nghề đối với các cơ sở đang hoạt động trong cụm công nghiệp phong khê thì cũng sẽ phải di chuyển hoạt động sản xuất theo lộ trình trước ngày ba mốt tháng mười hai năm hai nghìn lẻ chín.",
+        "id": 236
+    },
+    "frame_38100": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "& Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "television_studio",
+        "asr": "ở đây là một trong bốn cơ sở sản xuất giấy ở lao.",
+        "id": 237
+    },
+    "frame_38273": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "M VN THOBU PhÃ³ng viÃ©n NGOC TiNH ngoctinh@vtv.vn  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "television_studio",
+        "asr": "màng nghề giấy phong khê tỉnh bắc ninh vừa bị kiểm tra xử phạt và đình chỉ hoạt động do không có giấy phép về bảo vệ mùi.",
+        "id": 238
+    },
+    "frame_38464": {
+        "objects": [
+            "person",
+            "potted plant"
+        ],
+        "ocr": " Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "library/outdoor",
+        "asr": "chưa theo quyết định của ủy ban nhân dân tỉnh ngoài bị phạt tiền cơ sở này.",
+        "id": 239
+    },
+    "frame_38554": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "M XULY MOI TRUONG LANG GIAY PHONGKHE & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "repair_shop",
+        "asr": "ngày còn bị đình chỉ hoạt động.",
+        "id": 240
+    },
+    "frame_38607": {
+        "objects": [
+            "wine glass",
+            "person",
+            "chair"
+        ],
+        "ocr": "M XULYMOI TRUONGLANG GIAY PHONG KHE & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "restaurant_kitchen",
+        "asr": "tộc trong bốn tháng rưỡi và trong hai.",
+        "id": 241
+    },
+    "frame_38677": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "VM1 SACNINH 645/QD-UBND Thanh phÃ³ Bac Ninh, ngay A..thang..nam. ..d. C XULYMOI TRUONG LANGGIAYPHONGKHE & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "drugstore",
+        "asr": "ngày buộc phải di dời cơ.",
+        "id": 242
+    },
+    "frame_38742": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "1PHONC AULIIVIUIInUUINULAINUUIAITnVIVUNNE Q Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "kasbah",
+        "asr": "sở sản xuất cơ quan chức năng cũng sẽ.",
+        "id": 243
+    },
+    "frame_38796": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "M  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "chemistry_lab",
+        "asr": "kiểm tra xử lý.",
+        "id": 244
+    },
+    "frame_38845": {
+        "objects": [
+            "person"
+        ],
+        "ocr": " Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "stage/outdoor",
+        "asr": "và yêu cầu di dời cơ sở sản xuất.",
+        "id": 245
+    },
+    "frame_38905": {
+        "objects": [
+            "truck",
+            "person"
+        ],
+        "ocr": " Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "bazaar/outdoor",
+        "asr": "đối với tất cả các cơ sở còn lại.",
+        "id": 246
+    },
+    "frame_38958": {
+        "objects": [
+            "keyboard",
+            "person",
+            "bottle"
+        ],
+        "ocr": "VM1 & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "engine_room",
+        "asr": "ở ba khu dân cư.",
+        "id": 247
+    },
+    "frame_39155": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "M Ong NGUYÃ©N VAN PHU'O'NG Chu cossan xuat giay,Khu Dao Xa,Phung Phong Khe,TP BÃ¤c Ninh R Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "television_studio",
+        "asr": "từ tỉnh và thành phố là cũng đã chỉ đạo thế là cũng đã nắm bắt được thì bây giờ cái nguyện vòng bảng của nhà là về thì tôi cũng là muốn xin chảy nước tới nguyên liệu tồn đọng lại.",
+        "id": 248
+    },
+    "frame_39373": {
+        "objects": [
+            "airplane",
+            "person"
+        ],
+        "ocr": "& Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "racecourse",
+        "asr": "làng nghề sản xuất giấy phong khiết.",
+        "id": 249
+    },
+    "frame_39441": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "& Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "landfill",
+        "asr": "kê bao gồm hơn ba trăm hai mươi.",
+        "id": 250
+    },
+    "frame_39491": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "VM & Hotline : 0889 24 24 24 V vtv24hotline@gmail.com",
+        "place": "landfill",
+        "asr": "người cơ sở sản xuất trong ba cụm.",
+        "id": 251
+    },
+    "frame_39547": {
+        "objects": [
+            "cup",
+            "person"
+        ],
+        "ocr": "M  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "boxing_ring",
+        "asr": "dân cư và hai cụm công nghiệp.",
+        "id": 252
+    },
+    "frame_39608": {
+        "objects": [
+            "cup",
+            "vase",
+            "handbag",
+            "bowl",
+            "fire hydrant",
+            "person"
+        ],
+        "ocr": "C Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "butchers_shop",
+        "asr": "tất cả các vùng này đều có.",
+        "id": 253
+    },
+    "frame_39665": {
+        "objects": [
+            "bowl",
+            "person"
+        ],
+        "ocr": "VM & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "stage/indoor",
+        "asr": "nhà xưởng xen lẫn hoặc các hộ.",
+        "id": 254
+    },
+    "frame_39727": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "M  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "television_studio",
+        "asr": "dân vừa sản xuất vừa sinh sống trong nhà.",
+        "id": 255
+    },
+    "frame_39832": {
+        "objects": [
+            "person",
+            "chair"
+        ],
+        "ocr": " Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "repair_shop",
+        "asr": "mặc dù đã có nhiều nỗ lực như yêu cầu các hộ dân không sử dụng than.",
+        "id": 256
+    },
+    "frame_39935": {
+        "objects": [
+            "person",
+            "cake"
+        ],
+        "ocr": "VM1  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "fountain",
+        "asr": "hoặc chất thải công nghiệp để đốt lò.",
+        "id": 257
+    },
+    "frame_40029": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "M C Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "patio",
+        "asr": "chuyển sang sử dụng lò hơi đốt nhiên liệu sinh khối yêu cầu đấu.",
+        "id": 258
+    },
+    "frame_40119": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "M1  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "shower",
+        "asr": "núi nước thải về hệ thống xử lý nước thải.",
+        "id": 259
+    },
+    "frame_40180": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "C Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "amphitheater",
+        "asr": "phải tập trung của làng nghề.",
+        "id": 260
+    },
+    "frame_40243": {
+        "objects": [
+            "person"
+        ],
+        "ocr": " Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "burial_chamber",
+        "asr": "ô nhiễm môi trường vẫn không được xử lý triệt để.",
+        "id": 261
+    },
+    "frame_40302": {
+        "objects": [
+            "train",
+            "fire hydrant",
+            "person"
+        ],
+        "ocr": "C Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "shower",
+        "asr": "vẫn còn tình trạng.",
+        "id": 262
+    },
+    "frame_40361": {
+        "objects": [
+            "person"
+        ],
+        "ocr": " Hotline : 0889 24 24 24  vtv24hotline@gmail.com",
+        "place": "pond",
+        "asr": "nén lướt xả nước thải chưa qua xử lý ra một.",
+        "id": 263
+    },
+    "frame_40419": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "VM & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "lake/natural",
+        "asr": "unk trưởng.",
+        "id": 264
+    },
+    "frame_40637": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "ocr": "V1 Ong NGUYEN HA Bi thuDÃ¤ng Ã¼y phung Phong Khe,TP BÃ¤c Ninh  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "conference_center",
+        "asr": "những cơ sở rãnh xuất là không đủ điều kiện để raếm mới thì chúng ta sẽ chuyển đổi cái mô hình từ sản xuất sang kinh doanh thương mại các dịch vụ ngành giấy ví dụ như là ra công ngành giấy cắt phôi rồi thì tất cả các cái những cái dịch vụ khác.",
+        "id": 265
+    },
+    "frame_41053": {
+        "objects": [
+            "person",
+            "potted plant"
+        ],
+        "ocr": "V1 Ong NGUYEN DiNH PHU'O'NG PhÃ³GiÃ¡m Ã¶c S Tai nguyÃ©n vÃ¡Mi trung tinh BÃ¡c Ninh  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "conference_center",
+        "asr": "sở tài nguyên môi trường cũng phối hợp với các sở ngành với công an tỉnh của doanh nhân thành phố đặc biệt là thành phố thì thành lập các cái đoàn kiểm tra tăng cường công tác tuyên truyền vận động người dân để thực hiện tốt các cái chủ trương pháp luật.",
+        "id": 266
+    },
+    "frame_41334": {
+        "objects": [
+            "airplane",
+            "person",
+            "potted plant"
+        ],
+        "ocr": "21 & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "village",
+        "asr": "nhà nước tỉnh bắc ninh đang có kế hoạch triển khai đồng bộ những.",
+        "id": 267
+    },
+    "frame_41424": {
+        "objects": [
+            "potted plant",
+            "motorcycle",
+            "umbrella",
+            "car",
+            "person"
+        ],
+        "ocr": "21 Thuc hien: Ngoc Tinh, Thanh Hoang  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "campsite",
+        "asr": "điều giải pháp hỗ trợ di dời và xử lý.",
+        "id": 268
+    },
+    "frame_41483": {
+        "objects": [
+            "umbrella",
+            "person"
+        ],
+        "ocr": "M Thuc hien: Ngoc Tinh, Thanh Hoang  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "campsite",
+        "asr": "cổ nhiễm như giới thiệu.",
+        "id": 269
+    },
+    "frame_41534": {
+        "objects": [
+            "parking meter",
+            "person"
+        ],
+        "ocr": "M 5TON ICHCONG TAC Thuc hiÃ©n Ngoc Tinh, Thanh Hoang & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "science_museum",
+        "asr": "các khu vụ công nghiệp có đủ.",
+        "id": 270
+    },
+    "frame_41588": {
+        "objects": [
+            "cup",
+            "person",
+            "book",
+            "banana"
+        ],
+        "ocr": " Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "storage_room",
+        "asr": "điều kiện về xử lý môi trường.",
+        "id": 271
+    },
+    "frame_41645": {
+        "objects": [
+            "bottle",
+            "person"
+        ],
+        "ocr": "VM  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "science_museum",
+        "asr": "để các hộ dân di chuyển cơ sở.",
+        "id": 272
+    },
+    "frame_41740": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "& Hotline : 0889 24 24 24  vtv24hotline@gmail.com",
+        "place": "landfill",
+        "asr": "suốt ra địa điểm mới.",
+        "id": 273
+    },
+    "frame_42072": {
+        "objects": [
+            "person",
+            "chair",
+            "cell phone"
+        ],
+        "ocr": "VM1 6NGAY CONGANTPHOCHMINHTIEPMH 24  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "television_studio",
+        "asr": "thưa quý vị để hỗ trợ tối đa cho người dân làm thẻ căn cước mới công an thành phố hồ chí minh đã tăng cường làm thêm ca đêm cho đến hai mươi mốt giờ mỗi ngày đến nay thì sau gần một tuần triển khai phòng cảnh sát quản lý hành chính về trật tự xã hội pê xê không sáu đã tiếp nhận trên hai mươi lăm ngàn hồ sơ làm thủ tục cấp thẻ.",
+        "id": 274
+    },
+    "frame_42384": {
+        "objects": [
+            "backpack",
+            "cup",
+            "chair",
+            "person",
+            "dining table"
+        ],
+        "ocr": "M 24  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "classroom",
+        "asr": "tôi đang có mặt.",
+        "id": 275
+    },
+    "frame_42594": {
+        "objects": [
+            "laptop",
+            "person",
+            "chair",
+            "cell phone"
+        ],
+        "ocr": "M1 24 PhÃ³no viÃ©n MINH OUANG C Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "office",
+        "asr": "tại phòng b c không xấu của ngài thành phố hồ chí minh là nơi cấp căn cước mới cho công dân và trong buổi chiều hôm nay thì cũng đã có rất đông người dân đến làm thủ tục này.",
+        "id": 276
+    },
+    "frame_42790": {
+        "objects": [
+            "tv",
+            "laptop",
+            "chair",
+            "person",
+            "remote",
+            "dining table"
+        ],
+        "ocr": "ATCUVIECGIKHI NHAN U DAN.sAN SANG NVA LQI iCH HOP AN TUY PHUC VU N VA HANH PHUC T.MU TRiDON CTHELUTCTHO HANHVIVI PHAM GHIEM TUCGDIEU INHANDAN.LUON UYEN THONG CUA 24 NOITHUNHA CTIN  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "conference_center",
+        "asr": "theo số liệu từ phòng cảnh sát quản lý.",
+        "id": 277
+    },
+    "frame_42854": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "M 24 CONG AN TP.HO CHiMINH TIEP NHAN 25.00O HO SO LAM THECAN CUÃ–C  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "hospital_room",
+        "asr": "unk hành chính trật tự xã hội bc không số.",
+        "id": 278
+    },
+    "frame_42920": {
+        "objects": [
+            "tv",
+            "person",
+            "chair"
+        ],
+        "ocr": "M 4. PILAPLLMAR CHTiCHaOd PFRARARYONYHNEVD 24 CONG AN TP.HO CHIMINH TIEP NHAN 25.0OO HO SO LAMTHE CAN CUOC ThuchiÃ©n: Minh Quang,VÃ¼ Anh  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "conference_center",
+        "asr": "báo công an thần phú kim mình cho biết.",
+        "id": 279
+    },
+    "frame_42981": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "24 CONG AN TP.HO CHIMINH TIEP NHAN25.OOO HO SO LAM THE CAN CUOC Thuchien:Minh Quang,VÃ¼ Anh Q Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "office",
+        "asr": "công an thành phố hồ chí minh đã hoàn thành tiếp theo.",
+        "id": 280
+    },
+    "frame_43046": {
+        "objects": [
+            "laptop",
+            "person",
+            "chair"
+        ],
+        "ocr": "24L CONG AN TP.HO CHI MINH TIEP NHAN 25.0OO HO SO LAMTHE CAN CUOC Thuchien:Minh Quang,VÃ¼ Anh  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "television_studio",
+        "asr": "nhận hồ sơ cấp thẻ căn cước chứ khoảng hai.",
+        "id": 281
+    },
+    "frame_43123": {
+        "objects": [
+            "person",
+            "chair",
+            "cell phone"
+        ],
+        "ocr": "24 CONG AN TP.HO CHI MINH TIEP NHAN25.OOO HO SO LAM THE CAN CUOC Thuchien:Minh Quang,VÃ¼ Anh  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "beauty_salon",
+        "asr": "unk lâm ngàn người dân ở các quận huyện và thành phố tôn.",
+        "id": 282
+    },
+    "frame_43202": {
+        "objects": [
+            "person",
+            "chair",
+            "cell phone"
+        ],
+        "ocr": "M1 24 CONG AN TP.HÃ– CHIMINH TIEP NHAN 25.000 HÃ–SO LAM THE CAN CUÃ³C ThuchiÃ©nMinh Quang,VÃ¼ Anh Q Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "television_studio",
+        "asr": "từ ngày một đến chiều mười sáu tháng bảy.",
+        "id": 283
+    },
+    "frame_43271": {
+        "objects": [
+            "remote",
+            "person",
+            "chair",
+            "cell phone"
+        ],
+        "ocr": "AICI 24  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "lecture_room",
+        "asr": "trong đó có hơn sáu trăm năm mươi triệu.",
+        "id": 284
+    },
+    "frame_43330": {
+        "objects": [
+            "person",
+            "chair"
+        ],
+        "ocr": "24 & Hotline : 0889 24 24 24  vtv24hotline@gmail.com",
+        "place": "conference_center",
+        "asr": "trường hợp là công dân dưới sáu tuổi.",
+        "id": 285
+    },
+    "frame_43392": {
+        "objects": [
+            "person",
+            "cell phone"
+        ],
+        "ocr": "24 & Hotline : 0889 24 24 24 V vtv24hotline@gmail.com",
+        "place": "classroom",
+        "asr": "gần ba ngàn ba trăm trường hợp là công dân.",
+        "id": 286
+    },
+    "frame_43463": {
+        "objects": [
+            "tv",
+            "book",
+            "potted plant",
+            "laptop",
+            "person",
+            "keyboard",
+            "chair"
+        ],
+        "ocr": "24 & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "office",
+        "asr": "gần từ sáu tuổi đến mười bốn tuổi ngoài.",
+        "id": 287
+    },
+    "frame_43532": {
+        "objects": [
+            "potted plant",
+            "dining table",
+            "vase",
+            "laptop",
+            "bowl",
+            "person",
+            "dog",
+            "chair",
+            "refrigerator"
+        ],
+        "ocr": "1089 21 KHUVUCCAM QUAYPHIMCHUPHIN RT 24  Hotline : 0889 24 24 24  vtv24hotline@gmail.com",
+        "place": "office_cubicles",
+        "asr": "thực ra có gần mười tám ngàn năm trăm.",
+        "id": 288
+    },
+    "frame_43598": {
+        "objects": [
+            "keyboard",
+            "person",
+            "chair"
+        ],
+        "ocr": "M1 1HOS0 24 Q Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "beauty_salon",
+        "asr": "trường hợp là công dân từ đủ mười bốn tuổi.",
+        "id": 289
+    },
+    "frame_43667": {
+        "objects": [
+            "person",
+            "chair"
+        ],
+        "ocr": "M1 24 & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "airplane_cabin",
+        "asr": "cho nên khai báo thông tin cư.",
+        "id": 290
+    },
+    "frame_43728": {
+        "objects": [
+            "bottle",
+            "vase",
+            "laptop",
+            "person",
+            "keyboard",
+            "chair"
+        ],
+        "ocr": "1 01085 0144 1 2 luay Quay so on IA 24  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "booth/indoor",
+        "asr": "chú với người chưa đủ điều kiện đăng ký.",
+        "id": 291
+    },
+    "frame_43789": {
+        "objects": [
+            "person",
+            "frisbee"
+        ],
+        "ocr": "VM1 24  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "hospital_room",
+        "asr": "thường trú tạm trú là gần số mươi quả.",
+        "id": 292
+    },
+    "frame_43855": {
+        "objects": [
+            "tv",
+            "backpack",
+            "potted plant",
+            "laptop",
+            "handbag",
+            "mouse",
+            "person",
+            "chair"
+        ],
+        "ocr": "M1 24  Hotline : 0889 24 24 24 V vtv24hotline@gmail.com",
+        "place": "classroom",
+        "asr": "cấp giấy chứng nhận cho người vợ trong trường học.",
+        "id": 293
+    },
+    "frame_43917": {
+        "objects": [
+            "tv",
+            "laptop",
+            "chair",
+            "person",
+            "remote",
+            "dining table"
+        ],
+        "ocr": "ATCUVIECGIKHI NHAN DAN.sAN SANG NVA LQI ICH HOP AN TUY PHUC VU N VA HANHPHUC TMU TI.DO C THE WC THU HANHVIVI PHAM GHIEMTUCGDU NHANDAN.LUON UYIN THONG CUA 24 NOITHUNHAA TIN & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "conference_center",
+        "asr": "việt nam chưa xác định được quốc tịch.",
+        "id": 294
+    },
+    "frame_43981": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "VM 24 & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "beauty_salon",
+        "asr": "unk bốn trường hợp theo công an thành phố hồ chí minh.",
+        "id": 295
+    },
+    "frame_44048": {
+        "objects": [
+            "tv",
+            "book",
+            "dining table",
+            "laptop",
+            "chair",
+            "person",
+            "tie"
+        ],
+        "ocr": "M cAmUND TMA PLAPLEAT CHOTICHNOcd uysmh 24  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "legislative_chamber",
+        "asr": "thì hiện công an các quận huyện và.",
+        "id": 296
+    },
+    "frame_44108": {
+        "objects": [
+            "laptop",
+            "person",
+            "dining table"
+        ],
+        "ocr": "2 & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "office",
+        "asr": "thành phố thủ đức đang khẩn trương triển khai làm.",
+        "id": 297
+    },
+    "frame_44173": {
+        "objects": [
+            "laptop",
+            "person",
+            "chair",
+            "cell phone"
+        ],
+        "ocr": "24  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "music_studio",
+        "asr": "thủ tục cấp thẻ căn cước mới cho người dân.",
+        "id": 298
+    },
+    "frame_44250": {
+        "objects": [
+            "person",
+            "chair",
+            "cell phone"
+        ],
+        "ocr": "M 24 SLI  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "beauty_salon",
+        "asr": "trên địa bàn từ bảy giờ ba mươi đến hai mươi mốt.",
+        "id": 299
+    },
+    "frame_44330": {
+        "objects": [
+            "person",
+            "chair",
+            "cell phone",
+            "vase"
+        ],
+        "ocr": "M1 24  Hotline : 0889 24 24 24  vtv24hotline@gmail.com",
+        "place": "office",
+        "asr": "thuốc giờ mỗi ngày.",
+        "id": 300
+    },
+    "frame_44385": {
+        "objects": [
+            "remote",
+            "person",
+            "tie",
+            "cell phone"
+        ],
+        "ocr": "CAILCU 24  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "classroom",
+        "asr": "đó là.",
+        "id": 301
+    },
+    "frame_44704": {
+        "objects": [
+            "sink",
+            "motorcycle",
+            "car",
+            "truck",
+            "person",
+            "cell phone"
+        ],
+        "ocr": "HALN T1ESOL.S TARE PATLAAN CICAP 241 & Hotline : 0889 24 24 24  vtv24hotline@gmail.com",
+        "place": "repair_shop",
+        "asr": "cũng tại thành phố hồ chí minh thì hàng loạt những dự án hạ tầng giao thông liên quan mật thiết đến đời sống dân sinh đã được thành phố lên kế hoạch triển khai trong đó thì có đường nguyễn duy trinh đoạn từ vành đai hai vào khu công nghiệp phú hữu một trong những điểm nghẽn về hạ tầng ở khu đông thành phố nơi thường xuyên xảy ra những vụ tai nạn giao thông thường tầm.",
+        "id": 302
+    },
+    "frame_45358": {
+        "objects": [
+            "truck",
+            "person",
+            "refrigerator",
+            "car"
+        ],
+        "ocr": "VIV 24 PhÃ³ng viÃ©n THE HA theha.pham@vtv.vn & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "repair_shop",
+        "asr": "mười lăm vụ tai nạn nhưng có đến mười sáu người thiệt mạng không phải tự nhiên mà người dân ở đây gọi cung đường này là cung đường tử thần đó là bởi vì mặt đường ở đây rất nhỏ hẹp chỉ khoảng bảy mét nhưng lại thường xuyên có những xe lớn như là xe công tai nơ và xe tải lớn đi qua do đây là con đường nối vào cảng phố hữu nên theo thống kê thì mỗi ngày có đến mười nghìn lượt xe tải và xe cấp.",
+        "id": 303
+    },
+    "frame_45761": {
+        "objects": [
+            "car",
+            "truck",
+            "person",
+            "bus",
+            "suitcase"
+        ],
+        "ocr": "CKLINE MAX.GROSS TARE PAPLOAD CU.CAF SVINASY 24  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "fire_station",
+        "asr": "unk taylor qua lại khu vực này cứ hai xe lớn mà tránh nhau.",
+        "id": 304
+    },
+    "frame_45860": {
+        "objects": [
+            "motorcycle",
+            "car",
+            "truck",
+            "stop sign",
+            "person"
+        ],
+        "ocr": "111 24 TP.HÃ– CHiMINH MRÃ–NGDUONG\"TU THAN\"KHUDONG  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "railroad_track",
+        "asr": "thì xe máy sèn giữa chỉ còn vài chục xen ti mét.",
+        "id": 305
+    },
+    "frame_45999": {
+        "objects": [
+            "tv",
+            "motorcycle",
+            "car",
+            "truck",
+            "person"
+        ],
+        "ocr": "FFAU 547855 M 45G1 CKLINE MAX.GROSS 71.05OL 37.500 TARE PRYLDAD CU.CAP. 24 TP.HO CHI MINH MORONG DUONG\"TU THAN\"OKHU DONG & Hotline : 0889 24 24 24  vtv24hotline@gmail.com",
+        "place": "highway",
+        "asr": "nét để lách qua chính vì thế mà cung đường này thường xuyên xảy ra tai nạn giao thông mà hễ tai nạn thì rất.",
+        "id": 306
+    },
+    "frame_46167": {
+        "objects": [
+            "truck",
+            "person",
+            "potted plant"
+        ],
+        "ocr": "24 TP.HÃ–CHIMINH MÃ–RONGDUNG \"TUTHAN\"KHUDONG & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "stage/outdoor",
+        "asr": "thảm khốc và vì toàn liên quan đến xe tải trọng lớn những điều này sắp tới hi vọng.",
+        "id": 307
+    },
+    "frame_46364": {
+        "objects": [
+            "bench"
+        ],
+        "ocr": "M STICS 24 C Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "archive",
+        "asr": "là sẽ sớm được cải thiện sở giao thông vận tải vừa đề xuất thành phố mở rộng con đường này từ bảy mét lên ba mươi mét với tổng vốn hơn.",
+        "id": 308
+    },
+    "frame_46513": {
+        "objects": [
+            "truck",
+            "car"
+        ],
+        "ocr": "M 60A-668.90 24  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "garage/indoor",
+        "asr": "unk một nghìn sáu trăm tỷ đồng.",
+        "id": 309
+    },
+    "frame_46580": {
+        "objects": [
+            "backpack",
+            "motorcycle",
+            "car",
+            "truck",
+            "handbag",
+            "person"
+        ],
+        "ocr": "M1 24 C Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "gas_station",
+        "asr": "đề xuất là sẽ ưu tiên thực hiện trong năm nay.",
+        "id": 310
+    },
+    "frame_46673": {
+        "objects": [
+            "person",
+            "car"
+        ],
+        "ocr": "24 & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "auto_factory",
+        "asr": "đề xuất này đang rất được người dân mong chờ vì.",
+        "id": 311
+    },
+    "frame_46758": {
+        "objects": [
+            "truck",
+            "motorcycle",
+            "person",
+            "car"
+        ],
+        "ocr": "50H-021.01 24L & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "fire_station",
+        "asr": "xuất phát từ nhu cầu dân sinh cấp thiết.",
+        "id": 312
+    },
+    "frame_46822": {
+        "objects": [
+            "truck",
+            "motorcycle",
+            "person",
+            "car"
+        ],
+        "ocr": "CHENGLONG 24  Hotline : 0889 24 24 24 V vtv24hotline@gmail.com",
+        "place": "fire_station",
+        "asr": "dự án mở rộng tuyến đường này trước.",
+        "id": 313
+    },
+    "frame_46894": {
+        "objects": [
+            "motorcycle",
+            "truck",
+            "handbag",
+            "person",
+            "knife"
+        ],
+        "ocr": "GISTICS CSGT qolo 3H 6IS7 0T.028.3811.1726 24  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "physics_laboratory",
+        "asr": "sau cũng phải làm và chủ trương thì đã được.",
+        "id": 314
+    },
+    "frame_46976": {
+        "objects": [
+            "motorcycle",
+            "bicycle",
+            "car",
+            "truck",
+            "person"
+        ],
+        "ocr": "508-208.40 24L  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "loading_dock",
+        "asr": "chấp thuận từ năm hai nghìn không trăm mười năm đến năm hai nghìn.",
+        "id": 315
+    },
+    "frame_47065": {
+        "objects": [
+            "truck",
+            "motorcycle",
+            "person",
+            "backpack"
+        ],
+        "ocr": "HOTEN C 24  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "fire_station",
+        "asr": "không trăm mười chín thành phố đã phê duyệt dự án với.",
+        "id": 316
+    },
+    "frame_47153": {
+        "objects": [
+            "motorcycle",
+            "umbrella",
+            "car",
+            "truck",
+            "person"
+        ],
+        "ocr": "HUNGCUOING 24  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "street",
+        "asr": "tới tổng vốn hơn tám trăm ba hai tỷ đồng bằng.",
+        "id": 317
+    },
+    "frame_47239": {
+        "objects": [
+            "truck",
+            "suitcase",
+            "motorcycle",
+            "person"
+        ],
+        "ocr": "FAW THACO Q 65C 077.84 24 & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "fire_station",
+        "asr": "unk tiền ngân sách nhà nước nhưng mà sau đó thì vì thiếu vốn.",
+        "id": 318
+    },
+    "frame_47328": {
+        "objects": [
+            "truck",
+            "motorcycle",
+            "person",
+            "bus"
+        ],
+        "ocr": "BONMAM BUN RIEU CANHBUN LAUMAM 150K XUANTOA CaThims Hong Nhung GIATSA -L0A-M BANH CANH GHE TRATRAICAY - HU TIEU NAMVANG TUOI100 BUN RIEU CANHBUN 24  Hotline : 0889 24 24 24 V vtv24hotline@gmail.com",
+        "place": "fire_station",
+        "asr": "phốn nên chưa thể triển khai.",
+        "id": 319
+    },
+    "frame_47454": {
+        "objects": [
+            "truck",
+            "motorcycle",
+            "person",
+            "sink"
+        ],
+        "ocr": "24  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "amusement_park",
+        "asr": "hay khi tổng vốn dự án đã phải điều chỉnh lên gấp đôi vì tiền giải phóng mặt bằng tăng cao.",
+        "id": 320
+    },
+    "frame_47619": {
+        "objects": [
+            "motorcycle",
+            "car",
+            "truck",
+            "person",
+            "traffic light"
+        ],
+        "ocr": "VM ILONG VEHIC ong 064.56 EPJUNTON UE Dan B76 24 & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "fire_station",
+        "asr": "rất rõ ràng việc nâng cấp tuyến đường này càng sớm thì càng tiết kiệm cho nguồn lực.",
+        "id": 321
+    },
+    "frame_47765": {
+        "objects": [
+            "truck",
+            "suitcase",
+            "motorcycle",
+            "person"
+        ],
+        "ocr": "HOTEL C 24  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "fire_station",
+        "asr": "xã hội càng để lâu sẽ càng tốn kém vì giá.",
+        "id": 322
+    },
+    "frame_47899": {
+        "objects": [
+            "truck"
+        ],
+        "ocr": "VM 24  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "highway",
+        "asr": "bu sẽ tăng cao lần này dự án được sở giao thông vận tải cho biết là sẽ làm thay.",
+        "id": 323
+    },
+    "frame_48063": {
+        "objects": [],
+        "ocr": "M DU' AN MÃ¶ RONG DU'NG NGUYÃ‰N DUY TRINH R0NG 30M-DAI 1,6KM TÃ–NG VON: 1.630 TY DÃ“NG HINH THU'C: BT 24  Hotline : 0889 24 24 24  vtv24hotline@gmail.com",
+        "place": "server_room",
+        "asr": "bê tê xây dựng chuyển giao vận dụng theo nghị quyết chín mươi tám.",
+        "id": 324
+    },
+    "frame_48190": {
+        "objects": [
+            "truck",
+            "person"
+        ],
+        "ocr": "N  LEFAIONSTM OUA LEPHATDONG THIDUA 24 HADCHOMAMLASATE  Hotline : 0889 24 24 24  vtv24hotline@gmail.com",
+        "place": "raceway",
+        "asr": "về bức tranh chung.",
+        "id": 325
+    },
+    "frame_48241": {
+        "objects": [
+            "truck"
+        ],
+        "ocr": "E HI ASANY 515 24L HB479  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "amusement_arcade",
+        "asr": "dự án này nằm trong.",
+        "id": 326
+    },
+    "frame_48297": {
+        "objects": [
+            "car"
+        ],
+        "ocr": "VM1 24L & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "oilrig",
+        "asr": "danh mục hai mươi dự án giao thông trọng điểm giai đoạn.",
+        "id": 327
+    },
+    "frame_48383": {
+        "objects": [
+            "boat",
+            "person",
+            "truck",
+            "car"
+        ],
+        "ocr": "M1 24  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "construction_site",
+        "asr": "hai nghìn không trăm hai bốn hai nghìn không trăm ba mươi mà.",
+        "id": 328
+    },
+    "frame_48480": {
+        "objects": [
+            "train",
+            "person"
+        ],
+        "ocr": "DHJ40F 24  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "excavation",
+        "asr": "unk sở giao thông vận tải đang tham mưu cho thành phố triển khai.",
+        "id": 329
+    },
+    "frame_48581": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "VM BOQUOCPHO 24  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "construction_site",
+        "asr": "trong danh mục thì còn có nhiều dự án lớn khác như là đường.",
+        "id": 330
+    },
+    "frame_48674": {
+        "objects": [
+            "bottle",
+            "person"
+        ],
+        "ocr": "M1 24L  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "excavation",
+        "asr": "vành đai hai cao tốc thành phố hồ chí minh mộc bài.",
+        "id": 331
+    },
+    "frame_48755": {
+        "objects": [
+            "truck",
+            "bench",
+            "person"
+        ],
+        "ocr": "24  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "industrial_area",
+        "asr": "nâng cấp quốc lộ bưởi ba quốc lộ năm mươi.",
+        "id": 332
+    },
+    "frame_48830": {
+        "objects": [
+            "truck",
+            "person",
+            "kite"
+        ],
+        "ocr": "DV ANXAY DNG NUT GIAO THONG AN PHU-TP.THU DUC-TP.HCM G0I thauXLBXAYDUNGHAM CHUIHC1-02 AIDANG NhÃ¤ thauCONG TY CO PHAN HAI DANG  TOANLA THERHE alateFwel 24  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "hangar/outdoor",
+        "asr": "xây cầu cần sơ vân vân.",
+        "id": 333
+    },
+    "frame_49040": {
+        "objects": [
+            "motorcycle",
+            "person",
+            "bottle",
+            "car"
+        ],
+        "ocr": "24 TP.HÃ–CHiMINH MRONG DUNG\"TUTHAN\"KHUDONG Thuchien:ThÃ©Ha & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "flea_market/indoor",
+        "asr": "các dự án sẽ được triển khai bằng nhiều hình thức huy động nguồn lực xã hội theo cơ chế của nghị quyết chín tám đây có thể coi là những trái ngọt đầu tiên từ cơ chế chính sách đặc thù cho sự phát triển của thành phố hồ chí minh.",
+        "id": 334
+    },
+    "frame_49235": {
+        "objects": [
+            "truck",
+            "person",
+            "car"
+        ],
+        "ocr": "M1 24  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "parking_lot",
+        "asr": "nhiều tầm.",
+        "id": 335
+    },
+    "frame_49558": {
+        "objects": [
+            "person",
+            "cell phone"
+        ],
+        "ocr": "M ViÃ©t Nam homnay  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "television_studio",
+        "asr": "chuyển sang phần tin quốc tế trong ngày hôm nay tổng thống nga vladimir putin sẽ có cuộc hội đàm chính thức với thủ tướng ấn độ nadezh moody trong chuyến thăm của ông moody tới liên bang nga cuộc hội đàm được dư luận quốc tế đặc biệt quan tâm bởi có khả năng tác động tới cục diện nhiều khu vực lớn trên thế giới nói chung và quan hệ song phương của các nước nói riêng.",
+        "id": 336
+    },
+    "frame_49895": {
+        "objects": [
+            "car",
+            "person",
+            "boat"
+        ],
+        "ocr": "& Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "moat/water",
+        "asr": "điều này đã khiến nhiều người mơ ước.",
+        "id": 337
+    },
+    "frame_49976": {
+        "objects": [
+            "person",
+            "horse"
+        ],
+        "ocr": "21  Hotline : 0889 24 24 24  vtv24hotline@gmail.com",
+        "place": "palace",
+        "asr": "điện kremlin cho biết cơ hội đàm chính thức.",
+        "id": 338
+    },
+    "frame_50070": {
+        "objects": [
+            "clock",
+            "person",
+            "boat"
+        ],
+        "ocr": "M NGA-ANDOCUNG COQUAN HEDOI TAC CHIEN LUOC  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "mosque/outdoor",
+        "asr": "unk hai nhà lãnh đạo nga và ấn độ sẽ diễn ra theo cả hình thức rộng và hẹp.",
+        "id": 339
+    },
+    "frame_50168": {
+        "objects": [
+            "clock",
+            "person",
+            "banana"
+        ],
+        "ocr": "M NGA-ANDOCUNG CÃ–QUAN HEDOI TACCHIEN LUOC & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "mosque/outdoor",
+        "asr": "theo đó quan hệ đối tác kinh tế và thương mại giữa nga.",
+        "id": 340
+    },
+    "frame_50416": {
+        "objects": [
+            "person",
+            "boat"
+        ],
+        "ocr": "M Thuc hien Nhat Linh,KhÃ¤c Long Thung tru DÃ¡i THVN tai Nga  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "boat_deck",
+        "asr": "ấn độ là một trong vấn đề chính sẽ được thảo luận ngoài ra các vấn đề an ninh khu vực và quốc tế cũng nằm trong chương trình nghị sự theo thư ký báo chí của tổng thống nga ông đơ mi tri bê cốp mát cơ va và niu đê li coi.",
+        "id": 341
+    },
+    "frame_50659": {
+        "objects": [
+            "person"
+        ],
+        "ocr": " Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "fire_station",
+        "asr": "ý chí chính trị chung để phát triển hợp tác trong nhiều.",
+        "id": 342
+    },
+    "frame_50740": {
+        "objects": [
+            "person",
+            "boat"
+        ],
+        "ocr": "VM Q Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "harbor",
+        "asr": "lĩnh vực đặc biệt là với quá trình hội.",
+        "id": 343
+    },
+    "frame_50801": {
+        "objects": [
+            "umbrella",
+            "person",
+            "chair",
+            "surfboard"
+        ],
+        "ocr": "M  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "clothing_store",
+        "asr": "nghị định xác nhận các tài trợ tăng trưởng công an.",
+        "id": 344
+    },
+    "frame_50858": {
+        "objects": [
+            "umbrella",
+            "person"
+        ],
+        "ocr": "M BRICS Heir B BRICS  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "conference_center",
+        "asr": "unk nước cùng là thành viên của một số tổ chức.",
+        "id": 345
+    },
+    "frame_50928": {
+        "objects": [
+            "cup",
+            "umbrella",
+            "clock",
+            "person",
+            "tie"
+        ],
+        "ocr": ": RUSSIA SOUTHAFRICA :: CHINA BRAZIL INDIA  Hotline : 0889 24 24 24  vtv24hotline@gmail.com",
+        "place": "conference_center",
+        "asr": "bao gồm nhóm các nền kinh tế mới nổi britney.",
+        "id": 346
+    },
+    "frame_50995": {
+        "objects": [
+            "person",
+            "tie",
+            "frisbee"
+        ],
+        "ocr": "3ACEDM COBETArnABrOCYAAPCTB-HnEHOB WAHXAMCKOMOPrAHMBAUMMCOTPYAHMHECTBA 4o2024ro 202474 ASTANA-2024 WAHXAMBIHTBIMAKTACTBIKYMBIMBIHA MYWE MEMnEKETTEPAIRSACWBInAPBI KEHECIHIHOTbIPBICBI 20244w Q Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "stage/indoor",
+        "asr": "và tổ chức hợp tác thượng hải ấy.",
+        "id": 347
+    },
+    "frame_51130": {
+        "objects": [
+            "handbag",
+            "person",
+            "cell phone",
+            "car"
+        ],
+        "ocr": "& Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "park",
+        "asr": "chiếc đó trong ngày mùng tám tháng bảy ngay sau khi thủ tướng ấn độ bô đi tới liên bang nga ông đã tới dinh thự của tổng.",
+        "id": 348
+    },
+    "frame_51301": {
+        "objects": [
+            "bottle",
+            "cup",
+            "dining table",
+            "couch",
+            "chair",
+            "bowl",
+            "person",
+            "cake",
+            "wine glass",
+            "tie",
+            "spoon"
+        ],
+        "ocr": " Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "balcony/interior",
+        "asr": "thống ga pô chin ở ngoại ô mát cê va tại đây hai nhà lãnh đạo đã có cuộc.",
+        "id": 349
+    },
+    "frame_51468": {
+        "objects": [
+            "tie",
+            "truck",
+            "person",
+            "suitcase",
+            "chair"
+        ],
+        "ocr": "M  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "campus",
+        "asr": "trò chuyện thân mật điện kremlin nhấn mạnh ngay cả cuộc thảo luận không chính thức giữa nhà lãnh đạo nga và ấn độ cũng rất có ý nghĩa.",
+        "id": 350
+    },
+    "frame_51904": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "N1 & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "park",
+        "asr": "chuyến thăm nga của thủ tướng ấn độ modi ở thời điểm này được sai một nỗ lực nhằm tái khẳng định quan hệ đối tác chiến lược mạnh mẽ giữa hai nước đồng thời với mát xa thì đây cũng là cơ hội củng cố quan hệ với niu đê li một trong đối tác chính của nga trong chiến lược hướng đông nhật linh phó vũ thường xú đài trình việt nam từ mát xa liên bang nga.",
+        "id": 351
+    },
+    "frame_52401": {
+        "objects": [
+            "bench",
+            "person",
+            "cell phone",
+            "handbag"
+        ],
+        "ocr": "M  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "television_studio",
+        "asr": "sự xuất hiện của siêu bão bè ri hình thành trên đại tây dương báo hiệu mùa bão rất nguy hiểm đây là cảnh báo từ tổ chức khí tượng thế giới bão bè ri hình thành từ ngày ba mươi tháng sáu vừa qua.",
+        "id": 352
+    },
+    "frame_52681": {
+        "objects": [
+            "person",
+            "car"
+        ],
+        "ocr": "CANH BAOMUA BAONGUY HIEMODAITAY DUONG Q Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "arena/performance",
+        "asr": "sau đó nhanh chóng mạnh lên thành siêu bão cấp năm cấp mạnh nhất trong tháng bão năm cấp đây là cơn bão đầu tiên trong mùa bão đại tây dương năm nay và là cơn bão cấp.",
+        "id": 353
+    },
+    "frame_52902": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "M CANH BAOMUA BAONGUYHIEMDAITAY DUONG  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "arena/performance",
+        "asr": "năm sớm nhất được ghi nhận ở đại tây dương ca ri bê và trung mỹ giới chuyên gia lo ngại sự xuất hiện của siêu bão bè đi có thể báo hiệu.",
+        "id": 354
+    },
+    "frame_53163": {
+        "objects": [
+            "person",
+            "car"
+        ],
+        "ocr": "VM  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "gas_station",
+        "asr": "trong một mùa bão rất mạnh và rất nguy hiểm ảnh hưởng đến toàn bộ khu vực việc siêu bão bê ri hình thành sớm ngay trong đầu mùa bão một phần được cho là do nhiệt độ đại dương tăng cao.",
+        "id": 355
+    },
+    "frame_53444": {
+        "objects": [
+            "bench",
+            "person",
+            "cell phone"
+        ],
+        "ocr": "M  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "television_studio",
+        "asr": "còn hy lạp đã phải hứng chịu tháng sáu rực lửa với số vụ cháy rừng tăng gấp đôi so với cùng kỳ năm ngoái tháng sáu năm nay là tháng nóng.",
+        "id": 356
+    },
+    "frame_53684": {
+        "objects": [
+            "person",
+            "bus"
+        ],
+        "ocr": "THANG6NÃ³NGKYLUC HY LAP & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "ice_shelf",
+        "asr": "kỷ lục tại hy lạp trong khi tháng bảy được dự báo cũng tương tự trong những ngày tới nhiệt độ ở nhiều nơi ở hy lạp dự báo sẽ lại vượt quá bốn mươi độ.",
+        "id": 357
+    },
+    "frame_53859": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "THANG 6 NÃ³NG KY LUC  HY LAP & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "volcano",
+        "asr": "năm ngoái hy lạp đã phải chịu đựng đợt nắng nóng kéo dài kỷ lục trong hai tuần.",
+        "id": 358
+    },
+    "frame_54001": {
+        "objects": [
+            "bicycle",
+            "teddy bear",
+            "handbag",
+            "person",
+            "remote"
+        ],
+        "ocr": "M A & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "plaza",
+        "asr": "kéo theo các trận cháy rừng gây chết người các nhà khoa học tin rằng biến đổi khí hậu là.",
+        "id": 359
+    },
+    "frame_54130": {
+        "objects": [
+            "handbag",
+            "person"
+        ],
+        "ocr": "VM & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "amphitheater",
+        "asr": "làm gia tăng tần suất và cường độ thời tiết cực đoan như các đợt sóng nhiệt.",
+        "id": 360
+    },
+    "frame_54215": {
+        "objects": [
+            "handbag",
+            "person",
+            "backpack"
+        ],
+        "ocr": "M  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "fountain",
+        "asr": "đây là một trong những đặc sản được lưu tục truyền thống.",
+        "id": 361
+    },
+    "frame_54346": {
+        "objects": [
+            "person",
+            "cell phone"
+        ],
+        "ocr": "M ViÃ©t Nam homnay C Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "television_studio",
+        "asr": "công ty ame của chile đã khánh thành nhà máy điện mặt trời khổng lồ với gần tám.",
+        "id": 362
+    },
+    "frame_54535": {
+        "objects": [
+            "person",
+            "cell phone"
+        ],
+        "ocr": "M ViÃ©t Nam homnay  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "television_studio",
+        "asr": "unk trăm tám mươi ba nghìn tấm quang điện nằm giữa sa mạc a ta ca ma khô cằn ở quốc gia nam mỹ này nhà máy được xây dựng.",
+        "id": 363
+    },
+    "frame_54684": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "M NHAMAYDIENMAT TROI KHONG LOTRENSA MAC & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "office_building",
+        "asr": "cách thủ đô santiago một nghìn bốn trăm ki lô mét về phía bắc.",
+        "id": 364
+    },
+    "frame_54833": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "M  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "promenade",
+        "asr": "nên diện tích bốn trăm ba mươi lăm héc ta tương đương với ba trăm bảy mươi sân bóng đá đây được coi là nhà máy điện mặt trời lớn nhất chile tính.",
+        "id": 365
+    },
+    "frame_55020": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "M  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "jail_cell",
+        "asr": "đến thời điểm hiện tại với công suất lắp đặt bốn trăm tám mươi me ga oát dự án tạo ra lượng điện năng đáp ứng.",
+        "id": 366
+    },
+    "frame_55200": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "& Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "construction_site",
+        "asr": "nhu cầu của năm trăm nghìn hộ gia đình và giúp giảm khoảng gần một triệu tấn xê ô hai phát thải vào.",
+        "id": 367
+    },
+    "frame_55465": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "M & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "runway",
+        "asr": "kỳ quyển mỗi năm dự án quang điện này là một bước tiến gần hơn tới cam kết loại bỏ hoàn toàn các nhà máy điện phát hải siêu hài khỏi hệ thống điện quốc gia chile và trung hoa carbon vào năm hai nghìn không trăm năm mươi.",
+        "id": 368
+    },
+    "frame_55664": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "VM  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "bridge",
+        "asr": "điều này đã tăng lên nhiều lần và chiều lại nhiều hơn.",
+        "id": 369
+    },
+    "frame_55849": {
+        "objects": [
+            "airplane",
+            "person",
+            "cell phone"
+        ],
+        "ocr": " Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "television_studio",
+        "asr": "cục hàng không liên bang mỹ đang yêu cầu kiểm tra hai nghìn sáu trăm máy bay buông bảy ba bảy với lý do mặt nạ dưỡng khí của hành khách có thể bị hỏng trong trường hợp khẩn cấp yêu cầu kiểm tra được đưa ra.",
+        "id": 370
+    },
+    "frame_56184": {
+        "objects": [
+            "airplane",
+            "person"
+        ],
+        "ocr": "M YEUCAUKIEM TRAMAY BAY BOEING 737 & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "arena/performance",
+        "asr": "đối với máy bay bẩy ba bẩy mắc và một số máy bay thế hệ tiếp theo sau khi có báo cáo về việc máy tạo ô xy phục vụ hành khách bị lệch khỏi vị trí có thể dẫn đến việc không cung cấp ô xy bổ sung trong trường hợp.",
+        "id": 371
+    },
+    "frame_56500": {
+        "objects": [
+            "train",
+            "airplane",
+            "person"
+        ],
+        "ocr": "& Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "hangar/indoor",
+        "asr": "sảm áp suất cục hàng không liên bang mỹ cũng cấm các hãng hàng không lắp đặt các bộ phận có khả năng bị lỗi thay vào đó các hãng hàng không phải tiến hành kiểm tra trực quan tổng thể và.",
+        "id": 372
+    },
+    "frame_56717": {
+        "objects": [
+            "cup",
+            "airplane",
+            "person",
+            "traffic light"
+        ],
+        "ocr": "C Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "chemistry_lab",
+        "asr": "nếu cần thì phải thay thế máy tạo ô xy bằng máy tạo ô xy mới hoặc là máy còn sử dụng được.",
+        "id": 373
+    },
+    "frame_56827": {
+        "objects": [
+            "airplane",
+            "person",
+            "surfboard"
+        ],
+        "ocr": "M CniaZ-45/25 11 Q Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "hangar/indoor",
+        "asr": "điều này từng khiến nhiều người mơ ước.",
+        "id": 374
+    },
+    "frame_56947": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "M ViÃ©t Nam hÃ¶mnay  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com",
+        "place": "television_studio",
+        "asr": "công ty công nghệ không gian spayuk đã phóng tên lửa pha cần chế lên quỹ đạo mang theo vệ thương.",
+        "id": 375
+    },
+    "frame_57100": {
+        "objects": [
+            "person",
+            "cell phone"
+        ],
+        "ocr": "00-00:02  Hotline : 0889 24 24 24  vtv24hotline@gmail.com",
+        "place": "television_studio",
+        "asr": "tính thuốc xác sáu a đây là vệ tinh liên lạc đầu tiên được thổ nhĩ kỳ sản xuất tên lửa.",
+        "id": 376
+    },
+    "frame_57213": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "N THÃ–NHiKY PHÃ³NGVETINH LIEN LAC NOIDIADAUTIEN  Hotline : 0889 24 24 24  vtv24hotline@gmail.com 51 0.0 +00:00:06",
+        "place": "industrial_area",
+        "asr": "được phóng từ tổ hợp phóng không gian bốn mươi tại một chiến lược.",
+        "id": 377
+    },
+    "frame_57317": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "M THÃ¶NHi KY PHÃ³NG VE TINH LIEN LAC NI DIADAUTIEN & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com 105 +00:00:10",
+        "place": "oilrig",
+        "asr": "trạm vũ trụ thuộc bang florida của mỹ theo bộ giao thông và cơ sở hạ tầng.",
+        "id": 378
+    },
+    "frame_57451": {
+        "objects": [
+            "dog",
+            "person",
+            "bed"
+        ],
+        "ocr": "M  Hotline : 0889 24 24 24 M vtv24hotline@gmail.com 637 2.7 T+00:00:37",
+        "place": "stage/outdoor",
+        "asr": "thổ nhĩ kỳ tốt giãn sáu a sẽ mở rộng phạm vi phủ sóng vệ tinh của đất nước và đáp.",
+        "id": 379
+    },
+    "frame_57577": {
+        "objects": [
+            "person"
+        ],
+        "ocr": "M & Hotline : 0889 24 24 24 M vtv24hotline@gmail.com 8168 (70.9 T+00:02:40",
+        "place": "home_theater",
+        "asr": "ứng nhu cầu phát sóng truyền hình.",
+        "id": 380
+    }
+}
