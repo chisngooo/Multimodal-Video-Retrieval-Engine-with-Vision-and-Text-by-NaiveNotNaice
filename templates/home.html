@@ -32,6 +32,7 @@
           4px 4px 5px 0px rgba(0,0,0,.1);
           outline: none;
           margin: auto;
+          margin-top: 20px;
           display: flex;
           font-size: 20px;
         }
@@ -339,6 +340,10 @@
                 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
                 border-radius: 8px;
                 overflow: hidden;
+                display: none;
+                justify-content: center;
+                justify-items: center;
+                align-items: center;
             }
             #closeBtn {
                 position: absolute;
@@ -355,6 +360,27 @@
                 display: block;
                 margin: auto;
                 border-radius: 10px;
+            }
+
+
+            #frame_id {
+              text-align: center;
+              font-size: 25px;
+              display: block;
+            }
+
+            #wrapvideo {
+              display: block;
+              line-height: 6rem;
+              margin-top: -20px;
+            }
+
+            .hidden-label {
+              color: red;
+              margin-top: 20px;
+              display: block;
+              text-align: center;
+              display: none;
             }
 
             @supports (display: flex) {
@@ -385,11 +411,6 @@
           <form class="button_group" style="
                   display: grid; grid-template-columns: repeat(3, 0fr); gap: 10px;
               ">
-              <input class= "checkbox_options" type="checkbox" id="text_query_checkbox">  
-              <label for="text_query">
-                <i class="fa fa-search" aria-hidden="true"></i>
-              </label>
-              <textarea type="text" id="text_query" placeholder="Object search:"></textarea>
               <input class= "checkbox_options" type="checkbox" id="OCR_checkbox">  
               <label for="OCR">OCR:</label>
               <div>
@@ -402,12 +423,13 @@
                 <textarea type="text" id="ASR" placeholder="Enter ASR text:" maxlength="200" oninput="updateCharCountASR()"></textarea>
                 <div class="char-counter" id="charCounterASR">0/200</div>  
               </div>
+              <input class= "checkbox_options" type="checkbox" id="clip">
+              <label for="clip" class="Cliplabel">clip</label>     
+              <textarea type="text" id="text_query" placeholder="Clip search:"></textarea>
             </form>
             <form class="clip_btn" style="
             display: grid; grid-template-columns: repeat(2, 0fr); gap: 10px;
             ">
-              <input class= "checkbox_options" type="checkbox" id="clip">
-              <label for="clip" class="Cliplabel">clip</label>     
               <input class= "checkbox_options" type="checkbox" id="OD">
               <label for="OD" class="Odlabel">OD</label>        
               <input class= "checkbox_options" type="checkbox" id="Place">
@@ -431,6 +453,7 @@
             
     
           <button class="custom-btn btn-13" onclick="search();">Search</button>
+          <label id="delayedLabel" class="hidden-label">Please tick the options above</label>
         </div>
 
         <div>
@@ -448,8 +471,10 @@
         
         <div id="videoModal">
             <button id="closeBtn">&times;</button>
-            <video controls>
-                <source src="../video/scene_0.mp4" type="video/mp4">
+            <div id="wrapvideo">
+              <label id="frame_id"></label>
+              <video id="videoPlayer" controls>
+            </div>
             </video>
         </div>
       </div>
@@ -474,8 +499,22 @@
         const checkboxClip = document.getElementById('clip');
         const ODlabel = document.querySelector('.Odlabel');
         const Placelabel = document.querySelector('.Placelabel');
-        ODlabel.style.display = checkboxOD.style.display = Placelabel.style.display = checkbox.style.display = 'none'
+        const videoFrame = document.getElementById('videoModal');
+        const frameId = document.getElementById('frame_id');
+        const delayedlabel = document.getElementById('delayedLabel');
 
+        document.addEventListener('DOMContentLoaded', function() {
+            var closeBtn = document.getElementById('closeBtn');
+            var videoPlayer = document.getElementById('videoPlayer');
+
+            closeBtn.addEventListener('click', function() {
+                videoPlayer.pause();
+                videoPlayer.currentTime = 0;
+            });
+        });
+        
+        ODlabel.style.display = checkboxOD.style.display = Placelabel.style.display = checkbox.style.display = 'none'
+        
         document.getElementById('closeBtn').addEventListener('click', function() {
             document.getElementById('videoModal').style.display = 'none';
         });
@@ -628,7 +667,7 @@
                 $("#div_img").append(
                     `<div class= "container_img_btn">
                         <button class="btn_knn" onClick="go_img_search(${item.id})">IR</button>
-                        <img class="hoverImg" onclick="show_list_segment(${item.id})" src="get_img?fpath=${item.imgpath}">
+                        <img class="hoverImg" onclick="show_video(${item.id}, '${item.imgpath}')" src="get_img?fpath=${item.imgpath}">
                     </div>`
                 )
             });
@@ -649,15 +688,26 @@
             add_paging();
             add_img("div_img");
         }
-
-        function show_list_segment(id){
-            // window.open("/showsegment?imgid="+id);
+        
+        function show_video(id, path){
+            videoFrame.style.display ="flex";
+            videourl = `/static/video/scene_${id}.mp4`;
+            videoPlayer.innerHTML = `<source src="${videourl}" type="video/mp4">`;
+            videoPlayer.load()
+            frameId.innerHTML = path;
         }
 
         function search(){
+          if (checkboxClip.checked) {
             text_query = document.getElementById('text_query').value;
             window.location.href = "/textsearch?textquery="+text_query;
             document.getElementById('text_query').innerHTML = text_query;
+          } else {
+            delayedlabel.style.display = 'block';
+            setTimeout(function() {
+              delayedlabel.style.display = 'none';
+            }, 3000); 
+          }
         }
 
 
@@ -708,6 +758,7 @@
             return str;
         }
 
+        
     </script>
 </body>
 </html> 
