@@ -385,6 +385,19 @@
               display: none;
             }
 
+            .tag {
+                display: inline-block;
+                padding: 5px 10px;
+                margin: 5px;
+                background-color: rgba(255,255,255,0.8);
+                border-radius: 3px;
+            }
+            .delete-btn {
+                margin-left: 10px;
+                cursor: pointer;
+                color: gray;
+            }
+
             @supports (display: flex) {
               @media screen and (min-width: 1024px) {
                 article {
@@ -451,6 +464,9 @@
                 <ul class="od-list">
                 </ul>
               </div>
+              <div id="tag-container">
+                <!-- Tags will be added here -->
+              </div>
             </div>
             
     
@@ -506,6 +522,7 @@
         const delayedlabel = document.getElementById('delayedLabel');
         const OCRquery = document.getElementById('OCR');
         const ASRquery = document.getElementById('ASR');
+        let tags = []
 
         document.addEventListener('DOMContentLoaded', function() {
             var closeBtn = document.getElementById('closeBtn');
@@ -698,6 +715,8 @@
         }
         
         function saveFormState() {
+            const tags = Array.from(document.querySelectorAll('#tag-container .tag')).map(tag => tag.innerText);
+
             const formState = {
                 text_query: document.getElementById('text_query').value,
                 place_query: searchInput.value,
@@ -709,6 +728,7 @@
                 ASRquery: ASRquery.value,
                 searchInputOD: searchInputOD.value,
                 checkboxOD: checkboxOD.checked,
+                tags: tags,
             };
             localStorage.setItem('formState', JSON.stringify(formState));
         }
@@ -736,6 +756,13 @@
                   searchod.style.display = 'block';
                 }
                 searchInputOD.value = formState.searchInputOD;
+
+                const tagsContainer = document.getElementById('tag-container');
+                tagsContainer.innerHTML = '';
+                formState.tags.forEach(tagText => {
+                    addTag(tagText.replace(" ×",''));
+                });
+
             }
         }
 
@@ -757,7 +784,13 @@
               saveFormState();
               window.location.href = "/textsearch?textquery="+text_query;
               window.location.href = "/placesearch?placequery="+place_query;
-            } else {
+            } else if (checkboxOD.checked) {
+              saveFormState();
+              object_query = tags.map(item => `objectquery=${encodeURIComponent(item)}`).join('&');
+              window.location.href = "/textsearch?textquery="+text_query;
+              window.location.href = "/objectsearch?"+object_query;
+            }
+            else {
               saveFormState();
               window.location.href = "/textsearch?textquery="+text_query;
             }
@@ -796,12 +829,28 @@
                   item = document.createElement("li");
                   item.classList.add('odItem');
                   item.innerHTML = `
-                  <button class="odItem" onclick="searchInputOD.value = '${od}'; this.blur();">
+                  <button class="odItem" onclick="addTag('${od}');">
                   ${od}
                   `;
                   ODList.appendChild(item);
               }
           }
+        }
+
+        function addTag(tagName) {
+          if (!tags.includes(tagName)) {
+            tags.push(tagName);
+            const tagContainer = document.getElementById('tag-container');
+            const tag = document.createElement('div');
+            tag.className = 'tag';
+            tag.innerHTML = `${tagName} <span class="delete-btn" onclick="deleteTag(this, '${tagName}');">&times;</span>`;
+            tagContainer.appendChild(tag);
+          }
+        }
+
+        function deleteTag(element, tagName) {
+            element.parentNode.remove();
+            tags = tags.filter(tag => tag !== tagName);
         }
 
         function removeToneMark(str) {
