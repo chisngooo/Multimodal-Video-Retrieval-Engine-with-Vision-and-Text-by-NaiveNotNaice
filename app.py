@@ -10,11 +10,11 @@ import json
 
 from utils.search_by_od import search_frames_with_all_objects
 from utils.search_by_place import search_frames_with_any_place
+from utils.search_by_asr import search_video_scenes
+from utils.search_by_ocr import search_video_scenes
 from utils.query_processing import Translation
 from utils.faiss import Myfaiss
-
-# from sklearn.metrics.pairwise import cosine_similarity
-# from transformers import BertModel, BertTokenizer
+from elasticsearch import Elasticsearch
 
 
 # http://0.0.0.0:5001/home?index=0
@@ -25,6 +25,54 @@ import json
 with open('DataBase/merged_data.json', 'r', encoding='utf-8') as file:
     data = json.load(file)
 
+
+
+# Kết nối đến Elasticsearch
+es = Elasticsearch(["http://localhost:9200"])
+
+# Đọc dữ liệu từ file JSON
+with open('DataBase/ASR.json', 'r', encoding='utf-8') as file:
+    data1 = json.load(file)
+
+# Index dữ liệu vào Elasticsearch
+
+# Tên chỉ mục
+index_name = 'video_scenes'
+
+# Đảm bảo rằng chỉ mục đã tồn tại, nếu không thì tạo một chỉ mục mới
+if not es.indices.exists(index=index_name):
+    es.indices.create(index=index_name)
+
+# Index dữ liệu vào Elasticsearch
+for key, value in data1.items():
+    if isinstance(value, dict):
+        es.index(index=index_name, id=value['id'], body={
+            'scene': key,
+            'asr': value['asr']
+        })
+    else:
+        print(f"Skipping {key}: Data is not a dictionary")
+with open('DataBase/OCR.json', 'r', encoding='utf-8') as file:
+    data2 = json.load(file)
+
+# Index dữ liệu vào Elasticsearch
+
+# Tên chỉ mục
+index_name2 = 'ocr'
+
+# Đảm bảo rằng chỉ mục đã tồn tại, nếu không thì tạo một chỉ mục mới
+if not es.indices.exists(index=index_name2):
+    es.indices.create(index=index_name2)
+
+# Index dữ liệu vào Elasticsearch
+for key, value in data2.items():
+    if isinstance(value, dict):
+        es.index(index=index_name, id=value['id'], body={
+            'scene': key,
+            'ocr': value['ocr']
+        })
+    else:
+        print(f"Skipping {key}: Data is not a dictionary")
 
 
 
@@ -165,14 +213,13 @@ def place_search():
 
 @app.route('/objectsearch')
 def object_search():
-    global data
     query_objects = request.args.getlist('objectquery')
     
     # Lấy các ID từ session
     frame_ids = session.get('search_results_ids', [])
 
     # Tìm kiếm các frame với các object tương ứng
-    matching_frame_ids = search_frames_with_all_objects(query_objects, data, frame_ids, json_dict)
+    matching_frame_ids = search_frames_with_all_objects(query_objects, data, frame_ids)
 
     pagefile = [{'imgpath': DictImagePath[frame_id], 'id': frame_id} for frame_id in matching_frame_ids]
     num_page = (LenDictPath // 100) + 1
@@ -180,32 +227,39 @@ def object_search():
     
     return render_template('home.html', data=datapage)
 
+@app.route('/ocrsearch')
+def ocr_search():
+    query = request.args.get('query')
+    
+    # Tìm kiếm các frame với OCR tương ứng
+    matching_frame_ids = search_ocr(query)
 
-def encode_text(text):
-    inputs = tokenizer(text, return_tensors='pt', max_length=512, truncation=True, padding='max_length')
-    with torch.no_grad():
-        outputs = model(**inputs)
-    return outputs.last_hidden_state[:, 0, :].squeeze()
+    # Tạo danh sách các kết quả tìm kiếm
+    pagefile = [{'id': frame_id} for frame_id in matching_frame_ids]
+    
+    # Tính số trang
+    num_page = (len(pagefile) // 100) + 1
+    datapage = {'num_page': num_page, 'pagefile': pagefile}
+    
+    return render_template('home.html', data=datapage)
 
-def search_with_bert(query, query_type, data, top_n=100):
-    query_embedding = encode_text(query).numpy().reshape(1, -1)
-    scores = []
+@app.route('/asrsearch')
+def asr_search():
+    query = request.args.get('query')
+    
+    # Tìm kiếm các frame với ASR tương ứng
+    matching_frame_ids = search_video_scenes(query)
 
-    for frame_id, frame_data in data.items():
-        if query_type == 'ocr':
-            embedding = np.array(frame_data['ocr_embedding']).reshape(1, -1)
-        elif query_type == 'asr':
-            embedding = np.array(frame_data['asr_embedding']).reshape(1, -1)
-        else:
-            raise ValueError("Invalid query type")
+    # Tạo danh sách các kết quả tìm kiếm
+    pagefile = [{'id': frame_id} for frame_id in matching_frame_ids]
+    
+    # Tính số trang
+    num_page = (len(pagefile) // 100) + 1
+    datapage = {'num_page': num_page, 'pagefile': pagefile}
+    
+    return render_template('home.html', data=datapage)
 
-        score = cosine_similarity(query_embedding, embedding)[0][0]
-        scores.append((frame_id, score))
 
-    # Sắp xếp theo điểm số và lấy top_n
-    sorted_scores = sorted(scores, key=lambda x: x[1], reverse=True)
-    top_results = sorted_scores[:top_n]
-    return [frame_id for frame_id, score in top_results]
 
 
 if __name__ == '__main__':
