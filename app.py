@@ -11,7 +11,7 @@ import json
 from utils.search_by_od import search_frames_with_all_objects
 from utils.search_by_place import search_frames_with_any_place
 from utils.search_by_asr import search_video_scenes
-from utils.search_by_ocr import search_video_scenes
+from utils.search_by_ocr import search_ocr
 from utils.query_processing import Translation
 from utils.faiss import Myfaiss
 from elasticsearch import Elasticsearch
