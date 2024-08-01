@@ -22,6 +22,3 @@ def search_ocr(query, index_name='ocr', size=100):
     ids = [hit['_id'] for hit in response['hits']['hits']]
     
     return ids
-# In kết quả tìm kiếm
-for hit in response['hits']['hits']:
-    print(f"ID: {hit['_id']}, Scene: {hit['_source']['scene']}, ASR: {hit['_source']['ocr']}")
