@@ -79,9 +79,9 @@ def thumbnailimg():
     for imgpath, id in zip(page_filelist, list_idx):
         pagefile.append({'imgpath': imgpath, 'id': id})
 
-    data = {'num_page': int(LenDictPath / imgperindex) + 1, 'pagefile': pagefile}
+    datapage = {'num_page': int(LenDictPath / imgperindex) + 1, 'pagefile': pagefile}
     
-    return render_template('home.html', data=data)
+    return render_template('home.html', data=datapage)
 
 @app.route('/imgsearch')
 def image_search():
@@ -95,14 +95,13 @@ def image_search():
     for imgpath, id in zip(list_image_paths, list_ids):
         pagefile.append({'imgpath': imgpath, 'id': int(id)})
 
-    data = {'num_page': int(LenDictPath/imgperindex)+1, 'pagefile': pagefile}
+    datapage = {'num_page': int(LenDictPath/imgperindex)+1, 'pagefile': pagefile}
     
-    return render_template('home.html', data=data)
+    return render_template('home.html', data=datapage)
 
 @app.route('/textsearch')
 def text_search():
-    print("text search")
-
+    global data
     text_query = request.args.get('textquery')
     
     # Sử dụng MyFaiss để tìm kiếm văn bản với số kết quả k=120
@@ -117,9 +116,9 @@ def text_search():
     pagefile = [{'imgpath': imgpath, 'id': int(id)} for imgpath, id in zip(list_image_paths, list_ids)]
 
     num_page = (LenDictPath // imgperindex) + 1
-    data = {'num_page': num_page, 'pagefile': pagefile}
+    datapage = {'num_page': num_page, 'pagefile': pagefile}
     
-    return render_template('home.html', data=data)
+    return render_template('home.html', data=datapage)
 
 @app.route('/get_img')
 def get_img():
@@ -149,19 +148,19 @@ def get_img():
     
 @app.route('/placesearch')
 def place_search():
+    global data
     query_place = request.args.get('placequery')
     
     # Lấy các ID từ session
     frame_ids = session.get('search_results_ids', [])
 
     # Tìm kiếm các frame với place tương ứng
-    matching_frame_ids = search_frames_with_any_place(query_place, data, frame_ids)
+    matching_frame_ids = search_frames_with_any_place(query_place, data, frame_ids, json_dict)
 
     pagefile = [{'imgpath': DictImagePath[frame_id], 'id': frame_id} for frame_id in matching_frame_ids]
     num_page = (LenDictPath // 100) + 1
-    data = {'num_page': num_page, 'pagefile': pagefile}
-    
-    return render_template('home.html', data=data)
+    datapage = {'num_page': num_page, 'pagefile': pagefile}
+    return render_template('home.html', data=datapage)
 
 
 @app.route('/objectsearch')
@@ -176,9 +175,9 @@ def object_search():
 
     pagefile = [{'imgpath': DictImagePath[frame_id], 'id': frame_id} for frame_id in matching_frame_ids]
     num_page = (LenDictPath // 100) + 1
-    data = {'num_page': num_page, 'pagefile': pagefile}
+    datapage = {'num_page': num_page, 'pagefile': pagefile}
     
-    return render_template('home.html', data=data)
+    return render_template('home.html', data=datapage)
 
 
 def encode_text(text):

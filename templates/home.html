@@ -179,6 +179,7 @@
                 flex-wrap: wrap;
                 background-color: #e0e5ec;
                 height: 100vh;
+                width: 100vw;
                 overflow-y: scroll;
             }
     
@@ -186,6 +187,7 @@
                 position: relative;
                 width: 100%;
                 max-width: 208px;
+                max-height: 120px;
                 display: grid;
                 grid-template-columns: auto auto auto auto;
                 padding: 1%;
@@ -502,6 +504,8 @@
         const videoFrame = document.getElementById('videoModal');
         const frameId = document.getElementById('frame_id');
         const delayedlabel = document.getElementById('delayedLabel');
+        const OCRquery = document.getElementById('OCR');
+        const ASRquery = document.getElementById('ASR');
 
         document.addEventListener('DOMContentLoaded', function() {
             var closeBtn = document.getElementById('closeBtn');
@@ -583,14 +587,18 @@
         checkbox.addEventListener('change', () => {
           if (checkbox.checked) {
             searchplace.style.display = 'block';
+            searchod.style.display = 'none';
+            checkboxOD.checked = false;
           } else {
-            searchplace.style.display = 'none'
+            searchplace.style.display = 'none';
           }
         });
         
         checkboxOD.addEventListener('change', () => {
           if (checkboxOD.checked) {
             searchod.style.display = 'block';
+            searchplace.style.display = 'none';
+            checkbox.checked = false;
           } else {
             searchod.style.display = 'none';
           }
@@ -689,6 +697,50 @@
             add_img("div_img");
         }
         
+        function saveFormState() {
+            const formState = {
+                text_query: document.getElementById('text_query').value,
+                place_query: searchInput.value,
+                checkboxClip: checkboxClip.checked,
+                checkbox: checkbox.checked,
+                checkboxOCR: checkboxOCR.checked,
+                OCRquery: OCRquery.value,
+                checkboxASR: checkboxASR.checked,
+                ASRquery: ASRquery.value,
+                searchInputOD: searchInputOD.value,
+                checkboxOD: checkboxOD.checked,
+            };
+            localStorage.setItem('formState', JSON.stringify(formState));
+        }
+
+        function loadFormState() {
+            const formState = JSON.parse(localStorage.getItem('formState'));
+            if (formState) {
+                document.getElementById('text_query').value = formState.text_query;
+                checkboxOCR.checked = formState.checkboxOCR;
+                OCRquery.value = formState.OCRquery;
+                checkboxASR.checked = formState.checkboxASR;
+                ASRquery.value = formState.ASRquery;
+                checkboxClip.checked = formState.checkboxClip;
+                if (checkboxClip.checked) {
+                  showOD();
+                  showPlace();
+                }
+                checkbox.checked = formState.checkbox;
+                if (checkbox.checked) {
+                  searchplace.style.display = 'block';
+                }
+                searchInput.value = formState.place_query;
+                checkboxOD.checked = formState.checkboxOD;
+                if (checkboxOD.checked) {
+                  searchod.style.display = 'block';
+                }
+                searchInputOD.value = formState.searchInputOD;
+            }
+        }
+
+        window.addEventListener('load', loadFormState);
+
         function show_video(id, path){
             videoFrame.style.display ="flex";
             videourl = `/static/video/scene_${id}.mp4`;
@@ -700,8 +752,15 @@
         function search(){
           if (checkboxClip.checked) {
             text_query = document.getElementById('text_query').value;
-            window.location.href = "/textsearch?textquery="+text_query;
-            document.getElementById('text_query').innerHTML = text_query;
+            if (checkbox.checked) {
+              place_query = searchInput.value;
+              saveFormState();
+              window.location.href = "/textsearch?textquery="+text_query;
+              window.location.href = "/placesearch?placequery="+place_query;
+            } else {
+              saveFormState();
+              window.location.href = "/textsearch?textquery="+text_query;
+            }
           } else {
             delayedlabel.style.display = 'block';
             setTimeout(function() {
