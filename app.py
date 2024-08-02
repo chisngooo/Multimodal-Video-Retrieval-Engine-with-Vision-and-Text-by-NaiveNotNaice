@@ -67,7 +67,7 @@ if not es.indices.exists(index=index_name2):
 # Index dữ liệu vào Elasticsearch
 for key, value in data2.items():
     if isinstance(value, dict):
-        es.index(index=index_name, id=value['id'], body={
+        es.index(index=index_name2, id=value['id'], body={
             'scene': key,
             'ocr': value['ocr']
         })
