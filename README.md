@@ -16,7 +16,7 @@ pip install elasticsearch
 ```
 sudo service elasticsearch start
 curl -X GET "localhost:9200/"
-python app.py
+python3 app.py
 ```
 
 URL: http://0.0.0.0:5001/home?index=0
