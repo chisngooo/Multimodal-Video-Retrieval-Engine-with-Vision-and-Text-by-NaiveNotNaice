@@ -10,12 +10,12 @@ echo "deb https://artifacts.elastic.co/packages/7.x/apt stable main" | sudo tee 
 sudo apt-get update
 sudo apt-get install elasticsearch
 pip install elasticsearch
-sudo service elasticsearch start
-curl -X GET "localhost:9200/"
 ```
 
 ## Run 
 ```
+sudo service elasticsearch start
+curl -X GET "localhost:9200/"
 python app.py
 ```
 
