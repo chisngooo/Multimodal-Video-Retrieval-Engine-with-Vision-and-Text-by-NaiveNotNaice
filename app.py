@@ -19,7 +19,7 @@ from elasticsearch import Elasticsearch
 
 # http://0.0.0.0:5001/home?index=0
 
-import json
+
 
 # Đọc dữ liệu từ các file JSON với mã hóa UTF-8
 with open('DataBase/merged_data.json', 'r', encoding='utf-8') as file:
