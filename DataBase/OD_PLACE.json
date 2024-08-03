@@ -1,0 +1,7846 @@
+{
+    "frame_42": {
+        "objects": [],
+        "place": "booth/indoor",
+        "id": 0
+    },
+    "frame_98": {
+        "objects": [],
+        "place": "home_theater",
+        "id": 1
+    },
+    "frame_215": {
+        "objects": [
+            "person"
+        ],
+        "place": "booth/indoor",
+        "id": 2
+    },
+    "frame_347": {
+        "objects": [
+            "bottle",
+            "oven",
+            "laptop",
+            "person",
+            "chair",
+            "cell phone",
+            "refrigerator"
+        ],
+        "place": "waiting_room",
+        "id": 3
+    },
+    "frame_405": {
+        "objects": [
+            "laptop",
+            "tv",
+            "person",
+            "chair"
+        ],
+        "place": "office",
+        "id": 4
+    },
+    "frame_463": {
+        "objects": [
+            "person",
+            "airplane"
+        ],
+        "place": "hangar/outdoor",
+        "id": 389
+    },
+    "frame_523": {
+        "objects": [
+            "cup",
+            "scissors",
+            "oven",
+            "person",
+            "knife",
+            "chair",
+            "spoon"
+        ],
+        "place": "hospital_room",
+        "id": 6
+    },
+    "frame_579": {
+        "objects": [
+            "cow",
+            "person",
+            "dog"
+        ],
+        "place": "loading_dock",
+        "id": 7
+    },
+    "frame_622": {
+        "objects": [
+            "truck",
+            "cow",
+            "person",
+            "potted plant"
+        ],
+        "place": "parking_garage/indoor",
+        "id": 8
+    },
+    "frame_810": {
+        "objects": [
+            "bench",
+            "person",
+            "cell phone"
+        ],
+        "place": "television_studio",
+        "id": 9
+    },
+    "frame_1110": {
+        "objects": [
+            "person"
+        ],
+        "place": "booth/indoor",
+        "id": 10
+    },
+    "frame_1290": {
+        "objects": [
+            "bottle",
+            "oven",
+            "laptop",
+            "person",
+            "remote",
+            "chair",
+            "cell phone"
+        ],
+        "place": "locker_room",
+        "id": 11
+    },
+    "frame_1464": {
+        "objects": [
+            "bench",
+            "person",
+            "cell phone"
+        ],
+        "place": "television_studio",
+        "id": 12
+    },
+    "frame_2041": {
+        "objects": [
+            "person",
+            "cell phone"
+        ],
+        "place": "television_studio",
+        "id": 13
+    },
+    "frame_2514": {
+        "objects": [
+            "person"
+        ],
+        "place": "village",
+        "id": 14
+    },
+    "frame_2565": {
+        "objects": [
+            "person"
+        ],
+        "place": "promenade",
+        "id": 416
+    },
+    "frame_2634": {
+        "objects": [
+            "person"
+        ],
+        "place": "chalet",
+        "id": 16
+    },
+    "frame_2700": {
+        "objects": [
+            "person"
+        ],
+        "place": "corn_field",
+        "id": 17
+    },
+    "frame_2776": {
+        "objects": [
+            "elephant",
+            "motorcycle",
+            "person"
+        ],
+        "place": "forest_path",
+        "id": 18
+    },
+    "frame_2873": {
+        "objects": [
+            "person"
+        ],
+        "place": "cabin/outdoor",
+        "id": 19
+    },
+    "frame_2958": {
+        "objects": [
+            "person"
+        ],
+        "place": "stage/outdoor",
+        "id": 20
+    },
+    "frame_3024": {
+        "objects": [
+            "person"
+        ],
+        "place": "art_school",
+        "id": 21
+    },
+    "frame_3096": {
+        "objects": [
+            "motorcycle",
+            "person",
+            "chair"
+        ],
+        "place": "art_school",
+        "id": 22
+    },
+    "frame_3167": {
+        "objects": [
+            "person"
+        ],
+        "place": "nursery",
+        "id": 23
+    },
+    "frame_3222": {
+        "objects": [
+            "person"
+        ],
+        "place": "vineyard",
+        "id": 24
+    },
+    "frame_3276": {
+        "objects": [
+            "handbag",
+            "person",
+            "chair"
+        ],
+        "place": "bazaar/outdoor",
+        "id": 25
+    },
+    "frame_3336": {
+        "objects": [
+            "person"
+        ],
+        "place": "beauty_salon",
+        "id": 26
+    },
+    "frame_3394": {
+        "objects": [
+            "umbrella",
+            "person",
+            "potted plant"
+        ],
+        "place": "ticket_booth",
+        "id": 427
+    },
+    "frame_3465": {
+        "objects": [
+            "kite",
+            "person",
+            "handbag"
+        ],
+        "place": "stage/outdoor",
+        "id": 428
+    },
+    "frame_3542": {
+        "objects": [
+            "handbag",
+            "person",
+            "chair",
+            "backpack"
+        ],
+        "place": "sandbox",
+        "id": 29
+    },
+    "frame_3605": {
+        "objects": [
+            "person",
+            "frisbee",
+            "book"
+        ],
+        "place": "sandbox",
+        "id": 30
+    },
+    "frame_3892": {
+        "objects": [
+            "person",
+            "cell phone"
+        ],
+        "place": "television_studio",
+        "id": 31
+    },
+    "frame_4173": {
+        "objects": [
+            "umbrella",
+            "person",
+            "car"
+        ],
+        "place": "chalet",
+        "id": 32
+    },
+    "frame_4240": {
+        "objects": [
+            "person",
+            "chair"
+        ],
+        "place": "television_studio",
+        "id": 33
+    },
+    "frame_4318": {
+        "objects": [
+            "person",
+            "vase"
+        ],
+        "place": "television_studio",
+        "id": 34
+    },
+    "frame_4387": {
+        "objects": [
+            "person"
+        ],
+        "place": "television_studio",
+        "id": 35
+    },
+    "frame_4447": {
+        "objects": [
+            "fork",
+            "tie",
+            "person",
+            "chair"
+        ],
+        "place": "martial_arts_gym",
+        "id": 36
+    },
+    "frame_4509": {
+        "objects": [
+            "person",
+            "toothbrush"
+        ],
+        "place": "martial_arts_gym",
+        "id": 37
+    },
+    "frame_4574": {
+        "objects": [
+            "motorcycle",
+            "person"
+        ],
+        "place": "playroom",
+        "id": 38
+    },
+    "frame_4633": {
+        "objects": [
+            "cup",
+            "bottle",
+            "person",
+            "toothbrush"
+        ],
+        "place": "chemistry_lab",
+        "id": 39
+    },
+    "frame_4775": {
+        "objects": [
+            "person"
+        ],
+        "place": "home_theater",
+        "id": 40
+    },
+    "frame_4912": {
+        "objects": [
+            "motorcycle",
+            "person",
+            "chair"
+        ],
+        "place": "shoe_shop",
+        "id": 41
+    },
+    "frame_4962": {
+        "objects": [
+            "bowl",
+            "person"
+        ],
+        "place": "pharmacy",
+        "id": 42
+    },
+    "frame_5095": {
+        "objects": [
+            "person"
+        ],
+        "place": "hospital_room",
+        "id": 43
+    },
+    "frame_5237": {
+        "objects": [
+            "truck",
+            "train",
+            "person"
+        ],
+        "place": "village",
+        "id": 44
+    },
+    "frame_5299": {
+        "objects": [
+            "person"
+        ],
+        "place": "village",
+        "id": 45
+    },
+    "frame_5359": {
+        "objects": [
+            "motorcycle",
+            "person"
+        ],
+        "place": "slum",
+        "id": 46
+    },
+    "frame_5420": {
+        "objects": [
+            "person"
+        ],
+        "place": "locker_room",
+        "id": 47
+    },
+    "frame_5476": {
+        "objects": [
+            "person",
+            "chair"
+        ],
+        "place": "sauna",
+        "id": 48
+    },
+    "frame_5529": {
+        "objects": [
+            "person"
+        ],
+        "place": "locker_room",
+        "id": 49
+    },
+    "frame_5576": {
+        "objects": [
+            "motorcycle",
+            "dining table",
+            "person",
+            "chair"
+        ],
+        "place": "general_store/outdoor",
+        "id": 50
+    },
+    "frame_5627": {
+        "objects": [
+            "person"
+        ],
+        "place": "television_studio",
+        "id": 51
+    },
+    "frame_5674": {
+        "objects": [
+            "scissors",
+            "person"
+        ],
+        "place": "martial_arts_gym",
+        "id": 52
+    },
+    "frame_5993": {
+        "objects": [
+            "motorcycle",
+            "person",
+            "cell phone"
+        ],
+        "place": "inn/outdoor",
+        "id": 53
+    },
+    "frame_6323": {
+        "objects": [
+            "dining table",
+            "person",
+            "chair"
+        ],
+        "place": "general_store/outdoor",
+        "id": 54
+    },
+    "frame_6379": {
+        "objects": [
+            "person",
+            "toothbrush"
+        ],
+        "place": "martial_arts_gym",
+        "id": 55
+    },
+    "frame_6671": {
+        "objects": [
+            "bottle",
+            "person",
+            "tie"
+        ],
+        "place": "television_studio",
+        "id": 459
+    },
+    "frame_6974": {
+        "objects": [
+            "cup",
+            "motorcycle",
+            "handbag",
+            "person",
+            "dining table"
+        ],
+        "place": "general_store/outdoor",
+        "id": 57
+    },
+    "frame_7047": {
+        "objects": [
+            "motorcycle",
+            "person"
+        ],
+        "place": "village",
+        "id": 58
+    },
+    "frame_7109": {
+        "objects": [
+            "cup",
+            "scissors",
+            "person",
+            "toothbrush"
+        ],
+        "place": "hospital_room",
+        "id": 59
+    },
+    "frame_7179": {
+        "objects": [
+            "person"
+        ],
+        "place": "martial_arts_gym",
+        "id": 60
+    },
+    "frame_7251": {
+        "objects": [
+            "bottle",
+            "cup",
+            "motorcycle",
+            "person",
+            "remote"
+        ],
+        "place": "art_school",
+        "id": 61
+    },
+    "frame_7314": {
+        "objects": [
+            "person",
+            "toothbrush"
+        ],
+        "place": "beauty_salon",
+        "id": 62
+    },
+    "frame_7377": {
+        "objects": [
+            "person",
+            "chair"
+        ],
+        "place": "attic",
+        "id": 63
+    },
+    "frame_7704": {
+        "objects": [
+            "potted plant",
+            "person",
+            "car"
+        ],
+        "place": "beer_garden",
+        "id": 64
+    },
+    "frame_8182": {
+        "objects": [
+            "person",
+            "sink"
+        ],
+        "place": "hospital_room",
+        "id": 65
+    },
+    "frame_8402": {
+        "objects": [
+            "chair",
+            "umbrella",
+            "person",
+            "tie"
+        ],
+        "place": "shopping_mall/indoor",
+        "id": 66
+    },
+    "frame_8468": {
+        "objects": [
+            "person",
+            "chair"
+        ],
+        "place": "cafeteria",
+        "id": 67
+    },
+    "frame_8532": {
+        "objects": [
+            "bottle",
+            "tv",
+            "sink",
+            "person",
+            "chair"
+        ],
+        "place": "hospital_room",
+        "id": 68
+    },
+    "frame_8597": {
+        "objects": [
+            "bottle",
+            "person",
+            "sink",
+            "chair"
+        ],
+        "place": "biology_laboratory",
+        "id": 69
+    },
+    "frame_8659": {
+        "objects": [
+            "tv",
+            "person",
+            "sink"
+        ],
+        "place": "hospital_room",
+        "id": 70
+    },
+    "frame_8722": {
+        "objects": [
+            "person"
+        ],
+        "place": "beauty_salon",
+        "id": 71
+    },
+    "frame_8783": {
+        "objects": [
+            "bottle",
+            "tv",
+            "mouse",
+            "person",
+            "keyboard",
+            "chair"
+        ],
+        "place": "biology_laboratory",
+        "id": 72
+    },
+    "frame_8839": {
+        "objects": [
+            "person"
+        ],
+        "place": "beauty_salon",
+        "id": 73
+    },
+    "frame_8896": {
+        "objects": [
+            "tv",
+            "person",
+            "refrigerator"
+        ],
+        "place": "pharmacy",
+        "id": 74
+    },
+    "frame_9290": {
+        "objects": [
+            "person",
+            "cell phone"
+        ],
+        "place": "television_studio",
+        "id": 75
+    },
+    "frame_10303": {
+        "objects": [
+            "bottle",
+            "person"
+        ],
+        "place": "conference_center",
+        "id": 76
+    },
+    "frame_11388": {
+        "objects": [
+            "person",
+            "chair"
+        ],
+        "place": "conference_center",
+        "id": 77
+    },
+    "frame_12707": {
+        "objects": [
+            "person"
+        ],
+        "place": "television_studio",
+        "id": 78
+    },
+    "frame_13601": {
+        "objects": [
+            "person"
+        ],
+        "place": "highway",
+        "id": 79
+    },
+    "frame_13640": {
+        "objects": [
+            "bottle",
+            "cup",
+            "person",
+            "bed",
+            "chair"
+        ],
+        "place": "hospital_room",
+        "id": 80
+    },
+    "frame_13694": {
+        "objects": [
+            "sports ball",
+            "chair",
+            "person",
+            "bed"
+        ],
+        "place": "hospital_room",
+        "id": 81
+    },
+    "frame_13770": {
+        "objects": [
+            "bottle",
+            "cup",
+            "person",
+            "bed",
+            "chair"
+        ],
+        "place": "hospital_room",
+        "id": 82
+    },
+    "frame_13832": {
+        "objects": [
+            "person",
+            "toothbrush"
+        ],
+        "place": "hospital_room",
+        "id": 83
+    },
+    "frame_13889": {
+        "objects": [
+            "bowl",
+            "person",
+            "bed"
+        ],
+        "place": "hospital",
+        "id": 84
+    },
+    "frame_13967": {
+        "objects": [
+            "bottle",
+            "tv",
+            "dining table",
+            "laptop",
+            "chair",
+            "person",
+            "traffic light"
+        ],
+        "place": "hospital_room",
+        "id": 85
+    },
+    "frame_14036": {
+        "objects": [
+            "tv",
+            "person"
+        ],
+        "place": "airplane_cabin",
+        "id": 86
+    },
+    "frame_14125": {
+        "objects": [
+            "tv",
+            "person"
+        ],
+        "place": "physics_laboratory",
+        "id": 87
+    },
+    "frame_14443": {
+        "objects": [
+            "person",
+            "cell phone"
+        ],
+        "place": "television_studio",
+        "id": 88
+    },
+    "frame_14758": {
+        "objects": [
+            "bottle",
+            "tv",
+            "person"
+        ],
+        "place": "television_studio",
+        "id": 89
+    },
+    "frame_15017": {
+        "objects": [
+            "kite",
+            "bottle",
+            "tv",
+            "person"
+        ],
+        "place": "television_studio",
+        "id": 90
+    },
+    "frame_15238": {
+        "objects": [
+            "tv",
+            "person",
+            "tie"
+        ],
+        "place": "television_studio",
+        "id": 91
+    },
+    "frame_15355": {
+        "objects": [
+            "tv",
+            "car",
+            "kite",
+            "person",
+            "cell phone"
+        ],
+        "place": "television_studio",
+        "id": 92
+    },
+    "frame_15488": {
+        "objects": [
+            "person"
+        ],
+        "place": "hospital_room",
+        "id": 93
+    },
+    "frame_15543": {
+        "objects": [
+            "keyboard",
+            "tv",
+            "person",
+            "chair"
+        ],
+        "place": "office",
+        "id": 94
+    },
+    "frame_15594": {
+        "objects": [
+            "person"
+        ],
+        "place": "discotheque",
+        "id": 95
+    },
+    "frame_15650": {
+        "objects": [
+            "person"
+        ],
+        "place": "locker_room",
+        "id": 96
+    },
+    "frame_15714": {
+        "objects": [
+            "person",
+            "chair"
+        ],
+        "place": "ticket_booth",
+        "id": 97
+    },
+    "frame_15778": {
+        "objects": [
+            "person"
+        ],
+        "place": "conference_center",
+        "id": 98
+    },
+    "frame_15844": {
+        "objects": [
+            "person"
+        ],
+        "place": "playroom",
+        "id": 99
+    },
+    "frame_15914": {
+        "objects": [
+            "person"
+        ],
+        "place": "hospital_room",
+        "id": 100
+    },
+    "frame_16058": {
+        "objects": [
+            "person"
+        ],
+        "place": "television_studio",
+        "id": 101
+    },
+    "frame_16318": {
+        "objects": [
+            "car",
+            "kite",
+            "person",
+            "remote",
+            "cell phone"
+        ],
+        "place": "television_studio",
+        "id": 102
+    },
+    "frame_16559": {
+        "objects": [
+            "bottle",
+            "person",
+            "book"
+        ],
+        "place": "reception",
+        "id": 103
+    },
+    "frame_16768": {
+        "objects": [
+            "person"
+        ],
+        "place": "hospital_room",
+        "id": 104
+    },
+    "frame_17028": {
+        "objects": [
+            "clock",
+            "bottle",
+            "person",
+            "book"
+        ],
+        "place": "hospital_room",
+        "id": 105
+    },
+    "frame_17296": {
+        "objects": [
+            "kite",
+            "laptop",
+            "person"
+        ],
+        "place": "television_studio",
+        "id": 106
+    },
+    "frame_17466": {
+        "objects": [
+            "tv",
+            "person",
+            "chair",
+            "snowboard"
+        ],
+        "place": "office",
+        "id": 107
+    },
+    "frame_17548": {
+        "objects": [
+            "person"
+        ],
+        "place": "conference_center",
+        "id": 108
+    },
+    "frame_17628": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "conference_center",
+        "id": 109
+    },
+    "frame_17697": {
+        "objects": [
+            "remote",
+            "person",
+            "cell phone"
+        ],
+        "place": "jewelry_shop",
+        "id": 110
+    },
+    "frame_17938": {
+        "objects": [
+            "tv",
+            "person",
+            "cell phone",
+            "car"
+        ],
+        "place": "television_studio",
+        "id": 111
+    },
+    "frame_18288": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "television_studio",
+        "id": 585
+    },
+    "frame_18461": {
+        "objects": [
+            "airplane",
+            "person"
+        ],
+        "place": "heliport",
+        "id": 113
+    },
+    "frame_18546": {
+        "objects": [
+            "airplane",
+            "person"
+        ],
+        "place": "wind_farm",
+        "id": 114
+    },
+    "frame_18633": {
+        "objects": [
+            "truck",
+            "person",
+            "chair",
+            "car"
+        ],
+        "place": "home_theater",
+        "id": 115
+    },
+    "frame_18702": {
+        "objects": [
+            "laptop",
+            "person",
+            "chair"
+        ],
+        "place": "office",
+        "id": 116
+    },
+    "frame_18782": {
+        "objects": [
+            "microwave",
+            "tv",
+            "laptop",
+            "person",
+            "keyboard",
+            "remote",
+            "chair",
+            "cell phone"
+        ],
+        "place": "computer_room",
+        "id": 117
+    },
+    "frame_18851": {
+        "objects": [
+            "bicycle",
+            "motorcycle",
+            "umbrella",
+            "person"
+        ],
+        "place": "residential_neighborhood",
+        "id": 118
+    },
+    "frame_18922": {
+        "objects": [
+            "person"
+        ],
+        "place": "heliport",
+        "id": 119
+    },
+    "frame_19020": {
+        "objects": [
+            "bicycle",
+            "person",
+            "car"
+        ],
+        "place": "campus",
+        "id": 120
+    },
+    "frame_19101": {
+        "objects": [
+            "person"
+        ],
+        "place": "sky",
+        "id": 121
+    },
+    "frame_19177": {
+        "objects": [
+            "motorcycle",
+            "person",
+            "car"
+        ],
+        "place": "park",
+        "id": 122
+    },
+    "frame_19249": {
+        "objects": [
+            "airplane",
+            "person"
+        ],
+        "place": "sky",
+        "id": 123
+    },
+    "frame_19469": {
+        "objects": [
+            "bed",
+            "person",
+            "book"
+        ],
+        "place": "hospital_room",
+        "id": 124
+    },
+    "frame_19686": {
+        "objects": [
+            "person"
+        ],
+        "place": "car_interior",
+        "id": 125
+    },
+    "frame_19748": {
+        "objects": [
+            "knife",
+            "person"
+        ],
+        "place": "office_cubicles",
+        "id": 126
+    },
+    "frame_19807": {
+        "objects": [
+            "truck",
+            "motorcycle",
+            "person",
+            "car"
+        ],
+        "place": "highway",
+        "id": 127
+    },
+    "frame_19941": {
+        "objects": [
+            "person"
+        ],
+        "place": "playground",
+        "id": 128
+    },
+    "frame_20069": {
+        "objects": [
+            "truck",
+            "motorcycle",
+            "person",
+            "car"
+        ],
+        "place": "fire_station",
+        "id": 129
+    },
+    "frame_20256": {
+        "objects": [
+            "person",
+            "cell phone"
+        ],
+        "place": "television_studio",
+        "id": 130
+    },
+    "frame_20438": {
+        "objects": [
+            "person"
+        ],
+        "place": "conference_center",
+        "id": 131
+    },
+    "frame_20483": {
+        "objects": [
+            "bottle",
+            "tv",
+            "book",
+            "cup",
+            "dining table",
+            "laptop",
+            "person",
+            "chair"
+        ],
+        "place": "conference_center",
+        "id": 132
+    },
+    "frame_20552": {
+        "objects": [
+            "bottle",
+            "laptop",
+            "person",
+            "chair",
+            "cell phone"
+        ],
+        "place": "kindergarden_classroom",
+        "id": 133
+    },
+    "frame_20622": {
+        "objects": [
+            "bottle",
+            "tv",
+            "book",
+            "cup",
+            "person",
+            "chair"
+        ],
+        "place": "conference_center",
+        "id": 134
+    },
+    "frame_20672": {
+        "objects": [
+            "person"
+        ],
+        "place": "conference_center",
+        "id": 135
+    },
+    "frame_20721": {
+        "objects": [
+            "tennis racket",
+            "person",
+            "book"
+        ],
+        "place": "conference_center",
+        "id": 136
+    },
+    "frame_20783": {
+        "objects": [
+            "knife",
+            "bottle",
+            "person"
+        ],
+        "place": "conference_center",
+        "id": 137
+    },
+    "frame_20850": {
+        "objects": [
+            "cup",
+            "bottle",
+            "person",
+            "chair"
+        ],
+        "place": "classroom",
+        "id": 138
+    },
+    "frame_20922": {
+        "objects": [
+            "bottle",
+            "book",
+            "person",
+            "chair",
+            "cell phone"
+        ],
+        "place": "conference_center",
+        "id": 139
+    },
+    "frame_21002": {
+        "objects": [
+            "tv",
+            "person"
+        ],
+        "place": "toyshop",
+        "id": 140
+    },
+    "frame_21151": {
+        "objects": [
+            "person"
+        ],
+        "place": "hospital",
+        "id": 141
+    },
+    "frame_21293": {
+        "objects": [
+            "person"
+        ],
+        "place": "escalator/indoor",
+        "id": 142
+    },
+    "frame_21373": {
+        "objects": [
+            "handbag",
+            "person",
+            "backpack"
+        ],
+        "place": "escalator/indoor",
+        "id": 143
+    },
+    "frame_21448": {
+        "objects": [
+            "person",
+            "chair"
+        ],
+        "place": "jail_cell",
+        "id": 144
+    },
+    "frame_21518": {
+        "objects": [
+            "person"
+        ],
+        "place": "stage/indoor",
+        "id": 145
+    },
+    "frame_21590": {
+        "objects": [
+            "bicycle",
+            "person"
+        ],
+        "place": "television_studio",
+        "id": 146
+    },
+    "frame_21651": {
+        "objects": [
+            "person",
+            "chair"
+        ],
+        "place": "campsite",
+        "id": 147
+    },
+    "frame_22051": {
+        "objects": [
+            "bench",
+            "person",
+            "cell phone"
+        ],
+        "place": "television_studio",
+        "id": 148
+    },
+    "frame_22525": {
+        "objects": [
+            "cell phone",
+            "person",
+            "tie"
+        ],
+        "place": "television_studio",
+        "id": 630
+    },
+    "frame_22653": {
+        "objects": [
+            "person"
+        ],
+        "place": "construction_site",
+        "id": 150
+    },
+    "frame_22712": {
+        "objects": [
+            "person"
+        ],
+        "place": "boxing_ring",
+        "id": 151
+    },
+    "frame_22777": {
+        "objects": [
+            "motorcycle",
+            "person",
+            "car"
+        ],
+        "place": "stage/outdoor",
+        "id": 152
+    },
+    "frame_22847": {
+        "objects": [
+            "person"
+        ],
+        "place": "apartment_building/outdoor",
+        "id": 153
+    },
+    "frame_22917": {
+        "objects": [
+            "airplane",
+            "person",
+            "potted plant"
+        ],
+        "place": "embassy",
+        "id": 154
+    },
+    "frame_23003": {
+        "objects": [
+            "potted plant",
+            "person",
+            "vase"
+        ],
+        "place": "florist_shop/indoor",
+        "id": 155
+    },
+    "frame_23082": {
+        "objects": [
+            "bowl",
+            "person",
+            "vase"
+        ],
+        "place": "kitchen",
+        "id": 156
+    },
+    "frame_23150": {
+        "objects": [
+            "person",
+            "book"
+        ],
+        "place": "chemistry_lab",
+        "id": 637
+    },
+    "frame_23272": {
+        "objects": [
+            "person"
+        ],
+        "place": "television_studio",
+        "id": 158
+    },
+    "frame_23388": {
+        "objects": [
+            "giraffe",
+            "person",
+            "potted plant"
+        ],
+        "place": "medina",
+        "id": 159
+    },
+    "frame_23466": {
+        "objects": [
+            "bicycle",
+            "person"
+        ],
+        "place": "bathroom",
+        "id": 160
+    },
+    "frame_23546": {
+        "objects": [
+            "scissors",
+            "person"
+        ],
+        "place": "hospital_room",
+        "id": 161
+    },
+    "frame_23610": {
+        "objects": [
+            "remote",
+            "person"
+        ],
+        "place": "assembly_line",
+        "id": 162
+    },
+    "frame_23725": {
+        "objects": [
+            "person"
+        ],
+        "place": "archive",
+        "id": 163
+    },
+    "frame_23906": {
+        "objects": [
+            "person"
+        ],
+        "place": "hospital_room",
+        "id": 164
+    },
+    "frame_24030": {
+        "objects": [
+            "person"
+        ],
+        "place": "atrium/public",
+        "id": 165
+    },
+    "frame_24115": {
+        "objects": [
+            "person"
+        ],
+        "place": "clean_room",
+        "id": 166
+    },
+    "frame_24216": {
+        "objects": [
+            "train",
+            "person"
+        ],
+        "place": "balcony/exterior",
+        "id": 167
+    },
+    "frame_24294": {
+        "objects": [
+            "person"
+        ],
+        "place": "fire_escape",
+        "id": 168
+    },
+    "frame_24354": {
+        "objects": [
+            "truck",
+            "person",
+            "potted plant"
+        ],
+        "place": "balcony/exterior",
+        "id": 169
+    },
+    "frame_24411": {
+        "objects": [
+            "person",
+            "chair"
+        ],
+        "place": "elevator_shaft",
+        "id": 170
+    },
+    "frame_24476": {
+        "objects": [
+            "person"
+        ],
+        "place": "server_room",
+        "id": 171
+    },
+    "frame_24546": {
+        "objects": [
+            "remote",
+            "person"
+        ],
+        "place": "hospital_room",
+        "id": 172
+    },
+    "frame_24607": {
+        "objects": [
+            "knife",
+            "person",
+            "chair"
+        ],
+        "place": "hospital_room",
+        "id": 173
+    },
+    "frame_24876": {
+        "objects": [
+            "person"
+        ],
+        "place": "hospital_room",
+        "id": 174
+    },
+    "frame_25156": {
+        "objects": [
+            "potted plant",
+            "person",
+            "car"
+        ],
+        "place": "courtyard",
+        "id": 175
+    },
+    "frame_25234": {
+        "objects": [
+            "person"
+        ],
+        "place": "ice_cream_parlor",
+        "id": 176
+    },
+    "frame_25588": {
+        "objects": [
+            "cat",
+            "stop sign",
+            "person",
+            "dog"
+        ],
+        "place": "television_studio",
+        "id": 177
+    },
+    "frame_26245": {
+        "objects": [
+            "laptop",
+            "person"
+        ],
+        "place": "conference_center",
+        "id": 178
+    },
+    "frame_26607": {
+        "objects": [
+            "person"
+        ],
+        "place": "rice_paddy",
+        "id": 179
+    },
+    "frame_26666": {
+        "objects": [
+            "bird",
+            "person",
+            "chair"
+        ],
+        "place": "corn_field",
+        "id": 180
+    },
+    "frame_26739": {
+        "objects": [
+            "person",
+            "dog"
+        ],
+        "place": "archaelogical_excavation",
+        "id": 181
+    },
+    "frame_26814": {
+        "objects": [
+            "person",
+            "dog"
+        ],
+        "place": "slum",
+        "id": 182
+    },
+    "frame_26904": {
+        "objects": [
+            "person",
+            "dog"
+        ],
+        "place": "loading_dock",
+        "id": 183
+    },
+    "frame_26992": {
+        "objects": [
+            "person"
+        ],
+        "place": "bookstore",
+        "id": 184
+    },
+    "frame_27076": {
+        "objects": [
+            "truck",
+            "motorcycle",
+            "person"
+        ],
+        "place": "slum",
+        "id": 185
+    },
+    "frame_27156": {
+        "objects": [
+            "elephant",
+            "person"
+        ],
+        "place": "desert/vegetation",
+        "id": 186
+    },
+    "frame_27219": {
+        "objects": [
+            "cow",
+            "person",
+            "dog",
+            "horse"
+        ],
+        "place": "stable",
+        "id": 187
+    },
+    "frame_27310": {
+        "objects": [
+            "elephant",
+            "person",
+            "chair",
+            "potted plant"
+        ],
+        "place": "roof_garden",
+        "id": 188
+    },
+    "frame_27819": {
+        "objects": [
+            "cat",
+            "person",
+            "dog"
+        ],
+        "place": "television_studio",
+        "id": 189
+    },
+    "frame_28299": {
+        "objects": [
+            "clock",
+            "person",
+            "chair",
+            "potted plant"
+        ],
+        "place": "hospital",
+        "id": 190
+    },
+    "frame_28406": {
+        "objects": [
+            "person"
+        ],
+        "place": "conference_center",
+        "id": 191
+    },
+    "frame_28533": {
+        "objects": [
+            "laptop",
+            "tv",
+            "person",
+            "chair"
+        ],
+        "place": "biology_laboratory",
+        "id": 192
+    },
+    "frame_28623": {
+        "objects": [
+            "knife",
+            "person"
+        ],
+        "place": "hospital_room",
+        "id": 193
+    },
+    "frame_28704": {
+        "objects": [
+            "laptop",
+            "person"
+        ],
+        "place": "conference_center",
+        "id": 194
+    },
+    "frame_28794": {
+        "objects": [
+            "book",
+            "cup",
+            "toothbrush",
+            "person",
+            "carrot"
+        ],
+        "place": "classroom",
+        "id": 195
+    },
+    "frame_28875": {
+        "objects": [
+            "laptop",
+            "bottle",
+            "person",
+            "spoon"
+        ],
+        "place": "office_cubicles",
+        "id": 196
+    },
+    "frame_29025": {
+        "objects": [
+            "person"
+        ],
+        "place": "conference_center",
+        "id": 197
+    },
+    "frame_29204": {
+        "objects": [
+            "teddy bear",
+            "laptop",
+            "person",
+            "chair"
+        ],
+        "place": "reception",
+        "id": 198
+    },
+    "frame_29317": {
+        "objects": [
+            "tie",
+            "dining table",
+            "laptop",
+            "mouse",
+            "person",
+            "keyboard",
+            "chair"
+        ],
+        "place": "office",
+        "id": 199
+    },
+    "frame_29418": {
+        "objects": [
+            "keyboard",
+            "person",
+            "cell phone"
+        ],
+        "place": "veterinarians_office",
+        "id": 200
+    },
+    "frame_29530": {
+        "objects": [
+            "microwave",
+            "tv",
+            "laptop",
+            "person",
+            "keyboard"
+        ],
+        "place": "physics_laboratory",
+        "id": 201
+    },
+    "frame_29660": {
+        "objects": [
+            "keyboard",
+            "person",
+            "book"
+        ],
+        "place": "office",
+        "id": 202
+    },
+    "frame_29770": {
+        "objects": [
+            "person"
+        ],
+        "place": "booth/indoor",
+        "id": 203
+    },
+    "frame_29846": {
+        "objects": [
+            "kite",
+            "person"
+        ],
+        "place": "booth/indoor",
+        "id": 204
+    },
+    "frame_30043": {
+        "objects": [
+            "person",
+            "potted plant"
+        ],
+        "place": "campus",
+        "id": 205
+    },
+    "frame_30258": {
+        "objects": [
+            "bottle",
+            "person",
+            "chair",
+            "refrigerator"
+        ],
+        "place": "pharmacy",
+        "id": 206
+    },
+    "frame_30362": {
+        "objects": [
+            "cup",
+            "person",
+            "chair",
+            "spoon"
+        ],
+        "place": "biology_laboratory",
+        "id": 207
+    },
+    "frame_30588": {
+        "objects": [
+            "person",
+            "potted plant"
+        ],
+        "place": "campus",
+        "id": 208
+    },
+    "frame_30807": {
+        "objects": [
+            "bottle",
+            "potted plant",
+            "truck",
+            "person",
+            "dog"
+        ],
+        "place": "slum",
+        "id": 209
+    },
+    "frame_30954": {
+        "objects": [
+            "person",
+            "horse"
+        ],
+        "place": "slum",
+        "id": 210
+    },
+    "frame_31170": {
+        "objects": [
+            "cow",
+            "person"
+        ],
+        "place": "kennel/outdoor",
+        "id": 211
+    },
+    "frame_31692": {
+        "objects": [
+            "cat",
+            "bottle",
+            "cup",
+            "bowl",
+            "person",
+            "dog",
+            "tie"
+        ],
+        "place": "television_studio",
+        "id": 212
+    },
+    "frame_32137": {
+        "objects": [
+            "person"
+        ],
+        "place": "reception",
+        "id": 213
+    },
+    "frame_32221": {
+        "objects": [
+            "person"
+        ],
+        "place": "locker_room",
+        "id": 214
+    },
+    "frame_32322": {
+        "objects": [
+            "person"
+        ],
+        "place": "nursery",
+        "id": 215
+    },
+    "frame_32416": {
+        "objects": [
+            "laptop",
+            "person",
+            "chair"
+        ],
+        "place": "office",
+        "id": 216
+    },
+    "frame_32504": {
+        "objects": [
+            "clock",
+            "person",
+            "potted plant"
+        ],
+        "place": "hospital",
+        "id": 217
+    },
+    "frame_32597": {
+        "objects": [
+            "cup",
+            "person",
+            "cell phone"
+        ],
+        "place": "beer_garden",
+        "id": 218
+    },
+    "frame_32728": {
+        "objects": [
+            "person"
+        ],
+        "place": "office",
+        "id": 219
+    },
+    "frame_32853": {
+        "objects": [
+            "person"
+        ],
+        "place": "hospital_room",
+        "id": 220
+    },
+    "frame_32952": {
+        "objects": [
+            "cup",
+            "donut",
+            "person"
+        ],
+        "place": "ice_cream_parlor",
+        "id": 221
+    },
+    "frame_33117": {
+        "objects": [
+            "person"
+        ],
+        "place": "jail_cell",
+        "id": 222
+    },
+    "frame_33288": {
+        "objects": [
+            "bench",
+            "person",
+            "chair",
+            "refrigerator"
+        ],
+        "place": "corridor",
+        "id": 223
+    },
+    "frame_33401": {
+        "objects": [
+            "person"
+        ],
+        "place": "drugstore",
+        "id": 224
+    },
+    "frame_33497": {
+        "objects": [
+            "person",
+            "toothbrush"
+        ],
+        "place": "hospital_room",
+        "id": 225
+    },
+    "frame_33679": {
+        "objects": [
+            "umbrella",
+            "person",
+            "book"
+        ],
+        "place": "art_school",
+        "id": 226
+    },
+    "frame_33964": {
+        "objects": [
+            "person",
+            "bus"
+        ],
+        "place": "hospital",
+        "id": 227
+    },
+    "frame_34183": {
+        "objects": [
+            "person",
+            "chair",
+            "boat"
+        ],
+        "place": "boxing_ring",
+        "id": 228
+    },
+    "frame_34345": {
+        "objects": [
+            "cow",
+            "person"
+        ],
+        "place": "veterinarians_office",
+        "id": 229
+    },
+    "frame_34484": {
+        "objects": [
+            "person",
+            "chair"
+        ],
+        "place": "shopfront",
+        "id": 230
+    },
+    "frame_34778": {
+        "objects": [
+            "sports ball",
+            "person"
+        ],
+        "place": "bamboo_forest",
+        "id": 231
+    },
+    "frame_35243": {
+        "objects": [
+            "potted plant",
+            "motorcycle",
+            "person",
+            "dog",
+            "chair"
+        ],
+        "place": "residential_neighborhood",
+        "id": 232
+    },
+    "frame_35744": {
+        "objects": [
+            "cat",
+            "stop sign",
+            "person",
+            "dog"
+        ],
+        "place": "television_studio",
+        "id": 233
+    },
+    "frame_36289": {
+        "objects": [
+            "person"
+        ],
+        "place": "conference_center",
+        "id": 234
+    },
+    "frame_36834": {
+        "objects": [
+            "cat",
+            "stop sign",
+            "person",
+            "dog"
+        ],
+        "place": "television_studio",
+        "id": 235
+    },
+    "frame_37580": {
+        "objects": [
+            "person",
+            "chair",
+            "cell phone"
+        ],
+        "place": "television_studio",
+        "id": 236
+    },
+    "frame_38100": {
+        "objects": [
+            "person"
+        ],
+        "place": "television_studio",
+        "id": 237
+    },
+    "frame_38273": {
+        "objects": [
+            "person"
+        ],
+        "place": "television_studio",
+        "id": 238
+    },
+    "frame_38464": {
+        "objects": [
+            "tv",
+            "microwave",
+            "truck",
+            "laptop",
+            "person",
+            "refrigerator"
+        ],
+        "place": "ice_cream_parlor",
+        "id": 767
+    },
+    "frame_38554": {
+        "objects": [
+            "person"
+        ],
+        "place": "repair_shop",
+        "id": 240
+    },
+    "frame_38607": {
+        "objects": [
+            "wine glass",
+            "person",
+            "chair"
+        ],
+        "place": "restaurant_kitchen",
+        "id": 241
+    },
+    "frame_38677": {
+        "objects": [
+            "person"
+        ],
+        "place": "drugstore",
+        "id": 242
+    },
+    "frame_38742": {
+        "objects": [
+            "person"
+        ],
+        "place": "kasbah",
+        "id": 243
+    },
+    "frame_38796": {
+        "objects": [
+            "person"
+        ],
+        "place": "chemistry_lab",
+        "id": 244
+    },
+    "frame_38845": {
+        "objects": [
+            "person"
+        ],
+        "place": "stage/outdoor",
+        "id": 245
+    },
+    "frame_38905": {
+        "objects": [
+            "truck",
+            "person"
+        ],
+        "place": "bazaar/outdoor",
+        "id": 246
+    },
+    "frame_38958": {
+        "objects": [
+            "keyboard",
+            "person",
+            "bottle"
+        ],
+        "place": "engine_room",
+        "id": 247
+    },
+    "frame_39155": {
+        "objects": [
+            "person"
+        ],
+        "place": "television_studio",
+        "id": 248
+    },
+    "frame_39373": {
+        "objects": [],
+        "place": "movie_theater/indoor",
+        "id": 775
+    },
+    "frame_39441": {
+        "objects": [
+            "person"
+        ],
+        "place": "landfill",
+        "id": 250
+    },
+    "frame_39491": {
+        "objects": [
+            "person"
+        ],
+        "place": "landfill",
+        "id": 251
+    },
+    "frame_39547": {
+        "objects": [
+            "cup",
+            "person"
+        ],
+        "place": "boxing_ring",
+        "id": 252
+    },
+    "frame_39608": {
+        "objects": [
+            "cup",
+            "vase",
+            "handbag",
+            "bowl",
+            "fire hydrant",
+            "person"
+        ],
+        "place": "butchers_shop",
+        "id": 253
+    },
+    "frame_39665": {
+        "objects": [
+            "bowl",
+            "person"
+        ],
+        "place": "stage/indoor",
+        "id": 254
+    },
+    "frame_39727": {
+        "objects": [
+            "person"
+        ],
+        "place": "television_studio",
+        "id": 255
+    },
+    "frame_39832": {
+        "objects": [
+            "person",
+            "chair"
+        ],
+        "place": "repair_shop",
+        "id": 256
+    },
+    "frame_39935": {
+        "objects": [
+            "person",
+            "cake"
+        ],
+        "place": "fountain",
+        "id": 257
+    },
+    "frame_40029": {
+        "objects": [
+            "person"
+        ],
+        "place": "patio",
+        "id": 258
+    },
+    "frame_40119": {
+        "objects": [
+            "person"
+        ],
+        "place": "shower",
+        "id": 259
+    },
+    "frame_40180": {
+        "objects": [
+            "person"
+        ],
+        "place": "amphitheater",
+        "id": 260
+    },
+    "frame_40243": {
+        "objects": [
+            "person"
+        ],
+        "place": "burial_chamber",
+        "id": 261
+    },
+    "frame_40302": {
+        "objects": [
+            "train",
+            "fire hydrant",
+            "person"
+        ],
+        "place": "shower",
+        "id": 262
+    },
+    "frame_40361": {
+        "objects": [
+            "person"
+        ],
+        "place": "pond",
+        "id": 263
+    },
+    "frame_40419": {
+        "objects": [
+            "person"
+        ],
+        "place": "lake/natural",
+        "id": 264
+    },
+    "frame_40637": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "conference_center",
+        "id": 265
+    },
+    "frame_41053": {
+        "objects": [
+            "person",
+            "potted plant"
+        ],
+        "place": "conference_center",
+        "id": 266
+    },
+    "frame_41334": {
+        "objects": [
+            "airplane",
+            "person",
+            "potted plant"
+        ],
+        "place": "village",
+        "id": 267
+    },
+    "frame_41424": {
+        "objects": [
+            "potted plant",
+            "motorcycle",
+            "umbrella",
+            "car",
+            "person"
+        ],
+        "place": "campsite",
+        "id": 268
+    },
+    "frame_41483": {
+        "objects": [
+            "umbrella",
+            "person"
+        ],
+        "place": "campsite",
+        "id": 269
+    },
+    "frame_41534": {
+        "objects": [
+            "parking meter",
+            "person"
+        ],
+        "place": "science_museum",
+        "id": 270
+    },
+    "frame_41588": {
+        "objects": [
+            "cup",
+            "person",
+            "book",
+            "banana"
+        ],
+        "place": "storage_room",
+        "id": 271
+    },
+    "frame_41645": {
+        "objects": [
+            "bottle",
+            "person"
+        ],
+        "place": "science_museum",
+        "id": 272
+    },
+    "frame_41740": {
+        "objects": [
+            "person"
+        ],
+        "place": "landfill",
+        "id": 273
+    },
+    "frame_42072": {
+        "objects": [
+            "person",
+            "chair",
+            "cell phone"
+        ],
+        "place": "television_studio",
+        "id": 274
+    },
+    "frame_42384": {
+        "objects": [
+            "backpack",
+            "cup",
+            "chair",
+            "person",
+            "dining table"
+        ],
+        "place": "classroom",
+        "id": 275
+    },
+    "frame_42594": {
+        "objects": [
+            "laptop",
+            "person",
+            "chair",
+            "cell phone"
+        ],
+        "place": "office",
+        "id": 276
+    },
+    "frame_42790": {
+        "objects": [
+            "tv",
+            "laptop",
+            "chair",
+            "person",
+            "remote",
+            "dining table"
+        ],
+        "place": "conference_center",
+        "id": 277
+    },
+    "frame_42854": {
+        "objects": [
+            "person"
+        ],
+        "place": "hospital_room",
+        "id": 278
+    },
+    "frame_42920": {
+        "objects": [
+            "tv",
+            "person",
+            "chair"
+        ],
+        "place": "conference_center",
+        "id": 279
+    },
+    "frame_42981": {
+        "objects": [
+            "person"
+        ],
+        "place": "office",
+        "id": 280
+    },
+    "frame_43046": {
+        "objects": [
+            "laptop",
+            "person",
+            "chair"
+        ],
+        "place": "television_studio",
+        "id": 281
+    },
+    "frame_43123": {
+        "objects": [
+            "person",
+            "chair",
+            "cell phone"
+        ],
+        "place": "beauty_salon",
+        "id": 282
+    },
+    "frame_43202": {
+        "objects": [
+            "person",
+            "chair",
+            "cell phone"
+        ],
+        "place": "television_studio",
+        "id": 283
+    },
+    "frame_43271": {
+        "objects": [
+            "remote",
+            "person",
+            "chair",
+            "cell phone"
+        ],
+        "place": "lecture_room",
+        "id": 284
+    },
+    "frame_43330": {
+        "objects": [
+            "person",
+            "chair"
+        ],
+        "place": "conference_center",
+        "id": 285
+    },
+    "frame_43392": {
+        "objects": [
+            "person",
+            "cell phone"
+        ],
+        "place": "classroom",
+        "id": 286
+    },
+    "frame_43463": {
+        "objects": [
+            "tv",
+            "book",
+            "potted plant",
+            "laptop",
+            "person",
+            "keyboard",
+            "chair"
+        ],
+        "place": "office",
+        "id": 287
+    },
+    "frame_43532": {
+        "objects": [
+            "potted plant",
+            "dining table",
+            "vase",
+            "laptop",
+            "bowl",
+            "person",
+            "dog",
+            "chair",
+            "refrigerator"
+        ],
+        "place": "office_cubicles",
+        "id": 288
+    },
+    "frame_43598": {
+        "objects": [
+            "keyboard",
+            "person",
+            "chair"
+        ],
+        "place": "beauty_salon",
+        "id": 289
+    },
+    "frame_43667": {
+        "objects": [
+            "person",
+            "chair"
+        ],
+        "place": "airplane_cabin",
+        "id": 290
+    },
+    "frame_43728": {
+        "objects": [
+            "bottle",
+            "vase",
+            "laptop",
+            "person",
+            "keyboard",
+            "chair"
+        ],
+        "place": "booth/indoor",
+        "id": 291
+    },
+    "frame_43789": {
+        "objects": [
+            "person",
+            "frisbee"
+        ],
+        "place": "hospital_room",
+        "id": 292
+    },
+    "frame_43855": {
+        "objects": [
+            "tv",
+            "backpack",
+            "potted plant",
+            "laptop",
+            "handbag",
+            "mouse",
+            "person",
+            "chair"
+        ],
+        "place": "classroom",
+        "id": 293
+    },
+    "frame_43917": {
+        "objects": [
+            "tv",
+            "laptop",
+            "chair",
+            "person",
+            "remote",
+            "dining table"
+        ],
+        "place": "conference_center",
+        "id": 294
+    },
+    "frame_43981": {
+        "objects": [
+            "person"
+        ],
+        "place": "beauty_salon",
+        "id": 295
+    },
+    "frame_44048": {
+        "objects": [
+            "tv",
+            "book",
+            "dining table",
+            "laptop",
+            "chair",
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 296
+    },
+    "frame_44108": {
+        "objects": [
+            "laptop",
+            "person",
+            "dining table"
+        ],
+        "place": "office",
+        "id": 297
+    },
+    "frame_44173": {
+        "objects": [
+            "laptop",
+            "person",
+            "chair",
+            "cell phone"
+        ],
+        "place": "music_studio",
+        "id": 298
+    },
+    "frame_44250": {
+        "objects": [
+            "person",
+            "chair",
+            "cell phone"
+        ],
+        "place": "beauty_salon",
+        "id": 299
+    },
+    "frame_44330": {
+        "objects": [
+            "person",
+            "chair",
+            "cell phone",
+            "vase"
+        ],
+        "place": "office",
+        "id": 300
+    },
+    "frame_44385": {
+        "objects": [
+            "remote",
+            "person",
+            "tie",
+            "cell phone"
+        ],
+        "place": "classroom",
+        "id": 301
+    },
+    "frame_44704": {
+        "objects": [
+            "sink",
+            "motorcycle",
+            "car",
+            "truck",
+            "person",
+            "cell phone"
+        ],
+        "place": "repair_shop",
+        "id": 302
+    },
+    "frame_45358": {
+        "objects": [
+            "truck",
+            "person",
+            "refrigerator",
+            "car"
+        ],
+        "place": "repair_shop",
+        "id": 303
+    },
+    "frame_45761": {
+        "objects": [
+            "car",
+            "truck",
+            "person",
+            "bus",
+            "suitcase"
+        ],
+        "place": "fire_station",
+        "id": 304
+    },
+    "frame_45860": {
+        "objects": [
+            "motorcycle",
+            "car",
+            "truck",
+            "stop sign",
+            "person"
+        ],
+        "place": "railroad_track",
+        "id": 305
+    },
+    "frame_45999": {
+        "objects": [
+            "tv",
+            "motorcycle",
+            "car",
+            "truck",
+            "person"
+        ],
+        "place": "highway",
+        "id": 306
+    },
+    "frame_46167": {
+        "objects": [
+            "truck",
+            "person",
+            "potted plant"
+        ],
+        "place": "stage/outdoor",
+        "id": 307
+    },
+    "frame_46364": {
+        "objects": [
+            "bench"
+        ],
+        "place": "archive",
+        "id": 308
+    },
+    "frame_46513": {
+        "objects": [
+            "truck",
+            "car"
+        ],
+        "place": "garage/indoor",
+        "id": 309
+    },
+    "frame_46580": {
+        "objects": [
+            "backpack",
+            "motorcycle",
+            "car",
+            "truck",
+            "handbag",
+            "person"
+        ],
+        "place": "gas_station",
+        "id": 310
+    },
+    "frame_46673": {
+        "objects": [
+            "person",
+            "car"
+        ],
+        "place": "auto_factory",
+        "id": 311
+    },
+    "frame_46758": {
+        "objects": [
+            "truck",
+            "motorcycle",
+            "person",
+            "car"
+        ],
+        "place": "fire_station",
+        "id": 312
+    },
+    "frame_46822": {
+        "objects": [
+            "truck",
+            "motorcycle",
+            "person",
+            "car"
+        ],
+        "place": "fire_station",
+        "id": 313
+    },
+    "frame_46894": {
+        "objects": [
+            "motorcycle",
+            "truck",
+            "handbag",
+            "person",
+            "knife"
+        ],
+        "place": "physics_laboratory",
+        "id": 314
+    },
+    "frame_46976": {
+        "objects": [
+            "motorcycle",
+            "bicycle",
+            "car",
+            "truck",
+            "person"
+        ],
+        "place": "loading_dock",
+        "id": 315
+    },
+    "frame_47065": {
+        "objects": [
+            "truck",
+            "motorcycle",
+            "person",
+            "backpack"
+        ],
+        "place": "fire_station",
+        "id": 316
+    },
+    "frame_47153": {
+        "objects": [
+            "motorcycle",
+            "umbrella",
+            "car",
+            "truck",
+            "person"
+        ],
+        "place": "street",
+        "id": 317
+    },
+    "frame_47239": {
+        "objects": [
+            "truck",
+            "suitcase",
+            "motorcycle",
+            "person"
+        ],
+        "place": "fire_station",
+        "id": 318
+    },
+    "frame_47328": {
+        "objects": [
+            "truck",
+            "motorcycle",
+            "person",
+            "bus"
+        ],
+        "place": "fire_station",
+        "id": 319
+    },
+    "frame_47454": {
+        "objects": [
+            "truck",
+            "motorcycle",
+            "person",
+            "sink"
+        ],
+        "place": "amusement_park",
+        "id": 320
+    },
+    "frame_47619": {
+        "objects": [
+            "motorcycle",
+            "car",
+            "truck",
+            "person",
+            "traffic light"
+        ],
+        "place": "fire_station",
+        "id": 321
+    },
+    "frame_47765": {
+        "objects": [
+            "truck",
+            "suitcase",
+            "motorcycle",
+            "person"
+        ],
+        "place": "fire_station",
+        "id": 322
+    },
+    "frame_47899": {
+        "objects": [
+            "truck"
+        ],
+        "place": "highway",
+        "id": 323
+    },
+    "frame_48063": {
+        "objects": [],
+        "place": "server_room",
+        "id": 324
+    },
+    "frame_48190": {
+        "objects": [
+            "truck",
+            "person"
+        ],
+        "place": "raceway",
+        "id": 325
+    },
+    "frame_48241": {
+        "objects": [
+            "truck"
+        ],
+        "place": "amusement_arcade",
+        "id": 326
+    },
+    "frame_48297": {
+        "objects": [
+            "car"
+        ],
+        "place": "oilrig",
+        "id": 327
+    },
+    "frame_48383": {
+        "objects": [
+            "boat",
+            "person",
+            "truck",
+            "car"
+        ],
+        "place": "construction_site",
+        "id": 328
+    },
+    "frame_48480": {
+        "objects": [
+            "train",
+            "person"
+        ],
+        "place": "excavation",
+        "id": 329
+    },
+    "frame_48581": {
+        "objects": [
+            "person"
+        ],
+        "place": "construction_site",
+        "id": 330
+    },
+    "frame_48674": {
+        "objects": [
+            "bottle",
+            "person"
+        ],
+        "place": "excavation",
+        "id": 331
+    },
+    "frame_48755": {
+        "objects": [
+            "truck",
+            "bench",
+            "person"
+        ],
+        "place": "industrial_area",
+        "id": 332
+    },
+    "frame_48830": {
+        "objects": [
+            "truck",
+            "person",
+            "kite"
+        ],
+        "place": "hangar/outdoor",
+        "id": 333
+    },
+    "frame_49040": {
+        "objects": [
+            "motorcycle",
+            "person",
+            "bottle",
+            "car"
+        ],
+        "place": "flea_market/indoor",
+        "id": 334
+    },
+    "frame_49235": {
+        "objects": [
+            "truck",
+            "person",
+            "car"
+        ],
+        "place": "parking_lot",
+        "id": 335
+    },
+    "frame_49558": {
+        "objects": [
+            "person",
+            "cell phone"
+        ],
+        "place": "television_studio",
+        "id": 336
+    },
+    "frame_49895": {
+        "objects": [
+            "car",
+            "person",
+            "boat"
+        ],
+        "place": "moat/water",
+        "id": 337
+    },
+    "frame_49976": {
+        "objects": [
+            "person",
+            "horse"
+        ],
+        "place": "palace",
+        "id": 338
+    },
+    "frame_50070": {
+        "objects": [
+            "clock",
+            "person",
+            "boat"
+        ],
+        "place": "mosque/outdoor",
+        "id": 339
+    },
+    "frame_50168": {
+        "objects": [
+            "clock",
+            "person",
+            "banana"
+        ],
+        "place": "mosque/outdoor",
+        "id": 340
+    },
+    "frame_50416": {
+        "objects": [
+            "person",
+            "boat"
+        ],
+        "place": "boat_deck",
+        "id": 341
+    },
+    "frame_50659": {
+        "objects": [
+            "person"
+        ],
+        "place": "fire_station",
+        "id": 342
+    },
+    "frame_50740": {
+        "objects": [
+            "person",
+            "boat"
+        ],
+        "place": "harbor",
+        "id": 343
+    },
+    "frame_50801": {
+        "objects": [
+            "umbrella",
+            "person",
+            "chair",
+            "surfboard"
+        ],
+        "place": "clothing_store",
+        "id": 344
+    },
+    "frame_50858": {
+        "objects": [
+            "umbrella",
+            "person"
+        ],
+        "place": "conference_center",
+        "id": 345
+    },
+    "frame_50928": {
+        "objects": [
+            "cup",
+            "umbrella",
+            "clock",
+            "person",
+            "tie"
+        ],
+        "place": "conference_center",
+        "id": 346
+    },
+    "frame_50995": {
+        "objects": [
+            "person",
+            "tie",
+            "frisbee"
+        ],
+        "place": "stage/indoor",
+        "id": 347
+    },
+    "frame_51130": {
+        "objects": [
+            "handbag",
+            "person",
+            "cell phone",
+            "car"
+        ],
+        "place": "park",
+        "id": 348
+    },
+    "frame_51301": {
+        "objects": [
+            "bottle",
+            "cup",
+            "dining table",
+            "couch",
+            "chair",
+            "bowl",
+            "person",
+            "cake",
+            "wine glass",
+            "tie",
+            "spoon"
+        ],
+        "place": "balcony/interior",
+        "id": 349
+    },
+    "frame_51468": {
+        "objects": [
+            "tie",
+            "truck",
+            "person",
+            "suitcase",
+            "chair"
+        ],
+        "place": "campus",
+        "id": 350
+    },
+    "frame_51904": {
+        "objects": [
+            "person"
+        ],
+        "place": "park",
+        "id": 351
+    },
+    "frame_52401": {
+        "objects": [
+            "bench",
+            "person",
+            "cell phone",
+            "handbag"
+        ],
+        "place": "television_studio",
+        "id": 352
+    },
+    "frame_52681": {
+        "objects": [
+            "person",
+            "car"
+        ],
+        "place": "arena/performance",
+        "id": 353
+    },
+    "frame_52902": {
+        "objects": [
+            "person"
+        ],
+        "place": "arena/performance",
+        "id": 354
+    },
+    "frame_53163": {
+        "objects": [
+            "person",
+            "car"
+        ],
+        "place": "gas_station",
+        "id": 355
+    },
+    "frame_53444": {
+        "objects": [
+            "bench",
+            "person",
+            "cell phone"
+        ],
+        "place": "television_studio",
+        "id": 356
+    },
+    "frame_53684": {
+        "objects": [
+            "person",
+            "bus"
+        ],
+        "place": "ice_shelf",
+        "id": 357
+    },
+    "frame_53859": {
+        "objects": [
+            "person"
+        ],
+        "place": "volcano",
+        "id": 358
+    },
+    "frame_54001": {
+        "objects": [
+            "bicycle",
+            "teddy bear",
+            "handbag",
+            "person",
+            "remote"
+        ],
+        "place": "plaza",
+        "id": 359
+    },
+    "frame_54130": {
+        "objects": [
+            "handbag",
+            "person"
+        ],
+        "place": "amphitheater",
+        "id": 360
+    },
+    "frame_54215": {
+        "objects": [
+            "handbag",
+            "person",
+            "backpack"
+        ],
+        "place": "fountain",
+        "id": 361
+    },
+    "frame_54346": {
+        "objects": [
+            "person",
+            "cell phone"
+        ],
+        "place": "television_studio",
+        "id": 362
+    },
+    "frame_54535": {
+        "objects": [
+            "person",
+            "cell phone"
+        ],
+        "place": "television_studio",
+        "id": 363
+    },
+    "frame_54684": {
+        "objects": [
+            "person"
+        ],
+        "place": "office_building",
+        "id": 364
+    },
+    "frame_54833": {
+        "objects": [
+            "person"
+        ],
+        "place": "promenade",
+        "id": 365
+    },
+    "frame_55020": {
+        "objects": [
+            "person"
+        ],
+        "place": "jail_cell",
+        "id": 366
+    },
+    "frame_55200": {
+        "objects": [
+            "person"
+        ],
+        "place": "construction_site",
+        "id": 367
+    },
+    "frame_55465": {
+        "objects": [
+            "person"
+        ],
+        "place": "runway",
+        "id": 368
+    },
+    "frame_55664": {
+        "objects": [
+            "person"
+        ],
+        "place": "bridge",
+        "id": 369
+    },
+    "frame_55849": {
+        "objects": [
+            "airplane",
+            "person",
+            "cell phone"
+        ],
+        "place": "television_studio",
+        "id": 370
+    },
+    "frame_56184": {
+        "objects": [
+            "airplane",
+            "person"
+        ],
+        "place": "arena/performance",
+        "id": 371
+    },
+    "frame_56500": {
+        "objects": [
+            "train",
+            "airplane",
+            "person"
+        ],
+        "place": "hangar/indoor",
+        "id": 372
+    },
+    "frame_56717": {
+        "objects": [
+            "cup",
+            "airplane",
+            "person",
+            "traffic light"
+        ],
+        "place": "chemistry_lab",
+        "id": 373
+    },
+    "frame_56827": {
+        "objects": [
+            "airplane",
+            "person",
+            "surfboard"
+        ],
+        "place": "hangar/indoor",
+        "id": 374
+    },
+    "frame_56947": {
+        "objects": [
+            "person"
+        ],
+        "place": "television_studio",
+        "id": 375
+    },
+    "frame_57100": {
+        "objects": [
+            "person",
+            "cell phone"
+        ],
+        "place": "television_studio",
+        "id": 376
+    },
+    "frame_57213": {
+        "objects": [
+            "person"
+        ],
+        "place": "industrial_area",
+        "id": 377
+    },
+    "frame_57317": {
+        "objects": [
+            "person"
+        ],
+        "place": "oilrig",
+        "id": 378
+    },
+    "frame_57451": {
+        "objects": [
+            "dog",
+            "person",
+            "bed"
+        ],
+        "place": "stage/outdoor",
+        "id": 379
+    },
+    "frame_57577": {
+        "objects": [
+            "person"
+        ],
+        "place": "home_theater",
+        "id": 380
+    },
+    "frame_53": {
+        "objects": [
+            "person"
+        ],
+        "place": "booth/indoor",
+        "id": 381
+    },
+    "frame_147": {
+        "objects": [
+            "cell phone",
+            "car",
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 382
+    },
+    "frame_199": {
+        "objects": [
+            "person"
+        ],
+        "place": "athletic_field/outdoor",
+        "id": 383
+    },
+    "frame_244": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "conference_center",
+        "id": 384
+    },
+    "frame_296": {
+        "objects": [],
+        "place": "conference_center",
+        "id": 385
+    },
+    "frame_337": {
+        "objects": [
+            "umbrella",
+            "person",
+            "tie",
+            "potted plant",
+            "kite",
+            "book"
+        ],
+        "place": "legislative_chamber",
+        "id": 386
+    },
+    "frame_380": {
+        "objects": [
+            "cake",
+            "person",
+            "tie"
+        ],
+        "place": "conference_center",
+        "id": 387
+    },
+    "frame_425": {
+        "objects": [],
+        "place": "home_theater",
+        "id": 388
+    },
+    "frame_510": {
+        "objects": [
+            "airplane"
+        ],
+        "place": "music_studio",
+        "id": 390
+    },
+    "frame_574": {
+        "objects": [
+            "laptop",
+            "tv",
+            "person"
+        ],
+        "place": "television_studio",
+        "id": 391
+    },
+    "frame_621": {
+        "objects": [
+            "tv",
+            "person"
+        ],
+        "place": "television_studio",
+        "id": 392
+    },
+    "frame_662": {
+        "objects": [],
+        "place": "elevator/door",
+        "id": 393
+    },
+    "frame_714": {
+        "objects": [],
+        "place": "home_theater",
+        "id": 394
+    },
+    "frame_748": {
+        "objects": [
+            "laptop",
+            "tv",
+            "person",
+            "bottle"
+        ],
+        "place": "television_studio",
+        "id": 395
+    },
+    "frame_788": {
+        "objects": [],
+        "place": "science_museum",
+        "id": 396
+    },
+    "frame_848": {
+        "objects": [],
+        "place": "home_theater",
+        "id": 397
+    },
+    "frame_897": {
+        "objects": [
+            "person"
+        ],
+        "place": "office_cubicles",
+        "id": 398
+    },
+    "frame_1020": {
+        "objects": [
+            "backpack",
+            "chair",
+            "person"
+        ],
+        "place": "nursery",
+        "id": 399
+    },
+    "frame_1332": {
+        "objects": [
+            "person"
+        ],
+        "place": "television_studio",
+        "id": 400
+    },
+    "frame_1571": {
+        "objects": [
+            "airplane"
+        ],
+        "place": "runway",
+        "id": 401
+    },
+    "frame_1632": {
+        "objects": [
+            "umbrella",
+            "person",
+            "tie",
+            "surfboard",
+            "kite"
+        ],
+        "place": "heliport",
+        "id": 402
+    },
+    "frame_1686": {
+        "objects": [
+            "person",
+            "truck"
+        ],
+        "place": "water_tower",
+        "id": 403
+    },
+    "frame_1744": {
+        "objects": [
+            "truck",
+            "person",
+            "tie"
+        ],
+        "place": "television_studio",
+        "id": 404
+    },
+    "frame_1788": {
+        "objects": [
+            "person"
+        ],
+        "place": "television_studio",
+        "id": 405
+    },
+    "frame_1824": {
+        "objects": [
+            "umbrella",
+            "person",
+            "tie"
+        ],
+        "place": "discotheque",
+        "id": 406
+    },
+    "frame_1877": {
+        "objects": [
+            "car",
+            "motorcycle",
+            "person"
+        ],
+        "place": "parking_lot",
+        "id": 407
+    },
+    "frame_1924": {
+        "objects": [
+            "umbrella",
+            "person"
+        ],
+        "place": "television_studio",
+        "id": 408
+    },
+    "frame_1966": {
+        "objects": [
+            "car",
+            "person",
+            "truck"
+        ],
+        "place": "parking_lot",
+        "id": 409
+    },
+    "frame_2126": {
+        "objects": [
+            "cell phone",
+            "person",
+            "tie"
+        ],
+        "place": "embassy",
+        "id": 410
+    },
+    "frame_2290": {
+        "objects": [
+            "person",
+            "handbag"
+        ],
+        "place": "embassy",
+        "id": 411
+    },
+    "frame_2338": {
+        "objects": [
+            "car",
+            "skateboard",
+            "person"
+        ],
+        "place": "promenade",
+        "id": 412
+    },
+    "frame_2393": {
+        "objects": [
+            "person",
+            "handbag"
+        ],
+        "place": "army_base",
+        "id": 413
+    },
+    "frame_2457": {
+        "objects": [
+            "clock",
+            "person",
+            "truck"
+        ],
+        "place": "embassy",
+        "id": 414
+    },
+    "frame_2517": {
+        "objects": [
+            "kite",
+            "person",
+            "horse"
+        ],
+        "place": "racecourse",
+        "id": 415
+    },
+    "frame_2612": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 417
+    },
+    "frame_2665": {
+        "objects": [
+            "kite",
+            "umbrella"
+        ],
+        "place": "campsite",
+        "id": 418
+    },
+    "frame_2725": {
+        "objects": [
+            "umbrella",
+            "person"
+        ],
+        "place": "promenade",
+        "id": 419
+    },
+    "frame_2788": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "auditorium",
+        "id": 420
+    },
+    "frame_2840": {
+        "objects": [
+            "umbrella",
+            "person",
+            "tie",
+            "potted plant"
+        ],
+        "place": "embassy",
+        "id": 421
+    },
+    "frame_2896": {
+        "objects": [
+            "car",
+            "person",
+            "truck"
+        ],
+        "place": "promenade",
+        "id": 422
+    },
+    "frame_2944": {
+        "objects": [
+            "suitcase",
+            "person",
+            "handbag"
+        ],
+        "place": "raft",
+        "id": 423
+    },
+    "frame_3028": {
+        "objects": [
+            "person",
+            "handbag"
+        ],
+        "place": "army_base",
+        "id": 424
+    },
+    "frame_3124": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "conference_center",
+        "id": 425
+    },
+    "frame_3259": {
+        "objects": [
+            "umbrella",
+            "car",
+            "kite",
+            "person"
+        ],
+        "place": "promenade",
+        "id": 426
+    },
+    "frame_3566": {
+        "objects": [
+            "bus",
+            "car",
+            "truck",
+            "person",
+            "kite"
+        ],
+        "place": "playground",
+        "id": 429
+    },
+    "frame_3668": {
+        "objects": [
+            "tie",
+            "chair",
+            "person",
+            "handbag"
+        ],
+        "place": "stage/outdoor",
+        "id": 430
+    },
+    "frame_3746": {
+        "objects": [
+            "car",
+            "truck",
+            "person",
+            "tie"
+        ],
+        "place": "promenade",
+        "id": 431
+    },
+    "frame_3834": {
+        "objects": [
+            "kite",
+            "person",
+            "tie"
+        ],
+        "place": "campus",
+        "id": 432
+    },
+    "frame_3932": {
+        "objects": [
+            "suitcase",
+            "toothbrush",
+            "person",
+            "tie",
+            "handbag"
+        ],
+        "place": "stadium/football",
+        "id": 433
+    },
+    "frame_4012": {
+        "objects": [
+            "kite",
+            "person"
+        ],
+        "place": "promenade",
+        "id": 434
+    },
+    "frame_4096": {
+        "objects": [
+            "car",
+            "kite",
+            "person",
+            "truck"
+        ],
+        "place": "promenade",
+        "id": 435
+    },
+    "frame_4194": {
+        "objects": [
+            "kite",
+            "person"
+        ],
+        "place": "candy_store",
+        "id": 436
+    },
+    "frame_4286": {
+        "objects": [
+            "car",
+            "kite",
+            "person",
+            "truck"
+        ],
+        "place": "racecourse",
+        "id": 437
+    },
+    "frame_4407": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "army_base",
+        "id": 438
+    },
+    "frame_4538": {
+        "objects": [
+            "car",
+            "person",
+            "tie"
+        ],
+        "place": "racecourse",
+        "id": 439
+    },
+    "frame_4623": {
+        "objects": [
+            "chair",
+            "person",
+            "tie"
+        ],
+        "place": "campus",
+        "id": 440
+    },
+    "frame_4695": {
+        "objects": [
+            "person"
+        ],
+        "place": "operating_room",
+        "id": 441
+    },
+    "frame_4791": {
+        "objects": [
+            "tennis racket",
+            "remote",
+            "person",
+            "tie"
+        ],
+        "place": "campus",
+        "id": 442
+    },
+    "frame_4895": {
+        "objects": [
+            "car",
+            "person",
+            "tie"
+        ],
+        "place": "campus",
+        "id": 443
+    },
+    "frame_5022": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "racecourse",
+        "id": 444
+    },
+    "frame_5168": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "conference_center",
+        "id": 445
+    },
+    "frame_5276": {
+        "objects": [
+            "cup",
+            "car",
+            "person",
+            "tie"
+        ],
+        "place": "fire_station",
+        "id": 446
+    },
+    "frame_5373": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "campus",
+        "id": 447
+    },
+    "frame_5453": {
+        "objects": [
+            "person"
+        ],
+        "place": "martial_arts_gym",
+        "id": 448
+    },
+    "frame_5522": {
+        "objects": [
+            "umbrella",
+            "chair",
+            "person",
+            "tie"
+        ],
+        "place": "television_studio",
+        "id": 449
+    },
+    "frame_5706": {
+        "objects": [
+            "umbrella",
+            "person",
+            "tie"
+        ],
+        "place": "stage/indoor",
+        "id": 450
+    },
+    "frame_5869": {
+        "objects": [],
+        "place": "locker_room",
+        "id": 451
+    },
+    "frame_5933": {
+        "objects": [
+            "umbrella",
+            "person",
+            "tie",
+            "potted plant",
+            "kite"
+        ],
+        "place": "legislative_chamber",
+        "id": 452
+    },
+    "frame_6007": {
+        "objects": [
+            "cake",
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 453
+    },
+    "frame_6076": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "television_studio",
+        "id": 454
+    },
+    "frame_6151": {
+        "objects": [
+            "bottle",
+            "chair",
+            "person",
+            "tie",
+            "potted plant"
+        ],
+        "place": "legislative_chamber",
+        "id": 455
+    },
+    "frame_6233": {
+        "objects": [
+            "cup",
+            "bottle",
+            "chair",
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 456
+    },
+    "frame_6398": {
+        "objects": [
+            "tv",
+            "bottle",
+            "motorcycle",
+            "boat",
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 457
+    },
+    "frame_6573": {
+        "objects": [
+            "cake",
+            "person",
+            "tie"
+        ],
+        "place": "conference_center",
+        "id": 458
+    },
+    "frame_6761": {
+        "objects": [
+            "cup",
+            "bottle",
+            "person",
+            "tie",
+            "potted plant",
+            "clock"
+        ],
+        "place": "legislative_chamber",
+        "id": 460
+    },
+    "frame_6846": {
+        "objects": [
+            "bottle",
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 461
+    },
+    "frame_6994": {
+        "objects": [
+            "suitcase",
+            "bottle",
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 462
+    },
+    "frame_7141": {
+        "objects": [
+            "tv",
+            "bottle",
+            "chair",
+            "person",
+            "tie",
+            "potted plant",
+            "clock"
+        ],
+        "place": "legislative_chamber",
+        "id": 463
+    },
+    "frame_7242": {
+        "objects": [
+            "scissors",
+            "bottle",
+            "chair",
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 464
+    },
+    "frame_7332": {
+        "objects": [
+            "cake",
+            "person",
+            "tie",
+            "sports ball"
+        ],
+        "place": "conference_center",
+        "id": 465
+    },
+    "frame_7404": {
+        "objects": [
+            "cup",
+            "bottle",
+            "chair",
+            "person",
+            "tie",
+            "potted plant"
+        ],
+        "place": "legislative_chamber",
+        "id": 466
+    },
+    "frame_7480": {
+        "objects": [
+            "tv",
+            "dining table",
+            "bottle",
+            "chair",
+            "person",
+            "tie",
+            "potted plant",
+            "clock",
+            "book"
+        ],
+        "place": "legislative_chamber",
+        "id": 467
+    },
+    "frame_7564": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "television_studio",
+        "id": 468
+    },
+    "frame_7650": {
+        "objects": [
+            "cake",
+            "person",
+            "tie"
+        ],
+        "place": "conference_center",
+        "id": 469
+    },
+    "frame_7723": {
+        "objects": [
+            "bottle",
+            "person",
+            "tie",
+            "boat"
+        ],
+        "place": "legislative_chamber",
+        "id": 470
+    },
+    "frame_7809": {
+        "objects": [
+            "cup",
+            "tv",
+            "bottle",
+            "chair",
+            "person",
+            "tie",
+            "potted plant",
+            "clock",
+            "book"
+        ],
+        "place": "legislative_chamber",
+        "id": 471
+    },
+    "frame_7905": {
+        "objects": [
+            "bottle",
+            "kite",
+            "person",
+            "tie"
+        ],
+        "place": "conference_center",
+        "id": 472
+    },
+    "frame_7998": {
+        "objects": [
+            "bottle",
+            "laptop",
+            "person",
+            "tie",
+            "bowl",
+            "clock"
+        ],
+        "place": "legislative_chamber",
+        "id": 473
+    },
+    "frame_8087": {
+        "objects": [
+            "cup",
+            "bottle",
+            "chair",
+            "mouse",
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 474
+    },
+    "frame_8180": {
+        "objects": [
+            "bottle",
+            "chair",
+            "person",
+            "tie",
+            "bowl",
+            "clock"
+        ],
+        "place": "legislative_chamber",
+        "id": 475
+    },
+    "frame_8285": {
+        "objects": [
+            "cake",
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 476
+    },
+    "frame_8368": {
+        "objects": [
+            "bottle",
+            "person",
+            "tie"
+        ],
+        "place": "conference_center",
+        "id": 477
+    },
+    "frame_8435": {
+        "objects": [
+            "cup",
+            "dining table",
+            "bottle",
+            "person",
+            "tie",
+            "bowl"
+        ],
+        "place": "legislative_chamber",
+        "id": 478
+    },
+    "frame_8524": {
+        "objects": [
+            "chair",
+            "umbrella",
+            "person",
+            "tie",
+            "potted plant",
+            "kite"
+        ],
+        "place": "legislative_chamber",
+        "id": 479
+    },
+    "frame_8629": {
+        "objects": [
+            "bowl",
+            "bottle",
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 480
+    },
+    "frame_8721": {
+        "objects": [
+            "cup",
+            "bottle",
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 481
+    },
+    "frame_8798": {
+        "objects": [
+            "bottle",
+            "chair",
+            "umbrella",
+            "person",
+            "tie",
+            "potted plant",
+            "clock"
+        ],
+        "place": "legislative_chamber",
+        "id": 482
+    },
+    "frame_8918": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 483
+    },
+    "frame_9023": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "conference_center",
+        "id": 484
+    },
+    "frame_9141": {
+        "objects": [
+            "dining table",
+            "umbrella",
+            "person",
+            "tie",
+            "potted plant"
+        ],
+        "place": "conference_center",
+        "id": 485
+    },
+    "frame_9258": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "television_studio",
+        "id": 486
+    },
+    "frame_9371": {
+        "objects": [
+            "dining table",
+            "umbrella",
+            "person",
+            "tie",
+            "book"
+        ],
+        "place": "stage/indoor",
+        "id": 487
+    },
+    "frame_9488": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "television_studio",
+        "id": 488
+    },
+    "frame_9580": {
+        "objects": [
+            "umbrella",
+            "dining table",
+            "person",
+            "tie"
+        ],
+        "place": "conference_center",
+        "id": 489
+    },
+    "frame_9659": {
+        "objects": [
+            "umbrella",
+            "person",
+            "tie"
+        ],
+        "place": "conference_center",
+        "id": 490
+    },
+    "frame_9699": {
+        "objects": [
+            "umbrella",
+            "person",
+            "tie"
+        ],
+        "place": "conference_center",
+        "id": 491
+    },
+    "frame_9791": {
+        "objects": [
+            "dining table",
+            "umbrella",
+            "person",
+            "tie",
+            "book"
+        ],
+        "place": "conference_center",
+        "id": 492
+    },
+    "frame_9892": {
+        "objects": [
+            "book",
+            "person",
+            "tie"
+        ],
+        "place": "conference_center",
+        "id": 493
+    },
+    "frame_9953": {
+        "objects": [
+            "book",
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 494
+    },
+    "frame_9994": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "conference_center",
+        "id": 495
+    },
+    "frame_10054": {
+        "objects": [
+            "cup",
+            "skateboard",
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 496
+    },
+    "frame_10198": {
+        "objects": [
+            "person"
+        ],
+        "place": "television_studio",
+        "id": 497
+    },
+    "frame_10325": {
+        "objects": [],
+        "place": "mosque/outdoor",
+        "id": 498
+    },
+    "frame_10494": {
+        "objects": [
+            "car",
+            "person",
+            "tie"
+        ],
+        "place": "television_studio",
+        "id": 499
+    },
+    "frame_10655": {
+        "objects": [
+            "person"
+        ],
+        "place": "television_studio",
+        "id": 500
+    },
+    "frame_10704": {
+        "objects": [
+            "umbrella",
+            "person",
+            "tie"
+        ],
+        "place": "television_studio",
+        "id": 501
+    },
+    "frame_10752": {
+        "objects": [
+            "umbrella",
+            "person"
+        ],
+        "place": "playroom",
+        "id": 502
+    },
+    "frame_10805": {
+        "objects": [
+            "cup",
+            "tennis racket",
+            "dining table",
+            "bottle",
+            "chair",
+            "person",
+            "tie",
+            "book"
+        ],
+        "place": "conference_center",
+        "id": 503
+    },
+    "frame_10877": {
+        "objects": [
+            "bottle",
+            "person",
+            "tie"
+        ],
+        "place": "conference_center",
+        "id": 504
+    },
+    "frame_10945": {
+        "objects": [
+            "bottle",
+            "dining table",
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 505
+    },
+    "frame_11012": {
+        "objects": [
+            "person"
+        ],
+        "place": "conference_center",
+        "id": 506
+    },
+    "frame_11080": {
+        "objects": [
+            "chair",
+            "person",
+            "tie"
+        ],
+        "place": "television_studio",
+        "id": 507
+    },
+    "frame_11150": {
+        "objects": [
+            "cup",
+            "dining table",
+            "bottle",
+            "chair",
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 508
+    },
+    "frame_11216": {
+        "objects": [
+            "tennis racket",
+            "bottle",
+            "chair",
+            "umbrella",
+            "person",
+            "tie",
+            "surfboard",
+            "handbag"
+        ],
+        "place": "legislative_chamber",
+        "id": 509
+    },
+    "frame_11298": {
+        "objects": [
+            "chair",
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 510
+    },
+    "frame_11398": {
+        "objects": [
+            "chair",
+            "person",
+            "tie"
+        ],
+        "place": "conference_center",
+        "id": 511
+    },
+    "frame_11485": {
+        "objects": [
+            "cup",
+            "dining table",
+            "bottle",
+            "backpack",
+            "chair",
+            "person",
+            "tie",
+            "potted plant"
+        ],
+        "place": "legislative_chamber",
+        "id": 512
+    },
+    "frame_11558": {
+        "objects": [
+            "bottle",
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 513
+    },
+    "frame_11621": {
+        "objects": [
+            "cup",
+            "bottle",
+            "suitcase",
+            "chair",
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 514
+    },
+    "frame_11710": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 515
+    },
+    "frame_11804": {
+        "objects": [
+            "wine glass",
+            "bottle",
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 516
+    },
+    "frame_11878": {
+        "objects": [
+            "bottle",
+            "cake",
+            "chair",
+            "person",
+            "tie"
+        ],
+        "place": "conference_center",
+        "id": 517
+    },
+    "frame_11947": {
+        "objects": [
+            "dining table",
+            "bottle",
+            "person",
+            "tie",
+            "wine glass"
+        ],
+        "place": "legislative_chamber",
+        "id": 518
+    },
+    "frame_12017": {
+        "objects": [
+            "cup",
+            "dining table",
+            "bottle",
+            "chair",
+            "person",
+            "tie"
+        ],
+        "place": "conference_center",
+        "id": 519
+    },
+    "frame_12095": {
+        "objects": [
+            "cell phone",
+            "dining table",
+            "bottle",
+            "person",
+            "tie"
+        ],
+        "place": "conference_center",
+        "id": 520
+    },
+    "frame_12174": {
+        "objects": [
+            "cup",
+            "dining table",
+            "bottle",
+            "chair",
+            "umbrella",
+            "person",
+            "tie",
+            "book"
+        ],
+        "place": "cafeteria",
+        "id": 521
+    },
+    "frame_12262": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 522
+    },
+    "frame_12351": {
+        "objects": [
+            "bottle",
+            "chair",
+            "person",
+            "tie"
+        ],
+        "place": "television_studio",
+        "id": 523
+    },
+    "frame_12435": {
+        "objects": [
+            "chair",
+            "person",
+            "tie"
+        ],
+        "place": "conference_center",
+        "id": 524
+    },
+    "frame_12529": {
+        "objects": [
+            "bottle",
+            "person",
+            "tie"
+        ],
+        "place": "conference_center",
+        "id": 525
+    },
+    "frame_12614": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "conference_center",
+        "id": 526
+    },
+    "frame_12691": {
+        "objects": [
+            "bottle",
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 527
+    },
+    "frame_12831": {
+        "objects": [
+            "cup",
+            "dining table",
+            "bottle",
+            "cake",
+            "laptop",
+            "person",
+            "tie",
+            "potted plant"
+        ],
+        "place": "conference_center",
+        "id": 528
+    },
+    "frame_12977": {
+        "objects": [
+            "bottle",
+            "chair",
+            "person",
+            "tie",
+            "handbag"
+        ],
+        "place": "conference_center",
+        "id": 529
+    },
+    "frame_13066": {
+        "objects": [
+            "person"
+        ],
+        "place": "conference_center",
+        "id": 530
+    },
+    "frame_13138": {
+        "objects": [
+            "sports ball",
+            "person",
+            "tie"
+        ],
+        "place": "conference_center",
+        "id": 531
+    },
+    "frame_13212": {
+        "objects": [
+            "cup",
+            "bottle",
+            "chair",
+            "person",
+            "tie"
+        ],
+        "place": "nursing_home",
+        "id": 532
+    },
+    "frame_13313": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 533
+    },
+    "frame_13411": {
+        "objects": [
+            "chair",
+            "person",
+            "tie"
+        ],
+        "place": "conference_center",
+        "id": 534
+    },
+    "frame_13486": {
+        "objects": [
+            "cup",
+            "dining table",
+            "bottle",
+            "backpack",
+            "chair",
+            "person",
+            "tie",
+            "potted plant"
+        ],
+        "place": "legislative_chamber",
+        "id": 535
+    },
+    "frame_13554": {
+        "objects": [
+            "bottle",
+            "chair",
+            "person",
+            "tie",
+            "wine glass",
+            "banana",
+            "book"
+        ],
+        "place": "legislative_chamber",
+        "id": 536
+    },
+    "frame_13634": {
+        "objects": [
+            "bottle",
+            "chair",
+            "person",
+            "tie",
+            "potted plant"
+        ],
+        "place": "conference_center",
+        "id": 537
+    },
+    "frame_13709": {
+        "objects": [
+            "chair",
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 538
+    },
+    "frame_13758": {
+        "objects": [
+            "suitcase",
+            "umbrella",
+            "person",
+            "tie",
+            "handbag"
+        ],
+        "place": "television_studio",
+        "id": 539
+    },
+    "frame_13969": {
+        "objects": [
+            "cup",
+            "dining table",
+            "chair",
+            "person",
+            "surfboard"
+        ],
+        "place": "conference_center",
+        "id": 540
+    },
+    "frame_14255": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "television_studio",
+        "id": 541
+    },
+    "frame_14379": {
+        "objects": [
+            "clock"
+        ],
+        "place": "courthouse",
+        "id": 542
+    },
+    "frame_14445": {
+        "objects": [
+            "umbrella",
+            "person"
+        ],
+        "place": "conference_center",
+        "id": 543
+    },
+    "frame_14511": {
+        "objects": [
+            "person"
+        ],
+        "place": "television_studio",
+        "id": 544
+    },
+    "frame_14641": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "television_studio",
+        "id": 545
+    },
+    "frame_14779": {
+        "objects": [
+            "umbrella",
+            "person",
+            "tie"
+        ],
+        "place": "television_studio",
+        "id": 546
+    },
+    "frame_14840": {
+        "objects": [
+            "chair",
+            "person"
+        ],
+        "place": "television_studio",
+        "id": 547
+    },
+    "frame_14919": {
+        "objects": [
+            "dining table",
+            "chair",
+            "person",
+            "tie",
+            "potted plant",
+            "kite"
+        ],
+        "place": "legislative_chamber",
+        "id": 548
+    },
+    "frame_15041": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 549
+    },
+    "frame_15141": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 550
+    },
+    "frame_15234": {
+        "objects": [
+            "chair",
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 551
+    },
+    "frame_15325": {
+        "objects": [
+            "person"
+        ],
+        "place": "conference_center",
+        "id": 552
+    },
+    "frame_15453": {
+        "objects": [
+            "chair",
+            "fire hydrant",
+            "person",
+            "tie",
+            "couch"
+        ],
+        "place": "legislative_chamber",
+        "id": 553
+    },
+    "frame_15583": {
+        "objects": [
+            "person",
+            "tie",
+            "potted plant"
+        ],
+        "place": "amusement_park",
+        "id": 554
+    },
+    "frame_15704": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 555
+    },
+    "frame_15857": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 556
+    },
+    "frame_15960": {
+        "objects": [
+            "chair",
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 557
+    },
+    "frame_16040": {
+        "objects": [
+            "handbag",
+            "chair",
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 558
+    },
+    "frame_16138": {
+        "objects": [
+            "suitcase",
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 559
+    },
+    "frame_16241": {
+        "objects": [
+            "chair",
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 560
+    },
+    "frame_16330": {
+        "objects": [
+            "person",
+            "tie",
+            "fire hydrant"
+        ],
+        "place": "conference_center",
+        "id": 561
+    },
+    "frame_16409": {
+        "objects": [
+            "chair",
+            "person",
+            "tie"
+        ],
+        "place": "conference_center",
+        "id": 562
+    },
+    "frame_16504": {
+        "objects": [
+            "cup",
+            "vase",
+            "chair",
+            "person",
+            "tie",
+            "potted plant",
+            "book"
+        ],
+        "place": "television_studio",
+        "id": 563
+    },
+    "frame_16608": {
+        "objects": [
+            "suitcase",
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 564
+    },
+    "frame_16693": {
+        "objects": [
+            "chair",
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 565
+    },
+    "frame_16754": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 566
+    },
+    "frame_16876": {
+        "objects": [
+            "person"
+        ],
+        "place": "television_studio",
+        "id": 567
+    },
+    "frame_17027": {
+        "objects": [
+            "bowl",
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 568
+    },
+    "frame_17104": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "television_studio",
+        "id": 569
+    },
+    "frame_17165": {
+        "objects": [
+            "cell phone",
+            "chair",
+            "person",
+            "tie"
+        ],
+        "place": "television_studio",
+        "id": 570
+    },
+    "frame_17233": {
+        "objects": [
+            "chair",
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 571
+    },
+    "frame_17305": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 572
+    },
+    "frame_17392": {
+        "objects": [
+            "chair",
+            "person",
+            "tie"
+        ],
+        "place": "conference_center",
+        "id": 573
+    },
+    "frame_17475": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "conference_center",
+        "id": 574
+    },
+    "frame_17540": {
+        "objects": [
+            "book",
+            "chair",
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 575
+    },
+    "frame_17600": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "conference_center",
+        "id": 576
+    },
+    "frame_17674": {
+        "objects": [
+            "cup",
+            "dining table",
+            "bottle",
+            "chair",
+            "person",
+            "tie",
+            "potted plant",
+            "book"
+        ],
+        "place": "legislative_chamber",
+        "id": 577
+    },
+    "frame_17766": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "elevator/door",
+        "id": 578
+    },
+    "frame_17846": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 579
+    },
+    "frame_17918": {
+        "objects": [
+            "dining table",
+            "bottle",
+            "suitcase",
+            "chair",
+            "person",
+            "tie",
+            "potted plant",
+            "book"
+        ],
+        "place": "legislative_chamber",
+        "id": 580
+    },
+    "frame_17995": {
+        "objects": [
+            "dining table",
+            "vase",
+            "chair",
+            "person",
+            "tie",
+            "potted plant"
+        ],
+        "place": "conference_center",
+        "id": 581
+    },
+    "frame_18067": {
+        "objects": [
+            "car",
+            "chair",
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 582
+    },
+    "frame_18140": {
+        "objects": [
+            "dining table",
+            "bottle",
+            "chair",
+            "person",
+            "tie"
+        ],
+        "place": "television_studio",
+        "id": 583
+    },
+    "frame_18216": {
+        "objects": [
+            "umbrella",
+            "person",
+            "tie"
+        ],
+        "place": "television_studio",
+        "id": 584
+    },
+    "frame_18356": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 586
+    },
+    "frame_18433": {
+        "objects": [
+            "dining table",
+            "bottle",
+            "chair",
+            "person",
+            "tie",
+            "potted plant"
+        ],
+        "place": "television_studio",
+        "id": 587
+    },
+    "frame_18534": {
+        "objects": [
+            "car",
+            "bus",
+            "person",
+            "tie"
+        ],
+        "place": "department_store",
+        "id": 588
+    },
+    "frame_18618": {
+        "objects": [],
+        "place": "temple/asia",
+        "id": 589
+    },
+    "frame_18699": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "park",
+        "id": 590
+    },
+    "frame_18770": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "park",
+        "id": 591
+    },
+    "frame_18824": {
+        "objects": [
+            "handbag",
+            "person",
+            "tie"
+        ],
+        "place": "campus",
+        "id": 592
+    },
+    "frame_18895": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "campus",
+        "id": 593
+    },
+    "frame_18986": {
+        "objects": [
+            "person"
+        ],
+        "place": "mosque/outdoor",
+        "id": 594
+    },
+    "frame_19215": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "television_studio",
+        "id": 595
+    },
+    "frame_19497": {
+        "objects": [
+            "cake",
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 596
+    },
+    "frame_19633": {
+        "objects": [
+            "person"
+        ],
+        "place": "television_studio",
+        "id": 597
+    },
+    "frame_19698": {
+        "objects": [
+            "vase",
+            "chair",
+            "person",
+            "tie",
+            "potted plant"
+        ],
+        "place": "legislative_chamber",
+        "id": 598
+    },
+    "frame_19764": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 599
+    },
+    "frame_19819": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 600
+    },
+    "frame_19896": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 601
+    },
+    "frame_19968": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 602
+    },
+    "frame_20024": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "conference_center",
+        "id": 603
+    },
+    "frame_20088": {
+        "objects": [
+            "dining table",
+            "person",
+            "tie",
+            "baseball glove"
+        ],
+        "place": "conference_center",
+        "id": 604
+    },
+    "frame_20194": {
+        "objects": [
+            "chair",
+            "person",
+            "tie",
+            "potted plant",
+            "couch"
+        ],
+        "place": "legislative_chamber",
+        "id": 605
+    },
+    "frame_20340": {
+        "objects": [
+            "person"
+        ],
+        "place": "legislative_chamber",
+        "id": 606
+    },
+    "frame_20443": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "conference_center",
+        "id": 607
+    },
+    "frame_20517": {
+        "objects": [
+            "chair",
+            "person",
+            "tie",
+            "couch",
+            "book"
+        ],
+        "place": "playroom",
+        "id": 608
+    },
+    "frame_20620": {
+        "objects": [
+            "chair",
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 609
+    },
+    "frame_20718": {
+        "objects": [
+            "sports ball",
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 610
+    },
+    "frame_20808": {
+        "objects": [
+            "bench",
+            "chair",
+            "person",
+            "tie"
+        ],
+        "place": "throne_room",
+        "id": 611
+    },
+    "frame_20929": {
+        "objects": [
+            "book",
+            "chair",
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 612
+    },
+    "frame_21031": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "conference_center",
+        "id": 613
+    },
+    "frame_21103": {
+        "objects": [
+            "dining table",
+            "chair",
+            "cake",
+            "fire hydrant",
+            "person",
+            "tie",
+            "potted plant",
+            "book"
+        ],
+        "place": "legislative_chamber",
+        "id": 614
+    },
+    "frame_21192": {
+        "objects": [
+            "chair",
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 615
+    },
+    "frame_21269": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 616
+    },
+    "frame_21403": {
+        "objects": [
+            "person"
+        ],
+        "place": "television_studio",
+        "id": 617
+    },
+    "frame_21537": {
+        "objects": [
+            "cake",
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 618
+    },
+    "frame_21582": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "locker_room",
+        "id": 619
+    },
+    "frame_21621": {
+        "objects": [
+            "wine glass",
+            "chair",
+            "person",
+            "tie"
+        ],
+        "place": "television_studio",
+        "id": 620
+    },
+    "frame_21665": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 621
+    },
+    "frame_21714": {
+        "objects": [
+            "dining table",
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 622
+    },
+    "frame_21778": {
+        "objects": [
+            "cell phone",
+            "chair",
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 623
+    },
+    "frame_21868": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "elevator/door",
+        "id": 624
+    },
+    "frame_21955": {
+        "objects": [
+            "person",
+            "tie",
+            "potted plant"
+        ],
+        "place": "legislative_chamber",
+        "id": 625
+    },
+    "frame_22035": {
+        "objects": [
+            "cell phone",
+            "dining table",
+            "chair",
+            "person",
+            "tie",
+            "wine glass",
+            "surfboard"
+        ],
+        "place": "conference_center",
+        "id": 626
+    },
+    "frame_22109": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 627
+    },
+    "frame_22172": {
+        "objects": [
+            "cell phone",
+            "dining table",
+            "chair",
+            "umbrella",
+            "person",
+            "tie",
+            "potted plant",
+            "wine glass"
+        ],
+        "place": "legislative_chamber",
+        "id": 628
+    },
+    "frame_22240": {
+        "objects": [
+            "train"
+        ],
+        "place": "embassy",
+        "id": 629
+    },
+    "frame_22797": {
+        "objects": [
+            "tv",
+            "chair",
+            "person",
+            "bottle"
+        ],
+        "place": "booth/indoor",
+        "id": 631
+    },
+    "frame_22845": {
+        "objects": [
+            "cup",
+            "person",
+            "book"
+        ],
+        "place": "assembly_line",
+        "id": 632
+    },
+    "frame_22905": {
+        "objects": [
+            "person"
+        ],
+        "place": "hospital_room",
+        "id": 633
+    },
+    "frame_22968": {
+        "objects": [
+            "cup",
+            "tv",
+            "chair",
+            "person",
+            "refrigerator"
+        ],
+        "place": "hospital_room",
+        "id": 634
+    },
+    "frame_23030": {
+        "objects": [
+            "person"
+        ],
+        "place": "bookstore",
+        "id": 635
+    },
+    "frame_23091": {
+        "objects": [
+            "cup",
+            "chair",
+            "laptop",
+            "person",
+            "sink"
+        ],
+        "place": "office_cubicles",
+        "id": 636
+    },
+    "frame_23386": {
+        "objects": [
+            "person"
+        ],
+        "place": "conference_center",
+        "id": 638
+    },
+    "frame_23608": {
+        "objects": [
+            "cake",
+            "person"
+        ],
+        "place": "hospital_room",
+        "id": 639
+    },
+    "frame_23799": {
+        "objects": [
+            "chair",
+            "person"
+        ],
+        "place": "cafeteria",
+        "id": 640
+    },
+    "frame_24096": {
+        "objects": [
+            "donut",
+            "tv",
+            "person",
+            "refrigerator"
+        ],
+        "place": "ticket_booth",
+        "id": 641
+    },
+    "frame_24247": {
+        "objects": [
+            "cell phone",
+            "chair",
+            "person"
+        ],
+        "place": "hospital_room",
+        "id": 642
+    },
+    "frame_24301": {
+        "objects": [],
+        "place": "conference_center",
+        "id": 643
+    },
+    "frame_24355": {
+        "objects": [
+            "tv",
+            "person",
+            "refrigerator",
+            "sink"
+        ],
+        "place": "hospital_room",
+        "id": 644
+    },
+    "frame_24414": {
+        "objects": [
+            "cup",
+            "remote",
+            "tv",
+            "person"
+        ],
+        "place": "clean_room",
+        "id": 645
+    },
+    "frame_24478": {
+        "objects": [
+            "person"
+        ],
+        "place": "hospital_room",
+        "id": 646
+    },
+    "frame_24547": {
+        "objects": [
+            "umbrella",
+            "person"
+        ],
+        "place": "classroom",
+        "id": 647
+    },
+    "frame_24887": {
+        "objects": [
+            "chair",
+            "person"
+        ],
+        "place": "hospital_room",
+        "id": 648
+    },
+    "frame_25220": {
+        "objects": [
+            "cup",
+            "chair",
+            "cat",
+            "knife",
+            "laptop",
+            "person",
+            "sink",
+            "bowl"
+        ],
+        "place": "office_cubicles",
+        "id": 649
+    },
+    "frame_25276": {
+        "objects": [
+            "knife",
+            "toothbrush",
+            "person"
+        ],
+        "place": "hospital_room",
+        "id": 650
+    },
+    "frame_25332": {
+        "objects": [
+            "cup",
+            "tv",
+            "bottle",
+            "chair",
+            "sandwich",
+            "laptop",
+            "person",
+            "sink",
+            "bowl"
+        ],
+        "place": "kindergarden_classroom",
+        "id": 651
+    },
+    "frame_25391": {
+        "objects": [
+            "cup",
+            "person",
+            "bottle"
+        ],
+        "place": "hospital_room",
+        "id": 652
+    },
+    "frame_25453": {
+        "objects": [
+            "cup",
+            "bottle",
+            "chair",
+            "person",
+            "refrigerator"
+        ],
+        "place": "ice_cream_parlor",
+        "id": 653
+    },
+    "frame_25496": {
+        "objects": [
+            "cup",
+            "person",
+            "bottle",
+            "refrigerator"
+        ],
+        "place": "hospital_room",
+        "id": 654
+    },
+    "frame_25539": {
+        "objects": [
+            "person"
+        ],
+        "place": "booth/indoor",
+        "id": 655
+    },
+    "frame_25602": {
+        "objects": [
+            "bed",
+            "chair",
+            "person",
+            "bottle"
+        ],
+        "place": "nursery",
+        "id": 656
+    },
+    "frame_25658": {
+        "objects": [
+            "person"
+        ],
+        "place": "hospital_room",
+        "id": 657
+    },
+    "frame_26190": {
+        "objects": [
+            "cell phone",
+            "tv",
+            "person",
+            "tie"
+        ],
+        "place": "television_studio",
+        "id": 658
+    },
+    "frame_26875": {
+        "objects": [
+            "cell phone",
+            "person"
+        ],
+        "place": "television_studio",
+        "id": 659
+    },
+    "frame_27075": {
+        "objects": [
+            "umbrella",
+            "chair",
+            "person",
+            "handbag"
+        ],
+        "place": "beer_garden",
+        "id": 660
+    },
+    "frame_27124": {
+        "objects": [
+            "sports ball",
+            "person"
+        ],
+        "place": "volleyball_court/outdoor",
+        "id": 661
+    },
+    "frame_27180": {
+        "objects": [
+            "suitcase",
+            "surfboard",
+            "person",
+            "handbag"
+        ],
+        "place": "television_studio",
+        "id": 662
+    },
+    "frame_27382": {
+        "objects": [
+            "person"
+        ],
+        "place": "conference_center",
+        "id": 663
+    },
+    "frame_27579": {
+        "objects": [
+            "surfboard",
+            "chair",
+            "person",
+            "handbag"
+        ],
+        "place": "art_school",
+        "id": 664
+    },
+    "frame_27634": {
+        "objects": [
+            "bird",
+            "person",
+            "handbag"
+        ],
+        "place": "tree_house",
+        "id": 665
+    },
+    "frame_27691": {
+        "objects": [
+            "umbrella",
+            "skateboard",
+            "person",
+            "handbag"
+        ],
+        "place": "playground",
+        "id": 666
+    },
+    "frame_27751": {
+        "objects": [
+            "surfboard",
+            "person"
+        ],
+        "place": "playground",
+        "id": 667
+    },
+    "frame_27820": {
+        "objects": [
+            "chair",
+            "person",
+            "bottle"
+        ],
+        "place": "sandbox",
+        "id": 668
+    },
+    "frame_27891": {
+        "objects": [
+            "dining table",
+            "backpack",
+            "chair",
+            "person",
+            "potted plant"
+        ],
+        "place": "beer_garden",
+        "id": 669
+    },
+    "frame_27952": {
+        "objects": [
+            "person"
+        ],
+        "place": "golf_course",
+        "id": 670
+    },
+    "frame_28057": {
+        "objects": [
+            "umbrella",
+            "frisbee",
+            "person"
+        ],
+        "place": "rice_paddy",
+        "id": 671
+    },
+    "frame_28554": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "conference_center",
+        "id": 672
+    },
+    "frame_28989": {
+        "objects": [
+            "tv",
+            "person",
+            "tie"
+        ],
+        "place": "television_studio",
+        "id": 673
+    },
+    "frame_29171": {
+        "objects": [
+            "cell phone",
+            "laptop",
+            "person"
+        ],
+        "place": "television_studio",
+        "id": 674
+    },
+    "frame_29362": {
+        "objects": [
+            "person"
+        ],
+        "place": "courtyard",
+        "id": 675
+    },
+    "frame_29405": {
+        "objects": [
+            "bench",
+            "motorcycle",
+            "person"
+        ],
+        "place": "volleyball_court/outdoor",
+        "id": 676
+    },
+    "frame_29471": {
+        "objects": [
+            "person"
+        ],
+        "place": "courtyard",
+        "id": 677
+    },
+    "frame_29548": {
+        "objects": [
+            "sports ball",
+            "person",
+            "handbag"
+        ],
+        "place": "volleyball_court/outdoor",
+        "id": 678
+    },
+    "frame_29606": {
+        "objects": [
+            "car",
+            "person"
+        ],
+        "place": "village",
+        "id": 679
+    },
+    "frame_29655": {
+        "objects": [
+            "person"
+        ],
+        "place": "volleyball_court/outdoor",
+        "id": 680
+    },
+    "frame_29702": {
+        "objects": [
+            "person"
+        ],
+        "place": "classroom",
+        "id": 681
+    },
+    "frame_29764": {
+        "objects": [
+            "suitcase",
+            "person"
+        ],
+        "place": "plaza",
+        "id": 682
+    },
+    "frame_29824": {
+        "objects": [
+            "person"
+        ],
+        "place": "racecourse",
+        "id": 683
+    },
+    "frame_29887": {
+        "objects": [
+            "car",
+            "skateboard",
+            "chair",
+            "person",
+            "handbag"
+        ],
+        "place": "auditorium",
+        "id": 684
+    },
+    "frame_29941": {
+        "objects": [
+            "chair",
+            "person",
+            "potted plant"
+        ],
+        "place": "market/outdoor",
+        "id": 685
+    },
+    "frame_29979": {
+        "objects": [
+            "person"
+        ],
+        "place": "television_studio",
+        "id": 686
+    },
+    "frame_30022": {
+        "objects": [
+            "vase",
+            "chair",
+            "person",
+            "potted plant",
+            "bowl"
+        ],
+        "place": "greenhouse/indoor",
+        "id": 687
+    },
+    "frame_30061": {
+        "objects": [
+            "sports ball",
+            "person"
+        ],
+        "place": "bamboo_forest",
+        "id": 688
+    },
+    "frame_30139": {
+        "objects": [
+            "person",
+            "bicycle"
+        ],
+        "place": "crosswalk",
+        "id": 689
+    },
+    "frame_30463": {
+        "objects": [
+            "cell phone",
+            "person",
+            "bottle"
+        ],
+        "place": "television_studio",
+        "id": 690
+    },
+    "frame_30833": {
+        "objects": [
+            "umbrella",
+            "suitcase",
+            "motorcycle",
+            "person"
+        ],
+        "place": "television_studio",
+        "id": 691
+    },
+    "frame_30953": {
+        "objects": [
+            "umbrella",
+            "chair",
+            "person"
+        ],
+        "place": "toyshop",
+        "id": 692
+    },
+    "frame_30978": {
+        "objects": [
+            "train",
+            "person",
+            "chair"
+        ],
+        "place": "bookstore",
+        "id": 693
+    },
+    "frame_31014": {
+        "objects": [
+            "umbrella",
+            "person"
+        ],
+        "place": "bookstore",
+        "id": 694
+    },
+    "frame_31098": {
+        "objects": [
+            "cake",
+            "person",
+            "chair"
+        ],
+        "place": "supermarket",
+        "id": 695
+    },
+    "frame_31174": {
+        "objects": [
+            "cup",
+            "dining table",
+            "bottle",
+            "chair",
+            "motorcycle",
+            "person",
+            "bowl",
+            "handbag"
+        ],
+        "place": "flea_market/indoor",
+        "id": 696
+    },
+    "frame_31209": {
+        "objects": [
+            "cup",
+            "oven",
+            "dining table",
+            "bottle",
+            "chair",
+            "fire hydrant",
+            "person",
+            "bowl",
+            "handbag"
+        ],
+        "place": "ice_cream_parlor",
+        "id": 697
+    },
+    "frame_31249": {
+        "objects": [
+            "cup",
+            "car",
+            "chair",
+            "umbrella",
+            "truck",
+            "motorcycle",
+            "person",
+            "bowl"
+        ],
+        "place": "bazaar/outdoor",
+        "id": 698
+    },
+    "frame_31286": {
+        "objects": [
+            "dining table",
+            "chair",
+            "motorcycle",
+            "person",
+            "potted plant",
+            "bowl"
+        ],
+        "place": "flea_market/indoor",
+        "id": 699
+    },
+    "frame_31376": {
+        "objects": [
+            "chair",
+            "person"
+        ],
+        "place": "candy_store",
+        "id": 700
+    },
+    "frame_31479": {
+        "objects": [
+            "chair",
+            "person",
+            "sink"
+        ],
+        "place": "clean_room",
+        "id": 701
+    },
+    "frame_31577": {
+        "objects": [
+            "bowl",
+            "chair",
+            "person"
+        ],
+        "place": "delicatessen",
+        "id": 702
+    },
+    "frame_31727": {
+        "objects": [
+            "car",
+            "stop sign",
+            "truck",
+            "motorcycle",
+            "person",
+            "handbag"
+        ],
+        "place": "street",
+        "id": 703
+    },
+    "frame_31861": {
+        "objects": [
+            "person"
+        ],
+        "place": "parking_lot",
+        "id": 704
+    },
+    "frame_31950": {
+        "objects": [
+            "umbrella",
+            "motorcycle",
+            "person"
+        ],
+        "place": "closet",
+        "id": 705
+    },
+    "frame_32016": {
+        "objects": [
+            "car",
+            "umbrella",
+            "motorcycle",
+            "person",
+            "bicycle"
+        ],
+        "place": "beer_garden",
+        "id": 706
+    },
+    "frame_32072": {
+        "objects": [
+            "cup",
+            "dining table",
+            "bottle",
+            "chair",
+            "cake",
+            "knife",
+            "person",
+            "potted plant",
+            "bicycle"
+        ],
+        "place": "cafeteria",
+        "id": 707
+    },
+    "frame_32122": {
+        "objects": [
+            "dining table",
+            "person"
+        ],
+        "place": "delicatessen",
+        "id": 708
+    },
+    "frame_32172": {
+        "objects": [
+            "bottle",
+            "chair",
+            "umbrella",
+            "fire hydrant",
+            "motorcycle",
+            "person"
+        ],
+        "place": "beer_garden",
+        "id": 709
+    },
+    "frame_32231": {
+        "objects": [
+            "skis",
+            "bottle",
+            "chair",
+            "person",
+            "potted plant"
+        ],
+        "place": "playground",
+        "id": 710
+    },
+    "frame_32304": {
+        "objects": [
+            "sports ball",
+            "person"
+        ],
+        "place": "archaelogical_excavation",
+        "id": 711
+    },
+    "frame_32374": {
+        "objects": [
+            "cup",
+            "dining table",
+            "bottle",
+            "chair",
+            "umbrella",
+            "motorcycle",
+            "boat",
+            "person",
+            "bowl"
+        ],
+        "place": "flea_market/indoor",
+        "id": 712
+    },
+    "frame_32433": {
+        "objects": [
+            "umbrella",
+            "boat",
+            "person"
+        ],
+        "place": "art_studio",
+        "id": 713
+    },
+    "frame_32492": {
+        "objects": [
+            "cup",
+            "car",
+            "chair",
+            "umbrella",
+            "motorcycle",
+            "person",
+            "bowl"
+        ],
+        "place": "bazaar/outdoor",
+        "id": 714
+    },
+    "frame_32557": {
+        "objects": [
+            "bowl",
+            "cake",
+            "person",
+            "cup"
+        ],
+        "place": "restaurant_kitchen",
+        "id": 715
+    },
+    "frame_32621": {
+        "objects": [
+            "umbrella",
+            "person",
+            "handbag"
+        ],
+        "place": "ice_cream_parlor",
+        "id": 716
+    },
+    "frame_32674": {
+        "objects": [
+            "dining table",
+            "car",
+            "chair",
+            "umbrella",
+            "person"
+        ],
+        "place": "market/outdoor",
+        "id": 717
+    },
+    "frame_32724": {
+        "objects": [
+            "bottle",
+            "car",
+            "umbrella",
+            "motorcycle",
+            "person"
+        ],
+        "place": "ice_cream_parlor",
+        "id": 718
+    },
+    "frame_32790": {
+        "objects": [
+            "cup",
+            "chair",
+            "umbrella",
+            "motorcycle",
+            "person",
+            "handbag"
+        ],
+        "place": "bazaar/outdoor",
+        "id": 719
+    },
+    "frame_32895": {
+        "objects": [
+            "dining table",
+            "car",
+            "umbrella",
+            "motorcycle",
+            "person"
+        ],
+        "place": "market/outdoor",
+        "id": 720
+    },
+    "frame_32987": {
+        "objects": [
+            "cup",
+            "chair",
+            "person"
+        ],
+        "place": "pantry",
+        "id": 721
+    },
+    "frame_33140": {
+        "objects": [
+            "umbrella",
+            "dining table",
+            "person",
+            "chair"
+        ],
+        "place": "television_studio",
+        "id": 722
+    },
+    "frame_33297": {
+        "objects": [
+            "cup",
+            "car",
+            "stop sign",
+            "umbrella",
+            "motorcycle",
+            "person"
+        ],
+        "place": "beer_garden",
+        "id": 723
+    },
+    "frame_33348": {
+        "objects": [
+            "umbrella",
+            "chair",
+            "person"
+        ],
+        "place": "market/outdoor",
+        "id": 724
+    },
+    "frame_33395": {
+        "objects": [
+            "donut",
+            "chair",
+            "sandwich",
+            "person",
+            "bowl",
+            "banana"
+        ],
+        "place": "delicatessen",
+        "id": 725
+    },
+    "frame_33446": {
+        "objects": [
+            "chair",
+            "person"
+        ],
+        "place": "pet_shop",
+        "id": 726
+    },
+    "frame_33524": {
+        "objects": [
+            "cake",
+            "person"
+        ],
+        "place": "delicatessen",
+        "id": 727
+    },
+    "frame_33824": {
+        "objects": [
+            "cell phone",
+            "tv",
+            "laptop",
+            "person",
+            "tie"
+        ],
+        "place": "television_studio",
+        "id": 728
+    },
+    "frame_34164": {
+        "objects": [],
+        "place": "amusement_park",
+        "id": 729
+    },
+    "frame_34292": {
+        "objects": [
+            "person"
+        ],
+        "place": "arena/performance",
+        "id": 730
+    },
+    "frame_34355": {
+        "objects": [
+            "train",
+            "person"
+        ],
+        "place": "television_studio",
+        "id": 731
+    },
+    "frame_34400": {
+        "objects": [
+            "car",
+            "snowboard",
+            "person"
+        ],
+        "place": "repair_shop",
+        "id": 732
+    },
+    "frame_34431": {
+        "objects": [
+            "person"
+        ],
+        "place": "discotheque",
+        "id": 733
+    },
+    "frame_34464": {
+        "objects": [
+            "motorcycle",
+            "person"
+        ],
+        "place": "discotheque",
+        "id": 734
+    },
+    "frame_34518": {
+        "objects": [
+            "truck",
+            "person"
+        ],
+        "place": "garage/indoor",
+        "id": 735
+    },
+    "frame_34754": {
+        "objects": [
+            "person"
+        ],
+        "place": "stage/indoor",
+        "id": 736
+    },
+    "frame_34990": {
+        "objects": [
+            "person",
+            "bottle",
+            "airplane"
+        ],
+        "place": "arena/performance",
+        "id": 737
+    },
+    "frame_35126": {
+        "objects": [
+            "traffic light",
+            "car"
+        ],
+        "place": "fire_station",
+        "id": 738
+    },
+    "frame_35263": {
+        "objects": [
+            "person"
+        ],
+        "place": "amusement_arcade",
+        "id": 739
+    },
+    "frame_35507": {
+        "objects": [],
+        "place": "arena/performance",
+        "id": 740
+    },
+    "frame_35753": {
+        "objects": [
+            "person"
+        ],
+        "place": "television_studio",
+        "id": 741
+    },
+    "frame_35824": {
+        "objects": [
+            "person"
+        ],
+        "place": "stage/indoor",
+        "id": 742
+    },
+    "frame_35892": {
+        "objects": [
+            "person"
+        ],
+        "place": "arena/performance",
+        "id": 743
+    },
+    "frame_36001": {
+        "objects": [
+            "traffic light",
+            "person"
+        ],
+        "place": "stage/indoor",
+        "id": 744
+    },
+    "frame_36096": {
+        "objects": [
+            "person"
+        ],
+        "place": "arena/performance",
+        "id": 745
+    },
+    "frame_36196": {
+        "objects": [
+            "person",
+            "airplane"
+        ],
+        "place": "repair_shop",
+        "id": 746
+    },
+    "frame_36406": {
+        "objects": [
+            "umbrella"
+        ],
+        "place": "discotheque",
+        "id": 747
+    },
+    "frame_36605": {
+        "objects": [
+            "person",
+            "airplane"
+        ],
+        "place": "repair_shop",
+        "id": 748
+    },
+    "frame_36723": {
+        "objects": [
+            "person"
+        ],
+        "place": "television_studio",
+        "id": 749
+    },
+    "frame_36916": {
+        "objects": [
+            "person",
+            "airplane"
+        ],
+        "place": "repair_shop",
+        "id": 750
+    },
+    "frame_37111": {
+        "objects": [
+            "person"
+        ],
+        "place": "bus_interior",
+        "id": 751
+    },
+    "frame_37239": {
+        "objects": [],
+        "place": "stage/indoor",
+        "id": 752
+    },
+    "frame_37343": {
+        "objects": [
+            "person",
+            "airplane"
+        ],
+        "place": "hangar/outdoor",
+        "id": 753
+    },
+    "frame_37396": {
+        "objects": [
+            "remote",
+            "tv",
+            "person"
+        ],
+        "place": "amusement_arcade",
+        "id": 754
+    },
+    "frame_37448": {
+        "objects": [
+            "umbrella"
+        ],
+        "place": "hardware_store",
+        "id": 755
+    },
+    "frame_37503": {
+        "objects": [
+            "laptop",
+            "traffic light",
+            "tv",
+            "person"
+        ],
+        "place": "physics_laboratory",
+        "id": 756
+    },
+    "frame_37587": {
+        "objects": [
+            "laptop",
+            "tv",
+            "person"
+        ],
+        "place": "physics_laboratory",
+        "id": 757
+    },
+    "frame_37671": {
+        "objects": [
+            "cell phone",
+            "cup",
+            "tv",
+            "chair",
+            "person"
+        ],
+        "place": "amusement_arcade",
+        "id": 758
+    },
+    "frame_37723": {
+        "objects": [
+            "tv",
+            "person"
+        ],
+        "place": "repair_shop",
+        "id": 759
+    },
+    "frame_37796": {
+        "objects": [],
+        "place": "movie_theater/indoor",
+        "id": 760
+    },
+    "frame_37869": {
+        "objects": [
+            "laptop",
+            "traffic light",
+            "tv",
+            "person"
+        ],
+        "place": "office_cubicles",
+        "id": 761
+    },
+    "frame_37945": {
+        "objects": [],
+        "place": "arena/performance",
+        "id": 762
+    },
+    "frame_38026": {
+        "objects": [
+            "donut"
+        ],
+        "place": "home_theater",
+        "id": 763
+    },
+    "frame_38062": {
+        "objects": [
+            "laptop",
+            "traffic light",
+            "tv",
+            "person"
+        ],
+        "place": "amusement_arcade",
+        "id": 764
+    },
+    "frame_38081": {
+        "objects": [
+            "tv",
+            "person"
+        ],
+        "place": "amusement_arcade",
+        "id": 765
+    },
+    "frame_38241": {
+        "objects": [],
+        "place": "sky",
+        "id": 766
+    },
+    "frame_38564": {
+        "objects": [
+            "person",
+            "book",
+            "airplane"
+        ],
+        "place": "hangar/outdoor",
+        "id": 768
+    },
+    "frame_38777": {
+        "objects": [],
+        "place": "stage/indoor",
+        "id": 769
+    },
+    "frame_39052": {
+        "objects": [
+            "tv",
+            "microwave",
+            "laptop",
+            "person",
+            "refrigerator"
+        ],
+        "place": "ice_cream_parlor",
+        "id": 770
+    },
+    "frame_39164": {
+        "objects": [
+            "person",
+            "airplane"
+        ],
+        "place": "hangar/outdoor",
+        "id": 771
+    },
+    "frame_39216": {
+        "objects": [
+            "person",
+            "book",
+            "airplane"
+        ],
+        "place": "hangar/outdoor",
+        "id": 772
+    },
+    "frame_39273": {
+        "objects": [
+            "umbrella",
+            "laptop",
+            "tv",
+            "person"
+        ],
+        "place": "television_studio",
+        "id": 773
+    },
+    "frame_39315": {
+        "objects": [
+            "traffic light",
+            "tv",
+            "person"
+        ],
+        "place": "amusement_arcade",
+        "id": 774
+    },
+    "frame_39430": {
+        "objects": [
+            "laptop",
+            "traffic light",
+            "tv",
+            "person"
+        ],
+        "place": "television_studio",
+        "id": 776
+    },
+    "frame_39466": {
+        "objects": [],
+        "place": "oilrig",
+        "id": 777
+    },
+    "frame_39520": {
+        "objects": [
+            "donut"
+        ],
+        "place": "movie_theater/indoor",
+        "id": 778
+    },
+    "frame_39556": {
+        "objects": [
+            "laptop",
+            "traffic light",
+            "tv",
+            "person"
+        ],
+        "place": "television_studio",
+        "id": 779
+    },
+    "frame_39575": {
+        "objects": [
+            "tv",
+            "person"
+        ],
+        "place": "amusement_arcade",
+        "id": 780
+    },
+    "frame_39643": {
+        "objects": [],
+        "place": "sky",
+        "id": 781
+    },
+    "frame_39899": {
+        "objects": [
+            "cell phone",
+            "baseball bat",
+            "person",
+            "tie"
+        ],
+        "place": "television_studio",
+        "id": 782
+    },
+    "frame_40124": {
+        "objects": [],
+        "place": "fire_station",
+        "id": 783
+    },
+    "frame_40189": {
+        "objects": [],
+        "place": "boat_deck",
+        "id": 784
+    },
+    "frame_40273": {
+        "objects": [
+            "clock"
+        ],
+        "place": "mosque/outdoor",
+        "id": 785
+    },
+    "frame_40362": {
+        "objects": [
+            "boat",
+            "person"
+        ],
+        "place": "ice_floe",
+        "id": 786
+    },
+    "frame_40461": {
+        "objects": [
+            "person",
+            "handbag"
+        ],
+        "place": "palace",
+        "id": 787
+    },
+    "frame_40559": {
+        "objects": [
+            "car",
+            "person"
+        ],
+        "place": "palace",
+        "id": 788
+    },
+    "frame_40666": {
+        "objects": [],
+        "place": "oilrig",
+        "id": 789
+    },
+    "frame_40923": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "legislative_chamber",
+        "id": 790
+    },
+    "frame_41181": {
+        "objects": [
+            "tv",
+            "suitcase",
+            "backpack",
+            "person",
+            "handbag"
+        ],
+        "place": "airport_terminal",
+        "id": 791
+    },
+    "frame_41322": {
+        "objects": [
+            "suitcase",
+            "backpack",
+            "person"
+        ],
+        "place": "airport_terminal",
+        "id": 792
+    },
+    "frame_41449": {
+        "objects": [
+            "umbrella",
+            "person",
+            "handbag",
+            "baseball glove"
+        ],
+        "place": "television_studio",
+        "id": 793
+    },
+    "frame_41542": {
+        "objects": [],
+        "place": "courthouse",
+        "id": 794
+    },
+    "frame_41636": {
+        "objects": [
+            "remote",
+            "person"
+        ],
+        "place": "locker_room",
+        "id": 795
+    },
+    "frame_41716": {
+        "objects": [],
+        "place": "volcano",
+        "id": 796
+    },
+    "frame_41774": {
+        "objects": [],
+        "place": "volcano",
+        "id": 797
+    },
+    "frame_41830": {
+        "objects": [
+            "umbrella",
+            "backpack",
+            "person"
+        ],
+        "place": "racecourse",
+        "id": 798
+    },
+    "frame_41909": {
+        "objects": [
+            "umbrella",
+            "person",
+            "handbag"
+        ],
+        "place": "park",
+        "id": 799
+    },
+    "frame_41968": {
+        "objects": [
+            "tv",
+            "person"
+        ],
+        "place": "television_studio",
+        "id": 800
+    },
+    "frame_42011": {
+        "objects": [
+            "person"
+        ],
+        "place": "office",
+        "id": 801
+    },
+    "frame_42088": {
+        "objects": [
+            "bus",
+            "person"
+        ],
+        "place": "downtown",
+        "id": 802
+    },
+    "frame_42172": {
+        "objects": [
+            "traffic light",
+            "handbag",
+            "person",
+            "tie"
+        ],
+        "place": "plaza",
+        "id": 803
+    },
+    "frame_42258": {
+        "objects": [
+            "person"
+        ],
+        "place": "downtown",
+        "id": 804
+    },
+    "frame_42325": {
+        "objects": [
+            "backpack",
+            "person"
+        ],
+        "place": "bazaar/outdoor",
+        "id": 805
+    },
+    "frame_42639": {
+        "objects": [
+            "car",
+            "person",
+            "bicycle",
+            "handbag"
+        ],
+        "place": "campus",
+        "id": 806
+    },
+    "frame_43074": {
+        "objects": [
+            "cell phone",
+            "person",
+            "tie"
+        ],
+        "place": "television_studio",
+        "id": 807
+    },
+    "frame_43636": {
+        "objects": [
+            "cell phone",
+            "person",
+            "tie"
+        ],
+        "place": "television_studio",
+        "id": 808
+    },
+    "frame_44092": {
+        "objects": [
+            "cell phone",
+            "remote",
+            "person",
+            "tie",
+            "sink"
+        ],
+        "place": "television_studio",
+        "id": 809
+    },
+    "frame_44162": {
+        "objects": [
+            "cell phone",
+            "bed",
+            "person",
+            "tie"
+        ],
+        "place": "television_studio",
+        "id": 810
+    },
+    "frame_44228": {
+        "objects": [
+            "chair",
+            "person",
+            "book"
+        ],
+        "place": "pharmacy",
+        "id": 811
+    },
+    "frame_44282": {
+        "objects": [
+            "wine glass",
+            "dining table",
+            "chair",
+            "person"
+        ],
+        "place": "hospital_room",
+        "id": 812
+    },
+    "frame_44343": {
+        "objects": [
+            "bird"
+        ],
+        "place": "shoe_shop",
+        "id": 813
+    },
+    "frame_44417": {
+        "objects": [],
+        "place": "escalator/indoor",
+        "id": 814
+    },
+    "frame_44483": {
+        "objects": [
+            "cup",
+            "chair",
+            "person"
+        ],
+        "place": "chemistry_lab",
+        "id": 815
+    },
+    "frame_44565": {
+        "objects": [
+            "vase",
+            "cake"
+        ],
+        "place": "nursery",
+        "id": 816
+    },
+    "frame_44662": {
+        "objects": [],
+        "place": "ice_shelf",
+        "id": 817
+    },
+    "frame_44757": {
+        "objects": [
+            "person",
+            "toilet"
+        ],
+        "place": "biology_laboratory",
+        "id": 818
+    },
+    "frame_44873": {
+        "objects": [
+            "bird",
+            "kite",
+            "airplane"
+        ],
+        "place": "amusement_arcade",
+        "id": 819
+    },
+    "frame_44983": {
+        "objects": [
+            "laptop",
+            "tv",
+            "person",
+            "microwave"
+        ],
+        "place": "restaurant_kitchen",
+        "id": 820
+    },
+    "frame_45172": {
+        "objects": [
+            "cell phone",
+            "person"
+        ],
+        "place": "television_studio",
+        "id": 821
+    },
+    "frame_45355": {
+        "objects": [
+            "dog",
+            "backpack",
+            "person",
+            "oven"
+        ],
+        "place": "office_cubicles",
+        "id": 822
+    },
+    "frame_45565": {
+        "objects": [
+            "person"
+        ],
+        "place": "childs_room",
+        "id": 823
+    },
+    "frame_45971": {
+        "objects": [
+            "cell phone",
+            "chair",
+            "person"
+        ],
+        "place": "television_studio",
+        "id": 824
+    },
+    "frame_46298": {
+        "objects": [
+            "cell phone",
+            "train",
+            "person"
+        ],
+        "place": "television_studio",
+        "id": 825
+    },
+    "frame_46446": {
+        "objects": [
+            "person"
+        ],
+        "place": "atrium/public",
+        "id": 826
+    },
+    "frame_46604": {
+        "objects": [
+            "person"
+        ],
+        "place": "office_building",
+        "id": 827
+    },
+    "frame_46773": {
+        "objects": [
+            "person"
+        ],
+        "place": "skyscraper",
+        "id": 828
+    },
+    "frame_46897": {
+        "objects": [
+            "backpack",
+            "car",
+            "umbrella",
+            "truck",
+            "person",
+            "handbag"
+        ],
+        "place": "stage/outdoor",
+        "id": 829
+    },
+    "frame_47023": {
+        "objects": [
+            "person"
+        ],
+        "place": "server_room",
+        "id": 830
+    },
+    "frame_47118": {
+        "objects": [
+            "car",
+            "person",
+            "truck"
+        ],
+        "place": "embassy",
+        "id": 831
+    },
+    "frame_47410": {
+        "objects": [
+            "cell phone",
+            "chair",
+            "person"
+        ],
+        "place": "television_studio",
+        "id": 832
+    },
+    "frame_47726": {
+        "objects": [
+            "bus",
+            "car",
+            "truck",
+            "teddy bear",
+            "parking meter",
+            "person"
+        ],
+        "place": "crosswalk",
+        "id": 833
+    },
+    "frame_47839": {
+        "objects": [
+            "car",
+            "person",
+            "potted plant"
+        ],
+        "place": "atrium/public",
+        "id": 834
+    },
+    "frame_47956": {
+        "objects": [
+            "oven",
+            "car",
+            "person"
+        ],
+        "place": "hospital",
+        "id": 835
+    },
+    "frame_48052": {
+        "objects": [
+            "bus",
+            "traffic light",
+            "car",
+            "backpack",
+            "truck",
+            "person"
+        ],
+        "place": "parking_garage/outdoor",
+        "id": 836
+    },
+    "frame_48152": {
+        "objects": [
+            "traffic light",
+            "car",
+            "person",
+            "truck"
+        ],
+        "place": "highway",
+        "id": 837
+    },
+    "frame_48258": {
+        "objects": [
+            "car",
+            "motorcycle",
+            "person"
+        ],
+        "place": "highway",
+        "id": 838
+    },
+    "frame_48328": {
+        "objects": [
+            "person"
+        ],
+        "place": "baseball_field",
+        "id": 839
+    },
+    "frame_48398": {
+        "objects": [
+            "bus",
+            "traffic light",
+            "car",
+            "chair",
+            "truck",
+            "person"
+        ],
+        "place": "crosswalk",
+        "id": 840
+    },
+    "frame_48520": {
+        "objects": [
+            "cup",
+            "bus",
+            "traffic light",
+            "car",
+            "person"
+        ],
+        "place": "crosswalk",
+        "id": 841
+    },
+    "frame_48664": {
+        "objects": [
+            "car",
+            "bus",
+            "person",
+            "truck"
+        ],
+        "place": "highway",
+        "id": 842
+    },
+    "frame_48781": {
+        "objects": [
+            "bus",
+            "car",
+            "truck",
+            "motorcycle",
+            "person"
+        ],
+        "place": "highway",
+        "id": 843
+    },
+    "frame_48913": {
+        "objects": [
+            "car",
+            "person",
+            "truck",
+            "airplane"
+        ],
+        "place": "heliport",
+        "id": 844
+    },
+    "frame_49056": {
+        "objects": [
+            "car",
+            "person"
+        ],
+        "place": "lock_chamber",
+        "id": 845
+    },
+    "frame_49153": {
+        "objects": [
+            "person"
+        ],
+        "place": "arena/performance",
+        "id": 846
+    },
+    "frame_49332": {
+        "objects": [
+            "person"
+        ],
+        "place": "television_studio",
+        "id": 847
+    },
+    "frame_49740": {
+        "objects": [
+            "person"
+        ],
+        "place": "conference_center",
+        "id": 848
+    },
+    "frame_50107": {
+        "objects": [
+            "chair",
+            "person"
+        ],
+        "place": "doorway/outdoor",
+        "id": 849
+    },
+    "frame_50297": {
+        "objects": [
+            "person"
+        ],
+        "place": "nursery",
+        "id": 850
+    },
+    "frame_50475": {
+        "objects": [
+            "couch",
+            "chair",
+            "person"
+        ],
+        "place": "hospital_room",
+        "id": 851
+    },
+    "frame_50623": {
+        "objects": [
+            "couch",
+            "chair",
+            "person"
+        ],
+        "place": "office",
+        "id": 852
+    },
+    "frame_50706": {
+        "objects": [
+            "person"
+        ],
+        "place": "conference_center",
+        "id": 853
+    },
+    "frame_50760": {
+        "objects": [
+            "remote",
+            "person"
+        ],
+        "place": "hospital_room",
+        "id": 854
+    },
+    "frame_50821": {
+        "objects": [
+            "bed",
+            "person"
+        ],
+        "place": "hospital_room",
+        "id": 855
+    },
+    "frame_50873": {
+        "objects": [
+            "person"
+        ],
+        "place": "hospital_room",
+        "id": 856
+    },
+    "frame_50926": {
+        "objects": [
+            "person"
+        ],
+        "place": "hospital_room",
+        "id": 857
+    },
+    "frame_50982": {
+        "objects": [
+            "cake",
+            "bed",
+            "person",
+            "potted plant",
+            "couch"
+        ],
+        "place": "office",
+        "id": 858
+    },
+    "frame_51021": {
+        "objects": [
+            "person"
+        ],
+        "place": "office",
+        "id": 859
+    },
+    "frame_51052": {
+        "objects": [
+            "dining table",
+            "tv",
+            "chair",
+            "person",
+            "potted plant",
+            "couch"
+        ],
+        "place": "office",
+        "id": 860
+    },
+    "frame_51098": {
+        "objects": [
+            "donut",
+            "person"
+        ],
+        "place": "hospital_room",
+        "id": 861
+    },
+    "frame_51174": {
+        "objects": [
+            "cake",
+            "chair",
+            "person"
+        ],
+        "place": "hospital_room",
+        "id": 862
+    },
+    "frame_51258": {
+        "objects": [
+            "book",
+            "person",
+            "bottle"
+        ],
+        "place": "hospital_room",
+        "id": 863
+    },
+    "frame_51344": {
+        "objects": [
+            "cup",
+            "dog",
+            "couch",
+            "person"
+        ],
+        "place": "office_cubicles",
+        "id": 864
+    },
+    "frame_51469": {
+        "objects": [
+            "cell phone",
+            "person"
+        ],
+        "place": "hospital_room",
+        "id": 865
+    },
+    "frame_51807": {
+        "objects": [
+            "cell phone",
+            "person",
+            "tie"
+        ],
+        "place": "television_studio",
+        "id": 866
+    },
+    "frame_52136": {
+        "objects": [
+            "person"
+        ],
+        "place": "stage/outdoor",
+        "id": 867
+    },
+    "frame_52242": {
+        "objects": [
+            "person"
+        ],
+        "place": "stadium/soccer",
+        "id": 868
+    },
+    "frame_52361": {
+        "objects": [
+            "person"
+        ],
+        "place": "arena/performance",
+        "id": 869
+    },
+    "frame_52648": {
+        "objects": [
+            "person"
+        ],
+        "place": "bar",
+        "id": 870
+    },
+    "frame_52944": {
+        "objects": [
+            "person"
+        ],
+        "place": "arena/performance",
+        "id": 871
+    },
+    "frame_53070": {
+        "objects": [
+            "person",
+            "tie"
+        ],
+        "place": "arena/performance",
+        "id": 872
+    },
+    "frame_53180": {
+        "objects": [
+            "umbrella",
+            "person"
+        ],
+        "place": "movie_theater/indoor",
+        "id": 873
+    },
+    "frame_53416": {
+        "objects": [
+            "chair",
+            "person"
+        ],
+        "place": "discotheque",
+        "id": 874
+    },
+    "frame_53651": {
+        "objects": [
+            "person"
+        ],
+        "place": "movie_theater/indoor",
+        "id": 875
+    },
+    "frame_53784": {
+        "objects": [
+            "umbrella",
+            "person"
+        ],
+        "place": "movie_theater/indoor",
+        "id": 876
+    },
+    "frame_54071": {
+        "objects": [
+            "cell phone",
+            "person",
+            "tie"
+        ],
+        "place": "conference_center",
+        "id": 877
+    },
+    "frame_54347": {
+        "objects": [
+            "car",
+            "person",
+            "truck",
+            "handbag"
+        ],
+        "place": "park",
+        "id": 878
+    },
+    "frame_54417": {
+        "objects": [
+            "person"
+        ],
+        "place": "park",
+        "id": 879
+    },
+    "frame_54491": {
+        "objects": [
+            "backpack",
+            "frisbee",
+            "person"
+        ],
+        "place": "forest_road",
+        "id": 880
+    },
+    "frame_54571": {
+        "objects": [
+            "person"
+        ],
+        "place": "park",
+        "id": 881
+    },
+    "frame_54632": {
+        "objects": [
+            "umbrella",
+            "chair",
+            "person",
+            "handbag"
+        ],
+        "place": "racecourse",
+        "id": 882
+    },
+    "frame_54687": {
+        "objects": [
+            "umbrella",
+            "chair",
+            "person",
+            "handbag"
+        ],
+        "place": "plaza",
+        "id": 883
+    },
+    "frame_54759": {
+        "objects": [
+            "cup",
+            "person"
+        ],
+        "place": "amusement_park",
+        "id": 884
+    },
+    "frame_54848": {
+        "objects": [
+            "kite",
+            "person",
+            "chair"
+        ],
+        "place": "stage/outdoor",
+        "id": 885
+    },
+    "frame_54956": {
+        "objects": [
+            "umbrella",
+            "stop sign",
+            "person"
+        ],
+        "place": "stage/outdoor",
+        "id": 886
+    },
+    "frame_55078": {
+        "objects": [
+            "backpack",
+            "chair",
+            "person"
+        ],
+        "place": "hangar/outdoor",
+        "id": 887
+    },
+    "frame_55161": {
+        "objects": [
+            "person"
+        ],
+        "place": "bullring",
+        "id": 888
+    },
+    "frame_55228": {
+        "objects": [
+            "chair",
+            "person",
+            "handbag"
+        ],
+        "place": "train_station/platform",
+        "id": 889
+    },
+    "frame_55303": {
+        "objects": [
+            "person"
+        ],
+        "place": "engine_room",
+        "id": 890
+    },
+    "frame_55397": {
+        "objects": [
+            "chair",
+            "truck",
+            "motorcycle",
+            "person",
+            "handbag"
+        ],
+        "place": "street",
+        "id": 891
+    },
+    "frame_55513": {
+        "objects": [
+            "suitcase",
+            "handbag",
+            "person",
+            "truck"
+        ],
+        "place": "plaza",
+        "id": 892
+    },
+    "frame_55623": {
+        "objects": [
+            "backpack",
+            "chair",
+            "umbrella",
+            "person",
+            "handbag"
+        ],
+        "place": "crosswalk",
+        "id": 893
+    },
+    "frame_55708": {
+        "objects": [
+            "chair",
+            "person"
+        ],
+        "place": "racecourse",
+        "id": 894
+    },
+    "frame_55772": {
+        "objects": [
+            "backpack",
+            "person"
+        ],
+        "place": "racecourse",
+        "id": 895
+    },
+    "frame_55829": {
+        "objects": [
+            "backpack",
+            "chair",
+            "person"
+        ],
+        "place": "beer_garden",
+        "id": 896
+    },
+    "frame_55906": {
+        "objects": [
+            "toothbrush",
+            "person"
+        ],
+        "place": "volleyball_court/outdoor",
+        "id": 897
+    },
+    "frame_56227": {
+        "objects": [
+            "cell phone",
+            "person",
+            "handbag"
+        ],
+        "place": "athletic_field/outdoor",
+        "id": 898
+    }
+}

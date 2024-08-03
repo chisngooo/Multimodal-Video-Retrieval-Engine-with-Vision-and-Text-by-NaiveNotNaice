@@ -1,0 +1,3598 @@
+{
+    "scene[0, 85]": {
+        "id": 0,
+        "asr": "những ngày đầu của mình."
+    },
+    "scene[86, 111]": {
+        "id": 1,
+        "asr": "cả."
+    },
+    "scene[112, 318]": {
+        "id": 2,
+        "asr": "hai tỉnh nghệ an và bắc giang đã triển khai lấy mẫu xét nghiệm bệnh bạch hầu với các trường hợp có tiếp xúc gần với người đã tử vong."
+    },
+    "scene[319, 376]": {
+        "id": 3,
+        "asr": "ô kê."
+    },
+    "scene[377, 433]": {
+        "id": 4,
+        "asr": "một trong những nguyên nhân."
+    },
+    "scene[434, 492]": {
+        "id": 5,
+        "asr": "làm công tác phòng chống dịch bệnh nguy hiểm."
+    },
+    "scene[493, 553]": {
+        "id": 6,
+        "asr": "ngày gặp khó khăn là do sự chủ quan của người dân."
+    },
+    "scene[554, 604]": {
+        "id": 7,
+        "asr": "ghi nhận tại đồng nai."
+    },
+    "scene[605, 639]": {
+        "id": 8,
+        "asr": "hơn."
+    },
+    "scene[640, 980]": {
+        "id": 9,
+        "asr": "thưa quý vị hai tỉnh nghệ an và bắc giang đã triển khai lấy mẫu xét nghiệm bạch hầu với các trường hợp có tiếp xúc trong đó bắc giang là mười lăm người và nghệ an là một trăm mười chín người các biện pháp đã được triển khai."
+    },
+    "scene[981, 1239]": {
+        "id": 10,
+        "asr": "nhằm xử lý triệt để ổ dịch tổ chức điều tra và điều trị kháng sinh dự phòng cho tất cả các trường hợp cướp sức gân cũng y tế dự phòng cũng yêu cầu hai sở y tế trên chỉ đạo các cơ quan lên."
+    },
+    "scene[1240, 1341]": {
+        "id": 11,
+        "asr": "qua rà soát thống kê các đối tượng chưa được tiêm hoặc là tiêm chưa."
+    },
+    "scene[1342, 1586]": {
+        "id": 12,
+        "asr": "đầy đủ vắc xin phòng bệnh bạch hầu lưu ý các địa bàn vùng sâu vùng xa vùng đồng bào dân tộc có sinh sống khu vực đi lại khó khăn."
+    },
+    "scene[1587, 2495]": {
+        "id": 13,
+        "asr": "trong các kết quả xét nghiệm của một trăm mười chín người tiếp xúc với ca tử vong do bệnh bạch hầu ở nghệ an thì chỉ có duy nhất trường hợp đã ở cùng bệnh nhân là dương tính và được phát hiện khi đang làm việc tại bắc giang hiện cô gái này vừa được chuyển từ bệnh viện bệnh nhiệt đới trung ương về nghệ an để cách ly theo dõi tiếp với những trường hợp tiếp xúc gần dù có kết quả âm tính nhưng vẫn phải cách ly theo dõi sức khoẻ và được điều trị dự phòng bằng kháng sinh trong vòng bảy ngày theo dõi sức khoẻ trong vòng mười bốn ngày kể từ khi tiếp xúc gần lần cuối với ca bệnh. t."
+    },
+    "scene[2496, 2532]": {
+        "id": 14,
+        "asr": "kể từ khi bác xin phòng bà."
+    },
+    "scene[2533, 2598]": {
+        "id": 15,
+        "asr": "hầu được tiêm miễn phí trong chương trình tiêm chủng mới."
+    },
+    "scene[2599, 2670]": {
+        "id": 16,
+        "asr": "rộng đã cơ bản thanh toán được bệnh."
+    },
+    "scene[2671, 2729]": {
+        "id": 17,
+        "asr": "phần lớn đã có miễn dịch cộng đồng."
+    },
+    "scene[2730, 2823]": {
+        "id": 18,
+        "asr": "thời gian gần đây bệnh quay trở lại chủ yếu ở những vùng trũng phệt."
+    },
+    "scene[2824, 2922]": {
+        "id": 19,
+        "asr": "tiêm chủng có bệnh bạch hầu lưu hành nhiều năm qua như là kỳ lạ."
+    },
+    "scene[2923, 2994]": {
+        "id": 20,
+        "asr": "sơn một huyện đặc biệt khó khăn của tỉnh nghệ an."
+    },
+    "scene[2995, 3054]": {
+        "id": 21,
+        "asr": "hoặc trước đó là huyện mèo vàng của tỉnh."
+    },
+    "scene[3055, 3138]": {
+        "id": 22,
+        "asr": "hà giang việc tiêm phòng vắc xin ba trong một."
+    },
+    "scene[3139, 3196]": {
+        "id": 23,
+        "asr": "gồm bao mũi cơ bản tiêm cho trẻ."
+    },
+    "scene[3197, 3247]": {
+        "id": 24,
+        "asr": "từ hai tháng tuổi sau đó hai mũi."
+    },
+    "scene[3248, 3305]": {
+        "id": 25,
+        "asr": "nghiêm nhắc lại vào lúc mười tám tháng."
+    },
+    "scene[3306, 3367]": {
+        "id": 26,
+        "asr": "và lúc thứ bốn đến sáu tuổi."
+    },
+    "scene[3368, 3421]": {
+        "id": 27,
+        "asr": "unk người lớn thì nên tiêm phòng mười năm."
+    },
+    "scene[3422, 3509]": {
+        "id": 28,
+        "asr": "một lần nhất là với những người sống ở vùng có nguy."
+    },
+    "scene[3510, 3575]": {
+        "id": 29,
+        "asr": "sơ cao có bệnh bạch hầu lưu hành."
+    },
+    "scene[3576, 3635]": {
+        "id": 30,
+        "asr": "nhìn hỏng ở lớp không."
+    },
+    "scene[3636, 4149]": {
+        "id": 31,
+        "asr": "thưa quý vị tại tỉnh nghệ an sau ca bệnh bạch hầu tử vong thì ngành y tế đã phối hợp với chính quyền địa phương tập trung triển khai các giải pháp khoanh vùng kiểm soát ổ dịch mục tiêu là ổn định tâm lý cho người dân yên tâm tránh tình trạng hoang mang lo lắng do không hiểu đúng về vậy."
+    },
+    "scene[4150, 4197]": {
+        "id": 32,
+        "asr": "nhờ."
+    },
+    "scene[4198, 4283]": {
+        "id": 33,
+        "asr": "em cục thi thông ở bản phà khảo xã phà."
+    },
+    "scene[4284, 4353]": {
+        "id": 34,
+        "asr": "ánh nguyễn kỳ sơn nằm trong giường phái cách ly."
+    },
+    "scene[4354, 4420]": {
+        "id": 35,
+        "asr": "theo dõi tại nhà sau khi có tiếp xúc gân."
+    },
+    "scene[4421, 4474]": {
+        "id": 36,
+        "asr": "unk bệnh nhân tử vong do bệnh bạch hầu."
+    },
+    "scene[4475, 4544]": {
+        "id": 37,
+        "asr": "mỗi ngày em được gắn ý bác sĩ đến lê mầu."
+    },
+    "scene[4545, 4603]": {
+        "id": 38,
+        "asr": "cấp thuốc và hướng dẫn cách khử thuận."
+    },
+    "scene[4604, 4662]": {
+        "id": 39,
+        "asr": "vệ sinh phòng chống dịch bệnh tại nhà."
+    },
+    "scene[4663, 4887]": {
+        "id": 40,
+        "asr": "sau khi được cán bộ y tế hướng dẫn thì nhà em cất lý tại nhà và uống thuốc đúng giờ và cửu quân."
+    },
+    "scene[4888, 4936]": {
+        "id": 41,
+        "asr": "ý chi bác sĩ đã dạy lại."
+    },
+    "scene[4937, 4987]": {
+        "id": 42,
+        "asr": "unk à ít khi."
+    },
+    "scene[4988, 5202]": {
+        "id": 43,
+        "asr": "unk đi tiếp xúc với người ngoài và ở nhà thường xuyên và vệ sinh sạch sẽ rửa bằng xà phòng."
+    },
+    "scene[5203, 5272]": {
+        "id": 44,
+        "asr": "sau khi điều tra dịch tễ ngăn."
+    },
+    "scene[5273, 5326]": {
+        "id": 45,
+        "asr": "lý thế tại nghệ an đã xác định unk."
+    },
+    "scene[5327, 5392]": {
+        "id": 46,
+        "asr": "unk một trăm mười chín trường hợp tiếp xúc gần với bệnh."
+    },
+    "scene[5393, 5447]": {
+        "id": 47,
+        "asr": "tiếng tử vong do bệnh bạch hầu."
+    },
+    "scene[5448, 5505]": {
+        "id": 48,
+        "asr": "đó có hai người đã rời khỏi đĩa bài."
+    },
+    "scene[5506, 5553]": {
+        "id": 49,
+        "asr": "ra tình bắt giang làm việc."
+    },
+    "scene[5554, 5599]": {
+        "id": 50,
+        "asr": "tỉnh nghệ an đã tiến hành truy vệ."
+    },
+    "scene[5600, 5654]": {
+        "id": 51,
+        "asr": "khoăn vồng phun tiêu đặc hữu trồng."
+    },
+    "scene[5655, 5693]": {
+        "id": 52,
+        "asr": "các khu vực bị cách ly."
+    },
+    "scene[5694, 6293]": {
+        "id": 53,
+        "asr": "hiện tại trên địa bàn của xã phà đánh của huyện kỳ sơn thì có đến bốn bạn ở với khoảng hai trăm hộ dân nằm trong diện phải cách ly để phòng chống dịch bệnh bạch hầu và mỗi ngày thì các y bác sĩ sẽ tiến hành cấp phạt thuốc hướng dựng khử khụng à cho người dân từ cách ly tại nhà và cho đến thời điểm này thì trên địa bàn đã chưa xuất hiện à những ca bệnh bạch hầu mới."
+    },
+    "scene[6294, 6352]": {
+        "id": 54,
+        "asr": "càng ban chỉ đạo."
+    },
+    "scene[6353, 6405]": {
+        "id": 55,
+        "asr": "hướng dẫn cho người nga."
+    },
+    "scene[6406, 6937]": {
+        "id": 56,
+        "asr": "và những người tiếp xúc gần khoanh vùng từ khách ly theo dõi tại nhà nếu mà có cái triệu chứng có ho đau họng chảy nước muối có sốt thì đến cơ sở y tế gần nhất đặc biệt là trạm y tế xã phá đánh để kiểm tra sức khỏe."
+    },
+    "scene[6938, 7011]": {
+        "id": 57,
+        "asr": "trung tâm kiểm soát bệnh tật nghệ an đã."
+    },
+    "scene[7012, 7082]": {
+        "id": 58,
+        "asr": "hợp với chính quyền địa phương tổ chức lấy màu sạch nhau."
+    },
+    "scene[7083, 7136]": {
+        "id": 59,
+        "asr": "hiệm phun hoa tiếp xử trùng."
+    },
+    "scene[7137, 7221]": {
+        "id": 60,
+        "asr": "kết liên cho những người tiếp xúc gần có các biểu hiện đau họng."
+    },
+    "scene[7222, 7281]": {
+        "id": 61,
+        "asr": "tho số đồng thời tiến hành."
+    },
+    "scene[7282, 7346]": {
+        "id": 62,
+        "asr": "tiêm vắc xin phòng bạch hầu cho các đối tượng."
+    },
+    "scene[7347, 7408]": {
+        "id": 63,
+        "asr": "tưởng trong độ tuổi tiếp tục chưa được tiêm phòng."
+    },
+    "scene[7409, 7999]": {
+        "id": 64,
+        "asr": "xin đối với những người mà tiếp xúc nhân ấy thì chúng ta đã có cái hướng dẫn là họ cho họ cách ly tà nhà cho họ uống thuốc dự phòng tự theo dõi sức khoẻ và khai báo y tế khi có những cái biểu hiện bất thường về sức khoẻ cái các cái cán bộ y tế thì thường xuyên kết nối qua điện thoại để và trực tiếp để mà theo dõi sức khoẻ và hướng dẫn người dân các biện pháp phòng chống."
+    },
+    "scene[8000, 8365]": {
+        "id": 65,
+        "asr": "hiện tại đã có cái chứng minh hiệu quả là tiêm phòng vắc xin có thể lên đến chín mươi lăm phần trăm ở việt nam hiện tại thì chưa có cái vắc xin một thành phần bạch hầu nó sẽ được tiêm trong các vắc xin phối hợp."
+    },
+    "scene[8366, 8438]": {
+        "id": 66,
+        "asr": "bộ y tế cũng yêu cầu các địa phương rà soát."
+    },
+    "scene[8439, 8498]": {
+        "id": 67,
+        "asr": "đảm bảo công tác hậu cần về vắc xin."
+    },
+    "scene[8499, 8566]": {
+        "id": 68,
+        "asr": "thuốc kháng sinh điều trị dự phòng huyết thanh kháng."
+    },
+    "scene[8567, 8627]": {
+        "id": 69,
+        "asr": "tổng hòa chức để triển khai thác."
+    },
+    "scene[8628, 8691]": {
+        "id": 70,
+        "asr": "các nhiệm vụ chống dệt đồng thời khuyến cáo người."
+    },
+    "scene[8692, 8753]": {
+        "id": 71,
+        "asr": "dừng không nên quá hoang mang lo lắng."
+    },
+    "scene[8754, 8813]": {
+        "id": 72,
+        "asr": "vì dịch bệnh bạch hầu mà cần tuân."
+    },
+    "scene[8814, 8865]": {
+        "id": 73,
+        "asr": "thủ nghiệp tốt các quy định về phòng."
+    },
+    "scene[8866, 8927]": {
+        "id": 74,
+        "asr": "trong thiết bình."
+    },
+    "scene[8928, 9653]": {
+        "id": 75,
+        "asr": "liên quan các trường hợp tiếp xúc gần với ca bệnh bạch hầu đã tử vong ở nghệ an và ca phát hiện ở bắc giang dù đều có kết quả âm tính nhưng vẫn cần cách ly điều trị dự phòng bằng kháng sinh trong vòng bảy ngày theo dõi sức khoẻ trong vòng mười bốn ngày kể từ khi tiếp xúc gần lần cuối với ca bệnh biện pháp tốt nhất để phòng bạch hầu đó là tiêm chủng hiện vắc xin phòng bạch hầu được bào chế dễ dạng phối hợp với các vắc xin khác trong chương trình."
+    },
+    "scene[9654, 10952]": {
+        "id": 76,
+        "asr": "tiêm chủng mở rộng triển khai tiêm miễn phí vắc xin ba trong một phòng bệnh bạch hầu ho gà uốn ván cho trẻ tổng cộng năm mũi gồm ba cơ bản và hai mũi nhắc lại cụ thể là mũi một tiêm vào lúc hai tháng tuổi một tháng sau tiêm mũi thứ hai và mũi ba tiêm vào lúc bốn tháng tuổi đến mười tám tháng tuổi tiêm mũi nhắc lần một trải từ bốn đến sáu tháng tuổi tiêm nhắc lại lần hai với vắc xin có thành phần.bạch hầu giảm liều còn đối với người lớn nhất là người sống ở vùng dịch lưu hành vùng có ghi nhận ca bệnh bạch hầu thì nên nhắc lại mười năm một lần để duy trì kháng thể bảo vệ cơ thể chống lại vi khuẩn bạch hầu lâu dài."
+    },
+    "scene[10953, 11824]": {
+        "id": 77,
+        "asr": "trong cái chương trình tiêu chuẩn mở rộng là các cái vắc xin là năm mươi mũi vắc xin thường thường thì mùi rộng là là có các cái a vắc xin hầu tích hợp trong đó rồi cho nên là à và sau khi tiêm hết năm mũi thì ít nhất cái thời gian bảo vệ là được mười năm nữa một người đã tiêu dùng để đủ thì cũng có thể sau mười năm thì mới cần phải đi tìm nhắc lại và khi nhắc lại cũng chỉ cần nhắc lại với cái vắc xin riêng đối mạch hầu."
+    },
+    "scene[11825, 13590]": {
+        "id": 78,
+        "asr": "một chủ tài khoản facebook tại huyện hiệp hoa tỉnh bắc giang vừa bị xử phạt hành chính năm triệu đồng do đăng thông tin sai sự thật về bệnh bạch hầu người này đăng thông tin vào ngày mùng tám tháng bảy tại trung tâm y tế huyện hiệp hoa người dân sếp hàng dài chờ xét nghiệm bạch hầu đưa tin về một nam thanh niên tử vong do tiếp xúc với cô gái mắc bạch hầu và đưa tin cô gái này đã di chuyển nhiều quán hát trên địa bàn huyện hiệp hoà bắc giang và sóc sơn hà nội chủ tài khoản cho biết đã nhận thức được hành vi.đã gây ảnh hưởng tiêu cực đến dư luận và đã đăng bài đính chính xin lỗi cộng đồng mạng xã hội.tại tỉnh bến tre thì bốn người đã phải nhập viện nghi do ngộ độc mê tha non những người này cùng nhau uống rượu vào ngày mùng năm tháng bảy sau đó cả bốn có biểu hiện lơ mơ tiếp xúc chậm khó thở tại bệnh viện thì các nạn nhân được lọc máu cấp cứu hiện ba người đã ổn định một người còn nguy kịch gia đình cho biết là sau khi uống hết rượu thì những người này đã lấy chai cồn rửa tay ra uống tiếp tình trạng ngộ độc rượu có mẹt."
+    },
+    "scene[13591, 13611]": {
+        "id": 79,
+        "asr": "unk non đã từng."
+    },
+    "scene[13612, 13668]": {
+        "id": 80,
+        "asr": "xảy ra nhiều lần xong đa phần là do."
+    },
+    "scene[13669, 13719]": {
+        "id": 81,
+        "asr": "unk nạn nhân uống các loại rượu không có."
+    },
+    "scene[13720, 13820]": {
+        "id": 82,
+        "asr": "nguồn gốc không đảm bảo chất lượng còn các vụ ngộ độc mê thanon do nạn nhân."
+    },
+    "scene[13821, 13843]": {
+        "id": 83,
+        "asr": "chủ động pha."
+    },
+    "scene[13844, 13934]": {
+        "id": 84,
+        "asr": "các loại cồn uống thì cũng đã từng xảy ra."
+    },
+    "scene[13935, 14000]": {
+        "id": 85,
+        "asr": "con là chất cực kỳ độc hại thường sử dụng trong công nghiệp."
+    },
+    "scene[14001, 14072]": {
+        "id": 86,
+        "asr": "chỉ cần uống từ năm mươi lít thì có thể gây ngộ độc."
+    },
+    "scene[14073, 14177]": {
+        "id": 87,
+        "asr": "bạn nặng ba mươi mươi liếp thì có thể gây tử vong."
+    },
+    "scene[14178, 14709]": {
+        "id": 88,
+        "asr": "trước đó trên địa bàn xã mỹ nhơn huyện ba chi tỉnh bến tre thì cũng đã xảy ra vụ ngộ độc rượu làm hai người tử vong các bác sĩ khuyến cáo là rượu có nguồn gốc thông thường ethanol nếu sử dụng không điều độ quá liều hoặc là lạm dụng dẫn đến hậu quả đáng tiếc riêng đối với rượu ethanol thì tuyệt đối không nên uống."
+    },
+    "scene[14710, 14806]": {
+        "id": 89,
+        "asr": "bên cạnh đó thì chúng ta thấy rằng uống nhiều rượu thì sẽ ảnh hưởng rất."
+    },
+    "scene[14807, 15227]": {
+        "id": 90,
+        "asr": "là nặng nề đến chức năng của gan nhiều người thì gan đã bị mất chức năng lọc đi chất độc bởi vì uống quá nhiều rượu và nghiêm trọng hơn đó là nhiều người thì rơi vào tình trạng đó là bị nghiện rượu lệ thuộc vào rượu dẫn đến những hệ lụy liên quan đến bệnh thần kinh và khó kiểm soát được hành vi của mình."
+    },
+    "scene[15228, 15249]": {
+        "id": 91,
+        "asr": "n."
+    },
+    "scene[15250, 15461]": {
+        "id": 92,
+        "asr": "công an tỉnh nam định vừa triệt phá đường dây cá độ bóng đá qua mạng với số tiền giao dịch lên đến một trăm năm mươi tỷ đồng cầm đầu đứng."
+    },
+    "scene[15462, 15515]": {
+        "id": 93,
+        "asr": "dây này là trần văn vinh."
+    },
+    "scene[15516, 15570]": {
+        "id": 94,
+        "asr": "unk đỗ trung quân vinh vào quân."
+    },
+    "scene[15571, 15617]": {
+        "id": 95,
+        "asr": "chung nhau mua tài khoản cá độ bóng đá."
+    },
+    "scene[15618, 15683]": {
+        "id": 96,
+        "asr": "đá rồi chia cắt làm nhiêu tài khoản đánh."
+    },
+    "scene[15684, 15745]": {
+        "id": 97,
+        "asr": "bạc cho các con bạc chỉ."
+    },
+    "scene[15746, 15811]": {
+        "id": 98,
+        "asr": "riêng trong thời điểm diễn ra ơ rô số tiền giao dịch."
+    },
+    "scene[15812, 15877]": {
+        "id": 99,
+        "asr": "từ các tài khoản này lên tới một trăm năm mươi tỷ đồng."
+    },
+    "scene[15878, 15950]": {
+        "id": 100,
+        "asr": "từ đầu mối này công an tỉnh nam định đã phát."
+    },
+    "scene[15951, 16166]": {
+        "id": 101,
+        "asr": "hiện và triệt phá thêm ba đường dây tổ chức đánh bạc đánh bạc qua mạng tại hà nội và tuyên quang."
+    },
+    "scene[16167, 16470]": {
+        "id": 102,
+        "asr": "công an tỉnh đắc lắc vừa bắt tạm giam hồ thị dung trú tại huyện e sáp điều tra về hành vi lừa đảo chiếm đoạt tài sản trước đó khi biết một người phụ nữ giàu."
+    },
+    "scene[16471, 16648]": {
+        "id": 103,
+        "asr": "giao bán hai căn nhà trên địa bàn dung đã liên hệ để hỏi mua tuy nhiên hai căn nhà này đang được chủ nhà."
+    },
+    "scene[16649, 16887]": {
+        "id": 104,
+        "asr": "thế chấp nên dung nói sẽ liên hệ với nhân viên ngân hàng để đến thẩm định để giải ngân trả nợ số tiền ba phẩy ba tỷ đồng rồi lấy sổ."
+    },
+    "scene[16888, 17169]": {
+        "id": 105,
+        "asr": "bộ đỏ về sau đó dùng thuê hai người lái xe ôm giả lán nhân viên ngân hàng và là nạn nhân chuyển khoản hơn năm trăm triệu đồng."
+    },
+    "scene[17170, 17422]": {
+        "id": 106,
+        "asr": "ba đối tượng trộm cắp điện thoại tại tỉnh lâm đồng vừa bị lực lượng công an bắt giữ khi đang chạy trốn các đối tượng này đã ăn."
+    },
+    "scene[17423, 17510]": {
+        "id": 107,
+        "asr": "trộm mười bảy chiếc điện thoại di động tại hội chợ triển lãm ở phường một."
+    },
+    "scene[17511, 17585]": {
+        "id": 108,
+        "asr": "thành phố bảo lộc hai trong số ba đối tượng."
+    },
+    "scene[17586, 17671]": {
+        "id": 109,
+        "asr": "này đều đã có tiền án tiền sự cũng về tội danh trên."
+    },
+    "scene[17672, 17722]": {
+        "id": 110,
+        "asr": "đi."
+    },
+    "scene[17723, 18153]": {
+        "id": 111,
+        "asr": "phạt nguội tức là phạt qua hình ảnh vi phạm được ghi lại từ hệ thống cam me ra giám sát hình thức này đã được áp dụng từ nhiều năm nay và cho thấy hiệu quả rõ rệt quan trọng hơn nữa là giúp thay đổi ý thức của người dân khi tham gia giao thông tại tỉnh bình định."
+    },
+    "scene[18154, 18422]": {
+        "id": 112,
+        "asr": "khu vực điểm giao thông nối quốc lộ mười chín với quốc lộ mười chín cũ đoạn qua xã phước lộc huyện tuyền phước được lắp sáu camera ở."
+    },
+    "scene[18423, 18499]": {
+        "id": 113,
+        "asr": "góc khác nhau các camera có thể ghi nhận lại căn."
+    },
+    "scene[18500, 18593]": {
+        "id": 114,
+        "asr": "nỗi như là vượt quá tốc độ cho phép đi không đúng làn đường phần đường."
+    },
+    "scene[18594, 18672]": {
+        "id": 115,
+        "asr": "quy định xe không che chắn rời vải phòng khách."
+    },
+    "scene[18673, 18732]": {
+        "id": 116,
+        "asr": "sách giao thông tỉnh đang quản lý một trăm năm mươi cam."
+    },
+    "scene[18733, 18831]": {
+        "id": 117,
+        "asr": "mè ra tại các nút giao thông có lưu lượng phương tiện đông tình trạng."
+    },
+    "scene[18832, 18871]": {
+        "id": 118,
+        "asr": "giao thông diễn biến phức tạp."
+    },
+    "scene[18872, 18973]": {
+        "id": 119,
+        "asr": "từ đầu năm đến nay đơn vị đã lập năm trăm biên bản xử lý cấp."
+    },
+    "scene[18974, 19067]": {
+        "id": 120,
+        "asr": "phương tiện bằng hình thức phạt tuổi."
+    },
+    "scene[19068, 19135]": {
+        "id": 121,
+        "asr": "đó cũng chính là lý do vì sao đồng chí tâm sự hơn nhiều hơn nữa."
+    },
+    "scene[19136, 19219]": {
+        "id": 122,
+        "asr": "với ưu điểm thuộc bằng hai bốn trên hai bốn giây."
+    },
+    "scene[19220, 19279]": {
+        "id": 123,
+        "asr": "cử thì hệ thống camera tạo."
+    },
+    "scene[19280, 19658]": {
+        "id": 124,
+        "asr": "cái ý thức thói quen người tham giao thông phải chấp hành tốt khi tham giao thông góp phần nâng cao được cái ý thức người tham gia giao thông phòng ngừa tài năng giao thông xảy ra."
+    },
+    "scene[19659, 19714]": {
+        "id": 125,
+        "asr": "lớp đặt camera đây từ tối tiếp."
+    },
+    "scene[19715, 19781]": {
+        "id": 126,
+        "asr": "thấy xe đồ nó chạy."
+    },
+    "scene[19782, 19832]": {
+        "id": 127,
+        "asr": "chậm lại hết."
+    },
+    "scene[19833, 20050]": {
+        "id": 128,
+        "asr": "cho nên là nó an toàn khu đây á là nó an toàn cho nên không có gì mà mà xe rồi chạy chậm như chạy nhanh."
+    },
+    "scene[20051, 20088]": {
+        "id": 129,
+        "asr": "phương thủ."
+    },
+    "scene[20089, 20423]": {
+        "id": 130,
+        "asr": "không có chuyện phạt cho tồn tại với những vi phạm về phòng cháy chữa cháy đây là khẳng định của các đơn vị của bộ công an tại họp báo về kết quả công tác sáu tháng đầu năm và chiều ngày hôm qua giám đốc công an."
+    },
+    "scene[20424, 20452]": {
+        "id": 131,
+        "asr": "unk thành phố hà nội cho biết là."
+    },
+    "scene[20453, 20513]": {
+        "id": 132,
+        "asr": "qua kiểm tra rà soát thông."
+    },
+    "scene[20514, 20591]": {
+        "id": 133,
+        "asr": "kê toàn thành phố hiện có đến bẩy trăm cơ sở."
+    },
+    "scene[20592, 20652]": {
+        "id": 134,
+        "asr": "thống phép và sai phép xây dựng thuộc."
+    },
+    "scene[20653, 20691]": {
+        "id": 135,
+        "asr": "nhiều loại hình như là nhà unk."
+    },
+    "scene[20692, 20751]": {
+        "id": 136,
+        "asr": "trọ chung cư mini nhà ở kết hợp sản xuất kỳ."
+    },
+    "scene[20752, 20814]": {
+        "id": 137,
+        "asr": "doanh trừng mầm non riêng với."
+    },
+    "scene[20815, 20886]": {
+        "id": 138,
+        "asr": "tới loại hình nhà trọ thì thành phố đã kiểm tra xong toàn bộ gần."
+    },
+    "scene[20887, 20958]": {
+        "id": 139,
+        "asr": "ba mươi bảy nghìn cơ sở hơn ba nghìn."
+    },
+    "scene[20959, 21046]": {
+        "id": 140,
+        "asr": "một trăm cơ sở bị xử phạt yêu cầu gần mười sáu."
+    },
+    "scene[21047, 21256]": {
+        "id": 141,
+        "asr": "một nghìn năm trăm cơ sở rừng hoạt động vì vi phạm phòng cháy chữa cháy lực lượng công an cũng đã kiểm tra gần hai trăm chung cư mini đình chỉ và."
+    },
+    "scene[21257, 21330]": {
+        "id": 142,
+        "asr": "tặng đình chỉ mười tám trường hợp yêu cầu hai mươi hai."
+    },
+    "scene[21331, 21415]": {
+        "id": 143,
+        "asr": "trung cư mi ni dừng hoạt động với những cơ sở bị tại."
+    },
+    "scene[21416, 21480]": {
+        "id": 144,
+        "asr": "đình chỉ sẽ giám sát việc."
+    },
+    "scene[21481, 21555]": {
+        "id": 145,
+        "asr": "phục đến khi đủ điều kiện an toàn mới được phép hoạt động trở lại."
+    },
+    "scene[21556, 21625]": {
+        "id": 146,
+        "asr": "những."
+    },
+    "scene[21626, 21677]": {
+        "id": 147,
+        "asr": "điều này đã làm thế độ tấn công của mình."
+    },
+    "scene[21678, 22424]": {
+        "id": 148,
+        "asr": "trong các vụ cháy nổ xảy ra ở các hộ dân vừa qua nguyên nhân liên quan đến điện chiếm tỷ lệ lớn trong khi đó không phải người dân nào cũng có kiến thức xử lý tại chỗ các sự cố về điện hay là có kiến thức để có thể phát hiện các hỏng hóc đường điện tại các chung cư cũ nơi mà mạng lưới điện xuống cấp và chắp vá nếu không được thay mới và tăng phụ tải thì nhiều nguy cơ chập cháy dễ xảy ra."
+    },
+    "scene[22425, 22625]": {
+        "id": 149,
+        "asr": "cơ sở nguyễn đình chiểu quận phú nhuận có tới đời hơn ba mươi lăm hệ thống điện ban đầu dùng chóp quà."
+    },
+    "scene[22626, 22680]": {
+        "id": 150,
+        "asr": "cho tivi năm xưa dở."
+    },
+    "scene[22681, 22743]": {
+        "id": 151,
+        "asr": "khó đáp ứng với nhu cầu mới."
+    },
+    "scene[22744, 22811]": {
+        "id": 152,
+        "asr": "thành phố hồ chí minh có khoảng năm tư."
+    },
+    "scene[22812, 22882]": {
+        "id": 153,
+        "asr": "chăn chung cư có tuổi đời vài chục năm."
+    },
+    "scene[22883, 22952]": {
+        "id": 154,
+        "asr": "hệ thống điện đã cũ và hầu như không đáp ứng."
+    },
+    "scene[22953, 23054]": {
+        "id": 155,
+        "asr": "cụm sát cho các nhu cầu mới như tủ lạnh máy lạnh."
+    },
+    "scene[23055, 23109]": {
+        "id": 156,
+        "asr": "bếp từ cắt đầy ba mươi."
+    },
+    "scene[23110, 23190]": {
+        "id": 157,
+        "asr": "năm là cái đường dây điện nó rất là nhỏ."
+    },
+    "scene[23191, 23353]": {
+        "id": 158,
+        "asr": "tải điện nó có chịu nổi có những cái thiết bị mà mà người ta đang bị thêm."
+    },
+    "scene[23354, 23423]": {
+        "id": 159,
+        "asr": "theo quy định thì ngành điện chỉ quản lý đến đồng."
+    },
+    "scene[23424, 23509]": {
+        "id": 160,
+        "asr": "hồ điện còn sau đó là trách nhiệm của khách hàng."
+    },
+    "scene[23510, 23582]": {
+        "id": 161,
+        "asr": "nhưng việc đòi hỏi khách hàng có đủ kiến thức."
+    },
+    "scene[23583, 23637]": {
+        "id": 162,
+        "asr": "kinh nang kinh phí để lắp đặt sử dụng."
+    },
+    "scene[23638, 23812]": {
+        "id": 163,
+        "asr": "điện trong gia đình nhất là ở chung cư cũ là điều rất khó thỏ thúy kéo một cái sở giáo."
+    },
+    "scene[23813, 23999]": {
+        "id": 164,
+        "asr": "dù chính cái thiết bị quốc tả đó thôi để mà tăng cường lên cái tải chứ họ sẽ không thay hết."
+    },
+    "scene[24000, 24060]": {
+        "id": 165,
+        "asr": "tất cả một hệ thống trong nhà hay thiệt để nữa."
+    },
+    "scene[24061, 24170]": {
+        "id": 166,
+        "asr": "họ phải nhờ tin tức hay là họ sẽ tự một cái thợ điện nào đó."
+    },
+    "scene[24171, 24261]": {
+        "id": 167,
+        "asr": "không ít trường hợp người dân tự ý lắp đặt câu mơ."
+    },
+    "scene[24262, 24326]": {
+        "id": 168,
+        "asr": "để dẫn đến quá tải phát nhiệt từ."
+    },
+    "scene[24327, 24382]": {
+        "id": 169,
+        "asr": "trên đường dây sau công tơ."
+    },
+    "scene[24383, 24439]": {
+        "id": 170,
+        "asr": "đặc biệt luôn tiềm ẩn nguy cơ cháy vì địa."
+    },
+    "scene[24440, 24513]": {
+        "id": 171,
+        "asr": "nếu ăn toàn thì nhân viên ngành điện."
+    },
+    "scene[24514, 24579]": {
+        "id": 172,
+        "asr": "vẫn thường xuyên phải tư vấn thêm như thế này."
+    },
+    "scene[24580, 24634]": {
+        "id": 173,
+        "asr": "một đường dây điện hồi trước đã."
+    },
+    "scene[24635, 25117]": {
+        "id": 174,
+        "asr": "unk nó thiết kế cho mình rất là nhỏ do vậy cái lượng tải nó cung cấp cho cái thiết bị điện của mình không có đủ nếu như mà quá tải là đường dây nó sẽ bị cháy do vậy tránh trường hợp đó mình sẽ bằng cách là ngay dưới cái si điện của mình đến cái tải mà thiết bị của mình chẳng hạn như cái ma là."
+    },
+    "scene[25118, 25194]": {
+        "id": 175,
+        "asr": "đi."
+    },
+    "scene[25195, 25273]": {
+        "id": 176,
+        "asr": "điều này đã khiến nhiều người mơ ước được thấy thế mạnh của mình."
+    },
+    "scene[25274, 25903]": {
+        "id": 177,
+        "asr": "thưa quý vị theo thống kê của bộ y tế năm hai nghìn không trăm hai tư này tình hình bệnh dại tiếp tục gia tăng đột biến chỉ tính riêng hai tháng đầu năm nay thôi thì đã ghi nhận hai mươi hai trường hợp tử vong cao gấp đôi so với cùng kỳ của năm ngoái chỉ có mười trường hợp cho đến nay đến thời điểm này bệnh dại vẫn đang diễn biến phức tạp hơn tại nhiều địa phương."
+    },
+    "scene[25904, 26586]": {
+        "id": 178,
+        "asr": "theo báo cáo của bộ y tế từ đầu năm đến nay cả nước xảy ra năm mươi ba trường hợp tử vong trên người do bệnh dại tại hai mươi chín tỉnh thành phố các tỉnh có số ca tử vong cao nhất là bình thuận bảy ca đắc lắc năm và bến tre bốn còn theo báo cáo của các cơ quan quản lý chuyên ngành phú y từ đầu năm đến nay cả nước xảy ra một trăm năm mươi chín ổ dịch bệnh dại tại ba mươi từ tỉnh thành phố."
+    },
+    "scene[26587, 26627]": {
+        "id": 179,
+        "asr": "vấn đề mấu chốt."
+    },
+    "scene[26628, 26705]": {
+        "id": 180,
+        "asr": "trong quản lý đàn chó hiện nay chưa được giải quyết là."
+    },
+    "scene[26706, 26772]": {
+        "id": 181,
+        "asr": "và chính quyền các cấp chưa quan tâm chưa tổ chức."
+    },
+    "scene[26773, 26856]": {
+        "id": 182,
+        "asr": "thực hiện nghiêm các quy định về quản lý nuôi chó."
+    },
+    "scene[26857, 26952]": {
+        "id": 183,
+        "asr": "và tiêm vắc xin phòng bệnh dại ý thức trách nhiệm của chủ nuôi chó."
+    },
+    "scene[26953, 27032]": {
+        "id": 184,
+        "asr": "ở nhiều nơi vẫn còn rất kém và thiếu trách nhiệm."
+    },
+    "scene[27033, 27120]": {
+        "id": 185,
+        "asr": "nhiều người có sở thích nuôi chó nhưng không tuân thủ nghi."
+    },
+    "scene[27121, 27191]": {
+        "id": 186,
+        "asr": "ngặt các quy định về quản lý nuôi và tiêm."
+    },
+    "scene[27192, 27246]": {
+        "id": 187,
+        "asr": "vaccine phòng bệnh dại nhiều địa phương."
+    },
+    "scene[27247, 27373]": {
+        "id": 188,
+        "asr": "chưa thực hiện nghiêm công tác xử phạt."
+    },
+    "scene[27374, 28265]": {
+        "id": 189,
+        "asr": "chỉ tính riêng tại tỉnh đồng nai từ đầu năm đến nay toàn tỉnh đã phát hiện mười chín ổ bệnh dại ghi nhận một trường hợp tử vong tăng gấp năm lần so với cùng kỳ của năm trước chiếm hơn hai mươi phần trăm số ổ bệnh dại của các tỉnh phía nam tuy vậy thì công tác phòng chống bệnh dại tại một số nơi vẫn gặp nhiều vấn đề khó khăn tình hình thực tế cho thấy là một trong những nguyên nhân hàng đầu làm công tác phòng chống dịch bệnh này gặp nhiều khó khăn đó chính là chủ quan của người dân ghi nhận sau đây tại tỉnh đồng nai."
+    },
+    "scene[28266, 28333]": {
+        "id": 190,
+        "asr": "tuy nhiên không theo đuổi người kia."
+    },
+    "scene[28334, 28478]": {
+        "id": 191,
+        "asr": "cả hai mùa thi không có tác dụng gì nhiều đâu ạ nhất là mùa thiền nằm ngủ."
+    },
+    "scene[28479, 28587]": {
+        "id": 192,
+        "asr": "người phụ nữ này bị mèo cắn vào tay gần cả tuần rồi mới được."
+    },
+    "scene[28588, 28658]": {
+        "id": 193,
+        "asr": "unk chích ngừa mặc dù bác sĩ cố gắng giải."
+    },
+    "scene[28659, 28749]": {
+        "id": 194,
+        "asr": "thích nhưng người này vẫn khăng khăng đề nghị bác sĩ cho tìm hai môn."
+    },
+    "scene[28750, 28838]": {
+        "id": 195,
+        "asr": "mũi thay vì năm mũi vắc xin phòng dài theo đúng phác đồ điều trị."
+    },
+    "scene[28839, 28911]": {
+        "id": 196,
+        "asr": "mèo ở nhà đẻ cô."
+    },
+    "scene[28912, 29139]": {
+        "id": 197,
+        "asr": "thấy dễ thương cô bác ơ cô nựng vậy thôi chứ nó mua nó quảng hồn nó nó quập cô nhưng mà mèo mới mới sanh chừng khoảng hai mươi ngày thôi."
+    },
+    "scene[29140, 29268]": {
+        "id": 198,
+        "asr": "theo cán bộ trung tâm kiểm soát bệnh tật xì đi xì tỉnh đồng nai."
+    },
+    "scene[29269, 29366]": {
+        "id": 199,
+        "asr": "tình trạng người dân bị chó mèo cắn mà không điều trị đúng cách."
+    },
+    "scene[29367, 29470]": {
+        "id": 200,
+        "asr": "vẫn còn xảy ra thậm chí có người còn không đi tìm phòng dài."
+    },
+    "scene[29471, 29589]": {
+        "id": 201,
+        "asr": "đáng lo ngại nữa là khi điều tra dịch tễ học mì bảy ổ dịch cho dạy trên địa."
+    },
+    "scene[29590, 29730]": {
+        "id": 202,
+        "asr": "bàn từ đầu năm đến nay xi đi xi tỉnh phát hiện số trường hợp này không phải là nhỏ."
+    },
+    "scene[29731, 29809]": {
+        "id": 203,
+        "asr": "trong mười bảy cái ổ dịch à dẹp."
+    },
+    "scene[29810, 29882]": {
+        "id": 204,
+        "asr": "tài trên chó mà phát hiện được."
+    },
+    "scene[29883, 30204]": {
+        "id": 205,
+        "asr": "đấy thì có à trên muỗng mưới người hả đích thực là bị những con chó dài mà có trải nghiệm dương tính này cắn à."
+    },
+    "scene[30205, 30312]": {
+        "id": 206,
+        "asr": "chống đỏ hoặc đấu đỏ chỉ là người dễ chủ quan."
+    },
+    "scene[30313, 30411]": {
+        "id": 207,
+        "asr": "không tiêm vắc xin không tiêm kháng thật có những trường hợp."
+    },
+    "scene[30412, 30764]": {
+        "id": 208,
+        "asr": "mình phải bận đồng người ta hoặc là thông báo với chính quyền để có cái biện pháp nào đó đưa họ đi tìm can thiệp cho nó chuẩn mực."
+    },
+    "scene[30765, 30849]": {
+        "id": 209,
+        "asr": "ngày bốn tháng bảy mới đây một người dân."
+    },
+    "scene[30850, 31058]": {
+        "id": 210,
+        "asr": "tài huyền định quán đã tử vong sau hơn một tháng bị chó nhà cắn mà không đi tìm phòng dịch bệnh dài trên chó mèo vẫn đang diện mục."
+    },
+    "scene[31059, 31281]": {
+        "id": 211,
+        "asr": "miếng phức tạp và nguy cơ tử vong vì bệnh dại vẫn rất cao vì chính sự chủ quan của người dân."
+    },
+    "scene[31282, 32103]": {
+        "id": 212,
+        "asr": "không chỉ gặp khó khăn vì ý thức phòng bệnh của một số bộ phận người dân mà đồng nai cũng đang thiếu nguồn lực cũng như thiếu thuốc nguồn lực y tế để phòng bệnh nguy hiểm này trong khi bệnh dại vẫn chưa có thuốc điều trị đặc hiệu nên một trăm phần trăm bệnh nhân đã lên cơn dại sẽ tử vong thực tế tại đồng nai những ngày vừa qua cho thấy người dân và cán bộ y tế gặp nhiều khó khăn do thiếu cả vắc xin phòng dại và cả thiếu cả huyết thanh điều trị."
+    },
+    "scene[32104, 32170]": {
+        "id": 213,
+        "asr": "nhiều doanh nghiệp năng động đã xảy ra tại chỗ thiếu năm."
+    },
+    "scene[32171, 32271]": {
+        "id": 214,
+        "asr": "em bé này vừa bị chó cắn vào vùng hãng bác sĩ chỉ định tiếp."
+    },
+    "scene[32272, 32372]": {
+        "id": 215,
+        "asr": "trung quốc thanh khán giả càng sớm càng tốt tuy nhiên trung tâm kiểm soát."
+    },
+    "scene[32373, 32459]": {
+        "id": 216,
+        "asr": "quận tập từ đồng nai đã cạn loại hút than này khiến mẹ con."
+    },
+    "scene[32460, 32548]": {
+        "id": 217,
+        "asr": "bệnh nhân phải tất tả đi tìm chỗ khác nhiều trường hợp."
+    },
+    "scene[32549, 32646]": {
+        "id": 218,
+        "asr": "chính cử cũng đã xảy ra võ sĩ bảo là."
+    },
+    "scene[32647, 32809]": {
+        "id": 219,
+        "asr": "bây giờ ngờ cái trường hợp này á nếu như mà tốt nhất á là anh cho nên cho con đi chích huyết thai."
+    },
+    "scene[32810, 32896]": {
+        "id": 220,
+        "asr": "thanh chứ bây giờ chích vắc xin á là trong vòng mười bảy."
+    },
+    "scene[32897, 33008]": {
+        "id": 221,
+        "asr": "mỹ là hai mấy ngày mới có tác dụng được còn đi thì cũng đi đấy."
+    },
+    "scene[33009, 33225]": {
+        "id": 222,
+        "asr": "mấy vòng mấy bận ấy đi từ trạng bom lên biên hòa đi ba bốn chỗ ấy mới chỉ ra được cái chỗ mà mà mà chích nghe."
+    },
+    "scene[33226, 33351]": {
+        "id": 223,
+        "asr": "hiện nay chỉ vài cơ sở y tế tại đồng nai có loại."
+    },
+    "scene[33352, 33451]": {
+        "id": 224,
+        "asr": "thành khán giả tuy nhiên phần lớn tập trung tại thành phố biên hoàn."
+    },
+    "scene[33452, 33543]": {
+        "id": 225,
+        "asr": "đã vậy việc mua huyết thanh của các đơn vị cũng gặp khó khăn."
+    },
+    "scene[33544, 33814]": {
+        "id": 226,
+        "asr": "năm nay trung tâm kiểm soát bệnh tật tỉnh đồng nai mua được khoảng một ngàn liều với số lượng này thì chỉ khoảng vài tuần là hết mặc dù số ổ dịch dại."
+    },
+    "scene[33815, 34114]": {
+        "id": 227,
+        "asr": "unk phát số lượng người dân bị chó mèo cào cắn tăng cao tuy nhiên tại tỉnh đồng nai thì đang rất thiếu huyết thanh khán giả do vậy người dân phải tìm về thành phố hồ chí minh để trích lại huyết thăm này."
+    },
+    "scene[34115, 34252]": {
+        "id": 228,
+        "asr": "không chỉ thiếu huyết thanh kháng dai vắc xin tim chó mèo cũng chưa đầy đủ."
+    },
+    "scene[34253, 34437]": {
+        "id": 229,
+        "asr": "theo thống kê tống đan chó mèo tại đồng nai ước tính khoảng ba trăm ngàn con nhưng lượng phát sinh phòng dài còn hiểu nhau."
+    },
+    "scene[34438, 34530]": {
+        "id": 230,
+        "asr": "luật đến nay chỉ có khoảng một trăm hai mươi ngàn liền."
+    },
+    "scene[34531, 35025]": {
+        "id": 231,
+        "asr": "chúng tôi dự kiến là sẽ tham mưu cho ủy ban dân tỉnh tỉnh hội đồng dân tỉnh ban hành nghị quyết để mà hỗ trợ cái cái vắc xin dạy để tiêm đồng loạt cho các đối tượng nông hộ nuôi nông hộ trên địa bàn."
+    },
+    "scene[35026, 35461]": {
+        "id": 232,
+        "asr": "theo đại diện chi cục chăn nuôi và thú y tỉnh đồng nai ngay cả khi có đầy đủ vắc xin thì cũng cần tới năm năm tiêm phòng mới có thể khống chế được dịch giải trên địa bàn."
+    },
+    "scene[35462, 36026]": {
+        "id": 233,
+        "asr": "theo đánh giá của cục thú y bộ nông nghiệp và phát triển nông thôn những tỉnh thành phố quyết liệt trong phòng chống bệnh dại thì ở đó không có trường hợp người tử vong bị bệnh dại tỷ lệ tiêm phòng trên đàn chó mèo đạt rất cao vì vậy để phòng chống và kiểm soát hiệu quả bệnh dại thì cần triển khai quyết liệt các vấn đề sau thứ nhất."
+    },
+    "scene[36027, 36552]": {
+        "id": 234,
+        "asr": "là cần quản lý tốt tổng đàn chó phát hiện xử lý kịp thời chó mèo có dấu hiệu mắc bệnh chó mèo nuôi phải được tiêm phòng và cuối cùng là điều trị dự phòng cho người bị chó mèo cắn cào liếm sẽ được phòng bệnh dại."
+    },
+    "scene[36553, 37115]": {
+        "id": 235,
+        "asr": "người dân tuyệt đối không áp dụng các phương pháp phản khoa học như đắp lá này thích lể bôi dầu gió hay bôi lọ nghệ lên vết thương bị chó hoặc mèo cắn việc làm này không làm không những là làm giảm đi cái thời gian chúng ta nhanh chóng được tiếp cận với tia vắc xin mà còn gây nhiễm trùng vết thương nữa."
+    },
+    "scene[37116, 38044]": {
+        "id": 236,
+        "asr": "nhằm giải quyết dứt điểm ô nhiễm môi trường ở làng nghề sản xuất giấy phong khê thành phố bắc ninh các cơ quan chức năng tỉnh bắc ninh vừa ban hành và triển khai kế hoạch thực hiện đề án tổng thể xử lý ô nhiễm môi trường phường phong khê xử lý nghiêm cơ sở vi phạm pháp luật dừng hoạt động sản xuất và di dời trước ngày ba mốt tháng mười hai đối với các cơ sở trong làng nghề đối với các cơ sở đang hoạt động trong cụm công nghiệp phong khê thì cũng sẽ phải di chuyển hoạt động sản xuất theo lộ trình trước ngày ba mốt tháng mười hai năm hai nghìn lẻ chín."
+    },
+    "scene[38045, 38155]": {
+        "id": 237,
+        "asr": "ở đây là một trong bốn cơ sở sản xuất giấy ở lao."
+    },
+    "scene[38156, 38390]": {
+        "id": 238,
+        "asr": "màng nghề giấy phong khê tỉnh bắc ninh vừa bị kiểm tra xử phạt và đình chỉ hoạt động do không có giấy phép về bảo vệ mùi."
+    },
+    "scene[38391, 38538]": {
+        "id": 239,
+        "asr": "chưa theo quyết định của ủy ban nhân dân tỉnh ngoài bị phạt tiền cơ sở này."
+    },
+    "scene[38539, 38570]": {
+        "id": 240,
+        "asr": "ngày còn bị đình chỉ hoạt động."
+    },
+    "scene[38571, 38644]": {
+        "id": 241,
+        "asr": "tộc trong bốn tháng rưỡi và trong hai."
+    },
+    "scene[38645, 38709]": {
+        "id": 242,
+        "asr": "ngày buộc phải di dời cơ."
+    },
+    "scene[38710, 38775]": {
+        "id": 243,
+        "asr": "sở sản xuất cơ quan chức năng cũng sẽ."
+    },
+    "scene[38776, 38817]": {
+        "id": 244,
+        "asr": "kiểm tra xử lý."
+    },
+    "scene[38818, 38873]": {
+        "id": 245,
+        "asr": "và yêu cầu di dời cơ sở sản xuất."
+    },
+    "scene[38874, 38937]": {
+        "id": 246,
+        "asr": "đối với tất cả các cơ sở còn lại."
+    },
+    "scene[38938, 38979]": {
+        "id": 247,
+        "asr": "ở ba khu dân cư."
+    },
+    "scene[38980, 39331]": {
+        "id": 248,
+        "asr": "từ tỉnh và thành phố là cũng đã chỉ đạo thế là cũng đã nắm bắt được thì bây giờ cái nguyện vòng bảng của nhà là về thì tôi cũng là muốn xin chảy nước tới nguyên liệu tồn đọng lại."
+    },
+    "scene[39332, 39415]": {
+        "id": 249,
+        "asr": "làng nghề sản xuất giấy phong khiết."
+    },
+    "scene[39416, 39466]": {
+        "id": 250,
+        "asr": "kê bao gồm hơn ba trăm hai mươi."
+    },
+    "scene[39467, 39516]": {
+        "id": 251,
+        "asr": "người cơ sở sản xuất trong ba cụm."
+    },
+    "scene[39517, 39577]": {
+        "id": 252,
+        "asr": "dân cư và hai cụm công nghiệp."
+    },
+    "scene[39578, 39638]": {
+        "id": 253,
+        "asr": "tất cả các vùng này đều có."
+    },
+    "scene[39639, 39691]": {
+        "id": 254,
+        "asr": "nhà xưởng xen lẫn hoặc các hộ."
+    },
+    "scene[39692, 39763]": {
+        "id": 255,
+        "asr": "dân vừa sản xuất vừa sinh sống trong nhà."
+    },
+    "scene[39764, 39901]": {
+        "id": 256,
+        "asr": "mặc dù đã có nhiều nỗ lực như yêu cầu các hộ dân không sử dụng than."
+    },
+    "scene[39902, 39969]": {
+        "id": 257,
+        "asr": "hoặc chất thải công nghiệp để đốt lò."
+    },
+    "scene[39970, 40088]": {
+        "id": 258,
+        "asr": "chuyển sang sử dụng lò hơi đốt nhiên liệu sinh khối yêu cầu đấu."
+    },
+    "scene[40089, 40150]": {
+        "id": 259,
+        "asr": "núi nước thải về hệ thống xử lý nước thải."
+    },
+    "scene[40151, 40210]": {
+        "id": 260,
+        "asr": "phải tập trung của làng nghề."
+    },
+    "scene[40211, 40276]": {
+        "id": 261,
+        "asr": "ô nhiễm môi trường vẫn không được xử lý triệt để."
+    },
+    "scene[40277, 40328]": {
+        "id": 262,
+        "asr": "vẫn còn tình trạng."
+    },
+    "scene[40329, 40394]": {
+        "id": 263,
+        "asr": "nén lướt xả nước thải chưa qua xử lý ra một."
+    },
+    "scene[40395, 40444]": {
+        "id": 264,
+        "asr": "unk trưởng."
+    },
+    "scene[40445, 40829]": {
+        "id": 265,
+        "asr": "những cơ sở rãnh xuất là không đủ điều kiện để raếm mới thì chúng ta sẽ chuyển đổi cái mô hình từ sản xuất sang kinh doanh thương mại các dịch vụ ngành giấy ví dụ như là ra công ngành giấy cắt phôi rồi thì tất cả các cái những cái dịch vụ khác."
+    },
+    "scene[40830, 41277]": {
+        "id": 266,
+        "asr": "sở tài nguyên môi trường cũng phối hợp với các sở ngành với công an tỉnh của doanh nhân thành phố đặc biệt là thành phố thì thành lập các cái đoàn kiểm tra tăng cường công tác tuyên truyền vận động người dân để thực hiện tốt các cái chủ trương pháp luật."
+    },
+    "scene[41278, 41390]": {
+        "id": 267,
+        "asr": "nhà nước tỉnh bắc ninh đang có kế hoạch triển khai đồng bộ những."
+    },
+    "scene[41391, 41458]": {
+        "id": 268,
+        "asr": "điều giải pháp hỗ trợ di dời và xử lý."
+    },
+    "scene[41459, 41507]": {
+        "id": 269,
+        "asr": "cổ nhiễm như giới thiệu."
+    },
+    "scene[41508, 41561]": {
+        "id": 270,
+        "asr": "các khu vụ công nghiệp có đủ."
+    },
+    "scene[41562, 41615]": {
+        "id": 271,
+        "asr": "điều kiện về xử lý môi trường."
+    },
+    "scene[41616, 41675]": {
+        "id": 272,
+        "asr": "để các hộ dân di chuyển cơ sở."
+    },
+    "scene[41676, 41804]": {
+        "id": 273,
+        "asr": "suốt ra địa điểm mới."
+    },
+    "scene[41805, 42340]": {
+        "id": 274,
+        "asr": "thưa quý vị để hỗ trợ tối đa cho người dân làm thẻ căn cước mới công an thành phố hồ chí minh đã tăng cường làm thêm ca đêm cho đến hai mươi mốt giờ mỗi ngày đến nay thì sau gần một tuần triển khai phòng cảnh sát quản lý hành chính về trật tự xã hội pê xê không sáu đã tiếp nhận trên hai mươi lăm ngàn hồ sơ làm thủ tục cấp thẻ."
+    },
+    "scene[42341, 42428]": {
+        "id": 275,
+        "asr": "tôi đang có mặt."
+    },
+    "scene[42429, 42759]": {
+        "id": 276,
+        "asr": "tại phòng b c không xấu của ngài thành phố hồ chí minh là nơi cấp căn cước mới cho công dân và trong buổi chiều hôm nay thì cũng đã có rất đông người dân đến làm thủ tục này."
+    },
+    "scene[42760, 42820]": {
+        "id": 277,
+        "asr": "theo số liệu từ phòng cảnh sát quản lý."
+    },
+    "scene[42821, 42888]": {
+        "id": 278,
+        "asr": "unk hành chính trật tự xã hội bc không số."
+    },
+    "scene[42889, 42952]": {
+        "id": 279,
+        "asr": "báo công an thần phú kim mình cho biết."
+    },
+    "scene[42953, 43009]": {
+        "id": 280,
+        "asr": "công an thành phố hồ chí minh đã hoàn thành tiếp theo."
+    },
+    "scene[43010, 43083]": {
+        "id": 281,
+        "asr": "nhận hồ sơ cấp thẻ căn cước chứ khoảng hai."
+    },
+    "scene[43084, 43163]": {
+        "id": 282,
+        "asr": "unk lâm ngàn người dân ở các quận huyện và thành phố tôn."
+    },
+    "scene[43164, 43241]": {
+        "id": 283,
+        "asr": "từ ngày một đến chiều mười sáu tháng bảy."
+    },
+    "scene[43242, 43301]": {
+        "id": 284,
+        "asr": "trong đó có hơn sáu trăm năm mươi triệu."
+    },
+    "scene[43302, 43358]": {
+        "id": 285,
+        "asr": "trường hợp là công dân dưới sáu tuổi."
+    },
+    "scene[43359, 43425]": {
+        "id": 286,
+        "asr": "gần ba ngàn ba trăm trường hợp là công dân."
+    },
+    "scene[43426, 43501]": {
+        "id": 287,
+        "asr": "gần từ sáu tuổi đến mười bốn tuổi ngoài."
+    },
+    "scene[43502, 43563]": {
+        "id": 288,
+        "asr": "thực ra có gần mười tám ngàn năm trăm."
+    },
+    "scene[43564, 43633]": {
+        "id": 289,
+        "asr": "trường hợp là công dân từ đủ mười bốn tuổi."
+    },
+    "scene[43634, 43701]": {
+        "id": 290,
+        "asr": "cho nên khai báo thông tin cư."
+    },
+    "scene[43702, 43755]": {
+        "id": 291,
+        "asr": "chú với người chưa đủ điều kiện đăng ký."
+    },
+    "scene[43756, 43823]": {
+        "id": 292,
+        "asr": "thường trú tạm trú là gần số mươi quả."
+    },
+    "scene[43824, 43886]": {
+        "id": 293,
+        "asr": "cấp giấy chứng nhận cho người vợ trong trường học."
+    },
+    "scene[43887, 43947]": {
+        "id": 294,
+        "asr": "việt nam chưa xác định được quốc tịch."
+    },
+    "scene[43948, 44015]": {
+        "id": 295,
+        "asr": "unk bốn trường hợp theo công an thành phố hồ chí minh."
+    },
+    "scene[44016, 44080]": {
+        "id": 296,
+        "asr": "thì hiện công an các quận huyện và."
+    },
+    "scene[44081, 44136]": {
+        "id": 297,
+        "asr": "thành phố thủ đức đang khẩn trương triển khai làm."
+    },
+    "scene[44137, 44209]": {
+        "id": 298,
+        "asr": "thủ tục cấp thẻ căn cước mới cho người dân."
+    },
+    "scene[44210, 44291]": {
+        "id": 299,
+        "asr": "trên địa bàn từ bảy giờ ba mươi đến hai mươi mốt."
+    },
+    "scene[44292, 44368]": {
+        "id": 300,
+        "asr": "thuốc giờ mỗi ngày."
+    },
+    "scene[44369, 44401]": {
+        "id": 301,
+        "asr": "đó là."
+    },
+    "scene[44402, 45007]": {
+        "id": 302,
+        "asr": "cũng tại thành phố hồ chí minh thì hàng loạt những dự án hạ tầng giao thông liên quan mật thiết đến đời sống dân sinh đã được thành phố lên kế hoạch triển khai trong đó thì có đường nguyễn duy trinh đoạn từ vành đai hai vào khu công nghiệp phú hữu một trong những điểm nghẽn về hạ tầng ở khu đông thành phố nơi thường xuyên xảy ra những vụ tai nạn giao thông thường tầm."
+    },
+    "scene[45008, 45709]": {
+        "id": 303,
+        "asr": "mười lăm vụ tai nạn nhưng có đến mười sáu người thiệt mạng không phải tự nhiên mà người dân ở đây gọi cung đường này là cung đường tử thần đó là bởi vì mặt đường ở đây rất nhỏ hẹp chỉ khoảng bảy mét nhưng lại thường xuyên có những xe lớn như là xe công tai nơ và xe tải lớn đi qua do đây là con đường nối vào cảng phố hữu nên theo thống kê thì mỗi ngày có đến mười nghìn lượt xe tải và xe cấp."
+    },
+    "scene[45710, 45813]": {
+        "id": 304,
+        "asr": "unk taylor qua lại khu vực này cứ hai xe lớn mà tránh nhau."
+    },
+    "scene[45814, 45907]": {
+        "id": 305,
+        "asr": "thì xe máy sèn giữa chỉ còn vài chục xen ti mét."
+    },
+    "scene[45908, 46090]": {
+        "id": 306,
+        "asr": "nét để lách qua chính vì thế mà cung đường này thường xuyên xảy ra tai nạn giao thông mà hễ tai nạn thì rất."
+    },
+    "scene[46091, 46243]": {
+        "id": 307,
+        "asr": "thảm khốc và vì toàn liên quan đến xe tải trọng lớn những điều này sắp tới hi vọng."
+    },
+    "scene[46244, 46485]": {
+        "id": 308,
+        "asr": "là sẽ sớm được cải thiện sở giao thông vận tải vừa đề xuất thành phố mở rộng con đường này từ bảy mét lên ba mươi mét với tổng vốn hơn."
+    },
+    "scene[46486, 46541]": {
+        "id": 309,
+        "asr": "unk một nghìn sáu trăm tỷ đồng."
+    },
+    "scene[46542, 46619]": {
+        "id": 310,
+        "asr": "đề xuất là sẽ ưu tiên thực hiện trong năm nay."
+    },
+    "scene[46620, 46726]": {
+        "id": 311,
+        "asr": "đề xuất này đang rất được người dân mong chờ vì."
+    },
+    "scene[46727, 46790]": {
+        "id": 312,
+        "asr": "xuất phát từ nhu cầu dân sinh cấp thiết."
+    },
+    "scene[46791, 46854]": {
+        "id": 313,
+        "asr": "dự án mở rộng tuyến đường này trước."
+    },
+    "scene[46855, 46934]": {
+        "id": 314,
+        "asr": "sau cũng phải làm và chủ trương thì đã được."
+    },
+    "scene[46935, 47017]": {
+        "id": 315,
+        "asr": "chấp thuận từ năm hai nghìn không trăm mười năm đến năm hai nghìn."
+    },
+    "scene[47018, 47113]": {
+        "id": 316,
+        "asr": "không trăm mười chín thành phố đã phê duyệt dự án với."
+    },
+    "scene[47114, 47193]": {
+        "id": 317,
+        "asr": "tới tổng vốn hơn tám trăm ba hai tỷ đồng bằng."
+    },
+    "scene[47194, 47284]": {
+        "id": 318,
+        "asr": "unk tiền ngân sách nhà nước nhưng mà sau đó thì vì thiếu vốn."
+    },
+    "scene[47285, 47372]": {
+        "id": 319,
+        "asr": "phốn nên chưa thể triển khai."
+    },
+    "scene[47373, 47535]": {
+        "id": 320,
+        "asr": "hay khi tổng vốn dự án đã phải điều chỉnh lên gấp đôi vì tiền giải phóng mặt bằng tăng cao."
+    },
+    "scene[47536, 47703]": {
+        "id": 321,
+        "asr": "rất rõ ràng việc nâng cấp tuyến đường này càng sớm thì càng tiết kiệm cho nguồn lực."
+    },
+    "scene[47704, 47826]": {
+        "id": 322,
+        "asr": "xã hội càng để lâu sẽ càng tốn kém vì giá."
+    },
+    "scene[47827, 47971]": {
+        "id": 323,
+        "asr": "bu sẽ tăng cao lần này dự án được sở giao thông vận tải cho biết là sẽ làm thay."
+    },
+    "scene[47972, 48155]": {
+        "id": 324,
+        "asr": "bê tê xây dựng chuyển giao vận dụng theo nghị quyết chín mươi tám."
+    },
+    "scene[48156, 48224]": {
+        "id": 325,
+        "asr": "về bức tranh chung."
+    },
+    "scene[48225, 48257]": {
+        "id": 326,
+        "asr": "dự án này nằm trong."
+    },
+    "scene[48258, 48337]": {
+        "id": 327,
+        "asr": "danh mục hai mươi dự án giao thông trọng điểm giai đoạn."
+    },
+    "scene[48338, 48429]": {
+        "id": 328,
+        "asr": "hai nghìn không trăm hai bốn hai nghìn không trăm ba mươi mà."
+    },
+    "scene[48430, 48530]": {
+        "id": 329,
+        "asr": "unk sở giao thông vận tải đang tham mưu cho thành phố triển khai."
+    },
+    "scene[48531, 48631]": {
+        "id": 330,
+        "asr": "trong danh mục thì còn có nhiều dự án lớn khác như là đường."
+    },
+    "scene[48632, 48717]": {
+        "id": 331,
+        "asr": "vành đai hai cao tốc thành phố hồ chí minh mộc bài."
+    },
+    "scene[48718, 48792]": {
+        "id": 332,
+        "asr": "nâng cấp quốc lộ bưởi ba quốc lộ năm mươi."
+    },
+    "scene[48793, 48867]": {
+        "id": 333,
+        "asr": "xây cầu cần sơ vân vân."
+    },
+    "scene[48868, 49213]": {
+        "id": 334,
+        "asr": "các dự án sẽ được triển khai bằng nhiều hình thức huy động nguồn lực xã hội theo cơ chế của nghị quyết chín tám đây có thể coi là những trái ngọt đầu tiên từ cơ chế chính sách đặc thù cho sự phát triển của thành phố hồ chí minh."
+    },
+    "scene[49214, 49257]": {
+        "id": 335,
+        "asr": "nhiều tầm."
+    },
+    "scene[49258, 49858]": {
+        "id": 336,
+        "asr": "chuyển sang phần tin quốc tế trong ngày hôm nay tổng thống nga vladimir putin sẽ có cuộc hội đàm chính thức với thủ tướng ấn độ nadezh moody trong chuyến thăm của ông moody tới liên bang nga cuộc hội đàm được dư luận quốc tế đặc biệt quan tâm bởi có khả năng tác động tới cục diện nhiều khu vực lớn trên thế giới nói chung và quan hệ song phương của các nước nói riêng."
+    },
+    "scene[49859, 49931]": {
+        "id": 337,
+        "asr": "điều này đã khiến nhiều người mơ ước."
+    },
+    "scene[49932, 50021]": {
+        "id": 338,
+        "asr": "điện kremlin cho biết cơ hội đàm chính thức."
+    },
+    "scene[50022, 50118]": {
+        "id": 339,
+        "asr": "unk hai nhà lãnh đạo nga và ấn độ sẽ diễn ra theo cả hình thức rộng và hẹp."
+    },
+    "scene[50119, 50218]": {
+        "id": 340,
+        "asr": "theo đó quan hệ đối tác kinh tế và thương mại giữa nga."
+    },
+    "scene[50219, 50613]": {
+        "id": 341,
+        "asr": "ấn độ là một trong vấn đề chính sẽ được thảo luận ngoài ra các vấn đề an ninh khu vực và quốc tế cũng nằm trong chương trình nghị sự theo thư ký báo chí của tổng thống nga ông đơ mi tri bê cốp mát cơ va và niu đê li coi."
+    },
+    "scene[50614, 50704]": {
+        "id": 342,
+        "asr": "ý chí chính trị chung để phát triển hợp tác trong nhiều."
+    },
+    "scene[50705, 50775]": {
+        "id": 343,
+        "asr": "lĩnh vực đặc biệt là với quá trình hội."
+    },
+    "scene[50776, 50827]": {
+        "id": 344,
+        "asr": "nghị định xác nhận các tài trợ tăng trưởng công an."
+    },
+    "scene[50828, 50889]": {
+        "id": 345,
+        "asr": "unk nước cùng là thành viên của một số tổ chức."
+    },
+    "scene[50890, 50967]": {
+        "id": 346,
+        "asr": "bao gồm nhóm các nền kinh tế mới nổi britney."
+    },
+    "scene[50968, 51023]": {
+        "id": 347,
+        "asr": "và tổ chức hợp tác thượng hải ấy."
+    },
+    "scene[51024, 51237]": {
+        "id": 348,
+        "asr": "chiếc đó trong ngày mùng tám tháng bảy ngay sau khi thủ tướng ấn độ bô đi tới liên bang nga ông đã tới dinh thự của tổng."
+    },
+    "scene[51238, 51364]": {
+        "id": 349,
+        "asr": "thống ga pô chin ở ngoại ô mát cê va tại đây hai nhà lãnh đạo đã có cuộc."
+    },
+    "scene[51365, 51571]": {
+        "id": 350,
+        "asr": "trò chuyện thân mật điện kremlin nhấn mạnh ngay cả cuộc thảo luận không chính thức giữa nhà lãnh đạo nga và ấn độ cũng rất có ý nghĩa."
+    },
+    "scene[51572, 52236]": {
+        "id": 351,
+        "asr": "chuyến thăm nga của thủ tướng ấn độ modi ở thời điểm này được sai một nỗ lực nhằm tái khẳng định quan hệ đối tác chiến lược mạnh mẽ giữa hai nước đồng thời với mát xa thì đây cũng là cơ hội củng cố quan hệ với niu đê li một trong đối tác chính của nga trong chiến lược hướng đông nhật linh phó vũ thường xú đài trình việt nam từ mát xa liên bang nga."
+    },
+    "scene[52237, 52565]": {
+        "id": 352,
+        "asr": "sự xuất hiện của siêu bão bè ri hình thành trên đại tây dương báo hiệu mùa bão rất nguy hiểm đây là cảnh báo từ tổ chức khí tượng thế giới bão bè ri hình thành từ ngày ba mươi tháng sáu vừa qua."
+    },
+    "scene[52566, 52797]": {
+        "id": 353,
+        "asr": "sau đó nhanh chóng mạnh lên thành siêu bão cấp năm cấp mạnh nhất trong tháng bão năm cấp đây là cơn bão đầu tiên trong mùa bão đại tây dương năm nay và là cơn bão cấp."
+    },
+    "scene[52798, 53006]": {
+        "id": 354,
+        "asr": "năm sớm nhất được ghi nhận ở đại tây dương ca ri bê và trung mỹ giới chuyên gia lo ngại sự xuất hiện của siêu bão bè đi có thể báo hiệu."
+    },
+    "scene[53007, 53319]": {
+        "id": 355,
+        "asr": "trong một mùa bão rất mạnh và rất nguy hiểm ảnh hưởng đến toàn bộ khu vực việc siêu bão bê ri hình thành sớm ngay trong đầu mùa bão một phần được cho là do nhiệt độ đại dương tăng cao."
+    },
+    "scene[53320, 53568]": {
+        "id": 356,
+        "asr": "còn hy lạp đã phải hứng chịu tháng sáu rực lửa với số vụ cháy rừng tăng gấp đôi so với cùng kỳ năm ngoái tháng sáu năm nay là tháng nóng."
+    },
+    "scene[53569, 53800]": {
+        "id": 357,
+        "asr": "kỷ lục tại hy lạp trong khi tháng bảy được dự báo cũng tương tự trong những ngày tới nhiệt độ ở nhiều nơi ở hy lạp dự báo sẽ lại vượt quá bốn mươi độ."
+    },
+    "scene[53801, 53918]": {
+        "id": 358,
+        "asr": "năm ngoái hy lạp đã phải chịu đựng đợt nắng nóng kéo dài kỷ lục trong hai tuần."
+    },
+    "scene[53919, 54084]": {
+        "id": 359,
+        "asr": "kéo theo các trận cháy rừng gây chết người các nhà khoa học tin rằng biến đổi khí hậu là."
+    },
+    "scene[54085, 54175]": {
+        "id": 360,
+        "asr": "làm gia tăng tần suất và cường độ thời tiết cực đoan như các đợt sóng nhiệt."
+    },
+    "scene[54176, 54255]": {
+        "id": 361,
+        "asr": "đây là một trong những đặc sản được lưu tục truyền thống."
+    },
+    "scene[54256, 54437]": {
+        "id": 362,
+        "asr": "công ty ame của chile đã khánh thành nhà máy điện mặt trời khổng lồ với gần tám."
+    },
+    "scene[54438, 54632]": {
+        "id": 363,
+        "asr": "unk trăm tám mươi ba nghìn tấm quang điện nằm giữa sa mạc a ta ca ma khô cằn ở quốc gia nam mỹ này nhà máy được xây dựng."
+    },
+    "scene[54633, 54736]": {
+        "id": 364,
+        "asr": "cách thủ đô santiago một nghìn bốn trăm ki lô mét về phía bắc."
+    },
+    "scene[54737, 54929]": {
+        "id": 365,
+        "asr": "nên diện tích bốn trăm ba mươi lăm héc ta tương đương với ba trăm bảy mươi sân bóng đá đây được coi là nhà máy điện mặt trời lớn nhất chile tính."
+    },
+    "scene[54930, 55110]": {
+        "id": 366,
+        "asr": "đến thời điểm hiện tại với công suất lắp đặt bốn trăm tám mươi me ga oát dự án tạo ra lượng điện năng đáp ứng."
+    },
+    "scene[55111, 55289]": {
+        "id": 367,
+        "asr": "nhu cầu của năm trăm nghìn hộ gia đình và giúp giảm khoảng gần một triệu tấn xê ô hai phát thải vào."
+    },
+    "scene[55290, 55640]": {
+        "id": 368,
+        "asr": "kỳ quyển mỗi năm dự án quang điện này là một bước tiến gần hơn tới cam kết loại bỏ hoàn toàn các nhà máy điện phát hải siêu hài khỏi hệ thống điện quốc gia chile và trung hoa carbon vào năm hai nghìn không trăm năm mươi."
+    },
+    "scene[55641, 55687]": {
+        "id": 369,
+        "asr": "điều này đã tăng lên nhiều lần và chiều lại nhiều hơn."
+    },
+    "scene[55688, 56010]": {
+        "id": 370,
+        "asr": "cục hàng không liên bang mỹ đang yêu cầu kiểm tra hai nghìn sáu trăm máy bay buông bảy ba bảy với lý do mặt nạ dưỡng khí của hành khách có thể bị hỏng trong trường hợp khẩn cấp yêu cầu kiểm tra được đưa ra."
+    },
+    "scene[56011, 56358]": {
+        "id": 371,
+        "asr": "đối với máy bay bẩy ba bẩy mắc và một số máy bay thế hệ tiếp theo sau khi có báo cáo về việc máy tạo ô xy phục vụ hành khách bị lệch khỏi vị trí có thể dẫn đến việc không cung cấp ô xy bổ sung trong trường hợp."
+    },
+    "scene[56359, 56642]": {
+        "id": 372,
+        "asr": "sảm áp suất cục hàng không liên bang mỹ cũng cấm các hãng hàng không lắp đặt các bộ phận có khả năng bị lỗi thay vào đó các hãng hàng không phải tiến hành kiểm tra trực quan tổng thể và."
+    },
+    "scene[56643, 56791]": {
+        "id": 373,
+        "asr": "nếu cần thì phải thay thế máy tạo ô xy bằng máy tạo ô xy mới hoặc là máy còn sử dụng được."
+    },
+    "scene[56792, 56863]": {
+        "id": 374,
+        "asr": "điều này từng khiến nhiều người mơ ước."
+    },
+    "scene[56864, 57031]": {
+        "id": 375,
+        "asr": "công ty công nghệ không gian spayuk đã phóng tên lửa pha cần chế lên quỹ đạo mang theo vệ thương."
+    },
+    "scene[57032, 57168]": {
+        "id": 376,
+        "asr": "tính thuốc xác sáu a đây là vệ tinh liên lạc đầu tiên được thổ nhĩ kỳ sản xuất tên lửa."
+    },
+    "scene[57169, 57257]": {
+        "id": 377,
+        "asr": "được phóng từ tổ hợp phóng không gian bốn mươi tại một chiến lược."
+    },
+    "scene[57258, 57376]": {
+        "id": 378,
+        "asr": "trạm vũ trụ thuộc bang florida của mỹ theo bộ giao thông và cơ sở hạ tầng."
+    },
+    "scene[57377, 57525]": {
+        "id": 379,
+        "asr": "thổ nhĩ kỳ tốt giãn sáu a sẽ mở rộng phạm vi phủ sóng vệ tinh của đất nước và đáp."
+    },
+    "scene[57526, 57628]": {
+        "id": 380,
+        "asr": "ứng nhu cầu phát sóng truyền hình."
+    },
+    "scene[0, 107]": {
+        "id": 381,
+        "asr": "phần mờ bài của chàng và bạn nàng luôn luôn yêu thương chàng."
+    },
+    "scene[108, 186]": {
+        "id": 382,
+        "asr": "chủ tịch nước tô lâm cùng đoàn đại giao."
+    },
+    "scene[187, 212]": {
+        "id": 383,
+        "asr": "unk biểu cấp cao của đảng."
+    },
+    "scene[213, 275]": {
+        "id": 384,
+        "asr": "nhà nước việt nam thăm cấp nhà nước tới cộng hoà dân."
+    },
+    "scene[276, 317]": {
+        "id": 385,
+        "asr": "chủ nhân dân lào."
+    },
+    "scene[318, 356]": {
+        "id": 386,
+        "asr": "chào."
+    },
+    "scene[357, 404]": {
+        "id": 387,
+        "asr": "đây là."
+    },
+    "scene[405, 446]": {
+        "id": 388,
+        "asr": "đầu."
+    },
+    "scene[447, 480]": {
+        "id": 389,
+        "asr": "một buổi diễn tập hoa lớn."
+    },
+    "scene[481, 539]": {
+        "id": 390,
+        "asr": "của bộ đội tên lửa chuyển trạng thái sẵn sàng chiến đấu."
+    },
+    "scene[540, 608]": {
+        "id": 391,
+        "asr": "cao sẽ diễn ra như thế nào hàm tấn thiết bị như."
+    },
+    "scene[609, 633]": {
+        "id": 392,
+        "asr": "là bệ đạn."
+    },
+    "scene[634, 691]": {
+        "id": 393,
+        "asr": "ra đa cảnh giới bài chỉ huy được."
+    },
+    "scene[692, 737]": {
+        "id": 394,
+        "asr": "lợi đọng đến vị trí chiến đấu sau hiệu lệnh."
+    },
+    "scene[738, 758]": {
+        "id": 395,
+        "asr": "đặc biệt là về."
+    },
+    "scene[759, 818]": {
+        "id": 396,
+        "asr": "sử dụng nguyên nguyễn mũ ký chàng thiết bị mới."
+    },
+    "scene[819, 878]": {
+        "id": 397,
+        "asr": "bắt giữ."
+    },
+    "scene[879, 916]": {
+        "id": 398,
+        "asr": "người đàn ông cố đưa hơn một."
+    },
+    "scene[917, 1124]": {
+        "id": 399,
+        "asr": "trâm còn dán sống vào trung quốc đại lục bằng cách nhét chúng vào trong quần."
+    },
+    "scene[1125, 1539]": {
+        "id": 400,
+        "asr": "kính thưa quý vị nhận lời mời của tổng bí thư chủ tịch nước lào thăng luôn sĩ sô lít sáng nay chủ tịch nước tô lâm đã đến thủ đô viêng chăn bắt đầu chuyến thăm cấp nhà nước tới lào ngay sau lễ đón chủ tịch nước tô lâm và tổng bí thư chủ tịch nước lào thăng luôn sĩ sô lít có của hội đàm."
+    },
+    "scene[1540, 1602]": {
+        "id": 401,
+        "asr": "điều này đã khiến cho nhà văn phòng phải xử lý theo quy định."
+    },
+    "scene[1603, 1662]": {
+        "id": 402,
+        "asr": "đây là chuyến công tác nước ngoài đầu tiên của chủ."
+    },
+    "scene[1663, 1709]": {
+        "id": 403,
+        "asr": "nước tô lâm kể từ khi nhậm chức."
+    },
+    "scene[1710, 1779]": {
+        "id": 404,
+        "asr": "thể hiện đảng và nhà nước việt nam luôn coi trọng và."
+    },
+    "scene[1780, 1797]": {
+        "id": 405,
+        "asr": "giành ưu tiên cao."
+    },
+    "scene[1798, 1850]": {
+        "id": 406,
+        "asr": "nhất cho mối quan hệ hữu nghị vĩ đại đoàn."
+    },
+    "scene[1851, 1904]": {
+        "id": 407,
+        "asr": "két đặc biệt và hợp tác toàn diện việt nam."
+    },
+    "scene[1905, 1944]": {
+        "id": 408,
+        "asr": "lào hợp tác."
+    },
+    "scene[1945, 1988]": {
+        "id": 409,
+        "asr": "phòng an ninh giữa hai nước."
+    },
+    "scene[1989, 2263]": {
+        "id": 410,
+        "asr": "hàng ngày càng vững chắc hợp tác kinh tế đầu tư thương mại tiếp tục tiến triển tích cực việt nam tiếp tục là một trong những nhà đầu tư đối tác thương mại lớn nhất của lào với hai trăm năm năm dự án."
+    },
+    "scene[2264, 2317]": {
+        "id": 411,
+        "asr": "đầu tư tại lào với tổng số vốn năm phần."
+    },
+    "scene[2318, 2358]": {
+        "id": 412,
+        "asr": "năm tỷ đô la mỹ."
+    },
+    "scene[2359, 2428]": {
+        "id": 413,
+        "asr": "những thức ăn như thế này thì rất dễ mải."
+    },
+    "scene[2429, 2486]": {
+        "id": 414,
+        "asr": "đôi khi anh."
+    },
+    "scene[2487, 2548]": {
+        "id": 415,
+        "asr": "đôi khi anh."
+    },
+    "scene[2549, 2582]": {
+        "id": 416,
+        "asr": "ô."
+    },
+    "scene[2583, 2642]": {
+        "id": 417,
+        "asr": "điều này dẫn đến tình trạng tương lai."
+    },
+    "scene[2643, 2687]": {
+        "id": 418,
+        "asr": "đêm unk."
+    },
+    "scene[2688, 2763]": {
+        "id": 419,
+        "asr": "đôi khi anh ấy không biết mình."
+    },
+    "scene[2764, 2812]": {
+        "id": 420,
+        "asr": "đêm."
+    },
+    "scene[2813, 2868]": {
+        "id": 421,
+        "asr": "chợt."
+    },
+    "scene[2869, 2924]": {
+        "id": 422,
+        "asr": "đêm nay."
+    },
+    "scene[2925, 2964]": {
+        "id": 423,
+        "asr": "đêm."
+    },
+    "scene[2965, 3091]": {
+        "id": 424,
+        "asr": "tổng bí thư chủ tịch nước lào thoang luôn sỉ sô lít đánh giá cao ý nghĩa chuyến thăm."
+    },
+    "scene[3092, 3157]": {
+        "id": 425,
+        "asr": "nhấn mạnh việc chủ tịch nước tô lâm chọn lào là nước."
+    },
+    "scene[3158, 3361]": {
+        "id": 426,
+        "asr": "đầu tiên thăm trên cương vị mới thể hiện sự coi trọng mặt đảng nhà nước việt nam và cá nhân đồng chí tô lâm đối với quan hệ hai nước chúc mừng."
+    },
+    "scene[3362, 3426]": {
+        "id": 427,
+        "asr": "đồng chí tô lâm được tín nhiệm bầu làm chủ tịch nước."
+    },
+    "scene[3427, 3504]": {
+        "id": 428,
+        "asr": "tin tưởng chủ tịch nước cùng các lãnh đạo cấp cao việt nam sẽ."
+    },
+    "scene[3505, 3627]": {
+        "id": 429,
+        "asr": "tiếp tục đưa việt nam ngày càng phát triển tổng bí thư chủ tịch nước thong luôn sỉ suýt khẳng định."
+    },
+    "scene[3628, 3709]": {
+        "id": 430,
+        "asr": "sẵn sàng phối hợp với chủ tịch nước tô lâm phát huy mối quan hệ."
+    },
+    "scene[3710, 3783]": {
+        "id": 431,
+        "asr": "có một không hai trên thế giới ngày càng bền vững và."
+    },
+    "scene[3784, 3884]": {
+        "id": 432,
+        "asr": "hiệu quả chân thành cảm ơn sự ủng hộ của việt nam dành cho lào."
+    },
+    "scene[3885, 3980]": {
+        "id": 433,
+        "asr": "trong đấu tranh giành độc lập dân tộc xây dựng và phát triển đất nước."
+    },
+    "scene[3981, 4043]": {
+        "id": 434,
+        "asr": "tổng bí thư chủ tịch nước lào thong lôn xỉa xô liết."
+    },
+    "scene[4044, 4148]": {
+        "id": 435,
+        "asr": "trân trọng chuyển lời thăm hỏi tới tổng bí thư nguyễn phú trọng và các lãnh đạo cấp cao việt."
+    },
+    "scene[4149, 4239]": {
+        "id": 436,
+        "asr": "chúc mừng những thành tựu của việt nam trong triển khai thực hiện."
+    },
+    "scene[4240, 4332]": {
+        "id": 437,
+        "asr": "nghị quyết đại hội đảng lần thứ mười ba phát triển kinh tế xã hội và đối ngoại."
+    },
+    "scene[4333, 4482]": {
+        "id": 438,
+        "asr": "chủ tịch nước tô lâm truyền lời thăm hỏi của tổng bí thư nguyễn phú trọng."
+    },
+    "scene[4483, 4593]": {
+        "id": 439,
+        "asr": "thủ tướng phạm minh chính và chủ tịch quốc hội trần thành mẫn tới tổng bí thư chủ tịch nước."
+    },
+    "scene[4594, 4652]": {
+        "id": 440,
+        "asr": "thong luôn sỉ su líp các lãnh đạo cấp cao."
+    },
+    "scene[4653, 4738]": {
+        "id": 441,
+        "asr": "cán bộ đảng viên và nhân dân lào anh em đánh giá."
+    },
+    "scene[4739, 4843]": {
+        "id": 442,
+        "asr": "giá cao những thành tựu lào đã đạt được tin tưởng lào sẽ sớm khắc phục các khó khăn."
+    },
+    "scene[4844, 4946]": {
+        "id": 443,
+        "asr": "thực hiện thắng lợi các mục tiêu đã đề ra và tổ chức thành công đại hội đảng lần thứ mười hai."
+    },
+    "scene[4947, 5097]": {
+        "id": 444,
+        "asr": "ngày chủ tịch nước tô lâm cảm ơn sự giúp đỡ ủng hộ quý báu quần ào đối với việt nam trong sự."
+    },
+    "scene[5098, 5239]": {
+        "id": 445,
+        "asr": "nghiệp xây dựng và bảo vệ tổ quốc hai nhà lãnh đạo bày tỏ vui mừng về sự phát triển tốt đẹp của quan hệ."
+    },
+    "scene[5240, 5312]": {
+        "id": 446,
+        "asr": "hay nước thời gian qua với các hoạt động trao đổi đoàn và tiếp xúc."
+    },
+    "scene[5313, 5433]": {
+        "id": 447,
+        "asr": "cấp cao phát huy hiệu quả các cơ chế hợp tác song phương hợp tác quốc phòng an ninh ngày càng."
+    },
+    "scene[5434, 5473]": {
+        "id": 448,
+        "asr": "chặt chẽ hiệu quả với vai."
+    },
+    "scene[5474, 5571]": {
+        "id": 449,
+        "asr": "trò là trụ cột quan trọng hợp tác kinh tế được quan tâm thúc đẩy."
+    },
+    "scene[5572, 5841]": {
+        "id": 450,
+        "asr": "hai bên cũng đã nỗ lực tháo gỡ dứt điểm khó khăn vướng mắc một số dự án trọng điểm hợp tác trong văn hoá xã hội giáo dục thể thao giao lưu nhân dân và giữa các địa phương nhất là các tỉnh biên giới."
+    },
+    "scene[5842, 5897]": {
+        "id": 451,
+        "asr": "tiếp tục được tăng cường."
+    },
+    "scene[5898, 5968]": {
+        "id": 452,
+        "asr": "trong bối cảnh tình hình thế giới và khu vực đang diễn biến phức tạp."
+    },
+    "scene[5969, 6045]": {
+        "id": 453,
+        "asr": "hai nhà lãnh đạo tái khẳng định luôn co trọng và giành."
+    },
+    "scene[6046, 6107]": {
+        "id": 454,
+        "asr": "ưu tiên cao nhất cho việc củng cố vun đắp quan."
+    },
+    "scene[6108, 6195]": {
+        "id": 455,
+        "asr": "hệ hữu nghị vĩ đại đoàn kết đặc biệt và hợp tác toàn diện việt nam làm."
+    },
+    "scene[6196, 6271]": {
+        "id": 456,
+        "asr": "tiếp tục triển khai hiệu quả các thỏa thuận cấp cao."
+    },
+    "scene[6272, 6525]": {
+        "id": 457,
+        "asr": "cũng như giữa các bộ ngành ở trung ương và địa phương tăng cường tham vấn về các vấn đề chiến lược đẩy mạnh các chuyến thăm tiếp xúc cấp cao và các cấp rà soát và nâng cao hiệu quả các cơ chế hợp tác."
+    },
+    "scene[6526, 6621]": {
+        "id": 458,
+        "asr": "hình ảnh tuyên truyền giáo dục về lịch sử truyền thống quan hệ hai nước."
+    },
+    "scene[6622, 6721]": {
+        "id": 459,
+        "asr": "sớm đưa các nội dung của bộ lịch sử quan hệ đặc biệt việt nam lào vào giảng dạy."
+    },
+    "scene[6722, 6801]": {
+        "id": 460,
+        "asr": "phối hợp xây dựng các công trình và di tích lịch sử về quan hệ."
+    },
+    "scene[6802, 6891]": {
+        "id": 461,
+        "asr": "để việt nam lào hai bên cũng nhất trí đẩy mạnh hợp tác anh."
+    },
+    "scene[6892, 7096]": {
+        "id": 462,
+        "asr": "nhân linh quốc phòng tiếp tục phối hợp hỗ trợ lẫn nhau bảo đảm ổn định chính trị an ninh trật tự và an toàn xã hội ở mỗi nước triển khai tốt các thỏa thuận giữa bộ."
+    },
+    "scene[7097, 7186]": {
+        "id": 463,
+        "asr": "quốc phòng và bộ công an hai nước phối hợp chặt chẽ trong quản lý bảo vệ biên giới."
+    },
+    "scene[7187, 7298]": {
+        "id": 464,
+        "asr": "mới nhất là ngăn chặn đấu tranh phòng chống các loại tội phạm xuyên quốc gia tội phạm ma tú."
+    },
+    "scene[7299, 7365]": {
+        "id": 465,
+        "asr": "túy khai thác trái phép tài nguyên thiên nhiên xuất nhập."
+    },
+    "scene[7366, 7443]": {
+        "id": 466,
+        "asr": "cảnh trái phép tiếp tục phối hợp hiệu quả trong việc tìm kiếm."
+    },
+    "scene[7444, 7516]": {
+        "id": 467,
+        "asr": "cất bốc và hồi hương hài cốt liệt sĩ quân tình nguyện và."
+    },
+    "scene[7517, 7612]": {
+        "id": 468,
+        "asr": "nguyên nhân da việt nam hy sinh tại lào và tôn tạo các tượng đài liên minh chiến đấu."
+    },
+    "scene[7613, 7687]": {
+        "id": 469,
+        "asr": "việt nam lào hai bên nhất trí nỗ lực nâng tầm hình."
+    },
+    "scene[7688, 7759]": {
+        "id": 470,
+        "asr": "tác kinh tế tăng cường trao đổi kinh nghiệm quản lý kinh tế vĩ mô."
+    },
+    "scene[7760, 7858]": {
+        "id": 471,
+        "asr": "hồ phòng chống tham nhũng nâng cấp các cửa khẩu quốc tế và đường giao thông kết."
+    },
+    "scene[7859, 7952]": {
+        "id": 472,
+        "asr": "tối hài nước nâng cao hiệu quả hợp tác trong lĩnh vực giáo dục và đào tạo du lịch."
+    },
+    "scene[7953, 8044]": {
+        "id": 473,
+        "asr": "lịch năng lượng nông nghiệp sạch khoa học công nghệ y tế văn hóa."
+    },
+    "scene[8045, 8130]": {
+        "id": 474,
+        "asr": "hoá giao lưu nhân dân và giữa các địa phương hai bên."
+    },
+    "scene[8131, 8230]": {
+        "id": 475,
+        "asr": "tiến mạnh cần tăng cường chia sẻ trao đổi thông tin phối hợp và hợp tác chặt chẽ trong."
+    },
+    "scene[8231, 8340]": {
+        "id": 476,
+        "asr": "các diễn đàn khu vực và quốc tế đảm bảo đoàn kết và phát huy vai trò trung tâm của a."
+    },
+    "scene[8341, 8396]": {
+        "id": 477,
+        "asr": "xe ăn và các cơ chế do ào xèng."
+    },
+    "scene[8397, 8474]": {
+        "id": 478,
+        "asr": "dẫn dắt chủ tịch nước tô lâm khẳng định việt nam sẽ hết."
+    },
+    "scene[8475, 8573]": {
+        "id": 479,
+        "asr": "lòng ủng hộ lào đảm nhiệm thành công vai trò các trọng trách quốc tế trong năm hai nghìn."
+    },
+    "scene[8574, 8684]": {
+        "id": 480,
+        "asr": "phòng trăm hai tư trong đó có vai trò chủ tịch a se an và chủ tịch ai pa."
+    },
+    "scene[8685, 8757]": {
+        "id": 481,
+        "asr": "chủ tịch nước tô lâm nhắc lại lời mời tổng bí thư."
+    },
+    "scene[8758, 8838]": {
+        "id": 482,
+        "asr": "chủ tịch nước thong luôn sỉ du lít thăm việt nam vào thời gian thuận."
+    },
+    "scene[8839, 8997]": {
+        "id": 483,
+        "asr": "hiện tổng bí thư chủ tịch nước lào đã vui vẻ nhận lời sau hội đàm."
+    },
+    "scene[8998, 9049]": {
+        "id": 484,
+        "asr": "lãnh đạo hai nước đã chứng kiến lễ trao."
+    },
+    "scene[9050, 9233]": {
+        "id": 485,
+        "asr": "đổi bản ghi nhớ giữa bộ công an việt nam và bộ công an lào về xây dựng triển khai hệ thống quản lý dân cư và căn cước công dân tại."
+    },
+    "scene[9234, 9282]": {
+        "id": 486,
+        "asr": "lào hiệp định dẫn độ."
+    },
+    "scene[9283, 9460]": {
+        "id": 487,
+        "asr": "bộ công an việt nam và viện kiểm sát nhân dân tối cao lào kế hoạch hợp tác năm hai nghìn không trăm hai tư."
+    },
+    "scene[9461, 9516]": {
+        "id": 488,
+        "asr": "giữa bộ tư pháp việt nam và bộ tư pháp lào."
+    },
+    "scene[9517, 9643]": {
+        "id": 489,
+        "asr": "thỏa thuận tăng cường kết nối vận tải hàng không việt nam lào giữa bộ công chính và vận tải lào."
+    },
+    "scene[9644, 9674]": {
+        "id": 490,
+        "asr": "unk việt dép."
+    },
+    "scene[9675, 9724]": {
+        "id": 491,
+        "asr": "đó thực hiện các dự án hàng không dân dụng."
+    },
+    "scene[9725, 9858]": {
+        "id": 492,
+        "asr": "và mở rộng hoạt động thương mại và khai thác tại lào vietjet cũng đã đưa vào hoạt động trung tâm."
+    },
+    "scene[9859, 9926]": {
+        "id": 493,
+        "asr": "bảo dưỡng tàu bay hiện đại tầm vóc khu vực do vietjet."
+    },
+    "scene[9927, 9979]": {
+        "id": 494,
+        "asr": "và lào airlines phối hợp vận hành."
+    },
+    "scene[9980, 10008]": {
+        "id": 495,
+        "asr": "với sự quản lý của."
+    },
+    "scene[10009, 10099]": {
+        "id": 496,
+        "asr": "cục hàng không cả hai nước."
+    },
+    "scene[10100, 10297]": {
+        "id": 497,
+        "asr": "trong chuyến thăm các nhà nước tới lào sáng nay chủ tịch nước tô lâm đã hội kiến với thủ tướng lào xản xay xỉ phan đon."
+    },
+    "scene[10298, 10353]": {
+        "id": 498,
+        "asr": "thủ tướng sau."
+    },
+    "scene[10354, 10635]": {
+        "id": 499,
+        "asr": "sang sĩ phân đon chào mừng chủ tịch nước tô lâm thăm cấp nhà nước đầu tiên tới lào trên cương vị mới chúc mừng đồng chí tô lâm được quốc hội việt nam tín nhiệm bầu làm chủ tịch nước chủ tịch nước tô lâm chuyển lời thăm hỏi."
+    },
+    "scene[10636, 10675]": {
+        "id": 500,
+        "asr": "hỏi của thủ tướng phạm minh chính."
+    },
+    "scene[10676, 10733]": {
+        "id": 501,
+        "asr": "và lãnh đạo cấp cao việt nam tới thủ tướng lào."
+    },
+    "scene[10734, 10771]": {
+        "id": 502,
+        "asr": "són xay xì phăn đon."
+    },
+    "scene[10772, 10839]": {
+        "id": 503,
+        "asr": "tin tưởng lào sẽ vượt qua những khó khăn trước mắt."
+    },
+    "scene[10840, 10914]": {
+        "id": 504,
+        "asr": "thực hiện thắng lợi nghị quyết đại hội đảng lần thứ mười một và kế hoạch."
+    },
+    "scene[10915, 10975]": {
+        "id": 505,
+        "asr": "phát triển kinh tế xã hội lần thứ chín giai đoạn hai nghìn."
+    },
+    "scene[10976, 11049]": {
+        "id": 506,
+        "asr": "không trăm hai mốt hai nghìn không trăm hai mươi lăm hai."
+    },
+    "scene[11050, 11110]": {
+        "id": 507,
+        "asr": "bên đánh giá cao những thành quả nổi bật trong hợp tác giữa hai."
+    },
+    "scene[11111, 11190]": {
+        "id": 508,
+        "asr": "nước trên tất cả lĩnh vực góp phần quan trọng vào phát triển."
+    },
+    "scene[11191, 11241]": {
+        "id": 509,
+        "asr": "chinh tế xã hội tăng cường quốc phòng an ninh."
+    },
+    "scene[11242, 11355]": {
+        "id": 510,
+        "asr": "bảo đảm ổn định chính trị xã hội của mỗi nước nhất trí tập trung triển khai các."
+    },
+    "scene[11356, 11440]": {
+        "id": 511,
+        "asr": "thoả thuận hợp tác cấp cao giữa hai nước nhất là kỳ họp lần thứ bốn mươi."
+    },
+    "scene[11441, 11530]": {
+        "id": 512,
+        "asr": "cháu ủy ban liên chính phủ hiệp định về hợp tác song phương việt nam."
+    },
+    "scene[11531, 11586]": {
+        "id": 513,
+        "asr": "lào giai đoạn hai nghìn không trăm hai mốt hai."
+    },
+    "scene[11587, 11656]": {
+        "id": 514,
+        "asr": "không trăm hai lăm và thỏa thuận chiến lược hợp tác."
+    },
+    "scene[11657, 11764]": {
+        "id": 515,
+        "asr": "việt nam lào giai đoạn hai nghìn không trăm hai mốt hai nghìn không trăm ba mươi."
+    },
+    "scene[11765, 11844]": {
+        "id": 516,
+        "asr": "tiếp tục duy trì các chuyến thăm tiếp xúc cấp cao và các cấp."
+    },
+    "scene[11845, 11912]": {
+        "id": 517,
+        "asr": "tích cực giải quyết khó khăn vướng mắc nâng cao hiệu."
+    },
+    "scene[11913, 11981]": {
+        "id": 518,
+        "asr": "quả các cơ chế hợp tác song phương phối hợp chặt chẽ."
+    },
+    "scene[11982, 12052]": {
+        "id": 519,
+        "asr": "trong các vấn đề chiến lược liên quan đến an ninh và phát triển."
+    },
+    "scene[12053, 12137]": {
+        "id": 520,
+        "asr": "của mỗi nước hai nhà lãnh đạo nhất trí tiếp tục thực hiện hiệu quả."
+    },
+    "scene[12138, 12210]": {
+        "id": 521,
+        "asr": "quả các nghị định thư kế hoạch hợp tác quốc phòng an ninh."
+    },
+    "scene[12211, 12314]": {
+        "id": 522,
+        "asr": "đã ký kết phối hợp tìm các biện pháp đột phá để giải phóng nguồn lực cho hợp."
+    },
+    "scene[12315, 12388]": {
+        "id": 523,
+        "asr": "ta kinh tế giữa hai nước phấn đấu đạt mục tiêu tăng trưởng thương."
+    },
+    "scene[12389, 12482]": {
+        "id": 524,
+        "asr": "mại mười đến mười lăm phần trăm trong năm này hai bên đánh giá cao."
+    },
+    "scene[12483, 12576]": {
+        "id": 525,
+        "asr": "nhiều dự án hợp tác tiêu biểu đã hoàn thành được bàn giao và đi vào sân."
+    },
+    "scene[12577, 12651]": {
+        "id": 526,
+        "asr": "sử dụng như sân bay nòng khảng bệnh viện hữu nghị tái."
+    },
+    "scene[12652, 12730]": {
+        "id": 527,
+        "asr": "unk xiêng khoảng học viện chính trị công an lào nhất trí."
+    },
+    "scene[12731, 12931]": {
+        "id": 528,
+        "asr": "tục nỗ lực thúc đẩy một số dự án trọng điểm về năng lượng khai khoáng kết nối cơ sở hạ tầng phấn đấu tạo môi trường thuận lợi minh bạch cho hợp tác đầu tư."
+    },
+    "scene[12932, 13022]": {
+        "id": 529,
+        "asr": "tư đẩy mạnh hợp tác giáo dục đào tạo hợp tác khoa học thúc đẩy."
+    },
+    "scene[13023, 13109]": {
+        "id": 530,
+        "asr": "hợp tác về chuyển đổi số giữa các cơ quan quản lý nhà nước và giữa."
+    },
+    "scene[13110, 13166]": {
+        "id": 531,
+        "asr": "các doanh nghiệp trong lĩnh vực này tăng cường hợp."
+    },
+    "scene[13167, 13258]": {
+        "id": 532,
+        "asr": "tác giữa các địa phương thủ tướng sỏi xay xỉ văn đon."
+    },
+    "scene[13259, 13368]": {
+        "id": 533,
+        "asr": "khẳng định sẽ tiếp tục cùng thủ tướng phạm minh chính quyết liệt triển khai các thỏa thuận cấp cao giữa."
+    },
+    "scene[13369, 13453]": {
+        "id": 534,
+        "asr": "hai nước nhất là trong lĩnh vực kinh tế mang lại lợi ích thiết thực hơn nữa."
+    },
+    "scene[13454, 13519]": {
+        "id": 535,
+        "asr": "nước nữa cho người dân hai nước về các vấn đề."
+    },
+    "scene[13520, 13588]": {
+        "id": 536,
+        "asr": "khu vực và quốc tế hai nhà lãnh đạo nhất trí hai."
+    },
+    "scene[13589, 13680]": {
+        "id": 537,
+        "asr": "bên cần tăng cường phối hợp ủng hộ lẫn nhau trên diễn đàn đa phương."
+    },
+    "scene[13681, 13738]": {
+        "id": 538,
+        "asr": "nhất là tại liên hợp quốc a se an và các cầu."
+    },
+    "scene[13739, 13777]": {
+        "id": 539,
+        "asr": "chế hợp tác tiểu vùng mê kông."
+    },
+    "scene[13778, 14161]": {
+        "id": 540,
+        "asr": "chủ tịch nước nhấn mạnh việt nam sẵn sàng tiếp tục hỗ trợ lào đảm nhiệm thành công vai trò chủ tịch a si an và chủ tịch ai pa năm hai nghìn không trăm hai mươi tư góp phần nâng cao vai trò và vị thế của lào ở khu vực và trên thế giới."
+    },
+    "scene[14162, 14348]": {
+        "id": 541,
+        "asr": "chiều nay tại nhà quốc hội lào chủ tịch nước tô lâm đã hội kiến với chủ tịch quốc hội lào pencephone phone vi hãn."
+    },
+    "scene[14349, 14410]": {
+        "id": 542,
+        "asr": "nữ quốc hội lào xe số phòn phôn vì hẳn chào mừng chủ tịch nước."
+    },
+    "scene[14411, 14480]": {
+        "id": 543,
+        "asr": "tô lâm lần đầu tiên sang thăm cấp nhà nước lào trên."
+    },
+    "scene[14481, 14541]": {
+        "id": 544,
+        "asr": "unk vị mới chúc mừng đồng chí được tín nhiệm bầu."
+    },
+    "scene[14542, 14741]": {
+        "id": 545,
+        "asr": "làm chủ tịch nước trân trọng chuyển lời thăm hỏi tới tổng bí thư nguyễn phú trọng và lãnh đạo cấp cao việt nam cảm ơn sự ủng hộ hỗ trợ quý báu của đảng."
+    },
+    "scene[14742, 14816]": {
+        "id": 546,
+        "asr": "nhà nước và nhân dân việt nam dành cho đảng nhà nước."
+    },
+    "scene[14817, 14864]": {
+        "id": 547,
+        "asr": "và nhân dân lào trong quá trình đấu tranh."
+    },
+    "scene[14865, 14974]": {
+        "id": 548,
+        "asr": "thành độc lập dân tộc và xây dựng phát triển đất nước chủ tịch nước."
+    },
+    "scene[14975, 15107]": {
+        "id": 549,
+        "asr": "tôi lâm bày tỏi vui mừng sang thăm đất nước làng anh em và gặp lại chủ tịch quốc hội sen sỏi von phương vĩnh hẳn."
+    },
+    "scene[15108, 15175]": {
+        "id": 550,
+        "asr": "chuyển lễ thăm hỏi của chủ tịch quốc hội trần thanh mẫn và lãnh đạo."
+    },
+    "scene[15176, 15292]": {
+        "id": 551,
+        "asr": "cấp cao việt nam tới đồng chí trân trọng cảm ơn những tình cảm tốt đẹp quý báu của đảng nhật."
+    },
+    "scene[15293, 15357]": {
+        "id": 552,
+        "asr": "nước và nhân dân lào luôn dành cho việt nam."
+    },
+    "scene[15358, 15548]": {
+        "id": 553,
+        "asr": "tò vui mừng trước sự phát triển tốt đẹp của mối quan hệ giữa hai nước nói chung hai quốc hội nói riêng chủ tịch nước tô lâm và chủ tịch quốc hội xây dựng phong phong vi hạn."
+    },
+    "scene[15549, 15618]": {
+        "id": 554,
+        "asr": "tiến mạnh tầm quan trọng của việc thường xuyên trao đổi đoàn."
+    },
+    "scene[15619, 15790]": {
+        "id": 555,
+        "asr": "và tiếp xúc cấp cao tích cực triển khai thỏa thuận hợp tác giữa hai quốc hội trong đó có việc tổ chức các hội nghị hội thảo chuyên đề."
+    },
+    "scene[15791, 15923]": {
+        "id": 556,
+        "asr": "nhằm tăng cường trao đổi chia sẻ kinh nghiệm chuyên môn tiếp tục phối hợp chặt chẽ ủng hộ lẫn nhau."
+    },
+    "scene[15924, 15996]": {
+        "id": 557,
+        "asr": "tại các diễn đàn nghị viện khu vực và quốc tế."
+    },
+    "scene[15997, 16083]": {
+        "id": 558,
+        "asr": "chủ tịch nước tô lâm đánh giá cao việc lào tổ chức thành công."
+    },
+    "scene[16084, 16193]": {
+        "id": 559,
+        "asr": "unk hội nghị cấp cao quốc hội ba nước việt nam lào cam pu chia lần đầu tiên và năm."
+    },
+    "scene[16194, 16289]": {
+        "id": 560,
+        "asr": "ngoái khẳng định việt nam sẵn sàng hỗ trợ lào đảm nhận thành công các."
+    },
+    "scene[16290, 16370]": {
+        "id": 561,
+        "asr": "hoạt động đối ngoại quan trọng trong thời gian tới trong đó có hội nghị."
+    },
+    "scene[16371, 16447]": {
+        "id": 562,
+        "asr": "hội nghị hội đồng liên nghị viện an."
+    },
+    "scene[16448, 16560]": {
+        "id": 563,
+        "asr": "dnipad hai ngàn hai mươi tư và đảm nhiệm thành công vai trò chủ tịch ipad."
+    },
+    "scene[16561, 16655]": {
+        "id": 564,
+        "asr": "năm hai ngàn hai mươi tư."
+    },
+    "scene[16656, 16730]": {
+        "id": 565,
+        "asr": "cộng thêm tên tháp lý chiến lược hạ thức cao tầng."
+    },
+    "scene[16731, 16778]": {
+        "id": 566,
+        "asr": "của nay chúng ta vẫn đang hằn đây."
+    },
+    "scene[16779, 16973]": {
+        "id": 567,
+        "asr": "chiều nay chủ tịch nước tô lâm đã tiếp chủ tịch mặt trận lào xây dựng đất nước sỉ la vông hút phá thun chủ tịch mặt trận."
+    },
+    "scene[16974, 17081]": {
+        "id": 568,
+        "asr": "lào xây dựng đất nước xỉn la vông khuất phai thùn cho biết vừa qua đã tổ chức nhiều hoạt động."
+    },
+    "scene[17082, 17127]": {
+        "id": 569,
+        "asr": "có ý nghĩa giữa mặt trận lào xây."
+    },
+    "scene[17128, 17202]": {
+        "id": 570,
+        "asr": "đất nước và mặt trận tổ quốc việt nam qua đó giúp."
+    },
+    "scene[17203, 17263]": {
+        "id": 571,
+        "asr": "tuyên truyền sâu rộng về quan hệ hai nước đồng thời."
+    },
+    "scene[17264, 17346]": {
+        "id": 572,
+        "asr": "nhấn mạnh sẽ tiếp tục phối hợp chặt chẽ với trung ương mặt trận tổ quốc."
+    },
+    "scene[17347, 17437]": {
+        "id": 573,
+        "asr": "nam quan tâm giúp đỡ và tạo điều kiện thuận lợi cho."
+    },
+    "scene[17438, 17512]": {
+        "id": 574,
+        "asr": "unk việt nam làm ăn sinh sống ở lào chủ tịch nước tô."
+    },
+    "scene[17513, 17568]": {
+        "id": 575,
+        "asr": "unk vui mừng nhận thấy quan hệ việt nam lào ngày càng."
+    },
+    "scene[17569, 17632]": {
+        "id": 576,
+        "asr": "được củng cố và phát triển sâu rộng trên tất."
+    },
+    "scene[17633, 17716]": {
+        "id": 577,
+        "asr": "cả các lĩnh vực đặc biệt là văn hoá xã hội và giao."
+    },
+    "scene[17717, 17815]": {
+        "id": 578,
+        "asr": "lưu nhân dân vì lợi ích của nhân dân hai nước chủ tịch nước đánh giá cao."
+    },
+    "scene[17816, 17876]": {
+        "id": 579,
+        "asr": "kết quả hợp tác giữa trung ương và trận nào xây dựng đất."
+    },
+    "scene[17877, 17960]": {
+        "id": 580,
+        "asr": "nước với ủy ban trung ương mở trận tổ quốc việt nam đặc biệt là việc."
+    },
+    "scene[17961, 18030]": {
+        "id": 581,
+        "asr": "hai mặt trận đã ký tỏ thuận hợp tác giai đoạn hai nghìn không trăm."
+    },
+    "scene[18031, 18104]": {
+        "id": 582,
+        "asr": "hai hai nghìn không trăm hai sáu đề nghị trúc."
+    },
+    "scene[18105, 18175]": {
+        "id": 583,
+        "asr": "ông ương mà trận nào xây dựng đất nước phối hợp chặt chẽ với phía việt nam."
+    },
+    "scene[18176, 18256]": {
+        "id": 584,
+        "asr": "năm thực hiện hiệu quả các thỏa thuận hợp tác trên các lĩnh vực."
+    },
+    "scene[18257, 18320]": {
+        "id": 585,
+        "asr": "unk trận dân vận tôn giáo dân tộc."
+    },
+    "scene[18321, 18391]": {
+        "id": 586,
+        "asr": "và đẩy mạnh tuyên truyền trong các tầng lớp nhân dân về."
+    },
+    "scene[18392, 18475]": {
+        "id": 587,
+        "asr": "truyền thống lịch sử của quan hệ đặc biệt việt nam lào."
+    },
+    "scene[18476, 18593]": {
+        "id": 588,
+        "asr": "cùng ngày chủ tịch nước tô lâm và các thành viên đoàn cấp."
+    },
+    "scene[18594, 18643]": {
+        "id": 589,
+        "asr": "cao việt nam đến đặt vòng hoa tại."
+    },
+    "scene[18644, 18754]": {
+        "id": 590,
+        "asr": "đài tưởng niệm các liệt sĩ vô danh ở thủ đô viêm chăn tưởng nhớ và tri ân."
+    },
+    "scene[18755, 18785]": {
+        "id": 591,
+        "asr": "công ơn tinh thần đấu thầu."
+    },
+    "scene[18786, 18862]": {
+        "id": 592,
+        "asr": "bất quốc của những người con ưu tú của nhân dân các dân."
+    },
+    "scene[18863, 18927]": {
+        "id": 593,
+        "asr": "lão đã ngã xuống trong công cuộc giải phóng."
+    },
+    "scene[18928, 19044]": {
+        "id": 594,
+        "asr": "bảo vệ xây dựng đất nước lào."
+    },
+    "scene[19045, 19385]": {
+        "id": 595,
+        "asr": "chiều nay gặp gỡ thăm hỏi nguyên tổng bí thư chủ tịch nước lào trung niên xe nhà xóm nguyên tổng bí thư chủ tịch nước lào buôn nhang vô la chít và nguyên thủ tướng lào thong xỉn tham mạng phong chủ tịch nước tô lâm bày tỏ vui mừng được gặp nhiều."
+    },
+    "scene[19386, 19608]": {
+        "id": 596,
+        "asr": "những người đồng chí anh em người bạn thân thiết lâu năm của đảng nhà nước và nhân dân việt nam trân trọng sự hỗ trợ và tình cảm quý báu các đồng chí dành cho việt nam cũng như những cống hiến và đóng góp."
+    },
+    "scene[19609, 19658]": {
+        "id": 597,
+        "asr": "pháp to lớn trong việc gìn giữ vun."
+    },
+    "scene[19659, 19738]": {
+        "id": 598,
+        "asr": "các cho mối quan hệ việt nam lào chuyển lới thăm hỏi của tổng bí thư nguyễn phú."
+    },
+    "scene[19739, 19789]": {
+        "id": 599,
+        "asr": "trọng thủ tướng phạm minh chính chủ tịch quốc."
+    },
+    "scene[19790, 19849]": {
+        "id": 600,
+        "asr": "hội trần thanh mẫn tới các đồng chí nguyên lãnh đạo cấp cao."
+    },
+    "scene[19850, 19942]": {
+        "id": 601,
+        "asr": "lào của lào chủ tịch nước tin tưởng dưới sự lãnh đạo sáng suốt của đảng nhân dân."
+    },
+    "scene[19943, 19994]": {
+        "id": 602,
+        "asr": "đất nước lào sẽ ngày càng tàn phá."
+    },
+    "scene[19995, 20054]": {
+        "id": 603,
+        "asr": "phát triển độc lập tự chủ phồn vinh."
+    },
+    "scene[20055, 20122]": {
+        "id": 604,
+        "asr": "dàn lào ngày càng ấm no và hạnh phúc nhấn mạnh."
+    },
+    "scene[20123, 20265]": {
+        "id": 605,
+        "asr": "những thành tựu mà đảng nhà nước và nhân dân là anh em đạt được trong những năm qua có những đóng góp quan trọng."
+    },
+    "scene[20266, 20414]": {
+        "id": 606,
+        "asr": "của các đồng chí nguyên lãnh đạo cấp cao của lào các đồng chí nguyên lãnh đạo cấp cao của lào cảm ơn tình cảm."
+    },
+    "scene[20415, 20472]": {
+        "id": 607,
+        "asr": "chân thành của chủ tịch nước tô lâm gửi lời thăm hỏi."
+    },
+    "scene[20473, 20562]": {
+        "id": 608,
+        "asr": "tới tổng bí thư nguyễn phú trọng các lãnh đạo cấp cao việt nam cho biết."
+    },
+    "scene[20563, 20678]": {
+        "id": 609,
+        "asr": "vẫn luôn theo dõi sự phát triển tốt đẹp của mối quan hệ giữa hai nước cảm ơn sự ủng hộ."
+    },
+    "scene[20679, 20758]": {
+        "id": 610,
+        "asr": "bộ hỗ trợ quý báu của đảng nhà nước và nhân dân việt nam."
+    },
+    "scene[20759, 20858]": {
+        "id": 611,
+        "asr": "chợ lào đề nghị hai bên tiếp tục vun đắp cho quan hệ e nước."
+    },
+    "scene[20859, 20999]": {
+        "id": 612,
+        "asr": "không ngừng nâng cao hiệu quả hợp tác triển khai hiệu quả các hiệp định thoả thuận hợp tác giữa hai nước tiếp tục."
+    },
+    "scene[21000, 21062]": {
+        "id": 613,
+        "asr": "giáo dục và tuyên truyền cho nhân dân hai nước."
+    },
+    "scene[21063, 21144]": {
+        "id": 614,
+        "asr": "unk truyền thống quan hệ đặc biệt gắn bó thủy chung trong sáng."
+    },
+    "scene[21145, 21240]": {
+        "id": 615,
+        "asr": "có một không hai giữa hai nước."
+    },
+    "scene[21241, 21297]": {
+        "id": 616,
+        "asr": "tổng công cộng tặng thất bại triển lãm."
+    },
+    "scene[21298, 21509]": {
+        "id": 617,
+        "asr": "chiều nay tiếp chủ tịch hội hữu nghị lào việt nam bô viên khăm vông đa ra chủ tịch nước tô lâm đánh giá cao những đóng góp thích."
+    },
+    "scene[21510, 21564]": {
+        "id": 618,
+        "asr": "cược của chủ tịch hội trong giáo dục tuyên."
+    },
+    "scene[21565, 21600]": {
+        "id": 619,
+        "asr": "truyền thúc đẩy giao lưu nhân dân."
+    },
+    "scene[21601, 21641]": {
+        "id": 620,
+        "asr": "và nâng cao nhận thức của người dân."
+    },
+    "scene[21642, 21688]": {
+        "id": 621,
+        "asr": "ngoài nước về việc không ngừng củng cố."
+    },
+    "scene[21689, 21740]": {
+        "id": 622,
+        "asr": "cô và vun đắp mối quan hệ đặc biệt giữa hai nước."
+    },
+    "scene[21741, 21816]": {
+        "id": 623,
+        "asr": "chủ tịch nước cảm ơn hội đã phối hợp với các cơ."
+    },
+    "scene[21817, 21920]": {
+        "id": 624,
+        "asr": "quan chức năng của lào giúp đỡ tạo thuận lợi cho bà con việt nam việt kiều."
+    },
+    "scene[21921, 21989]": {
+        "id": 625,
+        "asr": "trong đó có cộng đồng người việt nam tại lào làm."
+    },
+    "scene[21990, 22080]": {
+        "id": 626,
+        "asr": "an sinh sống góp phần xây dựng đất nước ngày càng thịnh vượng."
+    },
+    "scene[22081, 22138]": {
+        "id": 627,
+        "asr": "đề nghị hội tiếp tục hỗ trợ bà con người việt."
+    },
+    "scene[22139, 22206]": {
+        "id": 628,
+        "asr": "hiện hội nhập và đóng góp tích cực làm cầu nối cùng."
+    },
+    "scene[22207, 22274]": {
+        "id": 629,
+        "asr": "cố vào vun đắp cho quan hệ việt nam lào."
+    },
+    "scene[22275, 22776]": {
+        "id": 630,
+        "asr": "thưa quý vị trong thời gian ngắn thì một số bệnh truyền nhiễm như bạch hầu ho gà hay sỏi đã xuất hiện trên cả nước đây đều là những bệnh có thể phòng bằng vắc xin do đó nên các chuyên gia khuyến cáo người dân cần chú ý các lịch tiêm ngừa để phòng bệnh tuy nhiên cũng không nên quá lo lắng mà cần theo dõi lịch tiêm phòng đúng liều đúng mũi."
+    },
+    "scene[22777, 22818]": {
+        "id": 631,
+        "asr": "lứa người dân."
+    },
+    "scene[22819, 22871]": {
+        "id": 632,
+        "asr": "đến việt bắc tơ thành phố hồ chí minh tìm người."
+    },
+    "scene[22872, 22938]": {
+        "id": 633,
+        "asr": "ngày qua liên tục tăng cao các bệnh được người dân."
+    },
+    "scene[22939, 22998]": {
+        "id": 634,
+        "asr": "chú ý tiêm phòng như bạch hầu cúm mua sợi."
+    },
+    "scene[22999, 23061]": {
+        "id": 635,
+        "asr": "nữ rủ bì là hiểu được vai trò của tìm người."
+    },
+    "scene[23062, 23121]": {
+        "id": 636,
+        "asr": "nhiều người dẫn cả gia đình theo để tìm phòng."
+    },
+    "scene[23122, 23179]": {
+        "id": 637,
+        "asr": "mình ngừa bệnh còn hơn là."
+    },
+    "scene[23180, 23592]": {
+        "id": 638,
+        "asr": "để khi mà bệnh rồi mới tại vì con tôi là tôi đã chích cho nó đầy đủ bạch hậu uống vàng ho gà vì màng não mủ rồi viêm cổ tử cung gì hả là tức là tôi không thủy đậu rồi nói chung là khi mà bùn cái vùng dịch cái thủy đậu là tụi nó chích ngừa rồi lên tụi nó không bị dính."
+    },
+    "scene[23593, 23623]": {
+        "id": 639,
+        "asr": "chứ mỗi lần mà đưa."
+    },
+    "scene[23624, 23974]": {
+        "id": 640,
+        "asr": "gia đình năm người đi tìm tất cả các bệnh bây giờ đang ngồi chờ thằng con trai đến tìm chứ không phải là tìm cá nhân hai vợ chồng và hai vợ chồng con trai và hằng con trai út là tìm thường xuyên bất cứ bệnh gì."
+    },
+    "scene[23975, 24217]": {
+        "id": 641,
+        "asr": "nhiều loại bệnh đã có vắc xin phòng ngừa chính vì vậy mà viện bác tơ khuyến cáo người dân cần chú ý để đi tiêm phòng vừa tạo lá chắn bảo vệ cho bản thân cũng như cộng."
+    },
+    "scene[24218, 24276]": {
+        "id": 642,
+        "asr": "theo các chuyên gia."
+    },
+    "scene[24277, 24326]": {
+        "id": 643,
+        "asr": "các bệnh truyền nhiễm xuất hiện gần đây trên cả nước."
+    },
+    "scene[24327, 24383]": {
+        "id": 644,
+        "asr": "có nguyên nhân từ lỗ hổng của tim ngừa."
+    },
+    "scene[24384, 24445]": {
+        "id": 645,
+        "asr": "do vậy việc rà soát lệch tim và các vùng."
+    },
+    "scene[24446, 24511]": {
+        "id": 646,
+        "asr": "đừng có tỷ lệ tiêm thấp là giải pháp cần triển khai."
+    },
+    "scene[24512, 24582]": {
+        "id": 647,
+        "asr": "việc phát một người vào vaccine là một cái biện pháp rất là quan trọng."
+    },
+    "scene[24583, 25191]": {
+        "id": 648,
+        "asr": "để góp phần tăng cường ghi sức đề kháng của người để chống bệnh tật thì vắc xin phòng ngừa đối với những trường hợp bệnh triển nhiễm thì hầu hết đã có xin thì nếu mà phòng ngừa bệnh này hiệu quả thì tất cả mọi người nên đến gặp bác sĩ để được tư vấn cụ thể rằng trường hợp cụ thể vắc xin phòng ngừa từng bệnh và liều lượng như thế nào bao nhiêu mũi tiêm chiếc thời gian bao lâu để có phù hợp để phòng ngừa bệnh tật mịn hơn."
+    },
+    "scene[25192, 25249]": {
+        "id": 649,
+        "asr": "từ đầu năm đến nay việt."
+    },
+    "scene[25250, 25303]": {
+        "id": 650,
+        "asr": "unk năm ghi nhận bốn mươi mốt hoa gà."
+    },
+    "scene[25304, 25360]": {
+        "id": 651,
+        "asr": "ba trăm mười bảy trường học nghi ngờ sởi."
+    },
+    "scene[25361, 25422]": {
+        "id": 652,
+        "asr": "các bệnh đều có vắc xin phòng bệnh."
+    },
+    "scene[25423, 25483]": {
+        "id": 653,
+        "asr": "các bệnh truyền nhiễm này đều có vắc xin phòng bệnh."
+    },
+    "scene[25484, 25508]": {
+        "id": 654,
+        "asr": "do vậy các chuyên gia."
+    },
+    "scene[25509, 25570]": {
+        "id": 655,
+        "asr": "khuyến cáo phụ huynh cần chú ý lệch tim người."
+    },
+    "scene[25571, 25634]": {
+        "id": 656,
+        "asr": "để phòng bàn cho con trẻ trước các nguy cơ dịch bệnh hiện."
+    },
+    "scene[25635, 25681]": {
+        "id": 657,
+        "asr": "đây ở mái nhà."
+    },
+    "scene[25682, 26699]": {
+        "id": 658,
+        "asr": "trước diễn biến gần đây của bệnh bạch hầu của bệnh tới dự phòng bộ y tế đã khuyến cáo người dân không nên hoang mang hay tiếp nhận thông tin sai lệch từ các phương tiện không chính thống thông không tự ý tiêm chủng vắc xin khi chưa có hướng dẫn khuyến cáo cụ thể hiện tại thì việt nam đang triển khai tiêm vắc xin cho trẻ từ hai tháng tuổi lịch tiêm này hoàn toàn phù hợp theo khuyến cáo của vê gai phát ô để tạo miễn dịch lâu dài đảm bảo mức độ miễn dịch cơ bản cần thiết cho trẻ em trong các độ tuổi quan trọng phụ huynh cần đưa trẻ đi tiêm các vắc xin chứa thành phần bạch hầu đầy đủ đúng lịch.trong trường hợp hoãn tiêm các gia đình đưa trẻ tham gia tiêm chủng sớm nhất có thể tại việt nam hiện nay thì tỷ lệ mắc bệnh bạch hầu hiện ở mức thấp và hệ thống y tế có thể kiểm soát được tất cả bệnh."
+    },
+    "scene[26700, 27051]": {
+        "id": 659,
+        "asr": "theo quý vị mức sinh thay thế đang giảm thấp nhất từ trước đến nay và dự báo là sẽ tiếp tục giảm trong những năm tiếp theo đây là một trong những thách thức đặt ra cho công tác dân số tại việt nam hiện nay việt nam đạt mức sinh thay thế cách đây mười tám năm."
+    },
+    "scene[27052, 27099]": {
+        "id": 660,
+        "asr": "tức là bình quân mỗi phụ nữ trong."
+    },
+    "scene[27100, 27149]": {
+        "id": 661,
+        "asr": "độ tuổi sinh đẻ sẽ có hai phẩy một."
+    },
+    "scene[27150, 27210]": {
+        "id": 662,
+        "asr": "còn tổng tỷ suất sinh duy trì ở mức."
+    },
+    "scene[27211, 27553]": {
+        "id": 663,
+        "asr": "hai đến hai phẩy một con suốt thời gian qua những năm hai ngàn không trăm hai mươi ba đã giảm còn một phẩy chín sáu con các tỉnh có mức sinh thấp tập trung ở vùng đông nam bộ và tây nam bộ thấp nhất cả nước là thành phố hồ chí minh với."
+    },
+    "scene[27554, 27605]": {
+        "id": 664,
+        "asr": "tổng tỉ số sinh là một phẩy bốn."
+    },
+    "scene[27606, 27662]": {
+        "id": 665,
+        "asr": "mười tám con một phụ nữ."
+    },
+    "scene[27663, 27720]": {
+        "id": 666,
+        "asr": "ngoài tác động về quy mô dân số sư."
+    },
+    "scene[27721, 27781]": {
+        "id": 667,
+        "asr": "thế này còn khiến tỷ trọng trẻ dưới mười lăm tuổi già."
+    },
+    "scene[27782, 27859]": {
+        "id": 668,
+        "asr": "người cao tuổi tăng lên chưa kể là hậu quả khi mất cân."
+    },
+    "scene[27860, 27923]": {
+        "id": 669,
+        "asr": "bằng giới tính khi sinh công tăng để duy trì vững chắc."
+    },
+    "scene[27924, 27981]": {
+        "id": 670,
+        "asr": "bức xin thay thế bộ y tế đề xuất các cặp."
+    },
+    "scene[27982, 28133]": {
+        "id": 671,
+        "asr": "vợ chồng cá nhân có quyền quyết định trong việc sinh con thời gian sinh con và số con."
+    },
+    "scene[28134, 28974]": {
+        "id": 672,
+        "asr": "chào bác cần được đặt cử tri thành.thì thấp hơn bốn lần so với những nhóm mà đã kết hôn."
+    },
+    "scene[28975, 29003]": {
+        "id": 673,
+        "asr": "tuổi thọ trung bình."
+    },
+    "scene[29004, 29338]": {
+        "id": 674,
+        "asr": "unk người việt nam hiện là bảy mươi tư phẩy năm tuổi cao hơn nhiều quốc gia có cùng mức thu nhập bình quân đầu người đây là một trong những thành tựu mà việt nam đạt được sau tròn ba mươi năm thực hiện chương trình hành động về dân số và phát triển."
+    },
+    "scene[29339, 29386]": {
+        "id": 675,
+        "asr": "với tuổi thọ trung bình năm một ngàn chín trăm chín."
+    },
+    "scene[29387, 29424]": {
+        "id": 676,
+        "asr": "mươi ba là sáu mươi lăm."
+    },
+    "scene[29425, 29518]": {
+        "id": 677,
+        "asr": "phẩy năm tuổi cho thấy tuổi thọ của người việt nam tăng nhanh hiện cả."
+    },
+    "scene[29519, 29577]": {
+        "id": 678,
+        "asr": "mức có khoảng mười sáu phẩy một triệu người cao tuổi trong."
+    },
+    "scene[29578, 29635]": {
+        "id": 679,
+        "asr": "có năm phẩy tư triệu người cao tuổi hưởng lương hưu."
+    },
+    "scene[29636, 29675]": {
+        "id": 680,
+        "asr": "và trợ cấp xã hội."
+    },
+    "scene[29676, 29729]": {
+        "id": 681,
+        "asr": "bàn thắng tuy nhiên tốc độ già hoá dân."
+    },
+    "scene[29730, 29798]": {
+        "id": 682,
+        "asr": "số nhanh đặt ra thêm thách thức cho công tác dân số."
+    },
+    "scene[29799, 29850]": {
+        "id": 683,
+        "asr": "khi nước ta sẽ sớm trở thành quốc gia."
+    },
+    "scene[29851, 29923]": {
+        "id": 684,
+        "asr": "dân số giả việt nam bước vào thời kỳ dân số vàng."
+    },
+    "scene[29924, 29958]": {
+        "id": 685,
+        "asr": "từ năm hai ngàn không trăm lẻ."
+    },
+    "scene[29959, 30000]": {
+        "id": 686,
+        "asr": "và cũng vừa vượt."
+    },
+    "scene[30001, 30043]": {
+        "id": 687,
+        "asr": "qua mốc là một trăm triệu dân."
+    },
+    "scene[30044, 30079]": {
+        "id": 688,
+        "asr": "tạo cơ hội cho tích lũy nguồn."
+    },
+    "scene[30080, 30199]": {
+        "id": 689,
+        "asr": "lực để tăng đầu tư cho an sinh xã hội y tế giáo dục việc làm trong tương lai."
+    },
+    "scene[30200, 30726]": {
+        "id": 690,
+        "asr": "chỉ từ hai nghìn đồng cho một bữa ăn với đa dạng các món như là cơm bún mì đây là những bữa ăn hàng ngày của các công nhân tại khu công nghiệp trên địa bàn thành phố hồ chí minh nhưng ngon rẻ tiện có đi kèm chất lượng và vệ sinh an toàn thực phẩm phóng viên của chúng tôi đã có những trải nghiệm thực tế tại các quầy bán đồ ăn này."
+    },
+    "scene[30727, 30939]": {
+        "id": 691,
+        "asr": "khoảng bảy giờ sáng tại đường nguyễn văn linh quận bảy còn đường hướng thẳng về cổng chính khu chỉ suất ẩn hụt."
+    },
+    "scene[30940, 30966]": {
+        "id": 692,
+        "asr": "đấu tranh."
+    },
+    "scene[30967, 30989]": {
+        "id": 693,
+        "asr": "các món ăn."
+    },
+    "scene[30990, 31038]": {
+        "id": 694,
+        "asr": "từ cơm chờ đến bún."
+    },
+    "scene[31039, 31158]": {
+        "id": 695,
+        "asr": "mỗi phần luôn đầy ắp thịt như thế này với mức giá cực kỳ hấp dẫn."
+    },
+    "scene[31159, 31190]": {
+        "id": 696,
+        "asr": "từ hai mươi đến hai mươi lăm."
+    },
+    "scene[31191, 31228]": {
+        "id": 697,
+        "asr": "kỳ đồng."
+    },
+    "scene[31229, 31269]": {
+        "id": 698,
+        "asr": "dù chỉ là những."
+    },
+    "scene[31270, 31302]": {
+        "id": 699,
+        "asr": "unk quầy lưu động phía hè."
+    },
+    "scene[31303, 31450]": {
+        "id": 700,
+        "asr": "thế nhưng những hàng quán này còn chu đáo cung cấp thêm những nhân vật kiểm định thức ăn trước cho người mua."
+    },
+    "scene[31451, 31507]": {
+        "id": 701,
+        "asr": "như thế này."
+    },
+    "scene[31508, 31646]": {
+        "id": 702,
+        "asr": "sau khi dự án hàng ngày tàu ngầm sẽ còn tàu ngầm thiệt thòi."
+    },
+    "scene[31647, 31807]": {
+        "id": 703,
+        "asr": "cũng hài lò xếp dạ nhiều khi nhiều khi cũng có lúc là không được vợ không học vệ sinh nữa."
+    },
+    "scene[31808, 31914]": {
+        "id": 704,
+        "asr": "cảm giác thì nó không vây sinh vấn."
+    },
+    "scene[31915, 31986]": {
+        "id": 705,
+        "asr": "thì mua thu nhập của mình không cao thì mình phải chấp nhận thôi."
+    },
+    "scene[31987, 32046]": {
+        "id": 706,
+        "asr": "nhanh chóng."
+    },
+    "scene[32047, 32097]": {
+        "id": 707,
+        "asr": "tiện lợi và đẳng."
+    },
+    "scene[32098, 32146]": {
+        "id": 708,
+        "asr": "tháp nhất là phù hợp với mức thu nhập cho."
+    },
+    "scene[32147, 32197]": {
+        "id": 709,
+        "asr": "các đối cảnh khó khăn hiện nay là lý do."
+    },
+    "scene[32198, 32264]": {
+        "id": 710,
+        "asr": "nhiều người quyết định lựa chọn những hàng quán vỉa hè."
+    },
+    "scene[32265, 32343]": {
+        "id": 711,
+        "asr": "dù tận mắt chứng kiến không ít hình ảnh."
+    },
+    "scene[32344, 32405]": {
+        "id": 712,
+        "asr": "bày bán trả nhích nhát hay có những băng."
+    },
+    "scene[32406, 32461]": {
+        "id": 713,
+        "asr": "vân lo ngại về nguồn gốc chất lượng thực phẩm."
+    },
+    "scene[32462, 32522]": {
+        "id": 714,
+        "asr": "thi với tôn nhân giá cả."
+    },
+    "scene[32523, 32591]": {
+        "id": 715,
+        "asr": "các vẫn là ưu tiên hàng đầu."
+    },
+    "scene[32592, 32651]": {
+        "id": 716,
+        "asr": "giá tiền như thế nào cho cái bướng sáng của cậu bạn."
+    },
+    "scene[32652, 32696]": {
+        "id": 717,
+        "asr": "à dạ từ hai mươi đến ba mươi."
+    },
+    "scene[32697, 32752]": {
+        "id": 718,
+        "asr": "thì nó phù hợp với cái thu nhập."
+    },
+    "scene[32753, 32828]": {
+        "id": 719,
+        "asr": "buổi sáng thì nó gấp rất tốt mà muốn tìm."
+    },
+    "scene[32829, 32961]": {
+        "id": 720,
+        "asr": "để vừa phù hợp vậy rồi cần phải an tài ngửi thì nó mất thời gian."
+    },
+    "scene[32962, 33012]": {
+        "id": 721,
+        "asr": "n khỏi bụi."
+    },
+    "scene[33013, 33267]": {
+        "id": 722,
+        "asr": "rồi những thứ luôn luôn tặng kèm cùng thức ăn đường phố để phục vụ cho công nhân theo sở an toàn thực phẩm thành phố hồ chí minh thành phố hiện có khoảng."
+    },
+    "scene[33268, 33326]": {
+        "id": 723,
+        "asr": "khoảng mười lăm ngàn bốn trăm điểm bản thức ăn đường phố."
+    },
+    "scene[33327, 33370]": {
+        "id": 724,
+        "asr": "tập trung khá nhiều bên ngoài các."
+    },
+    "scene[33371, 33419]": {
+        "id": 725,
+        "asr": "khổ chức xuất khổ công nghiệp."
+    },
+    "scene[33420, 33473]": {
+        "id": 726,
+        "asr": "câu hỏi đặt ra là ai sẽ đảm bảo."
+    },
+    "scene[33474, 33574]": {
+        "id": 727,
+        "asr": "chảo cho nguồn gốc chất lượng của những quầy bán thức ăn vỉa hè như thế này."
+    },
+    "scene[33575, 34074]": {
+        "id": 728,
+        "asr": "từ ngày mùng tám đến ngày mười hai tháng bảy quân chủng phòng không không quân tổ chức hội thao diễn tập chiến thuật phân đội hoả lực tên lửa phòng không đây là đợt diễn tập lớn nhằm kiểm tra các phân đội thực hiện chuyển trạng thái sẵn sàng chiến đấu từ thường xuyên lên trạng thái sẵn sàng chiến đấu cao một số loại vũ khí mới đưa vào trang bị cũng được triển khai trong đợt diễn tập này."
+    },
+    "scene[34075, 34253]": {
+        "id": 729,
+        "asr": "sáu giờ tối tiểu đoạn tên lửa mùng tám mốt nhận được lệnh của sở chỉ huy nhanh chóng cơ động toàn bộ lực lượng."
+    },
+    "scene[34254, 34330]": {
+        "id": 730,
+        "asr": "nhằm phòng cháy hoặc lực tập kích đường không của đối phương."
+    },
+    "scene[34331, 34379]": {
+        "id": 731,
+        "asr": "sau đây chỉ là một tình huống giả định nằm trong đợt giá."
+    },
+    "scene[34380, 34420]": {
+        "id": 732,
+        "asr": "diễn tập chiến thuật phân đội hà nội lên lựa phá."
+    },
+    "scene[34421, 34442]": {
+        "id": 733,
+        "asr": "không tuy."
+    },
+    "scene[34443, 34485]": {
+        "id": 734,
+        "asr": "nghiên các thao tác thu nổi khí tài."
+    },
+    "scene[34486, 34550]": {
+        "id": 735,
+        "asr": "diễn ra rất nhanh chóng chính xác chỉ trong một thời gian ngắn."
+    },
+    "scene[34551, 34958]": {
+        "id": 736,
+        "asr": "hàng tấn thiết bị như bệ đạo ra đa cảnh giới này chỉ huy đã cơ động đến vị trí chiến đấu mới hiện tại với tình hình tác chiến mới hiện nay là địch chủ yếu là xe tác chiến và đánh vào ban đêm phải yêu cầu đặt ra chúng ta có thể là thu hồi triển khai."
+    },
+    "scene[34959, 35021]": {
+        "id": 737,
+        "asr": "động nhanh và đánh nhanh rút nhanh để đảm."
+    },
+    "scene[35022, 35230]": {
+        "id": 738,
+        "asr": "được độ bí mật an toàn tuyệt đối cho người và vũ khí tài nhận động mưa cầu nhiệm vụ trong tình hình mới thời gian từ đây cơn chủng khó tham gia."
+    },
+    "scene[35231, 35295]": {
+        "id": 739,
+        "asr": "ông quân đã đưa vào trong biên chế trực chiến hệ thống tên lửa eo."
+    },
+    "scene[35296, 35718]": {
+        "id": 740,
+        "asr": "f một hai lăm vê tê nếu so sánh với các khí tài cũ như ép một hai lăm mở hoặc ép một hai lăm hai tê mở thì hệ thống mới này có tính năng cơ động rất cao nhờ có nhiều thiết bị tự động được tích hợp cho các thành phần ví dụ như trước đây để có thể tháo lắp radar điều khiển tên lửa nặng hàng tấn cần có rất nhiều người và xe chuyên dụng phối hợp."
+    },
+    "scene[35719, 35788]": {
+        "id": 741,
+        "asr": "thế nhưng đến thời điểm hiện tại chỉ cần một mình đại úy tuệ."
+    },
+    "scene[35789, 35859]": {
+        "id": 742,
+        "asr": "điều khiển hệ thống cẩu tự hành là có thể thực hiện được công việc này."
+    },
+    "scene[35860, 35924]": {
+        "id": 743,
+        "asr": "và thời gian thao tác chỉ bằng một phần tư so với trước."
+    },
+    "scene[35925, 36078]": {
+        "id": 744,
+        "asr": "trước đây thì hoàn toàn dùng sức người và số lượng đầu xe sẽ để dỡ thiết bị sẽ nhiều hơn."
+    },
+    "scene[36079, 36114]": {
+        "id": 745,
+        "asr": "nay thì sẽ gọn hơn và nhanh."
+    },
+    "scene[36115, 36278]": {
+        "id": 746,
+        "asr": "các khí tài bệ đạn cũng nhanh chóng được triển khai tại vị trí chiến đấu mới ngay phía sau lưng tôi là những quả đạn f1."
+    },
+    "scene[36279, 36534]": {
+        "id": 747,
+        "asr": "hai lăm đã được à lắp lên trên bệ phóng à chắc hẳn là chúng ta cũng đã từng à cảm thấy quen thuộc với những cái quả đạn này bởi vì là nó đã ở trong biên chế của quân đội nhân dân việt nam từ rất nhiều năm với những nhiệm."
+    },
+    "scene[36535, 36675]": {
+        "id": 748,
+        "asr": "vụ làm loại tên lửa tầm trung nhằm bảo vệ bầu trời của tổ quốc tuy nhiên có một điều đặc biệt mà quý vị có thể à."
+    },
+    "scene[36676, 36770]": {
+        "id": 749,
+        "asr": "lần đầu được nghe đó chính là những cái quả đạn này những bệ đạn này."
+    },
+    "scene[36771, 37062]": {
+        "id": 750,
+        "asr": "do chính ngành công nghiệp quốc phòng của việt nam tự chủ về mặt công nghệ và không chỉ là những quả đạn những bệ đạn ấy đâu mà ngay cả xe điều khiển khả nực rồi thì ra."
+    },
+    "scene[37063, 37160]": {
+        "id": 751,
+        "asr": "unk đa cảnh giới cũng hoàn toàn do những kỹ sư của quân đội nhân dân việt nam tự."
+    },
+    "scene[37161, 37318]": {
+        "id": 752,
+        "asr": "để giữ vững sự bình yên của bầu trời tổ quốc ngay khi hoàn thành triển khai tại vị trí chiến đấu mới các từ đón tên lựa."
+    },
+    "scene[37319, 37368]": {
+        "id": 753,
+        "asr": "các lập tức phát sóng dòi từ mục tiêu."
+    },
+    "scene[37369, 37424]": {
+        "id": 754,
+        "asr": "trục xáo nhân vụ anfield."
+    },
+    "scene[37425, 37471]": {
+        "id": 755,
+        "asr": "điều điệu."
+    },
+    "scene[37472, 37535]": {
+        "id": 756,
+        "asr": "cự liệu làm một chiếc bay hùng nhậu vụ bị một bà tài chính n."
+    },
+    "scene[37536, 37639]": {
+        "id": 757,
+        "asr": "cương ly ba mươi có một quả như chủ có phan một ép ê tố theo điệu tố vòng tay."
+    },
+    "scene[37640, 37702]": {
+        "id": 758,
+        "asr": "mọi châu mục tiêu phóng."
+    },
+    "scene[37703, 37744]": {
+        "id": 759,
+        "asr": "của đảng phòng cứu luyện viên chính."
+    },
+    "scene[37745, 37848]": {
+        "id": 760,
+        "asr": "n đá quá ng."
+    },
+    "scene[37849, 37890]": {
+        "id": 761,
+        "asr": "lạc nhượng phải tốt."
+    },
+    "scene[37891, 37999]": {
+        "id": 762,
+        "asr": "đây là hôi đổ thể lực lượng khách hàng đầu tư tại đường bắc."
+    },
+    "scene[38000, 38053]": {
+        "id": 763,
+        "asr": "học thân khúc nhiều cuộc thi unk."
+    },
+    "scene[38054, 38070]": {
+        "id": 764,
+        "asr": "này."
+    },
+    "scene[38071, 38092]": {
+        "id": 765,
+        "asr": "hai phong."
+    },
+    "scene[38093, 38390]": {
+        "id": 766,
+        "asr": "dù tác chiến trong điều kiện đêm tối và bị gây nhiễu nặng nề thế nhưng hai quả đạn tên lửa phóng lên đều tiêu diệt mục tiêu trong khoảng thời gian rất ngắn."
+    },
+    "scene[38391, 38537]": {
+        "id": 767,
+        "asr": "trong cái chiến tranh hiện nay thì chúng tôi xác định đấy địch sẽ sử dụng một lượng lớn vũ khí công nghệ cao."
+    },
+    "scene[38538, 38590]": {
+        "id": 768,
+        "asr": "trong đó có cái ùa về."
+    },
+    "scene[38591, 38964]": {
+        "id": 769,
+        "asr": "và máy bay không người lái là phổ biến để chúng tôi đã tập trung nghiên cứu và tổ chức coi như là cái đội hình chiến đấu cũng như các kíp chiến đấu tự nghiên cứu bố trí sắp xếp đội hình chiến đấu và có cái phương án chiến đấu một cách hợp lý để sẵn sàng đánh địch."
+    },
+    "scene[38965, 39139]": {
+        "id": 770,
+        "asr": "đi tiến công vào khu vực ngoài nhầm mục tiêu mà các đơn vị phải bảo vệ để đáp ứng yêu cầu bảo vệ tổ quốc trong cương tình mới."
+    },
+    "scene[39140, 39189]": {
+        "id": 771,
+        "asr": "khối thao diễn tập."
+    },
+    "scene[39190, 39242]": {
+        "id": 772,
+        "asr": "chiến thuật phân đội hỏa lực tên lửa phòng không năm nay."
+    },
+    "scene[39243, 39304]": {
+        "id": 773,
+        "asr": "động một số lượng lớn các tiểu đoàn tên lửa của cả ba miền bắc."
+    },
+    "scene[39305, 39326]": {
+        "id": 774,
+        "asr": "trung nam."
+    },
+    "scene[39327, 39420]": {
+        "id": 775,
+        "asr": "với con số lên đến hàng nghìn người nhằm mục tiêu kiểm tra tính năng kỹ chiến thuật của vũ khí."
+    },
+    "scene[39421, 39439]": {
+        "id": 776,
+        "asr": "tỉnh chiến thắng."
+    },
+    "scene[39440, 39493]": {
+        "id": 777,
+        "asr": "cũng như trình độ tổ chức huấn luyện sẵn sàng."
+    },
+    "scene[39494, 39547]": {
+        "id": 778,
+        "asr": "chiến đấu của các đơn vị hoa lực trong điều kiện tác chiến."
+    },
+    "scene[39548, 39564]": {
+        "id": 779,
+        "asr": "hiện đại."
+    },
+    "scene[39565, 39586]": {
+        "id": 780,
+        "asr": "nhằm giữ vững sự bình."
+    },
+    "scene[39587, 39699]": {
+        "id": 781,
+        "asr": "tự hồi trẻ tổ quốc."
+    },
+    "scene[39700, 40099]": {
+        "id": 782,
+        "asr": "tiên quốc tế thủ đô copa hai ân của đan mạch vừa đây đã công bố sẽ tặng thưởng cho khách du lịch có ý thức tham gia những hoạt động thân thiện với môi trường trong chuyến nghỉ dưỡng của họ sáng kiến mới này có tên là cốp hen pây nhằm biến những hành động xanh thành tiên tệ để đổi lấy những."
+    },
+    "scene[40100, 40148]": {
+        "id": 783,
+        "asr": "ra trải nghiệm văn hoá cụ thể là từ."
+    },
+    "scene[40149, 40230]": {
+        "id": 784,
+        "asr": "ngày mười lăm tháng bảy đến ngày mười một tháng tám du khách thể hiện à hành."
+    },
+    "scene[40231, 40315]": {
+        "id": 785,
+        "asr": "vi du lịch thân thiện với môi trường bằng cách tham gia những sáng kiến xanh của."
+    },
+    "scene[40316, 40408]": {
+        "id": 786,
+        "asr": "thành phố copenhagen như là đạp xe đi tàu và dọn."
+    },
+    "scene[40409, 40513]": {
+        "id": 787,
+        "asr": "dẹp hoặc làm tình nguyện tại các trang trại đô thị sẽ được copenhay thưởng quyền."
+    },
+    "scene[40514, 40605]": {
+        "id": 788,
+        "asr": "truy cập nhiều trải nghiệm phong phú tại đây tham vọng của đan mạch là truyền cảm."
+    },
+    "scene[40606, 40727]": {
+        "id": 789,
+        "asr": "hướng cho du khách tham gia nhiều hơn những hoạt động môi trường thiết thực."
+    },
+    "scene[40728, 41118]": {
+        "id": 790,
+        "asr": "hiện nay đang là mùa cao điểm du lịch ở nhiều nơi trên thế giới vì là nhu cầu tăng cao cho nên là đặt chỗ khó giá cả tăng và ở đâu thì cũng đông đúc thế nên là tại nhật bản chính quyền đã tìm tới công nghệ để ứng phó với tình trạng du khách quá đông."
+    },
+    "scene[41119, 41243]": {
+        "id": 791,
+        "asr": "bài toán với nhật bản hiện nay vừa phải giảm thiểu."
+    },
+    "scene[41244, 41401]": {
+        "id": 792,
+        "asr": "động tiêu cực của quá tải du lịch nhưng vẫn tăng được lượng khách quốc tế đến nước này để có được nguồn thu lớn từ du lịch quốc tế."
+    },
+    "scene[41402, 41496]": {
+        "id": 793,
+        "asr": "bắt đầu từ tháng ba năm nay tổng cục du lịch nhật bản đã chọn hai khu vực."
+    },
+    "scene[41497, 41587]": {
+        "id": 794,
+        "asr": "có đông du khách để thí điểm mô hình xử lý tình trạng quá tải du lịch."
+    },
+    "scene[41588, 41685]": {
+        "id": 795,
+        "asr": "điển hình cho các biện pháp này là việc nhật bản đã dựng một hàng rào chân."
+    },
+    "scene[41686, 41747]": {
+        "id": 796,
+        "asr": "đắn ngăn dô các chụp ảnh ngọn núi biểu tượng phù xề."
+    },
+    "scene[41748, 41801]": {
+        "id": 797,
+        "asr": "nguyên nhân là do khách du lịch nước ngoài tập."
+    },
+    "scene[41802, 41859]": {
+        "id": 798,
+        "asr": "trung đông đúc tại khu vực nhỏ này trận."
+    },
+    "scene[41860, 41959]": {
+        "id": 799,
+        "asr": "vỉa hè chật hẹp vi phạm luật giao thông và xả rác bừa bãi."
+    },
+    "scene[41960, 41976]": {
+        "id": 800,
+        "asr": "n."
+    },
+    "scene[41977, 42045]": {
+        "id": 801,
+        "asr": "mặc dù vẫn còn loay hoay trong việc xử lý các hành vi."
+    },
+    "scene[42046, 42131]": {
+        "id": 802,
+        "asr": "unk chuẩn của du khách như xả rác đỗ xe trái phép."
+    },
+    "scene[42132, 42213]": {
+        "id": 803,
+        "asr": "tô tập uống rượu ban đêm ăn mặc phản cảm tuy nhiên."
+    },
+    "scene[42214, 42303]": {
+        "id": 804,
+        "asr": "nhật bản quyết tâm xử lý triệt để tình trạng này nhằm giảm bức xúc cho người dân địa."
+    },
+    "scene[42304, 42347]": {
+        "id": 805,
+        "asr": "phương."
+    },
+    "scene[42348, 42930]": {
+        "id": 806,
+        "asr": "mặc dù đang quá tải du lịch nhưng cơ quan du lịch nhật bản vẫn đặt mục tiêu đón sáu mươi triệu lượt khách du lịch trong năm nay tức là gấp hơn hai lần so với số lượng của năm ngoái nhật bản chú trọng hướng đến khách hàng có mức chi tiêu cao và hình thành các tua du lịch kết hợp mua sắm phó hương phóng viên từ chú đài việt nam đưa tin từ tokyo nhật bản."
+    },
+    "scene[42931, 43217]": {
+        "id": 807,
+        "asr": "bộ tài chính mỹ mới đây đã thông báo đã nhất trí xóa khoản nợ ba mươi lăm triệu đô la mỹ cho in đô nê xi a trong chín năm tới đổi lại là quốc gia đông nam á này sẽ khôi phục và bảo tồn các rạn san hô."
+    },
+    "scene[43218, 44055]": {
+        "id": 808,
+        "asr": "với ủy ban giám sát bao gồm đại diện của chính phủ in đô nê xi a và mỹ các đối tác phi chính phủ và các tổ chức xã hội sẽ quản lý khoản ngân sách có được từ thỏa thuận này theo thỏa thuận thì ngân sách sẽ được chia cho in đô nê xi a để khôi phục san hô cũng như đảm bảo môi trường sống bền vững cho các loài phụ thuộc vào hệ sinh thái này đây là thỏa thuận hoán đổi nợ để bảo vệ thiên nhiên lần thứ tư giữa hai nước này kể từ khi sáng kiến được khởi động vào năm hai nghìn linh chín và tiếp tục vào các năm hai nghìn mười một hai nghìn mười bốn với tổng giá trị lên tới bảy triệu đô la mỹ.trong bối cảnh dịch sốt xuất huyết vẫn."
+    },
+    "scene[44056, 44129]": {
+        "id": 809,
+        "asr": "đang lây lan tại khu vực mỹ la tinh chương trình mỗi thế giới."
+    },
+    "scene[44130, 44195]": {
+        "id": 810,
+        "asr": "đã phát triển phương pháp cấy vi khuẩn huy bắc kia."
+    },
+    "scene[44196, 44260]": {
+        "id": 811,
+        "asr": "vào mũi vành vắt mĩ khuẩn này khi vào cơ thể mũi."
+    },
+    "scene[44261, 44303]": {
+        "id": 812,
+        "asr": "sĩ sẽ ức chế sự phát triển."
+    },
+    "scene[44304, 44383]": {
+        "id": 813,
+        "asr": "của virus dangơ gây bệnh sốt xuất huyết từ đó làm ra."
+    },
+    "scene[44384, 44450]": {
+        "id": 814,
+        "asr": "đảm nguy cơ lây nhiễm cho người một đặc điểm rất."
+    },
+    "scene[44451, 44516]": {
+        "id": 815,
+        "asr": "có ờ rất có ích là vi khuẩn huy bá ghi."
+    },
+    "scene[44517, 44614]": {
+        "id": 816,
+        "asr": "khi còn có thể truyền qua mũi đực và mũi cái thế hệ sau khi mà."
+    },
+    "scene[44615, 44709]": {
+        "id": 817,
+        "asr": "unk sinh sản tạo ra chứng uông từ đó thì làm giảm số lượng mũi ở cộng đồng."
+    },
+    "scene[44710, 44805]": {
+        "id": 818,
+        "asr": "theo giới chức côn lum bi a thì việc cấy vi khuẩn này đã giúp cho các ca mắc bệnh sốt xuất."
+    },
+    "scene[44806, 44941]": {
+        "id": 819,
+        "asr": "huyết tại nơi đây giảm chín mươi lăm phần trăm ở bang anti okina các chuyên gia cũng hy vọng là dự."
+    },
+    "scene[44942, 45024]": {
+        "id": 820,
+        "asr": "đáp án trên sẽ được phổ biến rộng rãi trên khắp khu mực châu mỹ."
+    },
+    "scene[45025, 45319]": {
+        "id": 821,
+        "asr": "hải quan trung quốc cho biết là một người đàn ông đã bị bắt khi đang cố đưa hơn một trăm con rắn sống vào trung quốc đại lục bằng cách là nhét chúng vào trong quần đối tượng bị bắt khi tìm cách tư hồng."
+    },
+    "scene[45320, 45390]": {
+        "id": 822,
+        "asr": "công và thẩm quyền nhân viên hải quan đã phát hiện trong các tour."
+    },
+    "scene[45391, 45739]": {
+        "id": 823,
+        "asr": "quần của người này thì có sáu cái túi được dán kín bằng băng kèo sau khi mở ra hải quan đã thu giữ một trăm linh tư con thuộc loài bò sát có vẩy trong đó có rắn sữa và rắn ngô cùng nhiều con không phải là loài bản địa."
+    },
+    "scene[45740, 46202]": {
+        "id": 824,
+        "asr": "quốc cấm buôn bán trái phép động vật và cấm người dân được các loài không có nguồn gốc bản địa và trung quốc hãng tin của mỹ xi en en có kế hoạch triển khai dịch vụ phát trực tuyến trả phí mới và cắt giảm khoảng một trăm việc làm trong bối cảnh suy thoái của ngành phát hành truyền hình cáp của mỹ xi en en đã lấy."
+    },
+    "scene[46203, 46394]": {
+        "id": 825,
+        "asr": "nên kế hoạch ra mắt một sản phẩm tin tức với tổng giá trị khách hàng thuê bao lên tới hơn một tỷ đô la mỹ trước cuối năm hai ngàn không trăm hai mươi tư."
+    },
+    "scene[46395, 46497]": {
+        "id": 826,
+        "asr": "xen en nhắm đến sản phẩm đăng ký ban đầu theo dạng cần biết."
+    },
+    "scene[46498, 46711]": {
+        "id": 827,
+        "asr": "sau đó là các dịch vụ trả phí theo dạng muốn sử dụng tập trung vào báo chí đời sống xi en en cũng có kế hoạch hợp nhất ba đơn vị tin tức riêng."
+    },
+    "scene[46712, 46834]": {
+        "id": 828,
+        "asr": "việt thành bộ phận chung gồm tin tức mỹ tin tức quốc tế và tin tức kỹ thuật số toàn cầu."
+    },
+    "scene[46835, 46960]": {
+        "id": 829,
+        "asr": "do đó công ty dự kiến đã cắt giảm khoảng một trăm việc làm trong tổng số ba nghìn năm trăm lao động toàn cầu."
+    },
+    "scene[46961, 47086]": {
+        "id": 830,
+        "asr": "từng đứng đầu về tin tức truyền hình cáp nhưng gần đây seoul đã bị xếp sau các đối thủ như là."
+    },
+    "scene[47087, 47150]": {
+        "id": 831,
+        "asr": "có nhiều."
+    },
+    "scene[47151, 47670]": {
+        "id": 832,
+        "asr": "kể từ ngày mùng một tháng một năm hai ngàn không trăm hai mươi lăm ô tô và tắc xi mới chạy bằng dầu đi a den sẽ không còn được đăng ký tại sinh ga bo đây là nỗ lực của chính phủ nước này nhằm đưa tất cả các phương tiện giao thông của nước này chạy bằng năng lượng sạch hơn vào năm hai ngàn không trăm bốn mươi phóng viên hữu hưng đưa tin từ sinh ga bo."
+    },
+    "scene[47671, 47782]": {
+        "id": 833,
+        "asr": "lệnh cấm sắp tới đối với xe hạng."
+    },
+    "scene[47783, 47896]": {
+        "id": 834,
+        "asr": "theo ô tô và tắc xi mới chạy bằng dầu diesel được đưa ra sớm hơn thời điểm hai ngàn."
+    },
+    "scene[47897, 48016]": {
+        "id": 835,
+        "asr": "không trăm ba mươi khi mà tất cả các xe ô tô và tắc xi mới được quy định phải là mẫu."
+    },
+    "scene[48017, 48088]": {
+        "id": 836,
+        "asr": "xe chạy bằng năng lượng sạch theo cơ quan quản lý."
+    },
+    "scene[48089, 48215]": {
+        "id": 837,
+        "asr": "đường bộ sinh ga po chủ sở hữu ô tô chạy bằng dầu đi a den đăng ký trước ngày mùng một tháng một."
+    },
+    "scene[48216, 48301]": {
+        "id": 838,
+        "asr": "unk hai ngàn không trăm hai mươi lăm sẽ có thể gia hạn giấy chứng nhận quyền."
+    },
+    "scene[48302, 48355]": {
+        "id": 839,
+        "asr": "tế hữu và sử dụng xe xi uy sau."
+    },
+    "scene[48356, 48440]": {
+        "id": 840,
+        "asr": "thời hạn năm hai ngàn không trăm hai mươi lăm nhưng sẽ phải chịu mức thuế đường."
+    },
+    "scene[48441, 48599]": {
+        "id": 841,
+        "asr": "tính đến tháng năm năm nay khoảng mười bảy phần trăm trên tổng số xe ô tô ở singapore là chạy bằng răng."
+    },
+    "scene[48600, 48729]": {
+        "id": 842,
+        "asr": "dầu đi a den trước đó thì chính phủ singapore đã có nhiều biện pháp để khuyến khích chủ sở hữu xe."
+    },
+    "scene[48730, 48832]": {
+        "id": 843,
+        "asr": "thương mại từ bỏ dầu diesel và chuyển sang nhiên liệu sạch hơn như."
+    },
+    "scene[48833, 48994]": {
+        "id": 844,
+        "asr": "là giảm phí xiêu ây hay là tặng thưởng tiền khi mà chuyển sang xe điện theo cơ quan quản lý."
+    },
+    "scene[48995, 49117]": {
+        "id": 845,
+        "asr": "tuyển bộ singapore thì có một ngoại lệ tức là việc hạn chế đăng ký ô tô mới trại bàng đia giác."
+    },
+    "scene[49118, 49189]": {
+        "id": 846,
+        "asr": "nói trên ấy thì sẽ không áp dụng với các chương trình nhập."
+    },
+    "scene[49190, 49474]": {
+        "id": 847,
+        "asr": "khẩu và đăng ký ô tô theo các chương trình xe cổ tức là xe độ tuổi trên ba mươi lăm năm hiếu hưng thường trú trên việt nam tại sân ga po."
+    },
+    "scene[49475, 50005]": {
+        "id": 848,
+        "asr": "tập trung một câu chuyện ở nước anh dù đã trở thành triệu phú nhờ là trúng sổ số cách đây mười năm rồi thế nhưng mà cô rút rin một nữ hộ sinh vẫn quyết định tiếp tục công việc của mình và có một cuộc sống giản dị tới mức là nhiều người không hề biết rằng cô từng trúng số câu chuyện về người phụ nữ này cũng là minh chứng cho thấy việc tiền bạc không phải là tất cả."
+    },
+    "scene[50006, 50209]": {
+        "id": 849,
+        "asr": "dù trúng sổ xốm triệu bảng anh tương đương ba mươi hai tỷ đồng cách đây mười năm."
+    },
+    "scene[50210, 50384]": {
+        "id": 850,
+        "asr": "nhưng thay vì tận hưởng cuộc sống sung túc với những chuyến du lịch xa xỉ cô rút pin bốn mươi lăm tuổi vẫn tận tâm với công việc của mình."
+    },
+    "scene[50385, 50565]": {
+        "id": 851,
+        "asr": "tôi yêu công việc của mình đất nước đang thiếu mẫu học sinh dí dụ này thực sự bận rộn."
+    },
+    "scene[50566, 50681]": {
+        "id": 852,
+        "asr": "tôi không thể bỏ việc lúc này để lại một khối công việc cho đồng nghiệp của mình được."
+    },
+    "scene[50682, 50730]": {
+        "id": 853,
+        "asr": "trong suốt sự nghiệp của mình."
+    },
+    "scene[50731, 50789]": {
+        "id": 854,
+        "asr": "cô brin đã đỡ đẻ cho hàng trăm trẻ sơ sinh."
+    },
+    "scene[50790, 50853]": {
+        "id": 855,
+        "asr": "unk ở quy nhơn miền bắc nước anh điều thú."
+    },
+    "scene[50854, 50892]": {
+        "id": 856,
+        "asr": "vị là hầu hết các bà mẹ được."
+    },
+    "scene[50893, 50960]": {
+        "id": 857,
+        "asr": "cô binh chăm sóc đều không biết cô là một triệu phú."
+    },
+    "scene[50961, 51003]": {
+        "id": 858,
+        "asr": "đây là lần đầu tiên."
+    },
+    "scene[51004, 51039]": {
+        "id": 859,
+        "asr": "chân tôi làm mẹ à một tuổi rất lo lắng."
+    },
+    "scene[51040, 51065]": {
+        "id": 860,
+        "asr": "n may mắn."
+    },
+    "scene[51066, 51130]": {
+        "id": 861,
+        "asr": "là có cô ấy giải đáp hàng triệu câu hỏi của tôi."
+    },
+    "scene[51131, 51218]": {
+        "id": 862,
+        "asr": "tôi đã nói với cô ấy rằng cô ấy không được phép nghỉ hưu."
+    },
+    "scene[51219, 51298]": {
+        "id": 863,
+        "asr": "nhân kỷ niệm mười năm ngày trúng số."
+    },
+    "scene[51299, 51389]": {
+        "id": 864,
+        "asr": "cô green đã quyết định hỗ trợ một tổ chức từ thiện có tên là."
+    },
+    "scene[51390, 51549]": {
+        "id": 865,
+        "asr": "bây bư rum để cung cấp những vật dụng thiết yếu cho các gia đình mới sinh con."
+    },
+    "scene[51550, 52065]": {
+        "id": 866,
+        "asr": "dạng sáng nay theo giờ việt nam thì trận bán kết thứ hai của ô rô đã diễn ra đội tuyển anh đã có một màn ngược dòng đầy cảm xúc với chiến thắng là hai một cho đội tuyển hà lan và qua đó có lần thứ hai liên tiếp giành quyền vào trận chung kết của ô rô niềm vui cho cổ động viên anh và là nỗi buồn dành cho cổ động viên của hà lan là điều dễ hiểu rồi."
+    },
+    "scene[52066, 52207]": {
+        "id": 867,
+        "asr": "các cổ động viên anh không còn cảm thấy tẻ nhạt với lối chơi của huấn luyện viên sào ghét nữa."
+    },
+    "scene[52208, 52276]": {
+        "id": 868,
+        "asr": "mà thay vào đó phó hào hứng theo dõi trận đấu từ đầu đến cuối."
+    },
+    "scene[52277, 52445]": {
+        "id": 869,
+        "asr": "bàn thắng của olympic kiev đã mang tới một bầu không khí lễ hội tại địa điểm xe bóng đá công cộng này ở thủ đô london."
+    },
+    "scene[52446, 52850]": {
+        "id": 870,
+        "asr": "không phải là nói quá nhưng chúng tôi đang có một đội tuyển hàng đầu thế giới cách các cầu thủ luôn chuyển bóng với quá áp lực và ghi bàn ở những phút cuối thật sự quá tuyệt vời chúng tôi đang chờ đợi trận chung kết và sẽ là tuyệt vời hơn khi có được danh hiệu vô địch."
+    },
+    "scene[52851, 53038]": {
+        "id": 871,
+        "asr": "nhiều cổ động viên anh đã đặt vé tới đức để chuẩn bị theo dõi trận chung kết họ sẵn sàng sẽ bóng đá tại các khu fanpage ngoài xe olympic ở béo."
+    },
+    "scene[53039, 53101]": {
+        "id": 872,
+        "asr": "unk linh miễn là được tận hưởng bầu không khí ở rô."
+    },
+    "scene[53102, 53258]": {
+        "id": 873,
+        "asr": "trái lại ở amstek nam bâu không khí có phần trầm lắng sau khi trận đấu trên sân dò khuôn ở rừng an đề nào khép lại."
+    },
+    "scene[53259, 53573]": {
+        "id": 874,
+        "asr": "không vui chút nào chúng tôi đã cố gắng nhưng đội tuyển anh còn làm tốt hơn chỉ còn hai phút nữa là hết trận nhưng đội tuyển hà lan vẫn bị thủng lưới tôi rất buồn và mọi người ở đây đều như vậy."
+    },
+    "scene[53574, 53729]": {
+        "id": 875,
+        "asr": "đội tuyển hà lan đã từng vô địch ơ rô trên nước đức cách đây ba mươi sáu năm tuy nhiên điều tương tự đã không lập lại."
+    },
+    "scene[53730, 53839]": {
+        "id": 876,
+        "asr": "ở giải đấu năm nay khi họ phải dừng bước ở bán kết."
+    },
+    "scene[53840, 54302]": {
+        "id": 877,
+        "asr": "ở âu âu năm nay thì có tới hơn hai phẩy năm triệu cổ động viên bóng đá tới với nước đức mỗi trận đấu có tới hàng nghìn cổ động viên tới sân điều này thì mang lại những cơ hội kiếm tiền rất lớn cho những người dân ở đây mà cả trong đó có cả những người là người nhập cư nữa sau đây là ghi nhận phóng viên vtv tại đức."
+    },
+    "scene[54303, 54391]": {
+        "id": 878,
+        "asr": "dọc con đường vào sân có rất."
+    },
+    "scene[54392, 54443]": {
+        "id": 879,
+        "asr": "đồng những người bán hàng ròng họ."
+    },
+    "scene[54444, 54539]": {
+        "id": 880,
+        "asr": "đầu bán chủ yếu là cờ áo và khăn cho các cổ đồng huyền."
+    },
+    "scene[54540, 54603]": {
+        "id": 881,
+        "asr": "chỉ năm euro thôi."
+    },
+    "scene[54604, 54661]": {
+        "id": 882,
+        "asr": "với giá cả phải chăng."
+    },
+    "scene[54662, 54712]": {
+        "id": 883,
+        "asr": "như vậy sản phẩm cổ vũ lại đà."
+    },
+    "scene[54713, 54806]": {
+        "id": 884,
+        "asr": "tạng nữa nên đa số các cầu thủ phiền đều fư giẻ móc hầu vào."
+    },
+    "scene[54807, 54889]": {
+        "id": 885,
+        "asr": "người mua vui người bán cũng sướng."
+    },
+    "scene[54890, 55023]": {
+        "id": 886,
+        "asr": "tôi kiếm được kha khá rồi euro kéo dài thêm tôi biết mấy."
+    },
+    "scene[55024, 55133]": {
+        "id": 887,
+        "asr": "nếu không có khiếu buôn bán thì có thể chuyển sang chơi nhật."
+    },
+    "scene[55134, 55188]": {
+        "id": 888,
+        "asr": "nhạc hoặc là nhặt ve chai."
+    },
+    "scene[55189, 55267]": {
+        "id": 889,
+        "asr": "tại đức có một chính sách bảo vệ môi trường rất hay."
+    },
+    "scene[55268, 55338]": {
+        "id": 890,
+        "asr": "mỗi chai có ký hiệu này khi mang ra siêu thị."
+    },
+    "scene[55339, 55455]": {
+        "id": 891,
+        "asr": "sẽ nhận được hai mươi lăm sen bốn cha như thế này là được một euro rồi."
+    },
+    "scene[55456, 55571]": {
+        "id": 892,
+        "asr": "và cả mấy tài kìa cháu cũng mang lại một khoản là khá vì thế."
+    },
+    "scene[55572, 55674]": {
+        "id": 893,
+        "asr": "đội lũ nhạc về chài để thay đổi cũng tăng đột biến."
+    },
+    "scene[55675, 55742]": {
+        "id": 894,
+        "asr": "cũng vì mưu sinh cả các mà."
+    },
+    "scene[55743, 55802]": {
+        "id": 895,
+        "asr": "nhẹ nhàng hơn thì có thể vẽ mặt."
+    },
+    "scene[55803, 55856]": {
+        "id": 896,
+        "asr": "vừa tô điểm sắc màu cho trận đấu."
+    },
+    "scene[55857, 55955]": {
+        "id": 897,
+        "asr": "cầu vừa có thể kiếm tiền."
+    },
+    "scene[55956, 56499]": {
+        "id": 898,
+        "asr": "mùa euro đúng là mùa làm ăn của mọi nghề mọi ngành với mỗi bộ chiếc mặt đầy màu sắc này có giá từ một tới hai euro vừa tô điểm thêm cho từng trận đấu vừa hỗ trợ và giúp đỡ cho những người nhập cử đang sinh sống tại đức hoàng cường quang trung nhóm phóng viên đài truyền việt nam từ thành phố doping bùn cộng hoàng liên bang đức."
+    }
+}
