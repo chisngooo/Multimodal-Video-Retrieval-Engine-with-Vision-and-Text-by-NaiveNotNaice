@@ -19,53 +19,28 @@ from elasticsearch import Elasticsearch
 
 # http://0.0.0.0:5001/home?index=0
 
-
-
 # Đọc dữ liệu từ các file JSON với mã hóa UTF-8
-with open('DataBase/merged_data.json', 'r', encoding='utf-8') as file:
+with open('DataBase/OD_PLACE.json', 'r', encoding='utf-8') as file:
     data = json.load(file)
-
-
 
 # Kết nối đến Elasticsearch
 es = Elasticsearch(["http://localhost:9200"])
 
-# Đọc dữ liệu từ file JSON
-with open('DataBase/ASR.json', 'r', encoding='utf-8') as file:
-    data1 = json.load(file)
+
+
+
 
 # Index dữ liệu vào Elasticsearch
-
-# Tên chỉ mục
-index_name = 'video_scenes'
-
-# Đảm bảo rằng chỉ mục đã tồn tại, nếu không thì tạo một chỉ mục mới
-if not es.indices.exists(index=index_name):
-    es.indices.create(index=index_name)
-
-# Index dữ liệu vào Elasticsearch
-for key, value in data1.items():
-    if isinstance(value, dict):
-        es.index(index=index_name, id=value['id'], body={
-            'scene': key,
-            'asr': value['asr']
-        })
-    else:
-        print(f"Skipping {key}: Data is not a dictionary")
-with open('DataBase/OCR.json', 'r', encoding='utf-8') as file:
-    data2 = json.load(file)
-
-# Index dữ liệu vào Elasticsearch
-
 # Tên chỉ mục
 index_name2 = 'ocr'
 
 # Đảm bảo rằng chỉ mục đã tồn tại, nếu không thì tạo một chỉ mục mới
 if not es.indices.exists(index=index_name2):
     es.indices.create(index=index_name2)
-
-# Index dữ liệu vào Elasticsearch
-for key, value in data2.items():
+with open('DataBase/OCR.json', 'r', encoding='utf-8') as file:
+    ocr_data = json.load(file)
+    # Index dữ liệu vào Elasticsearch
+for key, value in ocr_data.items():
     if isinstance(value, dict):
         es.index(index=index_name2, id=value['id'], body={
             'scene': key,
@@ -76,12 +51,14 @@ for key, value in data2.items():
 
 
 
+
+
 # app = Flask(__name__, template_folder='templates', static_folder='static')
 app = Flask(__name__, template_folder='templates')
 app.secret_key = 'your_secret_key'  # Thay thế bằng khóa bảo mật của bạn
 
 ####### CONFIG #########
-with open('combined_index_path.json') as json_file:
+with open('path_index.json') as json_file:
     json_dict = json.load(json_file)
 
 DictImagePath = {}
@@ -89,7 +66,7 @@ for key, value in json_dict.items():
    DictImagePath[int(key)] = value 
 
 LenDictPath = len(DictImagePath)
-bin_file='combined_faiss_index.bin'
+bin_file='faiss_index.bin'
 MyFaiss = Myfaiss(bin_file, DictImagePath, 'cpu', Translation(), "ViT-B/32")
 ########################
 
@@ -204,8 +181,9 @@ def place_search():
 
     # Tìm kiếm các frame với place tương ứng
     matching_frame_ids = search_frames_with_any_place(query_place, data, frame_ids, json_dict)
-
+    print(matching_frame_ids)
     pagefile = [{'imgpath': DictImagePath[frame_id], 'id': frame_id} for frame_id in matching_frame_ids]
+
     num_page = (LenDictPath // 100) + 1
     datapage = {'num_page': num_page, 'pagefile': pagefile}
     return render_template('home.html', data=datapage)
@@ -213,14 +191,14 @@ def place_search():
 
 @app.route('/objectsearch')
 def object_search():
-    global json_dict
+    global data
     query_objects = request.args.getlist('objectquery')
     
     # Lấy các ID từ session
     frame_ids = session.get('search_results_ids', [])
 
     # Tìm kiếm các frame với các object tương ứng
-    matching_frame_ids = search_frames_with_all_objects(query_objects, data, frame_ids, json_dict)
+    matching_frame_ids = search_frames_with_all_objects(query_objects, data, frame_ids,json_dict)
 
     pagefile = [{'imgpath': DictImagePath[frame_id], 'id': frame_id} for frame_id in matching_frame_ids]
     num_page = (LenDictPath // 100) + 1
@@ -230,33 +208,48 @@ def object_search():
 
 @app.route('/ocrsearch')
 def ocr_search():
-    query = request.args.get('query')
+    query_ocr = request.args.get('query')
     
     # Tìm kiếm các frame với OCR tương ứng
-    matching_frame_ids = search_ocr(query)
-
-    # Tạo danh sách các kết quả tìm kiếm
-    pagefile = [{'imgpath': DictImagePath[frame_id], 'id': frame_id} for frame_id in matching_frame_ids]
+    matching_frame_ids = search_ocr(query_ocr, "ocr", 100)
+    print(matching_frame_ids)
+    pagefile = [{'imgpath': DictImagePath[int(frame_id)], 'id': str(frame_id)} for frame_id in matching_frame_ids]
     num_page = (LenDictPath // 100) + 1
     datapage = {'num_page': num_page, 'pagefile': pagefile}
-    
-    
     
     return render_template('home.html', data=datapage)
 
+# Index dữ liệu vào Elasticsearch
+# Tên chỉ mục
+index_name = 'asr'
+
+# Đảm bảo rằng chỉ mục đã tồn tại, nếu không thì tạo một chỉ mục mới
+if not es.indices.exists(index=index_name):
+    es.indices.create(index=index_name)
+    # Đọc dữ liệu từ file JSON
+with open('DataBase/ASR.json', 'r', encoding='utf-8') as file:
+    asr_data = json.load(file)
+        # Index dữ liệu vào Elasticsearch
+for key, value in asr_data.items():
+    if isinstance(value, dict):
+        es.index(index=index_name, id=value['id'], body={
+            'scene': key,
+            'asr': value['asr']
+        })
+    else:
+        print(f"Skipping {key}: Data is not a dictionary")
+            
+
 @app.route('/asrsearch')
 def asr_search():
-    query = request.args.get('query')
-    
+    query_asr = request.args.get('query')
     # Tìm kiếm các frame với ASR tương ứng
-    matching_frame_ids = search_video_scenes(query)
-
-    # Tạo danh sách các kết quả tìm kiếm
-    pagefile = [{'imgpath': DictImagePath[frame_id], 'id': frame_id} for frame_id in matching_frame_ids]
+    matching_frame_ids = search_video_scenes(query_asr, "asr", 100)
+    print(matching_frame_ids)
+    pagefile = [{'imgpath': DictImagePath[int(frame_id)], 'id': str(frame_id)} for frame_id in matching_frame_ids]
+   
     num_page = (LenDictPath // 100) + 1
     datapage = {'num_page': num_page, 'pagefile': pagefile}
-    
-    
     
     return render_template('home.html', data=datapage)
 
