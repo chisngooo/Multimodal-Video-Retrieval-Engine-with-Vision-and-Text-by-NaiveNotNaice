@@ -235,11 +235,8 @@ def ocr_search():
     # Tìm kiếm các frame với OCR tương ứng
     matching_frame_ids = search_ocr(query)
 
-    # Tạo danh sách các kết quả tìm kiếm
-    pagefile = [{'id': frame_id} for frame_id in matching_frame_ids]
-    
-    # Tính số trang
-    num_page = (len(pagefile) // 100) + 1
+    pagefile = [{'imgpath': DictImagePath[frame_id], 'id': frame_id} for frame_id in matching_frame_ids]
+    num_page = (LenDictPath // 100) + 1
     datapage = {'num_page': num_page, 'pagefile': pagefile}
     
     return render_template('home.html', data=datapage)
@@ -251,11 +248,8 @@ def asr_search():
     # Tìm kiếm các frame với ASR tương ứng
     matching_frame_ids = search_video_scenes(query)
 
-    # Tạo danh sách các kết quả tìm kiếm
-    pagefile = [{'id': frame_id} for frame_id in matching_frame_ids]
-    
-    # Tính số trang
-    num_page = (len(pagefile) // 100) + 1
+    pagefile = [{'imgpath': DictImagePath[frame_id], 'id': frame_id} for frame_id in matching_frame_ids]
+    num_page = (LenDictPath // 100) + 1
     datapage = {'num_page': num_page, 'pagefile': pagefile}
     
     return render_template('home.html', data=datapage)
