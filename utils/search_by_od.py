@@ -1,4 +1,5 @@
 def search_frames_with_all_objects(query_objects, data, frame_ids, json_dict):
+    print(json_dict)
     matching_frame_indexes = []
     not_matching_frame_indexes = []
     for frame_id in frame_ids:
@@ -9,5 +10,6 @@ def search_frames_with_all_objects(query_objects, data, frame_ids, json_dict):
             matching_frame_indexes.append(frame_id)
         else:
             not_matching_frame_indexes.append(frame_id)
+    print(matching_frame_indexes)
     id_list = matching_frame_indexes + not_matching_frame_indexes
     return id_list
