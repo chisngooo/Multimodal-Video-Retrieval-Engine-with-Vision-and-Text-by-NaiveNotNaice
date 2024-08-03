@@ -235,10 +235,7 @@ def ocr_search():
     # Tìm kiếm các frame với OCR tương ứng
     matching_frame_ids = search_ocr(query)
 
-<<<<<<< HEAD
-=======
     # Tạo danh sách các kết quả tìm kiếm
->>>>>>> e0e67af6264d16630035768c3c513c7af4889235
     pagefile = [{'imgpath': DictImagePath[frame_id], 'id': frame_id} for frame_id in matching_frame_ids]
     num_page = (LenDictPath // 100) + 1
     datapage = {'num_page': num_page, 'pagefile': pagefile}
@@ -254,10 +251,7 @@ def asr_search():
     # Tìm kiếm các frame với ASR tương ứng
     matching_frame_ids = search_video_scenes(query)
 
-<<<<<<< HEAD
-=======
     # Tạo danh sách các kết quả tìm kiếm
->>>>>>> e0e67af6264d16630035768c3c513c7af4889235
     pagefile = [{'imgpath': DictImagePath[frame_id], 'id': frame_id} for frame_id in matching_frame_ids]
     num_page = (LenDictPath // 100) + 1
     datapage = {'num_page': num_page, 'pagefile': pagefile}
