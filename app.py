@@ -213,13 +213,14 @@ def place_search():
 
 @app.route('/objectsearch')
 def object_search():
+    global json_dict
     query_objects = request.args.getlist('objectquery')
     
     # Lấy các ID từ session
     frame_ids = session.get('search_results_ids', [])
 
     # Tìm kiếm các frame với các object tương ứng
-    matching_frame_ids = search_frames_with_all_objects(query_objects, data, frame_ids)
+    matching_frame_ids = search_frames_with_all_objects(query_objects, data, frame_ids, json_dict)
 
     pagefile = [{'imgpath': DictImagePath[frame_id], 'id': frame_id} for frame_id in matching_frame_ids]
     num_page = (LenDictPath // 100) + 1
