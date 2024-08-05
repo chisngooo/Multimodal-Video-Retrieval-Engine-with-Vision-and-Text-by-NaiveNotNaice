@@ -1,3558 +1,901 @@
 {
-    "frame_42": {
-        "place": "booth/indoor",
-        "id": 0
-    },
-    "frame_98": {
-        "place": "home_theater",
-        "id": 1
-    },
-    "frame_215": {
-        "place": "booth/indoor",
-        "id": 2
-    },
-    "frame_347": {
-        "place": "waiting_room",
-        "id": 3
-    },
-    "frame_405": {
-        "place": "office",
-        "id": 4
-    },
-    "frame_463": {
-        "place": "hangar/outdoor",
-        "id": 389
-    },
-    "frame_523": {
-        "place": "hospital_room",
-        "id": 6
-    },
-    "frame_579": {
-        "place": "loading_dock",
-        "id": 7
-    },
-    "frame_622": {
-        "place": "parking_garage/indoor",
-        "id": 8
-    },
-    "frame_810": {
-        "place": "television_studio",
-        "id": 9
-    },
-    "frame_1110": {
-        "place": "booth/indoor",
-        "id": 10
-    },
-    "frame_1290": {
-        "place": "locker_room",
-        "id": 11
-    },
-    "frame_1464": {
-        "place": "television_studio",
-        "id": 12
-    },
-    "frame_2041": {
-        "place": "television_studio",
-        "id": 13
-    },
-    "frame_2514": {
-        "place": "village",
-        "id": 14
-    },
-    "frame_2565": {
-        "place": "promenade",
-        "id": 416
-    },
-    "frame_2634": {
-        "place": "chalet",
-        "id": 16
-    },
-    "frame_2700": {
-        "place": "corn_field",
-        "id": 17
-    },
-    "frame_2776": {
-        "place": "forest_path",
-        "id": 18
-    },
-    "frame_2873": {
-        "place": "cabin/outdoor",
-        "id": 19
-    },
-    "frame_2958": {
-        "place": "stage/outdoor",
-        "id": 20
-    },
-    "frame_3024": {
-        "place": "art_school",
-        "id": 21
-    },
-    "frame_3096": {
-        "place": "art_school",
-        "id": 22
-    },
-    "frame_3167": {
-        "place": "nursery",
-        "id": 23
-    },
-    "frame_3222": {
-        "place": "vineyard",
-        "id": 24
-    },
-    "frame_3276": {
-        "place": "bazaar/outdoor",
-        "id": 25
-    },
-    "frame_3336": {
-        "place": "beauty_salon",
-        "id": 26
-    },
-    "frame_3394": {
-        "place": "ticket_booth",
-        "id": 427
-    },
-    "frame_3465": {
-        "place": "stage/outdoor",
-        "id": 428
-    },
-    "frame_3542": {
-        "place": "sandbox",
-        "id": 29
-    },
-    "frame_3605": {
-        "place": "sandbox",
-        "id": 30
-    },
-    "frame_3892": {
-        "place": "television_studio",
-        "id": 31
-    },
-    "frame_4173": {
-        "place": "chalet",
-        "id": 32
-    },
-    "frame_4240": {
-        "place": "television_studio",
-        "id": 33
-    },
-    "frame_4318": {
-        "place": "television_studio",
-        "id": 34
-    },
-    "frame_4387": {
-        "place": "television_studio",
-        "id": 35
-    },
-    "frame_4447": {
-        "place": "martial_arts_gym",
-        "id": 36
-    },
-    "frame_4509": {
-        "place": "martial_arts_gym",
-        "id": 37
-    },
-    "frame_4574": {
-        "place": "playroom",
-        "id": 38
-    },
-    "frame_4633": {
-        "place": "chemistry_lab",
-        "id": 39
-    },
-    "frame_4775": {
-        "place": "home_theater",
-        "id": 40
-    },
-    "frame_4912": {
-        "place": "shoe_shop",
-        "id": 41
-    },
-    "frame_4962": {
-        "place": "pharmacy",
-        "id": 42
-    },
-    "frame_5095": {
-        "place": "hospital_room",
-        "id": 43
-    },
-    "frame_5237": {
-        "place": "village",
-        "id": 44
-    },
-    "frame_5299": {
-        "place": "village",
-        "id": 45
-    },
-    "frame_5359": {
-        "place": "slum",
-        "id": 46
-    },
-    "frame_5420": {
-        "place": "locker_room",
-        "id": 47
-    },
-    "frame_5476": {
-        "place": "sauna",
-        "id": 48
-    },
-    "frame_5529": {
-        "place": "locker_room",
-        "id": 49
-    },
-    "frame_5576": {
-        "place": "general_store/outdoor",
-        "id": 50
-    },
-    "frame_5627": {
-        "place": "television_studio",
-        "id": 51
-    },
-    "frame_5674": {
-        "place": "martial_arts_gym",
-        "id": 52
-    },
-    "frame_5993": {
-        "place": "inn/outdoor",
-        "id": 53
-    },
-    "frame_6323": {
-        "place": "general_store/outdoor",
-        "id": 54
-    },
-    "frame_6379": {
-        "place": "martial_arts_gym",
-        "id": 55
-    },
-    "frame_6671": {
-        "place": "television_studio",
-        "id": 459
-    },
-    "frame_6974": {
-        "place": "general_store/outdoor",
-        "id": 57
-    },
-    "frame_7047": {
-        "place": "village",
-        "id": 58
-    },
-    "frame_7109": {
-        "place": "hospital_room",
-        "id": 59
-    },
-    "frame_7179": {
-        "place": "martial_arts_gym",
-        "id": 60
-    },
-    "frame_7251": {
-        "place": "art_school",
-        "id": 61
-    },
-    "frame_7314": {
-        "place": "beauty_salon",
-        "id": 62
-    },
-    "frame_7377": {
-        "place": "attic",
-        "id": 63
-    },
-    "frame_7704": {
-        "place": "beer_garden",
-        "id": 64
-    },
-    "frame_8182": {
-        "place": "hospital_room",
-        "id": 65
-    },
-    "frame_8402": {
-        "place": "shopping_mall/indoor",
-        "id": 66
-    },
-    "frame_8468": {
-        "place": "cafeteria",
-        "id": 67
-    },
-    "frame_8532": {
-        "place": "hospital_room",
-        "id": 68
-    },
-    "frame_8597": {
-        "place": "biology_laboratory",
-        "id": 69
-    },
-    "frame_8659": {
-        "place": "hospital_room",
-        "id": 70
-    },
-    "frame_8722": {
-        "place": "beauty_salon",
-        "id": 71
-    },
-    "frame_8783": {
-        "place": "biology_laboratory",
-        "id": 72
-    },
-    "frame_8839": {
-        "place": "beauty_salon",
-        "id": 73
-    },
-    "frame_8896": {
-        "place": "pharmacy",
-        "id": 74
-    },
-    "frame_9290": {
-        "place": "television_studio",
-        "id": 75
-    },
-    "frame_10303": {
-        "place": "conference_center",
-        "id": 76
-    },
-    "frame_11388": {
-        "place": "conference_center",
-        "id": 77
-    },
-    "frame_12707": {
-        "place": "television_studio",
-        "id": 78
-    },
-    "frame_13601": {
-        "place": "highway",
-        "id": 79
-    },
-    "frame_13640": {
-        "place": "hospital_room",
-        "id": 80
-    },
-    "frame_13694": {
-        "place": "hospital_room",
-        "id": 81
-    },
-    "frame_13770": {
-        "place": "hospital_room",
-        "id": 82
-    },
-    "frame_13832": {
-        "place": "hospital_room",
-        "id": 83
-    },
-    "frame_13889": {
-        "place": "hospital",
-        "id": 84
-    },
-    "frame_13967": {
-        "place": "hospital_room",
-        "id": 85
-    },
-    "frame_14036": {
-        "place": "airplane_cabin",
-        "id": 86
-    },
-    "frame_14125": {
-        "place": "physics_laboratory",
-        "id": 87
-    },
-    "frame_14443": {
-        "place": "television_studio",
-        "id": 88
-    },
-    "frame_14758": {
-        "place": "television_studio",
-        "id": 89
-    },
-    "frame_15017": {
-        "place": "television_studio",
-        "id": 90
-    },
-    "frame_15238": {
-        "place": "television_studio",
-        "id": 91
-    },
-    "frame_15355": {
-        "place": "television_studio",
-        "id": 92
-    },
-    "frame_15488": {
-        "place": "hospital_room",
-        "id": 93
-    },
-    "frame_15543": {
-        "place": "office",
-        "id": 94
-    },
-    "frame_15594": {
-        "place": "discotheque",
-        "id": 95
-    },
-    "frame_15650": {
-        "place": "locker_room",
-        "id": 96
-    },
-    "frame_15714": {
-        "place": "ticket_booth",
-        "id": 97
-    },
-    "frame_15778": {
-        "place": "conference_center",
-        "id": 98
-    },
-    "frame_15844": {
-        "place": "playroom",
-        "id": 99
-    },
-    "frame_15914": {
-        "place": "hospital_room",
-        "id": 100
-    },
-    "frame_16058": {
-        "place": "television_studio",
-        "id": 101
-    },
-    "frame_16318": {
-        "place": "television_studio",
-        "id": 102
-    },
-    "frame_16559": {
-        "place": "reception",
-        "id": 103
-    },
-    "frame_16768": {
-        "place": "hospital_room",
-        "id": 104
-    },
-    "frame_17028": {
-        "place": "hospital_room",
-        "id": 105
-    },
-    "frame_17296": {
-        "place": "television_studio",
-        "id": 106
-    },
-    "frame_17466": {
-        "place": "office",
-        "id": 107
-    },
-    "frame_17548": {
-        "place": "conference_center",
-        "id": 108
-    },
-    "frame_17628": {
-        "place": "conference_center",
-        "id": 109
-    },
-    "frame_17697": {
-        "place": "jewelry_shop",
-        "id": 110
-    },
-    "frame_17938": {
-        "place": "television_studio",
-        "id": 111
-    },
-    "frame_18288": {
-        "place": "television_studio",
-        "id": 585
-    },
-    "frame_18461": {
-        "place": "heliport",
-        "id": 113
-    },
-    "frame_18546": {
-        "place": "wind_farm",
-        "id": 114
-    },
-    "frame_18633": {
-        "place": "home_theater",
-        "id": 115
-    },
-    "frame_18702": {
-        "place": "office",
-        "id": 116
-    },
-    "frame_18782": {
-        "place": "computer_room",
-        "id": 117
-    },
-    "frame_18851": {
-        "place": "residential_neighborhood",
-        "id": 118
-    },
-    "frame_18922": {
-        "place": "heliport",
-        "id": 119
-    },
-    "frame_19020": {
-        "place": "campus",
-        "id": 120
-    },
-    "frame_19101": {
-        "place": "sky",
-        "id": 121
-    },
-    "frame_19177": {
-        "place": "park",
-        "id": 122
-    },
-    "frame_19249": {
-        "place": "sky",
-        "id": 123
-    },
-    "frame_19469": {
-        "place": "hospital_room",
-        "id": 124
-    },
-    "frame_19686": {
-        "place": "car_interior",
-        "id": 125
-    },
-    "frame_19748": {
-        "place": "office_cubicles",
-        "id": 126
-    },
-    "frame_19807": {
-        "place": "highway",
-        "id": 127
-    },
-    "frame_19941": {
-        "place": "playground",
-        "id": 128
-    },
-    "frame_20069": {
-        "place": "fire_station",
-        "id": 129
-    },
-    "frame_20256": {
-        "place": "television_studio",
-        "id": 130
-    },
-    "frame_20438": {
-        "place": "conference_center",
-        "id": 131
-    },
-    "frame_20483": {
-        "place": "conference_center",
-        "id": 132
-    },
-    "frame_20552": {
-        "place": "kindergarden_classroom",
-        "id": 133
-    },
-    "frame_20622": {
-        "place": "conference_center",
-        "id": 134
-    },
-    "frame_20672": {
-        "place": "conference_center",
-        "id": 135
-    },
-    "frame_20721": {
-        "place": "conference_center",
-        "id": 136
-    },
-    "frame_20783": {
-        "place": "conference_center",
-        "id": 137
-    },
-    "frame_20850": {
-        "place": "classroom",
-        "id": 138
-    },
-    "frame_20922": {
-        "place": "conference_center",
-        "id": 139
-    },
-    "frame_21002": {
-        "place": "toyshop",
-        "id": 140
-    },
-    "frame_21151": {
-        "place": "hospital",
-        "id": 141
-    },
-    "frame_21293": {
-        "place": "escalator/indoor",
-        "id": 142
-    },
-    "frame_21373": {
-        "place": "escalator/indoor",
-        "id": 143
-    },
-    "frame_21448": {
-        "place": "jail_cell",
-        "id": 144
-    },
-    "frame_21518": {
-        "place": "stage/indoor",
-        "id": 145
-    },
-    "frame_21590": {
-        "place": "television_studio",
-        "id": 146
-    },
-    "frame_21651": {
-        "place": "campsite",
-        "id": 147
-    },
-    "frame_22051": {
-        "place": "television_studio",
-        "id": 148
-    },
-    "frame_22525": {
-        "place": "television_studio",
-        "id": 630
-    },
-    "frame_22653": {
-        "place": "construction_site",
-        "id": 150
-    },
-    "frame_22712": {
-        "place": "boxing_ring",
-        "id": 151
-    },
-    "frame_22777": {
-        "place": "stage/outdoor",
-        "id": 152
-    },
-    "frame_22847": {
-        "place": "apartment_building/outdoor",
-        "id": 153
-    },
-    "frame_22917": {
-        "place": "embassy",
-        "id": 154
-    },
-    "frame_23003": {
-        "place": "florist_shop/indoor",
-        "id": 155
-    },
-    "frame_23082": {
-        "place": "kitchen",
-        "id": 156
-    },
-    "frame_23150": {
-        "place": "chemistry_lab",
-        "id": 637
-    },
-    "frame_23272": {
-        "place": "television_studio",
-        "id": 158
-    },
-    "frame_23388": {
-        "place": "medina",
-        "id": 159
-    },
-    "frame_23466": {
-        "place": "bathroom",
-        "id": 160
-    },
-    "frame_23546": {
-        "place": "hospital_room",
-        "id": 161
-    },
-    "frame_23610": {
-        "place": "assembly_line",
-        "id": 162
-    },
-    "frame_23725": {
-        "place": "archive",
-        "id": 163
-    },
-    "frame_23906": {
-        "place": "hospital_room",
-        "id": 164
-    },
-    "frame_24030": {
-        "place": "atrium/public",
-        "id": 165
-    },
-    "frame_24115": {
-        "place": "clean_room",
-        "id": 166
-    },
-    "frame_24216": {
-        "place": "balcony/exterior",
-        "id": 167
-    },
-    "frame_24294": {
-        "place": "fire_escape",
-        "id": 168
-    },
-    "frame_24354": {
-        "place": "balcony/exterior",
-        "id": 169
-    },
-    "frame_24411": {
-        "place": "elevator_shaft",
-        "id": 170
-    },
-    "frame_24476": {
-        "place": "server_room",
-        "id": 171
-    },
-    "frame_24546": {
-        "place": "hospital_room",
-        "id": 172
-    },
-    "frame_24607": {
-        "place": "hospital_room",
-        "id": 173
-    },
-    "frame_24876": {
-        "place": "hospital_room",
-        "id": 174
-    },
-    "frame_25156": {
-        "place": "courtyard",
-        "id": 175
-    },
-    "frame_25234": {
-        "place": "ice_cream_parlor",
-        "id": 176
-    },
-    "frame_25588": {
-        "place": "television_studio",
-        "id": 177
-    },
-    "frame_26245": {
-        "place": "conference_center",
-        "id": 178
-    },
-    "frame_26607": {
-        "place": "rice_paddy",
-        "id": 179
-    },
-    "frame_26666": {
-        "place": "corn_field",
-        "id": 180
-    },
-    "frame_26739": {
-        "place": "archaelogical_excavation",
-        "id": 181
-    },
-    "frame_26814": {
-        "place": "slum",
-        "id": 182
-    },
-    "frame_26904": {
-        "place": "loading_dock",
-        "id": 183
-    },
-    "frame_26992": {
-        "place": "bookstore",
-        "id": 184
-    },
-    "frame_27076": {
-        "place": "slum",
-        "id": 185
-    },
-    "frame_27156": {
-        "place": "desert/vegetation",
-        "id": 186
-    },
-    "frame_27219": {
-        "place": "stable",
-        "id": 187
-    },
-    "frame_27310": {
-        "place": "roof_garden",
-        "id": 188
-    },
-    "frame_27819": {
-        "place": "television_studio",
-        "id": 189
-    },
-    "frame_28299": {
-        "place": "hospital",
-        "id": 190
-    },
-    "frame_28406": {
-        "place": "conference_center",
-        "id": 191
-    },
-    "frame_28533": {
-        "place": "biology_laboratory",
-        "id": 192
-    },
-    "frame_28623": {
-        "place": "hospital_room",
-        "id": 193
-    },
-    "frame_28704": {
-        "place": "conference_center",
-        "id": 194
-    },
-    "frame_28794": {
-        "place": "classroom",
-        "id": 195
-    },
-    "frame_28875": {
-        "place": "office_cubicles",
-        "id": 196
-    },
-    "frame_29025": {
-        "place": "conference_center",
-        "id": 197
-    },
-    "frame_29204": {
-        "place": "reception",
-        "id": 198
-    },
-    "frame_29317": {
-        "place": "office",
-        "id": 199
-    },
-    "frame_29418": {
-        "place": "veterinarians_office",
-        "id": 200
-    },
-    "frame_29530": {
-        "place": "physics_laboratory",
-        "id": 201
-    },
-    "frame_29660": {
-        "place": "office",
-        "id": 202
-    },
-    "frame_29770": {
-        "place": "booth/indoor",
-        "id": 203
-    },
-    "frame_29846": {
-        "place": "booth/indoor",
-        "id": 204
-    },
-    "frame_30043": {
-        "place": "campus",
-        "id": 205
-    },
-    "frame_30258": {
-        "place": "pharmacy",
-        "id": 206
-    },
-    "frame_30362": {
-        "place": "biology_laboratory",
-        "id": 207
-    },
-    "frame_30588": {
-        "place": "campus",
-        "id": 208
-    },
-    "frame_30807": {
-        "place": "slum",
-        "id": 209
-    },
-    "frame_30954": {
-        "place": "slum",
-        "id": 210
-    },
-    "frame_31170": {
-        "place": "kennel/outdoor",
-        "id": 211
-    },
-    "frame_31692": {
-        "place": "television_studio",
-        "id": 212
-    },
-    "frame_32137": {
-        "place": "reception",
-        "id": 213
-    },
-    "frame_32221": {
-        "place": "locker_room",
-        "id": 214
-    },
-    "frame_32322": {
-        "place": "nursery",
-        "id": 215
-    },
-    "frame_32416": {
-        "place": "office",
-        "id": 216
-    },
-    "frame_32504": {
-        "place": "hospital",
-        "id": 217
-    },
-    "frame_32597": {
-        "place": "beer_garden",
-        "id": 218
-    },
-    "frame_32728": {
-        "place": "office",
-        "id": 219
-    },
-    "frame_32853": {
-        "place": "hospital_room",
-        "id": 220
-    },
-    "frame_32952": {
-        "place": "ice_cream_parlor",
-        "id": 221
-    },
-    "frame_33117": {
-        "place": "jail_cell",
-        "id": 222
-    },
-    "frame_33288": {
-        "place": "corridor",
-        "id": 223
-    },
-    "frame_33401": {
-        "place": "drugstore",
-        "id": 224
-    },
-    "frame_33497": {
-        "place": "hospital_room",
-        "id": 225
-    },
-    "frame_33679": {
-        "place": "art_school",
-        "id": 226
-    },
-    "frame_33964": {
-        "place": "hospital",
-        "id": 227
-    },
-    "frame_34183": {
-        "place": "boxing_ring",
-        "id": 228
-    },
-    "frame_34345": {
-        "place": "veterinarians_office",
-        "id": 229
-    },
-    "frame_34484": {
-        "place": "shopfront",
-        "id": 230
-    },
-    "frame_34778": {
-        "place": "bamboo_forest",
-        "id": 231
-    },
-    "frame_35243": {
-        "place": "residential_neighborhood",
-        "id": 232
-    },
-    "frame_35744": {
-        "place": "television_studio",
-        "id": 233
-    },
-    "frame_36289": {
-        "place": "conference_center",
-        "id": 234
-    },
-    "frame_36834": {
-        "place": "television_studio",
-        "id": 235
-    },
-    "frame_37580": {
-        "place": "television_studio",
-        "id": 236
-    },
-    "frame_38100": {
-        "place": "television_studio",
-        "id": 237
-    },
-    "frame_38273": {
-        "place": "television_studio",
-        "id": 238
-    },
-    "frame_38464": {
-        "place": "ice_cream_parlor",
-        "id": 767
-    },
-    "frame_38554": {
-        "place": "repair_shop",
-        "id": 240
-    },
-    "frame_38607": {
-        "place": "restaurant_kitchen",
-        "id": 241
-    },
-    "frame_38677": {
-        "place": "drugstore",
-        "id": 242
-    },
-    "frame_38742": {
-        "place": "kasbah",
-        "id": 243
-    },
-    "frame_38796": {
-        "place": "chemistry_lab",
-        "id": 244
-    },
-    "frame_38845": {
-        "place": "stage/outdoor",
-        "id": 245
-    },
-    "frame_38905": {
-        "place": "bazaar/outdoor",
-        "id": 246
-    },
-    "frame_38958": {
-        "place": "engine_room",
-        "id": 247
-    },
-    "frame_39155": {
-        "place": "television_studio",
-        "id": 248
-    },
-    "frame_39373": {
-        "place": "movie_theater/indoor",
-        "id": 775
-    },
-    "frame_39441": {
-        "place": "landfill",
-        "id": 250
-    },
-    "frame_39491": {
-        "place": "landfill",
-        "id": 251
-    },
-    "frame_39547": {
-        "place": "boxing_ring",
-        "id": 252
-    },
-    "frame_39608": {
-        "place": "butchers_shop",
-        "id": 253
-    },
-    "frame_39665": {
-        "place": "stage/indoor",
-        "id": 254
-    },
-    "frame_39727": {
-        "place": "television_studio",
-        "id": 255
-    },
-    "frame_39832": {
-        "place": "repair_shop",
-        "id": 256
-    },
-    "frame_39935": {
-        "place": "fountain",
-        "id": 257
-    },
-    "frame_40029": {
-        "place": "patio",
-        "id": 258
-    },
-    "frame_40119": {
-        "place": "shower",
-        "id": 259
-    },
-    "frame_40180": {
-        "place": "amphitheater",
-        "id": 260
-    },
-    "frame_40243": {
-        "place": "burial_chamber",
-        "id": 261
-    },
-    "frame_40302": {
-        "place": "shower",
-        "id": 262
-    },
-    "frame_40361": {
-        "place": "pond",
-        "id": 263
-    },
-    "frame_40419": {
-        "place": "lake/natural",
-        "id": 264
-    },
-    "frame_40637": {
-        "place": "conference_center",
-        "id": 265
-    },
-    "frame_41053": {
-        "place": "conference_center",
-        "id": 266
-    },
-    "frame_41334": {
-        "place": "village",
-        "id": 267
-    },
-    "frame_41424": {
-        "place": "campsite",
-        "id": 268
-    },
-    "frame_41483": {
-        "place": "campsite",
-        "id": 269
-    },
-    "frame_41534": {
-        "place": "science_museum",
-        "id": 270
-    },
-    "frame_41588": {
-        "place": "storage_room",
-        "id": 271
-    },
-    "frame_41645": {
-        "place": "science_museum",
-        "id": 272
-    },
-    "frame_41740": {
-        "place": "landfill",
-        "id": 273
-    },
-    "frame_42072": {
-        "place": "television_studio",
-        "id": 274
-    },
-    "frame_42384": {
-        "place": "classroom",
-        "id": 275
-    },
-    "frame_42594": {
-        "place": "office",
-        "id": 276
-    },
-    "frame_42790": {
-        "place": "conference_center",
-        "id": 277
-    },
-    "frame_42854": {
-        "place": "hospital_room",
-        "id": 278
-    },
-    "frame_42920": {
-        "place": "conference_center",
-        "id": 279
-    },
-    "frame_42981": {
-        "place": "office",
-        "id": 280
-    },
-    "frame_43046": {
-        "place": "television_studio",
-        "id": 281
-    },
-    "frame_43123": {
-        "place": "beauty_salon",
-        "id": 282
-    },
-    "frame_43202": {
-        "place": "television_studio",
-        "id": 283
-    },
-    "frame_43271": {
-        "place": "lecture_room",
-        "id": 284
-    },
-    "frame_43330": {
-        "place": "conference_center",
-        "id": 285
-    },
-    "frame_43392": {
-        "place": "classroom",
-        "id": 286
-    },
-    "frame_43463": {
-        "place": "office",
-        "id": 287
-    },
-    "frame_43532": {
-        "place": "office_cubicles",
-        "id": 288
-    },
-    "frame_43598": {
-        "place": "beauty_salon",
-        "id": 289
-    },
-    "frame_43667": {
-        "place": "airplane_cabin",
-        "id": 290
-    },
-    "frame_43728": {
-        "place": "booth/indoor",
-        "id": 291
-    },
-    "frame_43789": {
-        "place": "hospital_room",
-        "id": 292
-    },
-    "frame_43855": {
-        "place": "classroom",
-        "id": 293
-    },
-    "frame_43917": {
-        "place": "conference_center",
-        "id": 294
-    },
-    "frame_43981": {
-        "place": "beauty_salon",
-        "id": 295
-    },
-    "frame_44048": {
-        "place": "legislative_chamber",
-        "id": 296
-    },
-    "frame_44108": {
-        "place": "office",
-        "id": 297
-    },
-    "frame_44173": {
-        "place": "music_studio",
-        "id": 298
-    },
-    "frame_44250": {
-        "place": "beauty_salon",
-        "id": 299
-    },
-    "frame_44330": {
-        "place": "office",
-        "id": 300
-    },
-    "frame_44385": {
-        "place": "classroom",
-        "id": 301
-    },
-    "frame_44704": {
-        "place": "repair_shop",
-        "id": 302
-    },
-    "frame_45358": {
-        "place": "repair_shop",
-        "id": 303
-    },
-    "frame_45761": {
-        "place": "fire_station",
-        "id": 304
-    },
-    "frame_45860": {
-        "place": "railroad_track",
-        "id": 305
-    },
-    "frame_45999": {
-        "place": "highway",
-        "id": 306
-    },
-    "frame_46167": {
-        "place": "stage/outdoor",
-        "id": 307
-    },
-    "frame_46364": {
-        "place": "archive",
-        "id": 308
-    },
-    "frame_46513": {
-        "place": "garage/indoor",
-        "id": 309
-    },
-    "frame_46580": {
-        "place": "gas_station",
-        "id": 310
-    },
-    "frame_46673": {
-        "place": "auto_factory",
-        "id": 311
-    },
-    "frame_46758": {
-        "place": "fire_station",
-        "id": 312
-    },
-    "frame_46822": {
-        "place": "fire_station",
-        "id": 313
-    },
-    "frame_46894": {
-        "place": "physics_laboratory",
-        "id": 314
-    },
-    "frame_46976": {
-        "place": "loading_dock",
-        "id": 315
-    },
-    "frame_47065": {
-        "place": "fire_station",
-        "id": 316
-    },
-    "frame_47153": {
-        "place": "street",
-        "id": 317
-    },
-    "frame_47239": {
-        "place": "fire_station",
-        "id": 318
-    },
-    "frame_47328": {
-        "place": "fire_station",
-        "id": 319
-    },
-    "frame_47454": {
-        "place": "amusement_park",
-        "id": 320
-    },
-    "frame_47619": {
-        "place": "fire_station",
-        "id": 321
-    },
-    "frame_47765": {
-        "place": "fire_station",
-        "id": 322
-    },
-    "frame_47899": {
-        "place": "highway",
-        "id": 323
-    },
-    "frame_48063": {
-        "place": "server_room",
-        "id": 324
-    },
-    "frame_48190": {
-        "place": "raceway",
-        "id": 325
-    },
-    "frame_48241": {
-        "place": "amusement_arcade",
-        "id": 326
-    },
-    "frame_48297": {
-        "place": "oilrig",
-        "id": 327
-    },
-    "frame_48383": {
-        "place": "construction_site",
-        "id": 328
-    },
-    "frame_48480": {
-        "place": "excavation",
-        "id": 329
-    },
-    "frame_48581": {
-        "place": "construction_site",
-        "id": 330
-    },
-    "frame_48674": {
-        "place": "excavation",
-        "id": 331
-    },
-    "frame_48755": {
-        "place": "industrial_area",
-        "id": 332
-    },
-    "frame_48830": {
-        "place": "hangar/outdoor",
-        "id": 333
-    },
-    "frame_49040": {
-        "place": "flea_market/indoor",
-        "id": 334
-    },
-    "frame_49235": {
-        "place": "parking_lot",
-        "id": 335
-    },
-    "frame_49558": {
-        "place": "television_studio",
-        "id": 336
-    },
-    "frame_49895": {
-        "place": "moat/water",
-        "id": 337
-    },
-    "frame_49976": {
-        "place": "palace",
-        "id": 338
-    },
-    "frame_50070": {
-        "place": "mosque/outdoor",
-        "id": 339
-    },
-    "frame_50168": {
-        "place": "mosque/outdoor",
-        "id": 340
-    },
-    "frame_50416": {
-        "place": "boat_deck",
-        "id": 341
-    },
-    "frame_50659": {
-        "place": "fire_station",
-        "id": 342
-    },
-    "frame_50740": {
-        "place": "harbor",
-        "id": 343
-    },
-    "frame_50801": {
-        "place": "clothing_store",
-        "id": 344
-    },
-    "frame_50858": {
-        "place": "conference_center",
-        "id": 345
-    },
-    "frame_50928": {
-        "place": "conference_center",
-        "id": 346
-    },
-    "frame_50995": {
-        "place": "stage/indoor",
-        "id": 347
-    },
-    "frame_51130": {
-        "place": "park",
-        "id": 348
-    },
-    "frame_51301": {
-        "place": "balcony/interior",
-        "id": 349
-    },
-    "frame_51468": {
-        "place": "campus",
-        "id": 350
-    },
-    "frame_51904": {
-        "place": "park",
-        "id": 351
-    },
-    "frame_52401": {
-        "place": "television_studio",
-        "id": 352
-    },
-    "frame_52681": {
-        "place": "arena/performance",
-        "id": 353
-    },
-    "frame_52902": {
-        "place": "arena/performance",
-        "id": 354
-    },
-    "frame_53163": {
-        "place": "gas_station",
-        "id": 355
-    },
-    "frame_53444": {
-        "place": "television_studio",
-        "id": 356
-    },
-    "frame_53684": {
-        "place": "ice_shelf",
-        "id": 357
-    },
-    "frame_53859": {
-        "place": "volcano",
-        "id": 358
-    },
-    "frame_54001": {
-        "place": "plaza",
-        "id": 359
-    },
-    "frame_54130": {
-        "place": "amphitheater",
-        "id": 360
-    },
-    "frame_54215": {
-        "place": "fountain",
-        "id": 361
-    },
-    "frame_54346": {
-        "place": "television_studio",
-        "id": 362
-    },
-    "frame_54535": {
-        "place": "television_studio",
-        "id": 363
-    },
-    "frame_54684": {
-        "place": "office_building",
-        "id": 364
-    },
-    "frame_54833": {
-        "place": "promenade",
-        "id": 365
-    },
-    "frame_55020": {
-        "place": "jail_cell",
-        "id": 366
-    },
-    "frame_55200": {
-        "place": "construction_site",
-        "id": 367
-    },
-    "frame_55465": {
-        "place": "runway",
-        "id": 368
-    },
-    "frame_55664": {
-        "place": "bridge",
-        "id": 369
-    },
-    "frame_55849": {
-        "place": "television_studio",
-        "id": 370
-    },
-    "frame_56184": {
-        "place": "arena/performance",
-        "id": 371
-    },
-    "frame_56500": {
-        "place": "hangar/indoor",
-        "id": 372
-    },
-    "frame_56717": {
-        "place": "chemistry_lab",
-        "id": 373
-    },
-    "frame_56827": {
-        "place": "hangar/indoor",
-        "id": 374
-    },
-    "frame_56947": {
-        "place": "television_studio",
-        "id": 375
-    },
-    "frame_57100": {
-        "place": "television_studio",
-        "id": 376
-    },
-    "frame_57213": {
-        "place": "industrial_area",
-        "id": 377
-    },
-    "frame_57317": {
-        "place": "oilrig",
-        "id": 378
-    },
-    "frame_57451": {
-        "place": "stage/outdoor",
-        "id": 379
-    },
-    "frame_57577": {
-        "place": "home_theater",
-        "id": 380
-    },
-    "frame_53": {
-        "place": "booth/indoor",
-        "id": 381
-    },
-    "frame_147": {
-        "place": "legislative_chamber",
-        "id": 382
-    },
-    "frame_199": {
-        "place": "athletic_field/outdoor",
-        "id": 383
-    },
-    "frame_244": {
-        "place": "conference_center",
-        "id": 384
-    },
-    "frame_296": {
-        "place": "conference_center",
-        "id": 385
-    },
-    "frame_337": {
-        "place": "legislative_chamber",
-        "id": 386
-    },
-    "frame_380": {
-        "place": "conference_center",
-        "id": 387
-    },
-    "frame_425": {
-        "place": "home_theater",
-        "id": 388
-    },
-    "frame_510": {
-        "place": "music_studio",
-        "id": 390
-    },
-    "frame_574": {
-        "place": "television_studio",
-        "id": 391
-    },
-    "frame_621": {
-        "place": "television_studio",
-        "id": 392
-    },
-    "frame_662": {
-        "place": "elevator/door",
-        "id": 393
-    },
-    "frame_714": {
-        "place": "home_theater",
-        "id": 394
-    },
-    "frame_748": {
-        "place": "television_studio",
-        "id": 395
-    },
-    "frame_788": {
-        "place": "science_museum",
-        "id": 396
-    },
-    "frame_848": {
-        "place": "home_theater",
-        "id": 397
-    },
-    "frame_897": {
-        "place": "office_cubicles",
-        "id": 398
-    },
-    "frame_1020": {
-        "place": "nursery",
-        "id": 399
-    },
-    "frame_1332": {
-        "place": "television_studio",
-        "id": 400
-    },
-    "frame_1571": {
-        "place": "runway",
-        "id": 401
-    },
-    "frame_1632": {
-        "place": "heliport",
-        "id": 402
-    },
-    "frame_1686": {
-        "place": "water_tower",
-        "id": 403
-    },
-    "frame_1744": {
-        "place": "television_studio",
-        "id": 404
-    },
-    "frame_1788": {
-        "place": "television_studio",
-        "id": 405
-    },
-    "frame_1824": {
-        "place": "discotheque",
-        "id": 406
-    },
-    "frame_1877": {
-        "place": "parking_lot",
-        "id": 407
-    },
-    "frame_1924": {
-        "place": "television_studio",
-        "id": 408
-    },
-    "frame_1966": {
-        "place": "parking_lot",
-        "id": 409
-    },
-    "frame_2126": {
-        "place": "embassy",
-        "id": 410
-    },
-    "frame_2290": {
-        "place": "embassy",
-        "id": 411
-    },
-    "frame_2338": {
-        "place": "promenade",
-        "id": 412
-    },
-    "frame_2393": {
-        "place": "army_base",
-        "id": 413
-    },
-    "frame_2457": {
-        "place": "embassy",
-        "id": 414
-    },
-    "frame_2517": {
-        "place": "racecourse",
-        "id": 415
-    },
-    "frame_2612": {
-        "place": "legislative_chamber",
-        "id": 417
-    },
-    "frame_2665": {
-        "place": "campsite",
-        "id": 418
-    },
-    "frame_2725": {
-        "place": "promenade",
-        "id": 419
-    },
-    "frame_2788": {
-        "place": "auditorium",
-        "id": 420
-    },
-    "frame_2840": {
-        "place": "embassy",
-        "id": 421
-    },
-    "frame_2896": {
-        "place": "promenade",
-        "id": 422
-    },
-    "frame_2944": {
-        "place": "raft",
-        "id": 423
-    },
-    "frame_3028": {
-        "place": "army_base",
-        "id": 424
-    },
-    "frame_3124": {
-        "place": "conference_center",
-        "id": 425
-    },
-    "frame_3259": {
-        "place": "promenade",
-        "id": 426
-    },
-    "frame_3566": {
-        "place": "playground",
-        "id": 429
-    },
-    "frame_3668": {
-        "place": "stage/outdoor",
-        "id": 430
-    },
-    "frame_3746": {
-        "place": "promenade",
-        "id": 431
-    },
-    "frame_3834": {
-        "place": "campus",
-        "id": 432
-    },
-    "frame_3932": {
-        "place": "stadium/football",
-        "id": 433
-    },
-    "frame_4012": {
-        "place": "promenade",
-        "id": 434
-    },
-    "frame_4096": {
-        "place": "promenade",
-        "id": 435
-    },
-    "frame_4194": {
-        "place": "candy_store",
-        "id": 436
-    },
-    "frame_4286": {
-        "place": "racecourse",
-        "id": 437
-    },
-    "frame_4407": {
-        "place": "army_base",
-        "id": 438
-    },
-    "frame_4538": {
-        "place": "racecourse",
-        "id": 439
-    },
-    "frame_4623": {
-        "place": "campus",
-        "id": 440
-    },
-    "frame_4695": {
-        "place": "operating_room",
-        "id": 441
-    },
-    "frame_4791": {
-        "place": "campus",
-        "id": 442
-    },
-    "frame_4895": {
-        "place": "campus",
-        "id": 443
-    },
-    "frame_5022": {
-        "place": "racecourse",
-        "id": 444
-    },
-    "frame_5168": {
-        "place": "conference_center",
-        "id": 445
-    },
-    "frame_5276": {
-        "place": "fire_station",
-        "id": 446
-    },
-    "frame_5373": {
-        "place": "campus",
-        "id": 447
-    },
-    "frame_5453": {
-        "place": "martial_arts_gym",
-        "id": 448
-    },
-    "frame_5522": {
-        "place": "television_studio",
-        "id": 449
-    },
-    "frame_5706": {
-        "place": "stage/indoor",
-        "id": 450
-    },
-    "frame_5869": {
-        "place": "locker_room",
-        "id": 451
-    },
-    "frame_5933": {
-        "place": "legislative_chamber",
-        "id": 452
-    },
-    "frame_6007": {
-        "place": "legislative_chamber",
-        "id": 453
-    },
-    "frame_6076": {
-        "place": "television_studio",
-        "id": 454
-    },
-    "frame_6151": {
-        "place": "legislative_chamber",
-        "id": 455
-    },
-    "frame_6233": {
-        "place": "legislative_chamber",
-        "id": 456
-    },
-    "frame_6398": {
-        "place": "legislative_chamber",
-        "id": 457
-    },
-    "frame_6573": {
-        "place": "conference_center",
-        "id": 458
-    },
-    "frame_6761": {
-        "place": "legislative_chamber",
-        "id": 460
-    },
-    "frame_6846": {
-        "place": "legislative_chamber",
-        "id": 461
-    },
-    "frame_6994": {
-        "place": "legislative_chamber",
-        "id": 462
-    },
-    "frame_7141": {
-        "place": "legislative_chamber",
-        "id": 463
-    },
-    "frame_7242": {
-        "place": "legislative_chamber",
-        "id": 464
-    },
-    "frame_7332": {
-        "place": "conference_center",
-        "id": 465
-    },
-    "frame_7404": {
-        "place": "legislative_chamber",
-        "id": 466
-    },
-    "frame_7480": {
-        "place": "legislative_chamber",
-        "id": 467
-    },
-    "frame_7564": {
-        "place": "television_studio",
-        "id": 468
-    },
-    "frame_7650": {
-        "place": "conference_center",
-        "id": 469
-    },
-    "frame_7723": {
-        "place": "legislative_chamber",
-        "id": 470
-    },
-    "frame_7809": {
-        "place": "legislative_chamber",
-        "id": 471
-    },
-    "frame_7905": {
-        "place": "conference_center",
-        "id": 472
-    },
-    "frame_7998": {
-        "place": "legislative_chamber",
-        "id": 473
-    },
-    "frame_8087": {
-        "place": "legislative_chamber",
-        "id": 474
-    },
-    "frame_8180": {
-        "place": "legislative_chamber",
-        "id": 475
-    },
-    "frame_8285": {
-        "place": "legislative_chamber",
-        "id": 476
-    },
-    "frame_8368": {
-        "place": "conference_center",
-        "id": 477
-    },
-    "frame_8435": {
-        "place": "legislative_chamber",
-        "id": 478
-    },
-    "frame_8524": {
-        "place": "legislative_chamber",
-        "id": 479
-    },
-    "frame_8629": {
-        "place": "legislative_chamber",
-        "id": 480
-    },
-    "frame_8721": {
-        "place": "legislative_chamber",
-        "id": 481
-    },
-    "frame_8798": {
-        "place": "legislative_chamber",
-        "id": 482
-    },
-    "frame_8918": {
-        "place": "legislative_chamber",
-        "id": 483
-    },
-    "frame_9023": {
-        "place": "conference_center",
-        "id": 484
-    },
-    "frame_9141": {
-        "place": "conference_center",
-        "id": 485
-    },
-    "frame_9258": {
-        "place": "television_studio",
-        "id": 486
-    },
-    "frame_9371": {
-        "place": "stage/indoor",
-        "id": 487
-    },
-    "frame_9488": {
-        "place": "television_studio",
-        "id": 488
-    },
-    "frame_9580": {
-        "place": "conference_center",
-        "id": 489
-    },
-    "frame_9659": {
-        "place": "conference_center",
-        "id": 490
-    },
-    "frame_9699": {
-        "place": "conference_center",
-        "id": 491
-    },
-    "frame_9791": {
-        "place": "conference_center",
-        "id": 492
-    },
-    "frame_9892": {
-        "place": "conference_center",
-        "id": 493
-    },
-    "frame_9953": {
-        "place": "legislative_chamber",
-        "id": 494
-    },
-    "frame_9994": {
-        "place": "conference_center",
-        "id": 495
-    },
-    "frame_10054": {
-        "place": "legislative_chamber",
-        "id": 496
-    },
-    "frame_10198": {
-        "place": "television_studio",
-        "id": 497
-    },
-    "frame_10325": {
-        "place": "mosque/outdoor",
-        "id": 498
-    },
-    "frame_10494": {
-        "place": "television_studio",
-        "id": 499
-    },
-    "frame_10655": {
-        "place": "television_studio",
-        "id": 500
-    },
-    "frame_10704": {
-        "place": "television_studio",
-        "id": 501
-    },
-    "frame_10752": {
-        "place": "playroom",
-        "id": 502
-    },
-    "frame_10805": {
-        "place": "conference_center",
-        "id": 503
-    },
-    "frame_10877": {
-        "place": "conference_center",
-        "id": 504
-    },
-    "frame_10945": {
-        "place": "legislative_chamber",
-        "id": 505
-    },
-    "frame_11012": {
-        "place": "conference_center",
-        "id": 506
-    },
-    "frame_11080": {
-        "place": "television_studio",
-        "id": 507
-    },
-    "frame_11150": {
-        "place": "legislative_chamber",
-        "id": 508
-    },
-    "frame_11216": {
-        "place": "legislative_chamber",
-        "id": 509
-    },
-    "frame_11298": {
-        "place": "legislative_chamber",
-        "id": 510
-    },
-    "frame_11398": {
-        "place": "conference_center",
-        "id": 511
-    },
-    "frame_11485": {
-        "place": "legislative_chamber",
-        "id": 512
-    },
-    "frame_11558": {
-        "place": "legislative_chamber",
-        "id": 513
-    },
-    "frame_11621": {
-        "place": "legislative_chamber",
-        "id": 514
-    },
-    "frame_11710": {
-        "place": "legislative_chamber",
-        "id": 515
-    },
-    "frame_11804": {
-        "place": "legislative_chamber",
-        "id": 516
-    },
-    "frame_11878": {
-        "place": "conference_center",
-        "id": 517
-    },
-    "frame_11947": {
-        "place": "legislative_chamber",
-        "id": 518
-    },
-    "frame_12017": {
-        "place": "conference_center",
-        "id": 519
-    },
-    "frame_12095": {
-        "place": "conference_center",
-        "id": 520
-    },
-    "frame_12174": {
-        "place": "cafeteria",
-        "id": 521
-    },
-    "frame_12262": {
-        "place": "legislative_chamber",
-        "id": 522
-    },
-    "frame_12351": {
-        "place": "television_studio",
-        "id": 523
-    },
-    "frame_12435": {
-        "place": "conference_center",
-        "id": 524
-    },
-    "frame_12529": {
-        "place": "conference_center",
-        "id": 525
-    },
-    "frame_12614": {
-        "place": "conference_center",
-        "id": 526
-    },
-    "frame_12691": {
-        "place": "legislative_chamber",
-        "id": 527
-    },
-    "frame_12831": {
-        "place": "conference_center",
-        "id": 528
-    },
-    "frame_12977": {
-        "place": "conference_center",
-        "id": 529
-    },
-    "frame_13066": {
-        "place": "conference_center",
-        "id": 530
-    },
-    "frame_13138": {
-        "place": "conference_center",
-        "id": 531
-    },
-    "frame_13212": {
-        "place": "nursing_home",
-        "id": 532
-    },
-    "frame_13313": {
-        "place": "legislative_chamber",
-        "id": 533
-    },
-    "frame_13411": {
-        "place": "conference_center",
-        "id": 534
-    },
-    "frame_13486": {
-        "place": "legislative_chamber",
-        "id": 535
-    },
-    "frame_13554": {
-        "place": "legislative_chamber",
-        "id": 536
-    },
-    "frame_13634": {
-        "place": "conference_center",
-        "id": 537
-    },
-    "frame_13709": {
-        "place": "legislative_chamber",
-        "id": 538
-    },
-    "frame_13758": {
-        "place": "television_studio",
-        "id": 539
-    },
-    "frame_13969": {
-        "place": "conference_center",
-        "id": 540
-    },
-    "frame_14255": {
-        "place": "television_studio",
-        "id": 541
-    },
-    "frame_14379": {
-        "place": "courthouse",
-        "id": 542
-    },
-    "frame_14445": {
-        "place": "conference_center",
-        "id": 543
-    },
-    "frame_14511": {
-        "place": "television_studio",
-        "id": 544
-    },
-    "frame_14641": {
-        "place": "television_studio",
-        "id": 545
-    },
-    "frame_14779": {
-        "place": "television_studio",
-        "id": 546
-    },
-    "frame_14840": {
-        "place": "television_studio",
-        "id": 547
-    },
-    "frame_14919": {
-        "place": "legislative_chamber",
-        "id": 548
-    },
-    "frame_15041": {
-        "place": "legislative_chamber",
-        "id": 549
-    },
-    "frame_15141": {
-        "place": "legislative_chamber",
-        "id": 550
-    },
-    "frame_15234": {
-        "place": "legislative_chamber",
-        "id": 551
-    },
-    "frame_15325": {
-        "place": "conference_center",
-        "id": 552
-    },
-    "frame_15453": {
-        "place": "legislative_chamber",
-        "id": 553
-    },
-    "frame_15583": {
-        "place": "amusement_park",
-        "id": 554
-    },
-    "frame_15704": {
-        "place": "legislative_chamber",
-        "id": 555
-    },
-    "frame_15857": {
-        "place": "legislative_chamber",
-        "id": 556
-    },
-    "frame_15960": {
-        "place": "legislative_chamber",
-        "id": 557
-    },
-    "frame_16040": {
-        "place": "legislative_chamber",
-        "id": 558
-    },
-    "frame_16138": {
-        "place": "legislative_chamber",
-        "id": 559
-    },
-    "frame_16241": {
-        "place": "legislative_chamber",
-        "id": 560
-    },
-    "frame_16330": {
-        "place": "conference_center",
-        "id": 561
-    },
-    "frame_16409": {
-        "place": "conference_center",
-        "id": 562
-    },
-    "frame_16504": {
-        "place": "television_studio",
-        "id": 563
-    },
-    "frame_16608": {
-        "place": "legislative_chamber",
-        "id": 564
-    },
-    "frame_16693": {
-        "place": "legislative_chamber",
-        "id": 565
-    },
-    "frame_16754": {
-        "place": "legislative_chamber",
-        "id": 566
-    },
-    "frame_16876": {
-        "place": "television_studio",
-        "id": 567
-    },
-    "frame_17027": {
-        "place": "legislative_chamber",
-        "id": 568
-    },
-    "frame_17104": {
-        "place": "television_studio",
-        "id": 569
-    },
-    "frame_17165": {
-        "place": "television_studio",
-        "id": 570
-    },
-    "frame_17233": {
-        "place": "legislative_chamber",
-        "id": 571
-    },
-    "frame_17305": {
-        "place": "legislative_chamber",
-        "id": 572
-    },
-    "frame_17392": {
-        "place": "conference_center",
-        "id": 573
-    },
-    "frame_17475": {
-        "place": "conference_center",
-        "id": 574
-    },
-    "frame_17540": {
-        "place": "legislative_chamber",
-        "id": 575
-    },
-    "frame_17600": {
-        "place": "conference_center",
-        "id": 576
-    },
-    "frame_17674": {
-        "place": "legislative_chamber",
-        "id": 577
-    },
-    "frame_17766": {
-        "place": "elevator/door",
-        "id": 578
-    },
-    "frame_17846": {
-        "place": "legislative_chamber",
-        "id": 579
-    },
-    "frame_17918": {
-        "place": "legislative_chamber",
-        "id": 580
-    },
-    "frame_17995": {
-        "place": "conference_center",
-        "id": 581
-    },
-    "frame_18067": {
-        "place": "legislative_chamber",
-        "id": 582
-    },
-    "frame_18140": {
-        "place": "television_studio",
-        "id": 583
-    },
-    "frame_18216": {
-        "place": "television_studio",
-        "id": 584
-    },
-    "frame_18356": {
-        "place": "legislative_chamber",
-        "id": 586
-    },
-    "frame_18433": {
-        "place": "television_studio",
-        "id": 587
-    },
-    "frame_18534": {
-        "place": "department_store",
-        "id": 588
-    },
-    "frame_18618": {
-        "place": "temple/asia",
-        "id": 589
-    },
-    "frame_18699": {
-        "place": "park",
-        "id": 590
-    },
-    "frame_18770": {
-        "place": "park",
-        "id": 591
-    },
-    "frame_18824": {
-        "place": "campus",
-        "id": 592
-    },
-    "frame_18895": {
-        "place": "campus",
-        "id": 593
-    },
-    "frame_18986": {
-        "place": "mosque/outdoor",
-        "id": 594
-    },
-    "frame_19215": {
-        "place": "television_studio",
-        "id": 595
-    },
-    "frame_19497": {
-        "place": "legislative_chamber",
-        "id": 596
-    },
-    "frame_19633": {
-        "place": "television_studio",
-        "id": 597
-    },
-    "frame_19698": {
-        "place": "legislative_chamber",
-        "id": 598
-    },
-    "frame_19764": {
-        "place": "legislative_chamber",
-        "id": 599
-    },
-    "frame_19819": {
-        "place": "legislative_chamber",
-        "id": 600
-    },
-    "frame_19896": {
-        "place": "legislative_chamber",
-        "id": 601
-    },
-    "frame_19968": {
-        "place": "legislative_chamber",
-        "id": 602
-    },
-    "frame_20024": {
-        "place": "conference_center",
-        "id": 603
-    },
-    "frame_20088": {
-        "place": "conference_center",
-        "id": 604
-    },
-    "frame_20194": {
-        "place": "legislative_chamber",
-        "id": 605
-    },
-    "frame_20340": {
-        "place": "legislative_chamber",
-        "id": 606
-    },
-    "frame_20443": {
-        "place": "conference_center",
-        "id": 607
-    },
-    "frame_20517": {
-        "place": "playroom",
-        "id": 608
-    },
-    "frame_20620": {
-        "place": "legislative_chamber",
-        "id": 609
-    },
-    "frame_20718": {
-        "place": "legislative_chamber",
-        "id": 610
-    },
-    "frame_20808": {
-        "place": "throne_room",
-        "id": 611
-    },
-    "frame_20929": {
-        "place": "legislative_chamber",
-        "id": 612
-    },
-    "frame_21031": {
-        "place": "conference_center",
-        "id": 613
-    },
-    "frame_21103": {
-        "place": "legislative_chamber",
-        "id": 614
-    },
-    "frame_21192": {
-        "place": "legislative_chamber",
-        "id": 615
-    },
-    "frame_21269": {
-        "place": "legislative_chamber",
-        "id": 616
-    },
-    "frame_21403": {
-        "place": "television_studio",
-        "id": 617
-    },
-    "frame_21537": {
-        "place": "legislative_chamber",
-        "id": 618
-    },
-    "frame_21582": {
-        "place": "locker_room",
-        "id": 619
-    },
-    "frame_21621": {
-        "place": "television_studio",
-        "id": 620
-    },
-    "frame_21665": {
-        "place": "legislative_chamber",
-        "id": 621
-    },
-    "frame_21714": {
-        "place": "legislative_chamber",
-        "id": 622
-    },
-    "frame_21778": {
-        "place": "legislative_chamber",
-        "id": 623
-    },
-    "frame_21868": {
-        "place": "elevator/door",
-        "id": 624
-    },
-    "frame_21955": {
-        "place": "legislative_chamber",
-        "id": 625
-    },
-    "frame_22035": {
-        "place": "conference_center",
-        "id": 626
-    },
-    "frame_22109": {
-        "place": "legislative_chamber",
-        "id": 627
-    },
-    "frame_22172": {
-        "place": "legislative_chamber",
-        "id": 628
-    },
-    "frame_22240": {
-        "place": "embassy",
-        "id": 629
-    },
-    "frame_22797": {
-        "place": "booth/indoor",
-        "id": 631
-    },
-    "frame_22845": {
-        "place": "assembly_line",
-        "id": 632
-    },
-    "frame_22905": {
-        "place": "hospital_room",
-        "id": 633
-    },
-    "frame_22968": {
-        "place": "hospital_room",
-        "id": 634
-    },
-    "frame_23030": {
-        "place": "bookstore",
-        "id": 635
-    },
-    "frame_23091": {
-        "place": "office_cubicles",
-        "id": 636
-    },
-    "frame_23386": {
-        "place": "conference_center",
-        "id": 638
-    },
-    "frame_23608": {
-        "place": "hospital_room",
-        "id": 639
-    },
-    "frame_23799": {
-        "place": "cafeteria",
-        "id": 640
-    },
-    "frame_24096": {
-        "place": "ticket_booth",
-        "id": 641
-    },
-    "frame_24247": {
-        "place": "hospital_room",
-        "id": 642
-    },
-    "frame_24301": {
-        "place": "conference_center",
-        "id": 643
-    },
-    "frame_24355": {
-        "place": "hospital_room",
-        "id": 644
-    },
-    "frame_24414": {
-        "place": "clean_room",
-        "id": 645
-    },
-    "frame_24478": {
-        "place": "hospital_room",
-        "id": 646
-    },
-    "frame_24547": {
-        "place": "classroom",
-        "id": 647
-    },
-    "frame_24887": {
-        "place": "hospital_room",
-        "id": 648
-    },
-    "frame_25220": {
-        "place": "office_cubicles",
-        "id": 649
-    },
-    "frame_25276": {
-        "place": "hospital_room",
-        "id": 650
-    },
-    "frame_25332": {
-        "place": "kindergarden_classroom",
-        "id": 651
-    },
-    "frame_25391": {
-        "place": "hospital_room",
-        "id": 652
-    },
-    "frame_25453": {
-        "place": "ice_cream_parlor",
-        "id": 653
-    },
-    "frame_25496": {
-        "place": "hospital_room",
-        "id": 654
-    },
-    "frame_25539": {
-        "place": "booth/indoor",
-        "id": 655
-    },
-    "frame_25602": {
-        "place": "nursery",
-        "id": 656
-    },
-    "frame_25658": {
-        "place": "hospital_room",
-        "id": 657
-    },
-    "frame_26190": {
-        "place": "television_studio",
-        "id": 658
-    },
-    "frame_26875": {
-        "place": "television_studio",
-        "id": 659
-    },
-    "frame_27075": {
-        "place": "beer_garden",
-        "id": 660
-    },
-    "frame_27124": {
-        "place": "volleyball_court/outdoor",
-        "id": 661
-    },
-    "frame_27180": {
-        "place": "television_studio",
-        "id": 662
-    },
-    "frame_27382": {
-        "place": "conference_center",
-        "id": 663
-    },
-    "frame_27579": {
-        "place": "art_school",
-        "id": 664
-    },
-    "frame_27634": {
-        "place": "tree_house",
-        "id": 665
-    },
-    "frame_27691": {
-        "place": "playground",
-        "id": 666
-    },
-    "frame_27751": {
-        "place": "playground",
-        "id": 667
-    },
-    "frame_27820": {
-        "place": "sandbox",
-        "id": 668
-    },
-    "frame_27891": {
-        "place": "beer_garden",
-        "id": 669
-    },
-    "frame_27952": {
-        "place": "golf_course",
-        "id": 670
-    },
-    "frame_28057": {
-        "place": "rice_paddy",
-        "id": 671
-    },
-    "frame_28554": {
-        "place": "conference_center",
-        "id": 672
-    },
-    "frame_28989": {
-        "place": "television_studio",
-        "id": 673
-    },
-    "frame_29171": {
-        "place": "television_studio",
-        "id": 674
-    },
-    "frame_29362": {
-        "place": "courtyard",
-        "id": 675
-    },
-    "frame_29405": {
-        "place": "volleyball_court/outdoor",
-        "id": 676
-    },
-    "frame_29471": {
-        "place": "courtyard",
-        "id": 677
-    },
-    "frame_29548": {
-        "place": "volleyball_court/outdoor",
-        "id": 678
-    },
-    "frame_29606": {
-        "place": "village",
-        "id": 679
-    },
-    "frame_29655": {
-        "place": "volleyball_court/outdoor",
-        "id": 680
-    },
-    "frame_29702": {
-        "place": "classroom",
-        "id": 681
-    },
-    "frame_29764": {
-        "place": "plaza",
-        "id": 682
-    },
-    "frame_29824": {
-        "place": "racecourse",
-        "id": 683
-    },
-    "frame_29887": {
-        "place": "auditorium",
-        "id": 684
-    },
-    "frame_29941": {
-        "place": "market/outdoor",
-        "id": 685
-    },
-    "frame_29979": {
-        "place": "television_studio",
-        "id": 686
-    },
-    "frame_30022": {
-        "place": "greenhouse/indoor",
-        "id": 687
-    },
-    "frame_30061": {
-        "place": "bamboo_forest",
-        "id": 688
-    },
-    "frame_30139": {
-        "place": "crosswalk",
-        "id": 689
-    },
-    "frame_30463": {
-        "place": "television_studio",
-        "id": 690
-    },
-    "frame_30833": {
-        "place": "television_studio",
-        "id": 691
-    },
-    "frame_30953": {
-        "place": "toyshop",
-        "id": 692
-    },
-    "frame_30978": {
-        "place": "bookstore",
-        "id": 693
-    },
-    "frame_31014": {
-        "place": "bookstore",
-        "id": 694
-    },
-    "frame_31098": {
-        "place": "supermarket",
-        "id": 695
-    },
-    "frame_31174": {
-        "place": "flea_market/indoor",
-        "id": 696
-    },
-    "frame_31209": {
-        "place": "ice_cream_parlor",
-        "id": 697
-    },
-    "frame_31249": {
-        "place": "bazaar/outdoor",
-        "id": 698
-    },
-    "frame_31286": {
-        "place": "flea_market/indoor",
-        "id": 699
-    },
-    "frame_31376": {
-        "place": "candy_store",
-        "id": 700
-    },
-    "frame_31479": {
-        "place": "clean_room",
-        "id": 701
-    },
-    "frame_31577": {
-        "place": "delicatessen",
-        "id": 702
-    },
-    "frame_31727": {
-        "place": "street",
-        "id": 703
-    },
-    "frame_31861": {
-        "place": "parking_lot",
-        "id": 704
-    },
-    "frame_31950": {
-        "place": "closet",
-        "id": 705
-    },
-    "frame_32016": {
-        "place": "beer_garden",
-        "id": 706
-    },
-    "frame_32072": {
-        "place": "cafeteria",
-        "id": 707
-    },
-    "frame_32122": {
-        "place": "delicatessen",
-        "id": 708
-    },
-    "frame_32172": {
-        "place": "beer_garden",
-        "id": 709
-    },
-    "frame_32231": {
-        "place": "playground",
-        "id": 710
-    },
-    "frame_32304": {
-        "place": "archaelogical_excavation",
-        "id": 711
-    },
-    "frame_32374": {
-        "place": "flea_market/indoor",
-        "id": 712
-    },
-    "frame_32433": {
-        "place": "art_studio",
-        "id": 713
-    },
-    "frame_32492": {
-        "place": "bazaar/outdoor",
-        "id": 714
-    },
-    "frame_32557": {
-        "place": "restaurant_kitchen",
-        "id": 715
-    },
-    "frame_32621": {
-        "place": "ice_cream_parlor",
-        "id": 716
-    },
-    "frame_32674": {
-        "place": "market/outdoor",
-        "id": 717
-    },
-    "frame_32724": {
-        "place": "ice_cream_parlor",
-        "id": 718
-    },
-    "frame_32790": {
-        "place": "bazaar/outdoor",
-        "id": 719
-    },
-    "frame_32895": {
-        "place": "market/outdoor",
-        "id": 720
-    },
-    "frame_32987": {
-        "place": "pantry",
-        "id": 721
-    },
-    "frame_33140": {
-        "place": "television_studio",
-        "id": 722
-    },
-    "frame_33297": {
-        "place": "beer_garden",
-        "id": 723
-    },
-    "frame_33348": {
-        "place": "market/outdoor",
-        "id": 724
-    },
-    "frame_33395": {
-        "place": "delicatessen",
-        "id": 725
-    },
-    "frame_33446": {
-        "place": "pet_shop",
-        "id": 726
-    },
-    "frame_33524": {
-        "place": "delicatessen",
-        "id": 727
-    },
-    "frame_33824": {
-        "place": "television_studio",
-        "id": 728
-    },
-    "frame_34164": {
-        "place": "amusement_park",
-        "id": 729
-    },
-    "frame_34292": {
-        "place": "arena/performance",
-        "id": 730
-    },
-    "frame_34355": {
-        "place": "television_studio",
-        "id": 731
-    },
-    "frame_34400": {
-        "place": "repair_shop",
-        "id": 732
-    },
-    "frame_34431": {
-        "place": "discotheque",
-        "id": 733
-    },
-    "frame_34464": {
-        "place": "discotheque",
-        "id": 734
-    },
-    "frame_34518": {
-        "place": "garage/indoor",
-        "id": 735
-    },
-    "frame_34754": {
-        "place": "stage/indoor",
-        "id": 736
-    },
-    "frame_34990": {
-        "place": "arena/performance",
-        "id": 737
-    },
-    "frame_35126": {
-        "place": "fire_station",
-        "id": 738
-    },
-    "frame_35263": {
-        "place": "amusement_arcade",
-        "id": 739
-    },
-    "frame_35507": {
-        "place": "arena/performance",
-        "id": 740
-    },
-    "frame_35753": {
-        "place": "television_studio",
-        "id": 741
-    },
-    "frame_35824": {
-        "place": "stage/indoor",
-        "id": 742
-    },
-    "frame_35892": {
-        "place": "arena/performance",
-        "id": 743
-    },
-    "frame_36001": {
-        "place": "stage/indoor",
-        "id": 744
-    },
-    "frame_36096": {
-        "place": "arena/performance",
-        "id": 745
-    },
-    "frame_36196": {
-        "place": "repair_shop",
-        "id": 746
-    },
-    "frame_36406": {
-        "place": "discotheque",
-        "id": 747
-    },
-    "frame_36605": {
-        "place": "repair_shop",
-        "id": 748
-    },
-    "frame_36723": {
-        "place": "television_studio",
-        "id": 749
-    },
-    "frame_36916": {
-        "place": "repair_shop",
-        "id": 750
-    },
-    "frame_37111": {
-        "place": "bus_interior",
-        "id": 751
-    },
-    "frame_37239": {
-        "place": "stage/indoor",
-        "id": 752
-    },
-    "frame_37343": {
-        "place": "hangar/outdoor",
-        "id": 753
-    },
-    "frame_37396": {
-        "place": "amusement_arcade",
-        "id": 754
-    },
-    "frame_37448": {
-        "place": "hardware_store",
-        "id": 755
-    },
-    "frame_37503": {
-        "place": "physics_laboratory",
-        "id": 756
-    },
-    "frame_37587": {
-        "place": "physics_laboratory",
-        "id": 757
-    },
-    "frame_37671": {
-        "place": "amusement_arcade",
-        "id": 758
-    },
-    "frame_37723": {
-        "place": "repair_shop",
-        "id": 759
-    },
-    "frame_37796": {
-        "place": "movie_theater/indoor",
-        "id": 760
-    },
-    "frame_37869": {
-        "place": "office_cubicles",
-        "id": 761
-    },
-    "frame_37945": {
-        "place": "arena/performance",
-        "id": 762
-    },
-    "frame_38026": {
-        "place": "home_theater",
-        "id": 763
-    },
-    "frame_38062": {
-        "place": "amusement_arcade",
-        "id": 764
-    },
-    "frame_38081": {
-        "place": "amusement_arcade",
-        "id": 765
-    },
-    "frame_38241": {
-        "place": "sky",
-        "id": 766
-    },
-    "frame_38564": {
-        "place": "hangar/outdoor",
-        "id": 768
-    },
-    "frame_38777": {
-        "place": "stage/indoor",
-        "id": 769
-    },
-    "frame_39052": {
-        "place": "ice_cream_parlor",
-        "id": 770
-    },
-    "frame_39164": {
-        "place": "hangar/outdoor",
-        "id": 771
-    },
-    "frame_39216": {
-        "place": "hangar/outdoor",
-        "id": 772
-    },
-    "frame_39273": {
-        "place": "television_studio",
-        "id": 773
-    },
-    "frame_39315": {
-        "place": "amusement_arcade",
-        "id": 774
-    },
-    "frame_39430": {
-        "place": "television_studio",
-        "id": 776
-    },
-    "frame_39466": {
-        "place": "oilrig",
-        "id": 777
-    },
-    "frame_39520": {
-        "place": "movie_theater/indoor",
-        "id": 778
-    },
-    "frame_39556": {
-        "place": "television_studio",
-        "id": 779
-    },
-    "frame_39575": {
-        "place": "amusement_arcade",
-        "id": 780
-    },
-    "frame_39643": {
-        "place": "sky",
-        "id": 781
-    },
-    "frame_39899": {
-        "place": "television_studio",
-        "id": 782
-    },
-    "frame_40124": {
-        "place": "fire_station",
-        "id": 783
-    },
-    "frame_40189": {
-        "place": "boat_deck",
-        "id": 784
-    },
-    "frame_40273": {
-        "place": "mosque/outdoor",
-        "id": 785
-    },
-    "frame_40362": {
-        "place": "ice_floe",
-        "id": 786
-    },
-    "frame_40461": {
-        "place": "palace",
-        "id": 787
-    },
-    "frame_40559": {
-        "place": "palace",
-        "id": 788
-    },
-    "frame_40666": {
-        "place": "oilrig",
-        "id": 789
-    },
-    "frame_40923": {
-        "place": "legislative_chamber",
-        "id": 790
-    },
-    "frame_41181": {
-        "place": "airport_terminal",
-        "id": 791
-    },
-    "frame_41322": {
-        "place": "airport_terminal",
-        "id": 792
-    },
-    "frame_41449": {
-        "place": "television_studio",
-        "id": 793
-    },
-    "frame_41542": {
-        "place": "courthouse",
-        "id": 794
-    },
-    "frame_41636": {
-        "place": "locker_room",
-        "id": 795
-    },
-    "frame_41716": {
-        "place": "volcano",
-        "id": 796
-    },
-    "frame_41774": {
-        "place": "volcano",
-        "id": 797
-    },
-    "frame_41830": {
-        "place": "racecourse",
-        "id": 798
-    },
-    "frame_41909": {
-        "place": "park",
-        "id": 799
-    },
-    "frame_41968": {
-        "place": "television_studio",
-        "id": 800
-    },
-    "frame_42011": {
-        "place": "office",
-        "id": 801
-    },
-    "frame_42088": {
-        "place": "downtown",
-        "id": 802
-    },
-    "frame_42172": {
-        "place": "plaza",
-        "id": 803
-    },
-    "frame_42258": {
-        "place": "downtown",
-        "id": 804
-    },
-    "frame_42325": {
-        "place": "bazaar/outdoor",
-        "id": 805
-    },
-    "frame_42639": {
-        "place": "campus",
-        "id": 806
-    },
-    "frame_43074": {
-        "place": "television_studio",
-        "id": 807
-    },
-    "frame_43636": {
-        "place": "television_studio",
-        "id": 808
-    },
-    "frame_44092": {
-        "place": "television_studio",
-        "id": 809
-    },
-    "frame_44162": {
-        "place": "television_studio",
-        "id": 810
-    },
-    "frame_44228": {
-        "place": "pharmacy",
-        "id": 811
-    },
-    "frame_44282": {
-        "place": "hospital_room",
-        "id": 812
-    },
-    "frame_44343": {
-        "place": "shoe_shop",
-        "id": 813
-    },
-    "frame_44417": {
-        "place": "escalator/indoor",
-        "id": 814
-    },
-    "frame_44483": {
-        "place": "chemistry_lab",
-        "id": 815
-    },
-    "frame_44565": {
-        "place": "nursery",
-        "id": 816
-    },
-    "frame_44662": {
-        "place": "ice_shelf",
-        "id": 817
-    },
-    "frame_44757": {
-        "place": "biology_laboratory",
-        "id": 818
-    },
-    "frame_44873": {
-        "place": "amusement_arcade",
-        "id": 819
-    },
-    "frame_44983": {
-        "place": "restaurant_kitchen",
-        "id": 820
-    },
-    "frame_45172": {
-        "place": "television_studio",
-        "id": 821
-    },
-    "frame_45355": {
-        "place": "office_cubicles",
-        "id": 822
-    },
-    "frame_45565": {
-        "place": "childs_room",
-        "id": 823
-    },
-    "frame_45971": {
-        "place": "television_studio",
-        "id": 824
-    },
-    "frame_46298": {
-        "place": "television_studio",
-        "id": 825
-    },
-    "frame_46446": {
-        "place": "atrium/public",
-        "id": 826
-    },
-    "frame_46604": {
-        "place": "office_building",
-        "id": 827
-    },
-    "frame_46773": {
-        "place": "skyscraper",
-        "id": 828
-    },
-    "frame_46897": {
-        "place": "stage/outdoor",
-        "id": 829
-    },
-    "frame_47023": {
-        "place": "server_room",
-        "id": 830
-    },
-    "frame_47118": {
-        "place": "embassy",
-        "id": 831
-    },
-    "frame_47410": {
-        "place": "television_studio",
-        "id": 832
-    },
-    "frame_47726": {
-        "place": "crosswalk",
-        "id": 833
-    },
-    "frame_47839": {
-        "place": "atrium/public",
-        "id": 834
-    },
-    "frame_47956": {
-        "place": "hospital",
-        "id": 835
-    },
-    "frame_48052": {
-        "place": "parking_garage/outdoor",
-        "id": 836
-    },
-    "frame_48152": {
-        "place": "highway",
-        "id": 837
-    },
-    "frame_48258": {
-        "place": "highway",
-        "id": 838
-    },
-    "frame_48328": {
-        "place": "baseball_field",
-        "id": 839
-    },
-    "frame_48398": {
-        "place": "crosswalk",
-        "id": 840
-    },
-    "frame_48520": {
-        "place": "crosswalk",
-        "id": 841
-    },
-    "frame_48664": {
-        "place": "highway",
-        "id": 842
-    },
-    "frame_48781": {
-        "place": "highway",
-        "id": 843
-    },
-    "frame_48913": {
-        "place": "heliport",
-        "id": 844
-    },
-    "frame_49056": {
-        "place": "lock_chamber",
-        "id": 845
-    },
-    "frame_49153": {
-        "place": "arena/performance",
-        "id": 846
-    },
-    "frame_49332": {
-        "place": "television_studio",
-        "id": 847
-    },
-    "frame_49740": {
-        "place": "conference_center",
-        "id": 848
-    },
-    "frame_50107": {
-        "place": "doorway/outdoor",
-        "id": 849
-    },
-    "frame_50297": {
-        "place": "nursery",
-        "id": 850
-    },
-    "frame_50475": {
-        "place": "hospital_room",
-        "id": 851
-    },
-    "frame_50623": {
-        "place": "office",
-        "id": 852
-    },
-    "frame_50706": {
-        "place": "conference_center",
-        "id": 853
-    },
-    "frame_50760": {
-        "place": "hospital_room",
-        "id": 854
-    },
-    "frame_50821": {
-        "place": "hospital_room",
-        "id": 855
-    },
-    "frame_50873": {
-        "place": "hospital_room",
-        "id": 856
-    },
-    "frame_50926": {
-        "place": "hospital_room",
-        "id": 857
-    },
-    "frame_50982": {
-        "place": "office",
-        "id": 858
-    },
-    "frame_51021": {
-        "place": "office",
-        "id": 859
-    },
-    "frame_51052": {
-        "place": "office",
-        "id": 860
-    },
-    "frame_51098": {
-        "place": "hospital_room",
-        "id": 861
-    },
-    "frame_51174": {
-        "place": "hospital_room",
-        "id": 862
-    },
-    "frame_51258": {
-        "place": "hospital_room",
-        "id": 863
-    },
-    "frame_51344": {
-        "place": "office_cubicles",
-        "id": 864
-    },
-    "frame_51469": {
-        "place": "hospital_room",
-        "id": 865
-    },
-    "frame_51807": {
-        "place": "television_studio",
-        "id": 866
-    },
-    "frame_52136": {
-        "place": "stage/outdoor",
-        "id": 867
-    },
-    "frame_52242": {
-        "place": "stadium/soccer",
-        "id": 868
-    },
-    "frame_52361": {
-        "place": "arena/performance",
-        "id": 869
-    },
-    "frame_52648": {
-        "place": "bar",
-        "id": 870
-    },
-    "frame_52944": {
-        "place": "arena/performance",
-        "id": 871
-    },
-    "frame_53070": {
-        "place": "arena/performance",
-        "id": 872
-    },
-    "frame_53180": {
-        "place": "movie_theater/indoor",
-        "id": 873
-    },
-    "frame_53416": {
-        "place": "discotheque",
-        "id": 874
-    },
-    "frame_53651": {
-        "place": "movie_theater/indoor",
-        "id": 875
-    },
-    "frame_53784": {
-        "place": "movie_theater/indoor",
-        "id": 876
-    },
-    "frame_54071": {
-        "place": "conference_center",
-        "id": 877
-    },
-    "frame_54347": {
-        "place": "park",
-        "id": 878
-    },
-    "frame_54417": {
-        "place": "park",
-        "id": 879
-    },
-    "frame_54491": {
-        "place": "forest_road",
-        "id": 880
-    },
-    "frame_54571": {
-        "place": "park",
-        "id": 881
-    },
-    "frame_54632": {
-        "place": "racecourse",
-        "id": 882
-    },
-    "frame_54687": {
-        "place": "plaza",
-        "id": 883
-    },
-    "frame_54759": {
-        "place": "amusement_park",
-        "id": 884
-    },
-    "frame_54848": {
-        "place": "stage/outdoor",
-        "id": 885
-    },
-    "frame_54956": {
-        "place": "stage/outdoor",
-        "id": 886
-    },
-    "frame_55078": {
-        "place": "hangar/outdoor",
-        "id": 887
-    },
-    "frame_55161": {
-        "place": "bullring",
-        "id": 888
-    },
-    "frame_55228": {
-        "place": "train_station/platform",
-        "id": 889
-    },
-    "frame_55303": {
-        "place": "engine_room",
-        "id": 890
-    },
-    "frame_55397": {
-        "place": "street",
-        "id": 891
-    },
-    "frame_55513": {
-        "place": "plaza",
-        "id": 892
-    },
-    "frame_55623": {
-        "place": "crosswalk",
-        "id": 893
-    },
-    "frame_55708": {
-        "place": "racecourse",
-        "id": 894
-    },
-    "frame_55772": {
-        "place": "racecourse",
-        "id": 895
-    },
-    "frame_55829": {
-        "place": "beer_garden",
-        "id": 896
-    },
-    "frame_55906": {
-        "place": "volleyball_court/outdoor",
-        "id": 897
-    },
-    "frame_56227": {
-        "place": "athletic_field/outdoor",
-        "id": 898
-    }
+    "0": "booth/indoor",
+    "1": "home_theater",
+    "2": "booth/indoor",
+    "3": "waiting_room",
+    "4": "office",
+    "5": "hospital_room",
+    "6": "hospital_room",
+    "7": "loading_dock",
+    "8": "parking_garage/indoor",
+    "9": "television_studio",
+    "10": "booth/indoor",
+    "11": "locker_room",
+    "12": "television_studio",
+    "13": "television_studio",
+    "14": "village",
+    "15": "farm",
+    "16": "chalet",
+    "17": "corn_field",
+    "18": "forest_path",
+    "19": "cabin/outdoor",
+    "20": "stage/outdoor",
+    "21": "art_school",
+    "22": "art_school",
+    "23": "nursery",
+    "24": "vineyard",
+    "25": "bazaar/outdoor",
+    "26": "beauty_salon",
+    "27": "art_school",
+    "28": "ice_cream_parlor",
+    "29": "sandbox",
+    "30": "sandbox",
+    "31": "television_studio",
+    "32": "chalet",
+    "33": "television_studio",
+    "34": "television_studio",
+    "35": "television_studio",
+    "36": "martial_arts_gym",
+    "37": "martial_arts_gym",
+    "38": "playroom",
+    "39": "chemistry_lab",
+    "40": "home_theater",
+    "41": "shoe_shop",
+    "42": "pharmacy",
+    "43": "hospital_room",
+    "44": "village",
+    "45": "village",
+    "46": "slum",
+    "47": "locker_room",
+    "48": "sauna",
+    "49": "locker_room",
+    "50": "general_store/outdoor",
+    "51": "television_studio",
+    "52": "martial_arts_gym",
+    "53": "inn/outdoor",
+    "54": "general_store/outdoor",
+    "55": "martial_arts_gym",
+    "56": "bazaar/outdoor",
+    "57": "general_store/outdoor",
+    "58": "village",
+    "59": "hospital_room",
+    "60": "martial_arts_gym",
+    "61": "art_school",
+    "62": "beauty_salon",
+    "63": "attic",
+    "64": "beer_garden",
+    "65": "hospital_room",
+    "66": "shopping_mall/indoor",
+    "67": "cafeteria",
+    "68": "hospital_room",
+    "69": "biology_laboratory",
+    "70": "hospital_room",
+    "71": "beauty_salon",
+    "72": "biology_laboratory",
+    "73": "beauty_salon",
+    "74": "pharmacy",
+    "75": "television_studio",
+    "76": "conference_center",
+    "77": "conference_center",
+    "78": "television_studio",
+    "79": "highway",
+    "80": "hospital_room",
+    "81": "hospital_room",
+    "82": "hospital_room",
+    "83": "hospital_room",
+    "84": "hospital",
+    "85": "hospital_room",
+    "86": "airplane_cabin",
+    "87": "physics_laboratory",
+    "88": "television_studio",
+    "89": "television_studio",
+    "90": "television_studio",
+    "91": "television_studio",
+    "92": "television_studio",
+    "93": "hospital_room",
+    "94": "office",
+    "95": "discotheque",
+    "96": "locker_room",
+    "97": "ticket_booth",
+    "98": "conference_center",
+    "99": "playroom",
+    "100": "hospital_room",
+    "101": "television_studio",
+    "102": "television_studio",
+    "103": "reception",
+    "104": "hospital_room",
+    "105": "hospital_room",
+    "106": "television_studio",
+    "107": "office",
+    "108": "conference_center",
+    "109": "conference_center",
+    "110": "jewelry_shop",
+    "111": "television_studio",
+    "112": "volleyball_court/outdoor",
+    "113": "heliport",
+    "114": "wind_farm",
+    "115": "home_theater",
+    "116": "office",
+    "117": "computer_room",
+    "118": "residential_neighborhood",
+    "119": "heliport",
+    "120": "campus",
+    "121": "sky",
+    "122": "park",
+    "123": "sky",
+    "124": "hospital_room",
+    "125": "car_interior",
+    "126": "office_cubicles",
+    "127": "highway",
+    "128": "playground",
+    "129": "fire_station",
+    "130": "television_studio",
+    "131": "conference_center",
+    "132": "conference_center",
+    "133": "kindergarden_classroom",
+    "134": "conference_center",
+    "135": "conference_center",
+    "136": "conference_center",
+    "137": "conference_center",
+    "138": "classroom",
+    "139": "conference_center",
+    "140": "toyshop",
+    "141": "hospital",
+    "142": "escalator/indoor",
+    "143": "escalator/indoor",
+    "144": "jail_cell",
+    "145": "stage/indoor",
+    "146": "television_studio",
+    "147": "campsite",
+    "148": "television_studio",
+    "149": "slum",
+    "150": "construction_site",
+    "151": "boxing_ring",
+    "152": "stage/outdoor",
+    "153": "apartment_building/outdoor",
+    "154": "embassy",
+    "155": "florist_shop/indoor",
+    "156": "kitchen",
+    "157": "hospital_room",
+    "158": "television_studio",
+    "159": "medina",
+    "160": "bathroom",
+    "161": "hospital_room",
+    "162": "assembly_line",
+    "163": "archive",
+    "164": "hospital_room",
+    "165": "atrium/public",
+    "166": "clean_room",
+    "167": "balcony/exterior",
+    "168": "fire_escape",
+    "169": "balcony/exterior",
+    "170": "elevator_shaft",
+    "171": "server_room",
+    "172": "hospital_room",
+    "173": "hospital_room",
+    "174": "hospital_room",
+    "175": "courtyard",
+    "176": "ice_cream_parlor",
+    "177": "television_studio",
+    "178": "conference_center",
+    "179": "rice_paddy",
+    "180": "corn_field",
+    "181": "archaelogical_excavation",
+    "182": "slum",
+    "183": "loading_dock",
+    "184": "bookstore",
+    "185": "slum",
+    "186": "desert/vegetation",
+    "187": "stable",
+    "188": "roof_garden",
+    "189": "television_studio",
+    "190": "hospital",
+    "191": "conference_center",
+    "192": "biology_laboratory",
+    "193": "hospital_room",
+    "194": "conference_center",
+    "195": "classroom",
+    "196": "office_cubicles",
+    "197": "conference_center",
+    "198": "reception",
+    "199": "office",
+    "200": "veterinarians_office",
+    "201": "physics_laboratory",
+    "202": "office",
+    "203": "booth/indoor",
+    "204": "booth/indoor",
+    "205": "campus",
+    "206": "pharmacy",
+    "207": "biology_laboratory",
+    "208": "campus",
+    "209": "slum",
+    "210": "slum",
+    "211": "kennel/outdoor",
+    "212": "television_studio",
+    "213": "reception",
+    "214": "locker_room",
+    "215": "nursery",
+    "216": "office",
+    "217": "hospital",
+    "218": "beer_garden",
+    "219": "office",
+    "220": "hospital_room",
+    "221": "ice_cream_parlor",
+    "222": "jail_cell",
+    "223": "corridor",
+    "224": "drugstore",
+    "225": "hospital_room",
+    "226": "art_school",
+    "227": "hospital",
+    "228": "boxing_ring",
+    "229": "veterinarians_office",
+    "230": "shopfront",
+    "231": "bamboo_forest",
+    "232": "residential_neighborhood",
+    "233": "television_studio",
+    "234": "conference_center",
+    "235": "television_studio",
+    "236": "television_studio",
+    "237": "television_studio",
+    "238": "television_studio",
+    "239": "library/outdoor",
+    "240": "repair_shop",
+    "241": "restaurant_kitchen",
+    "242": "drugstore",
+    "243": "kasbah",
+    "244": "chemistry_lab",
+    "245": "stage/outdoor",
+    "246": "bazaar/outdoor",
+    "247": "engine_room",
+    "248": "television_studio",
+    "249": "racecourse",
+    "250": "landfill",
+    "251": "landfill",
+    "252": "boxing_ring",
+    "253": "butchers_shop",
+    "254": "stage/indoor",
+    "255": "television_studio",
+    "256": "repair_shop",
+    "257": "fountain",
+    "258": "patio",
+    "259": "shower",
+    "260": "amphitheater",
+    "261": "burial_chamber",
+    "262": "shower",
+    "263": "pond",
+    "264": "lake/natural",
+    "265": "conference_center",
+    "266": "conference_center",
+    "267": "village",
+    "268": "campsite",
+    "269": "campsite",
+    "270": "science_museum",
+    "271": "storage_room",
+    "272": "science_museum",
+    "273": "landfill",
+    "274": "television_studio",
+    "275": "classroom",
+    "276": "office",
+    "277": "conference_center",
+    "278": "hospital_room",
+    "279": "conference_center",
+    "280": "office",
+    "281": "television_studio",
+    "282": "beauty_salon",
+    "283": "television_studio",
+    "284": "lecture_room",
+    "285": "conference_center",
+    "286": "classroom",
+    "287": "office",
+    "288": "office_cubicles",
+    "289": "beauty_salon",
+    "290": "airplane_cabin",
+    "291": "booth/indoor",
+    "292": "hospital_room",
+    "293": "classroom",
+    "294": "conference_center",
+    "295": "beauty_salon",
+    "296": "legislative_chamber",
+    "297": "office",
+    "298": "music_studio",
+    "299": "beauty_salon",
+    "300": "office",
+    "301": "classroom",
+    "302": "repair_shop",
+    "303": "repair_shop",
+    "304": "fire_station",
+    "305": "railroad_track",
+    "306": "highway",
+    "307": "stage/outdoor",
+    "308": "archive",
+    "309": "garage/indoor",
+    "310": "gas_station",
+    "311": "auto_factory",
+    "312": "fire_station",
+    "313": "fire_station",
+    "314": "physics_laboratory",
+    "315": "loading_dock",
+    "316": "fire_station",
+    "317": "street",
+    "318": "fire_station",
+    "319": "fire_station",
+    "320": "amusement_park",
+    "321": "fire_station",
+    "322": "fire_station",
+    "323": "highway",
+    "324": "server_room",
+    "325": "raceway",
+    "326": "amusement_arcade",
+    "327": "oilrig",
+    "328": "construction_site",
+    "329": "excavation",
+    "330": "construction_site",
+    "331": "excavation",
+    "332": "industrial_area",
+    "333": "hangar/outdoor",
+    "334": "flea_market/indoor",
+    "335": "parking_lot",
+    "336": "television_studio",
+    "337": "moat/water",
+    "338": "palace",
+    "339": "mosque/outdoor",
+    "340": "mosque/outdoor",
+    "341": "boat_deck",
+    "342": "fire_station",
+    "343": "harbor",
+    "344": "clothing_store",
+    "345": "conference_center",
+    "346": "conference_center",
+    "347": "stage/indoor",
+    "348": "park",
+    "349": "balcony/interior",
+    "350": "campus",
+    "351": "park",
+    "352": "television_studio",
+    "353": "arena/performance",
+    "354": "arena/performance",
+    "355": "gas_station",
+    "356": "television_studio",
+    "357": "ice_shelf",
+    "358": "volcano",
+    "359": "plaza",
+    "360": "amphitheater",
+    "361": "fountain",
+    "362": "television_studio",
+    "363": "television_studio",
+    "364": "office_building",
+    "365": "promenade",
+    "366": "jail_cell",
+    "367": "construction_site",
+    "368": "runway",
+    "369": "bridge",
+    "370": "television_studio",
+    "371": "arena/performance",
+    "372": "hangar/indoor",
+    "373": "chemistry_lab",
+    "374": "hangar/indoor",
+    "375": "television_studio",
+    "376": "television_studio",
+    "377": "industrial_area",
+    "378": "oilrig",
+    "379": "stage/outdoor",
+    "380": "home_theater",
+    "381": "booth/indoor",
+    "382": "legislative_chamber",
+    "383": "athletic_field/outdoor",
+    "384": "conference_center",
+    "385": "conference_center",
+    "386": "legislative_chamber",
+    "387": "conference_center",
+    "388": "home_theater",
+    "389": "hangar/outdoor",
+    "390": "music_studio",
+    "391": "television_studio",
+    "392": "television_studio",
+    "393": "elevator/door",
+    "394": "home_theater",
+    "395": "television_studio",
+    "396": "science_museum",
+    "397": "home_theater",
+    "398": "office_cubicles",
+    "399": "nursery",
+    "400": "television_studio",
+    "401": "runway",
+    "402": "heliport",
+    "403": "water_tower",
+    "404": "television_studio",
+    "405": "television_studio",
+    "406": "discotheque",
+    "407": "parking_lot",
+    "408": "television_studio",
+    "409": "parking_lot",
+    "410": "embassy",
+    "411": "embassy",
+    "412": "promenade",
+    "413": "army_base",
+    "414": "embassy",
+    "415": "racecourse",
+    "416": "promenade",
+    "417": "legislative_chamber",
+    "418": "campsite",
+    "419": "promenade",
+    "420": "auditorium",
+    "421": "embassy",
+    "422": "promenade",
+    "423": "raft",
+    "424": "army_base",
+    "425": "conference_center",
+    "426": "promenade",
+    "427": "ticket_booth",
+    "428": "stage/outdoor",
+    "429": "playground",
+    "430": "stage/outdoor",
+    "431": "promenade",
+    "432": "campus",
+    "433": "stadium/football",
+    "434": "promenade",
+    "435": "promenade",
+    "436": "candy_store",
+    "437": "racecourse",
+    "438": "army_base",
+    "439": "racecourse",
+    "440": "campus",
+    "441": "operating_room",
+    "442": "campus",
+    "443": "campus",
+    "444": "racecourse",
+    "445": "conference_center",
+    "446": "fire_station",
+    "447": "campus",
+    "448": "martial_arts_gym",
+    "449": "television_studio",
+    "450": "stage/indoor",
+    "451": "locker_room",
+    "452": "legislative_chamber",
+    "453": "legislative_chamber",
+    "454": "television_studio",
+    "455": "legislative_chamber",
+    "456": "legislative_chamber",
+    "457": "legislative_chamber",
+    "458": "conference_center",
+    "459": "television_studio",
+    "460": "legislative_chamber",
+    "461": "legislative_chamber",
+    "462": "legislative_chamber",
+    "463": "legislative_chamber",
+    "464": "legislative_chamber",
+    "465": "conference_center",
+    "466": "legislative_chamber",
+    "467": "legislative_chamber",
+    "468": "television_studio",
+    "469": "conference_center",
+    "470": "legislative_chamber",
+    "471": "legislative_chamber",
+    "472": "conference_center",
+    "473": "legislative_chamber",
+    "474": "legislative_chamber",
+    "475": "legislative_chamber",
+    "476": "legislative_chamber",
+    "477": "conference_center",
+    "478": "legislative_chamber",
+    "479": "legislative_chamber",
+    "480": "legislative_chamber",
+    "481": "legislative_chamber",
+    "482": "legislative_chamber",
+    "483": "legislative_chamber",
+    "484": "conference_center",
+    "485": "conference_center",
+    "486": "television_studio",
+    "487": "stage/indoor",
+    "488": "television_studio",
+    "489": "conference_center",
+    "490": "conference_center",
+    "491": "conference_center",
+    "492": "conference_center",
+    "493": "conference_center",
+    "494": "legislative_chamber",
+    "495": "conference_center",
+    "496": "legislative_chamber",
+    "497": "television_studio",
+    "498": "mosque/outdoor",
+    "499": "television_studio",
+    "500": "television_studio",
+    "501": "television_studio",
+    "502": "playroom",
+    "503": "conference_center",
+    "504": "conference_center",
+    "505": "legislative_chamber",
+    "506": "conference_center",
+    "507": "television_studio",
+    "508": "legislative_chamber",
+    "509": "legislative_chamber",
+    "510": "legislative_chamber",
+    "511": "conference_center",
+    "512": "legislative_chamber",
+    "513": "legislative_chamber",
+    "514": "legislative_chamber",
+    "515": "legislative_chamber",
+    "516": "legislative_chamber",
+    "517": "conference_center",
+    "518": "legislative_chamber",
+    "519": "conference_center",
+    "520": "conference_center",
+    "521": "cafeteria",
+    "522": "legislative_chamber",
+    "523": "television_studio",
+    "524": "conference_center",
+    "525": "conference_center",
+    "526": "conference_center",
+    "527": "legislative_chamber",
+    "528": "conference_center",
+    "529": "conference_center",
+    "530": "conference_center",
+    "531": "conference_center",
+    "532": "nursing_home",
+    "533": "legislative_chamber",
+    "534": "conference_center",
+    "535": "legislative_chamber",
+    "536": "legislative_chamber",
+    "537": "conference_center",
+    "538": "legislative_chamber",
+    "539": "television_studio",
+    "540": "conference_center",
+    "541": "television_studio",
+    "542": "courthouse",
+    "543": "conference_center",
+    "544": "television_studio",
+    "545": "television_studio",
+    "546": "television_studio",
+    "547": "television_studio",
+    "548": "legislative_chamber",
+    "549": "legislative_chamber",
+    "550": "legislative_chamber",
+    "551": "legislative_chamber",
+    "552": "conference_center",
+    "553": "legislative_chamber",
+    "554": "amusement_park",
+    "555": "legislative_chamber",
+    "556": "legislative_chamber",
+    "557": "legislative_chamber",
+    "558": "legislative_chamber",
+    "559": "legislative_chamber",
+    "560": "legislative_chamber",
+    "561": "conference_center",
+    "562": "conference_center",
+    "563": "television_studio",
+    "564": "legislative_chamber",
+    "565": "legislative_chamber",
+    "566": "legislative_chamber",
+    "567": "television_studio",
+    "568": "legislative_chamber",
+    "569": "television_studio",
+    "570": "television_studio",
+    "571": "legislative_chamber",
+    "572": "legislative_chamber",
+    "573": "conference_center",
+    "574": "conference_center",
+    "575": "legislative_chamber",
+    "576": "conference_center",
+    "577": "legislative_chamber",
+    "578": "elevator/door",
+    "579": "legislative_chamber",
+    "580": "legislative_chamber",
+    "581": "conference_center",
+    "582": "legislative_chamber",
+    "583": "television_studio",
+    "584": "television_studio",
+    "585": "television_studio",
+    "586": "legislative_chamber",
+    "587": "television_studio",
+    "588": "department_store",
+    "589": "temple/asia",
+    "590": "park",
+    "591": "park",
+    "592": "campus",
+    "593": "campus",
+    "594": "mosque/outdoor",
+    "595": "television_studio",
+    "596": "legislative_chamber",
+    "597": "television_studio",
+    "598": "legislative_chamber",
+    "599": "legislative_chamber",
+    "600": "legislative_chamber",
+    "601": "legislative_chamber",
+    "602": "legislative_chamber",
+    "603": "conference_center",
+    "604": "conference_center",
+    "605": "legislative_chamber",
+    "606": "legislative_chamber",
+    "607": "conference_center",
+    "608": "playroom",
+    "609": "legislative_chamber",
+    "610": "legislative_chamber",
+    "611": "throne_room",
+    "612": "legislative_chamber",
+    "613": "conference_center",
+    "614": "legislative_chamber",
+    "615": "legislative_chamber",
+    "616": "legislative_chamber",
+    "617": "television_studio",
+    "618": "legislative_chamber",
+    "619": "locker_room",
+    "620": "television_studio",
+    "621": "legislative_chamber",
+    "622": "legislative_chamber",
+    "623": "legislative_chamber",
+    "624": "elevator/door",
+    "625": "legislative_chamber",
+    "626": "conference_center",
+    "627": "legislative_chamber",
+    "628": "legislative_chamber",
+    "629": "embassy",
+    "630": "television_studio",
+    "631": "booth/indoor",
+    "632": "assembly_line",
+    "633": "hospital_room",
+    "634": "hospital_room",
+    "635": "bookstore",
+    "636": "office_cubicles",
+    "637": "chemistry_lab",
+    "638": "conference_center",
+    "639": "hospital_room",
+    "640": "cafeteria",
+    "641": "ticket_booth",
+    "642": "hospital_room",
+    "643": "conference_center",
+    "644": "hospital_room",
+    "645": "clean_room",
+    "646": "hospital_room",
+    "647": "classroom",
+    "648": "hospital_room",
+    "649": "office_cubicles",
+    "650": "hospital_room",
+    "651": "kindergarden_classroom",
+    "652": "hospital_room",
+    "653": "ice_cream_parlor",
+    "654": "hospital_room",
+    "655": "booth/indoor",
+    "656": "nursery",
+    "657": "hospital_room",
+    "658": "television_studio",
+    "659": "television_studio",
+    "660": "beer_garden",
+    "661": "volleyball_court/outdoor",
+    "662": "television_studio",
+    "663": "conference_center",
+    "664": "art_school",
+    "665": "tree_house",
+    "666": "playground",
+    "667": "playground",
+    "668": "sandbox",
+    "669": "beer_garden",
+    "670": "golf_course",
+    "671": "rice_paddy",
+    "672": "conference_center",
+    "673": "television_studio",
+    "674": "television_studio",
+    "675": "courtyard",
+    "676": "volleyball_court/outdoor",
+    "677": "courtyard",
+    "678": "volleyball_court/outdoor",
+    "679": "village",
+    "680": "volleyball_court/outdoor",
+    "681": "classroom",
+    "682": "plaza",
+    "683": "racecourse",
+    "684": "auditorium",
+    "685": "market/outdoor",
+    "686": "television_studio",
+    "687": "greenhouse/indoor",
+    "688": "bamboo_forest",
+    "689": "crosswalk",
+    "690": "television_studio",
+    "691": "television_studio",
+    "692": "toyshop",
+    "693": "bookstore",
+    "694": "bookstore",
+    "695": "supermarket",
+    "696": "flea_market/indoor",
+    "697": "ice_cream_parlor",
+    "698": "bazaar/outdoor",
+    "699": "flea_market/indoor",
+    "700": "candy_store",
+    "701": "clean_room",
+    "702": "delicatessen",
+    "703": "street",
+    "704": "parking_lot",
+    "705": "closet",
+    "706": "beer_garden",
+    "707": "cafeteria",
+    "708": "delicatessen",
+    "709": "beer_garden",
+    "710": "playground",
+    "711": "archaelogical_excavation",
+    "712": "flea_market/indoor",
+    "713": "art_studio",
+    "714": "bazaar/outdoor",
+    "715": "restaurant_kitchen",
+    "716": "ice_cream_parlor",
+    "717": "market/outdoor",
+    "718": "ice_cream_parlor",
+    "719": "bazaar/outdoor",
+    "720": "market/outdoor",
+    "721": "pantry",
+    "722": "television_studio",
+    "723": "beer_garden",
+    "724": "market/outdoor",
+    "725": "delicatessen",
+    "726": "pet_shop",
+    "727": "delicatessen",
+    "728": "television_studio",
+    "729": "amusement_park",
+    "730": "arena/performance",
+    "731": "television_studio",
+    "732": "repair_shop",
+    "733": "discotheque",
+    "734": "discotheque",
+    "735": "garage/indoor",
+    "736": "stage/indoor",
+    "737": "arena/performance",
+    "738": "fire_station",
+    "739": "amusement_arcade",
+    "740": "arena/performance",
+    "741": "television_studio",
+    "742": "stage/indoor",
+    "743": "arena/performance",
+    "744": "stage/indoor",
+    "745": "arena/performance",
+    "746": "repair_shop",
+    "747": "discotheque",
+    "748": "repair_shop",
+    "749": "television_studio",
+    "750": "repair_shop",
+    "751": "bus_interior",
+    "752": "stage/indoor",
+    "753": "hangar/outdoor",
+    "754": "amusement_arcade",
+    "755": "hardware_store",
+    "756": "physics_laboratory",
+    "757": "physics_laboratory",
+    "758": "amusement_arcade",
+    "759": "repair_shop",
+    "760": "movie_theater/indoor",
+    "761": "office_cubicles",
+    "762": "arena/performance",
+    "763": "home_theater",
+    "764": "amusement_arcade",
+    "765": "amusement_arcade",
+    "766": "sky",
+    "767": "ice_cream_parlor",
+    "768": "hangar/outdoor",
+    "769": "stage/indoor",
+    "770": "ice_cream_parlor",
+    "771": "hangar/outdoor",
+    "772": "hangar/outdoor",
+    "773": "television_studio",
+    "774": "amusement_arcade",
+    "775": "movie_theater/indoor",
+    "776": "television_studio",
+    "777": "oilrig",
+    "778": "movie_theater/indoor",
+    "779": "television_studio",
+    "780": "amusement_arcade",
+    "781": "sky",
+    "782": "television_studio",
+    "783": "fire_station",
+    "784": "boat_deck",
+    "785": "mosque/outdoor",
+    "786": "ice_floe",
+    "787": "palace",
+    "788": "palace",
+    "789": "oilrig",
+    "790": "legislative_chamber",
+    "791": "airport_terminal",
+    "792": "airport_terminal",
+    "793": "television_studio",
+    "794": "courthouse",
+    "795": "locker_room",
+    "796": "volcano",
+    "797": "volcano",
+    "798": "racecourse",
+    "799": "park",
+    "800": "television_studio",
+    "801": "office",
+    "802": "downtown",
+    "803": "plaza",
+    "804": "downtown",
+    "805": "bazaar/outdoor",
+    "806": "campus",
+    "807": "television_studio",
+    "808": "television_studio",
+    "809": "television_studio",
+    "810": "television_studio",
+    "811": "pharmacy",
+    "812": "hospital_room",
+    "813": "shoe_shop",
+    "814": "escalator/indoor",
+    "815": "chemistry_lab",
+    "816": "nursery",
+    "817": "ice_shelf",
+    "818": "biology_laboratory",
+    "819": "amusement_arcade",
+    "820": "restaurant_kitchen",
+    "821": "television_studio",
+    "822": "office_cubicles",
+    "823": "childs_room",
+    "824": "television_studio",
+    "825": "television_studio",
+    "826": "atrium/public",
+    "827": "office_building",
+    "828": "skyscraper",
+    "829": "stage/outdoor",
+    "830": "server_room",
+    "831": "embassy",
+    "832": "television_studio",
+    "833": "crosswalk",
+    "834": "atrium/public",
+    "835": "hospital",
+    "836": "parking_garage/outdoor",
+    "837": "highway",
+    "838": "highway",
+    "839": "baseball_field",
+    "840": "crosswalk",
+    "841": "crosswalk",
+    "842": "highway",
+    "843": "highway",
+    "844": "heliport",
+    "845": "lock_chamber",
+    "846": "arena/performance",
+    "847": "television_studio",
+    "848": "conference_center",
+    "849": "doorway/outdoor",
+    "850": "nursery",
+    "851": "hospital_room",
+    "852": "office",
+    "853": "conference_center",
+    "854": "hospital_room",
+    "855": "hospital_room",
+    "856": "hospital_room",
+    "857": "hospital_room",
+    "858": "office",
+    "859": "office",
+    "860": "office",
+    "861": "hospital_room",
+    "862": "hospital_room",
+    "863": "hospital_room",
+    "864": "office_cubicles",
+    "865": "hospital_room",
+    "866": "television_studio",
+    "867": "stage/outdoor",
+    "868": "stadium/soccer",
+    "869": "arena/performance",
+    "870": "bar",
+    "871": "arena/performance",
+    "872": "arena/performance",
+    "873": "movie_theater/indoor",
+    "874": "discotheque",
+    "875": "movie_theater/indoor",
+    "876": "movie_theater/indoor",
+    "877": "conference_center",
+    "878": "park",
+    "879": "park",
+    "880": "forest_road",
+    "881": "park",
+    "882": "racecourse",
+    "883": "plaza",
+    "884": "amusement_park",
+    "885": "stage/outdoor",
+    "886": "stage/outdoor",
+    "887": "hangar/outdoor",
+    "888": "bullring",
+    "889": "train_station/platform",
+    "890": "engine_room",
+    "891": "street",
+    "892": "plaza",
+    "893": "crosswalk",
+    "894": "racecourse",
+    "895": "racecourse",
+    "896": "beer_garden",
+    "897": "volleyball_court/outdoor",
+    "898": "athletic_field/outdoor"
 }
