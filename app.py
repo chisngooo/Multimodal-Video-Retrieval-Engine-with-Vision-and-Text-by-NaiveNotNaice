@@ -2,7 +2,7 @@
 from flask import Flask, render_template, Response, request, send_file, jsonify
 import cv2
 import os
-
+os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
 import time
 import numpy as np
 import pandas as pd
@@ -112,7 +112,7 @@ for key, value in json_dict.items():
 
 LenDictPath = len(DictImagePath)
 bin_file='faiss_index.bin'
-MyFaiss = Myfaiss(bin_file, DictImagePath, 'cuda', Translation(), "ViT-B/32")
+MyFaiss = Myfaiss(bin_file, DictImagePath, 'cpu', Translation(), "ViT-B/32")
 ########################
 
 @app.route('/home')
