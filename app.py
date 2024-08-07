@@ -2,7 +2,8 @@
 from flask import Flask, render_template, Response, request, send_file, jsonify
 import cv2
 import os
-os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
+
+import time
 import numpy as np
 import pandas as pd
 import glob 
@@ -30,80 +31,73 @@ es = Elasticsearch(["http://localhost:9200"])
 
 # Index dữ liệu vào Elasticsearch
 # Tên chỉ mục
-index_name2 = 'ocr'
+index_name1 = 'ocr'
 
 # Đảm bảo rằng chỉ mục đã tồn tại, nếu không thì tạo một chỉ mục mới
-if not es.indices.exists(index=index_name2):
-    es.indices.create(index=index_name2)
-with open('DataBase/OCR.json', 'r', encoding='utf-8') as file:
-    ocr_data = json.load(file)
-    # Index dữ liệu vào Elasticsearch
-for key, value in ocr_data.items():
-    if isinstance(value, dict):
-        es.index(index=index_name2, id=value['id'], body={
-            'scene': key,
-            'ocr': value['ocr']
-        })
-    else:
-        print(f"Skipping {key}: Data is not a dictionary")
-
-# Index dữ liệu vào Elasticsearch
-# Tên chỉ mục
-index_name2 = 'place'
-
-# Đảm bảo rằng chỉ mục đã tồn tại, nếu không thì tạo một chỉ mục mới
-if not es.indices.exists(index=index_name2):
-    es.indices.create(index=index_name2)
-with open('DataBase/PLACE.json', 'r', encoding='utf-8') as file:
-    place_data = json.load(file)
-    # Index dữ liệu vào Elasticsearch
-for key, value in place_data.items():
-    if isinstance(value, dict):
-        es.index(index=index_name2, id=value['id'], body={
-            'scene': key,
-            'place': value['place']
-        })
-    else:
-        print(f"Skipping {key}: Data is not a dictionary")
-
-index_name2 = 'object'
-
-# Đảm bảo rằng chỉ mục đã tồn tại, nếu không thì tạo một chỉ mục mới
-if not es.indices.exists(index=index_name2):
-    es.indices.create(index=index_name2)
-
-# Đọc dữ liệu từ file JSON và index vào Elasticsearch
-with open('DataBase/OBJECT.json', 'r', encoding='utf-8') as file:
-    object_data = json.load(file)
-    # Index dữ liệu vào Elasticsearch
-    for key, value in object_data.items():
-        if isinstance(value, dict) and 'id' in value and 'objects' in value:
-            es.index(index=index_name2, id=value['id'], body={
-                'scene': key,
-                'objects': ' '.join(value['objects'])  # Chuyển danh sách objects thành chuỗi
-            })
-        else:
-            print(f"Skipping {key}: Data is not a dictionary or missing 'id' or 'objects'")
-
-index_name = 'asr'
-
-# Đảm bảo rằng chỉ mục đã tồn tại, nếu không thì tạo một chỉ mục mới
-if not es.indices.exists(index=index_name):
-    es.indices.create(index=index_name)
-    # Đọc dữ liệu từ file JSON
-with open('DataBase/ASR.json', 'r', encoding='utf-8') as file:
-    asr_data = json.load(file)
+if not es.indices.exists(index=index_name1):
+    es.indices.create(index=index_name1)
+        # Đọc dữ liệu từ file JSON và index vào Elasticsearch
+    with open('DataBase/OCR.json', 'r', encoding='utf-8') as file:
+        ocr_data = json.load(file)
         # Index dữ liệu vào Elasticsearch
-for key, value in asr_data.items():
-    if isinstance(value, dict):
-        es.index(index=index_name, id=value['id'], body={
-            'scene': key,
-            'asr': value['asr']
-        })
-    else:
-        print(f"Skipping {key}: Data is not a dictionary")
+        for key, value in ocr_data.items():
+            es.index(index=index_name1, id=key, body={
+                'scene': key,
+                'ocr': value  # Lưu trực tiếp giá trị ASR
+            })
+
+
+index_name2 = 'place'
+# Đảm bảo rằng chỉ mục đã tồn tại, nếu không thì tạo một chỉ mục mới
+if not es.indices.exists(index=index_name2):
+    es.indices.create(index=index_name2)
+    # Đọc dữ liệu từ file JSON và index vào Elasticsearch
+    with open('DataBase/PLACE.json', 'r', encoding='utf-8') as file:
+        place_data = json.load(file)
+        # Index dữ liệu vào Elasticsearch
+        for key, value in place_data.items():
+            es.index(index=index_name2, id=key, body={
+                'scene': key,
+                'place': value  # Lưu giá trị trực tiếp vào trường 'place'
+            })
+
+
+
+index_name3 = 'object'
+# Đảm bảo rằng chỉ mục đã tồn tại, nếu không thì tạo một chỉ mục mới
+if not es.indices.exists(index=index_name3):
+    es.indices.create(index=index_name3)
+        # Đọc dữ liệu từ file JSON và index vào Elasticsearch
+    with open('DataBase/OBJECT.json', 'r', encoding='utf-8') as file:
+        object_data = json.load(file)
+        # Index dữ liệu vào Elasticsearch
+        for key, value in object_data.items():
+            if isinstance(value, list):
+                es.index(index=index_name3, id=key, body={
+                    'scene': key,
+                    'objects': ' '.join(value)  # Chuyển danh sách objects thành chuỗi
+                })
+            else:
+                print(f"Skipping {key}: Data is not a list")
             
             
+            
+index_name4 = 'asr'
+# Đảm bảo rằng chỉ mục đã tồn tại, nếu không thì tạo một chỉ mục mới
+if not es.indices.exists(index=index_name4):
+    es.indices.create(index=index_name4)
+    # Đọc dữ liệu từ file JSON và index vào Elasticsearch
+    with open('DataBase/ASR.json', 'r', encoding='utf-8') as file:
+        asr_data = json.load(file)
+        # Index dữ liệu vào Elasticsearch
+        for key, value in asr_data.items():
+            es.index(index=index_name4, id=key, body={
+                'scene': key,
+                'asr': value  # Lưu trực tiếp giá trị ASR
+            })
+                
+
+
 # app = Flask(__name__, template_folder='templates', static_folder='static')
 app = Flask(__name__, template_folder='templates')
 app.secret_key = 'your_secret_key'  # Thay thế bằng khóa bảo mật của bạn
@@ -118,7 +112,7 @@ for key, value in json_dict.items():
 
 LenDictPath = len(DictImagePath)
 bin_file='faiss_index.bin'
-MyFaiss = Myfaiss(bin_file, DictImagePath, 'cpu', Translation(), "ViT-B/32")
+MyFaiss = Myfaiss(bin_file, DictImagePath, 'cuda', Translation(), "ViT-B/32")
 ########################
 
 @app.route('/home')
@@ -176,7 +170,9 @@ def image_search():
     return render_template('home.html', data=datapage)
 
 @app.route('/textsearch')
+
 def text_search():
+    start_time = time.time()
     global data
     text_query = request.args.get('textquery')
     
@@ -190,7 +186,9 @@ def text_search():
 
     num_page = (LenDictPath // imgperindex) + 1
     datapage = {'num_page': num_page, 'pagefile': pagefile}
-    
+    end_time = time.time()
+    elapsed_time = end_time - start_time
+    print(elapsed_time)
     return render_template('home.html', data=datapage)
 
 @app.route('/get_img')
