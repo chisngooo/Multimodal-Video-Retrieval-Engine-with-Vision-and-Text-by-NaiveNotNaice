@@ -88,42 +88,5 @@ class Text_Preprocessing():
         return categories
 
 
-class TextProcessingWithFeature():
-    def __init__(self, stopwords_path='./dict/vietnamese-stopwords-dash.txt', translation_mode='google'):
-        self.text_preprocessor = Text_Preprocessing(stopwords_path=stopwords_path)
-        self.translator = Translation(mode=translation_mode)
-        
-        # Khởi tạo BERT tokenizer và model
-        self.tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
-        self.model = BertModel.from_pretrained('bert-base-uncased')
 
-    def encode_text(self, text):
-        inputs = self.tokenizer(text, return_tensors='pt', max_length=512, truncation=True, padding='max_length')
-        with torch.no_grad():
-            outputs = self.model(**inputs)
-        return outputs.last_hidden_state[:, 0, :].squeeze().numpy()
-
-    def process_text(self, text):
-        # Tiền xử lý văn bản
-        preprocessed_text = self.text_preprocessor(text)
-        
-        # Phân tích cảm xúc
-        sentiment = self.text_preprocessor.sentiment_analysis(preprocessed_text)
-        
-        # Dịch văn bản (nếu cần)
-        translated_text = self.translator(preprocessed_text)
-        
-        # Mã hóa văn bản bằng BERT
-        embedding = self.encode_text(preprocessed_text)
-        
-        return {
-            'preprocessed_text': preprocessed_text,
-            'sentiment': sentiment,
-            'translated_text': translated_text,
-            'embedding': embedding
-        }
-
-    def __call__(self, text):
-        return self.process_text(text)
-    
     

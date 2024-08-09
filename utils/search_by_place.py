@@ -1,5 +1,4 @@
 from elasticsearch import Elasticsearch
-
 def search_place(query, index_name, size):
     # Kết nối đến Elasticsearch
     es = Elasticsearch(["http://localhost:9200"])
@@ -52,4 +51,3 @@ def search_place(query, index_name, size):
         matching_ids = matching_ids
     
     return matching_ids
-

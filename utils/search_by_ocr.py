@@ -50,4 +50,3 @@ def search_ocr(query, index_name, size):
         matching_ids = matching_ids
         
     return matching_ids
-
