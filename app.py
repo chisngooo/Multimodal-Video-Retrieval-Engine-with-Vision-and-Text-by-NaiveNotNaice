@@ -17,7 +17,6 @@ from utils.query_processing import Translation
 from utils.faiss import Myfaiss
 from elasticsearch import Elasticsearch
 
-sadas
 # http://0.0.0.0:5001/home?index=0
 
 # Đọc dữ liệu từ các file JSON với mã hóa UTF-8
