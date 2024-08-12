@@ -2,5 +2,9 @@
 *.mp4
 
 ### image ###
-images/
-video/
+*.jpg
+*.png
+
+#pyc
+
+__pycache__/
