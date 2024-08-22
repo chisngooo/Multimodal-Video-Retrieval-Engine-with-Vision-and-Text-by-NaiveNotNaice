@@ -1,10 +1,4 @@
-### video ###
-*.mp4
-
-### image ###
-*.jpg
+__pycache__
+myEnv
 *.png
-
-#pyc
-
-__pycache__/
+*.dat

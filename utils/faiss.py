@@ -55,9 +55,8 @@ class Myfaiss:
         ###### SEARCHING #####
         scores, idx_image = self.index.search(text_features, k=k)
         idx_image = idx_image.flatten()
-
+        
         ###### GET INFOS KEYFRAMES_ID ######
         infos_query = list(map(self.id2img_fps.get, list(idx_image)))
         image_paths = [info for info in infos_query]
-
         return scores, idx_image, infos_query, image_paths
