@@ -46,15 +46,9 @@
   }
   .image-grid img {
     margin: 10px;
-    max-width: 120px;
-    max-height: 200px;
-    transition: 1s;
-    cursor: pointer;
-  }
-  .image-grid img:hover {
-    margin: 10px;
-    max-width: 350px;
-    max-height: 420px;
+    max-width: 180px;
+    max-height: 220px;
+    transition: 0.1s;
     cursor: pointer;
   }
   .page-link {
@@ -83,10 +77,19 @@
     height: 3rem;
     width: 16.5rem;
   }
-  #search_btn {
+  .search_btn {
     background: #343A40;
     color: white;
+    font-weight: bold;
   }
+
+  .toolbar_object .search_btn{
+    width: 100px;
+    float: right;
+    background-color: white;
+    color: #343A40;
+  }
+
   .toolbar {
     width: 16.5rem;
     padding: 1rem;
@@ -109,6 +112,11 @@
     fill: blue;
   }
   #textInput {
+    width: 15vw;
+    padding: 0.5rem;
+    border: 1px solid gray;
+  }
+  #textOd {
     border: none;
     border-bottom: 1px solid black;
   }
@@ -141,8 +149,8 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      width: 600px;
-      height: 500px;  
+      width: 700px;
+      height: 600px;  
       padding: 20px;
       background-color: white;
       box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
@@ -191,9 +199,8 @@
     fill: white;
     cursor: pointer;
   }
-  .canvas-container {
+  .canvas-container, .searchod-container {
     width: 300px;
-    margin-top: 1rem;
     position: relative;
     border-radius: 5px;
     background-color: white;
@@ -206,15 +213,115 @@
     width: 300px;
     height: 300px;
   }
+  
+  .image-container {
+    position: relative;
+    display: inline-block; 
+  }
+
+  .IR_Btn {
+    position: absolute; 
+    bottom: 20px;
+    left: 20px;
+    font-size: 12px;
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    padding: 0.3rem;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    background: #343A40;
+    border-radius: 5px;
+  }
+
+  .IR_Btn:hover {
+    background: white;
+    color: #343A40;
+  }
+
+  .od-list {
+    display: block;
+    background-color: #fff;
+    margin-top: 5px;
+    border: none;
+    border-radius: 10px;
+    height: 270px;
+    padding: 0;
+    overflow: hidden;
+    overflow-y: scroll;
+  }
+
+  .object-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 2rem;
+    margin-top: 1rem;
+  }
+
+  .odItem {
+    cursor: pointer;
+    border: none;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 200px;
+    height: 25px;
+    font-size: 14px;
+  }
+
+  input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5rem;
+  }
+  /*scrollbar for web more beauty*/
+  ::-webkit-scrollbar {
+    width: 8px; 
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+      background-color: #888; 
+      border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+      background-color: #555;
+  }
+
+  ::-webkit-scrollbar-track {
+      background: #f1f1f1; 
+      border-radius: 10px;
+  }
+  /*tags*/
+
+  #tag-query {
+    display: flex;
+    overflow-x: scroll;
+    padding: 0.5rem;
+    width: 100%;
+    gap: 0.5rem;
+  }
+  .tag {
+    min-width: fit-content;
+    max-width: fit-content;
+    background-color: #343A40;
+    color: white;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    cursor: pointer;
+  }
 </style>
 <body>
   <header>
-    <h3>HCM AI CHALLENGE 2023 - <b> Event Retrieval from Visual Data </b></h3>
+    <h3>HCM AI CHALLENGE 2024 - <b> NaiveNotNice 🤪</b></h3>
   </header>
   <section class="containerall">
     <div class="search_container">
       <div class="search_complex">
-        <button id="search_btn">
+        <button class="search_btn">
           <svg xmlns="http://www.w3.org/2000/svg" width="1rem" height="1rem" viewBox="0 0 24 24" id="search">
             <g><path d="m20.71 19.29-3.4-3.39A7.92 7.92 0 0 0 19 11a8 8 0 1 0-8 8 7.92 7.92 0 0 0 4.9-1.69l3.39 3.4a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42zM5 11a6 6 0 1 1 6 6 6 6 0 0 1-6-6z"></path></g>
           </svg> Search
@@ -237,8 +344,9 @@
             <input class="checkbox-item" type="checkbox" id="OCR"> Text on Screen (OCR)<br>
             <input class="checkbox-item" type="checkbox" id="ASR"> Audio (ASR)<br>
             <input class="checkbox-item" type="checkbox" id="Clip"> Text Embedding (Clip)<br>
+            <input class="checkbox-item" type="checkbox" id="IC"> Image captioning<br>
             Search text:
-            <input type="text" id="textInput">
+            <textarea type="text" id="textInput"></textarea>
           </div>
         </div>
       </div>
@@ -250,8 +358,9 @@
               <div class="carousel-item active">
                   <div class="image-grid">
                       {% for item in data %}
-                          <div>
+                          <div class="image-container">
                               <img src="{{ item.imgpath }}" alt="Image {{ item.id }}" class="carousel-image">
+                              <button class="IR_Btn" data= "{{item.id}}">IS</button>
                           </div>
                       {% endfor %}
                   </div>
@@ -289,10 +398,10 @@
           <button id="closeButton">&times;</button>
           <div class="slide-1">
             <h2><b>Shortcut</b></h2>
-            <p>press <b>"1"</b> for OCR (text on screen)<br>press <b>"2"</b> for ASR (audio)<br>press <b>"3"</b> for Clip (text embedding)<br>press <b>"Enter"</b> to search</p>
+            <p>press <b>"1"</b> for OCR (text on screen)<br>press <b>"2"</b> for ASR (audio)<br>press <b>"3"</b> for Clip (text embedding)<br>press <b>"4"</b> for Image captioning<br>press <b>"Enter"</b> to search</p>
             <h2><b>Bugs and ignore it 💩</b></h2>
             <p>You close the popup without stopping the video. It will still run in the background</p>
-            <p>When you type in "search text", if you press "1","2", or "3", it will detect as a shortcut and change checkboxes' status </p>
+            <p>When you type in "search text", if you press "1","2","3" or "4", it will detect as a shortcut and change checkboxes' status </p>
             <p>:D</p>
           </div>
           <div class="slide-2"></div>
@@ -301,13 +410,23 @@
               <svg version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512"  xml:space="preserve"><style type="text/css"></style><g><path class="st0" d="M141.176,324.641l25.323,17.833c7.788,5.492,17.501,7.537,26.85,5.67c9.35-1.877,17.518-7.514,22.597-15.569l22.985-36.556l-78.377-55.222l-26.681,33.96c-5.887,7.489-8.443,17.081-7.076,26.511C128.188,310.69,133.388,319.158,141.176,324.641z"/><path class="st0" d="M384.289,64.9c9.527-15.14,5.524-35.06-9.083-45.355l-0.194-0.129c-14.615-10.296-34.728-7.344-45.776,6.705L170.041,228.722l77.067,54.292L384.289,64.9z"/><path class="st0" d="M504.745,445.939c-4.011,0-7.254,3.251-7.254,7.262s3.243,7.246,7.254,7.246c4.012,0,7.255-3.235,7.255-7.246S508.757,445.939,504.745,445.939z"/><path class="st0" d="M457.425,432.594c3.914,0,7.092-3.179,7.092-7.101c0-3.898-3.178-7.077-7.092-7.077c-3.915,0-7.093,3.178-7.093,7.077C450.332,429.415,453.51,432.594,457.425,432.594z"/><path class="st0" d="M164.493,440.972c14.671-20.817,16.951-48.064,5.969-71.089l-0.462-0.97l-54.898-38.675l-1.059-0.105c-25.379-2.596-50.256,8.726-64.928,29.552c-13.91,19.742-18.965,41.288-23.858,62.113c-3.333,14.218-6.778,28.929-13.037,43.05c-5.168,11.695-8.63,15.868-8.654,15.884L0,484.759l4.852,2.346c22.613,10.902,53.152,12.406,83.779,4.156C120.812,482.584,147.76,464.717,164.493,440.972z M136.146,446.504c-0.849,0.567-1.714,1.19-2.629,1.892c-10.06,7.91-23.17,4.505-15.188-11.54c7.966-16.054-6.09-21.198-17.502-10.652c-14.323,13.232-21.044,2.669-18.391-4.634c2.636-7.304,12.155-17.267,4.189-23.704c-4.788-3.882-10.967,1.795-20.833,9.486c-5.645,4.392-18.666,2.968-13.393-16.563c2.863-7.271,6.389-14.275,11.104-20.971c10.24-14.542,27.603-23.083,45.404-22.403l47.021,33.11c6.632,16.548,4.416,35.764-5.823,50.305C146.167,436.411,141.476,441.676,136.146,446.504z"/><path class="st0" d="M471.764,441.992H339.549c-0.227-0.477-0.38-1.003-0.38-1.57c0-0.913,0.372-1.73,0.93-2.378h81.531c5.848,0,10.578-4.723,10.578-10.578c0-5.84-4.73-10.571-10.578-10.571H197.765c0.308,15.399-4.116,30.79-13.271,43.786c-11.218,15.925-27.214,28.913-46.196,38.036h303.802c6.551,0,11.864-5.314,11.864-11.872c0-6.559-5.314-11.873-11.864-11.873h-55.392c-3.299,0-5.977-2.668-5.977-5.968c0-1.246,0.47-2.313,1.1-3.267h89.934c6.559,0,11.881-5.305,11.881-11.873C483.645,447.306,478.323,441.992,471.764,441.992z"/></g></svg>
               <input type="range" id="brushSize" min="20" max="100" value="5">
               <svg xmlns="http://www.w3.org/2000/svg" id="clearCanvas" viewBox="0 0 128 128"><path d="M 49 1 C 47.34 1 46 2.34 46 4 C 46 5.66 47.34 7 49 7 L 79 7 C 80.66 7 82 5.66 82 4 C 82 2.34 80.66 1 79 1 L 49 1 z M 24 15 C 16.83 15 11 20.83 11 28 C 11 35.17 16.83 41 24 41 L 101 41 L 101 104 C 101 113.37 93.37 121 84 121 L 44 121 C 34.63 121 27 113.37 27 104 L 27 52 C 27 50.34 25.66 49 24 49 C 22.34 49 21 50.34 21 52 L 21 104 C 21 116.68 31.32 127 44 127 L 84 127 C 96.68 127 107 116.68 107 104 L 107 40.640625 C 112.72 39.280625 117 34.14 117 28 C 117 20.83 111.17 15 104 15 L 24 15 z M 24 21 L 104 21 C 107.86 21 111 24.14 111 28 C 111 31.86 107.86 35 104 35 L 24 35 C 20.14 35 17 31.86 17 28 C 17 24.14 20.14 21 24 21 z M 50 55 C 48.34 55 47 56.34 47 58 L 47 104 C 47 105.66 48.34 107 50 107 C 51.66 107 53 105.66 53 104 L 53 58 C 53 56.34 51.66 55 50 55 z M 78 55 C 76.34 55 75 56.34 75 58 L 75 104 C 75 105.66 76.34 107 78 107 C 79.66 107 81 105.66 81 104 L 81 58 C 81 56.34 79.66 55 78 55 z"></path></svg>
+              <button class="search_btn">Search</button>
             </div>
-            <div>
+            <div class="object-container">
               <div class="canvas-container">
                 <canvas id="drawingCanvas"></canvas>
               </div>
-              <div class="">
-
+              <div id="searcod-container">
+                <input id="textOd" type="text" placeholder="OD query">
+                <ul class="od-list">
+                </ul>
+              </div>    
+            </div>
+            <div id="tag-container">
+              <input type="checkbox" id="sketch"> Search object by sketch?
+              <p>Your selected objects:</p>
+              <div id="tag-query">
+                <!-- Tags will be added here -->
               </div>
             </div>
           </div>
@@ -320,10 +439,9 @@
     function hideSearch() {
         document.querySelector('.textRelated').style.display = 'none';
     }
-    hideSearch();
     const textSearch  = document.querySelector(".textRelated");
     const checkboxes = document.querySelectorAll('.checkbox-item');
-    const searchBtn = document.getElementById("search_btn");
+    const searchBtn = document.querySelectorAll(".search_btn");
     
     function handleCheckboxChange(changedCheckbox) {
         checkboxes.forEach(checkbox => {
@@ -357,32 +475,41 @@
         });
     });
     
-    searchBtn.addEventListener('click', function() {
+    searchBtn.forEach(btn => {
+      btn.addEventListener('click', function() {
       const searchElement = document.querySelector('#textInput');
       const searchText = searchElement.value;
-      if (searchText && searchText != "") {
-        if (document.getElementById('OCR').checked) {
-          const url = new URL('/ocr', window.location.origin);
-          url.searchParams.set('page', 1); 
-          url.searchParams.set('query', searchText); 
-          window.location.href = url.toString(); 
-        } else if (document.getElementById('ASR').checked) {
-          const url = new URL('/asr', window.location.origin);
-          url.searchParams.set('page', 1); 
-          url.searchParams.set('query', searchText); 
-          window.location.href = url.toString(); 
-        } else if (document.getElementById('Clip').checked) {
-          const url = new URL('/clip', window.location.origin);
-          url.searchParams.set('page', 1); 
-          url.searchParams.set('query', searchText); 
-          window.location.href = url.toString(); 
-        } else {
-          alert("Please select at least one search option.");
-        }
+      if (tags.length > 0) {
+        const url = new URL('/obj', window.location.origin);
+        url.searchParams.set('page', 1);
+        object_query = tags.map(item => `query=${encodeURIComponent(item)}`).join('&');
+        url.searchParams.delete('query');          
+        object_query.split('&').forEach(param => {
+            const [key, value] = param.split('=');
+            url.searchParams.append(key, value);
+        });
+        window.location.href = url.toString();
+      } else if (searchText && searchText != "") {
+          if (document.getElementById('OCR').checked) {
+            const url = new URL('/ocr', window.location.origin);
+            url.searchParams.set('page', 1); 
+            url.searchParams.set('query', searchText); 
+            window.location.href = url.toString(); 
+          } else if (document.getElementById('ASR').checked) {
+            const url = new URL('/asr', window.location.origin);
+            url.searchParams.set('page', 1); 
+            url.searchParams.set('query', searchText); 
+            window.location.href = url.toString(); 
+          } else if (document.getElementById('Clip').checked) {
+            const url = new URL('/clip', window.location.origin);
+            url.searchParams.set('page', 1); 
+            url.searchParams.set('query', searchText); 
+            window.location.href = url.toString(); 
+          } else { alert("Please select at least one search option.") }
       } else {
         alert("Please type the search text")
       }
-    });
+      })});
     
     //object search
     function showModalObjectSearch(src) {
@@ -391,7 +518,116 @@
       overlay.style.display = 'block';
       slide3.style.display = 'block';
     }
+    const searchInputOD = document.getElementById('textOd');
+    const ODList = document.querySelector('.od-list');
+    ods = [
+    "Accordion", "Adhesive tape", "Aircraft", "Airplane", "Alarm clock", "Alpaca", "Ambulance", "Animal", "Ant", "Antelope",
+    "Apple", "Armadillo", "Artichoke", "Auto part", "Axe", "Backpack", "Bagel", "Baked goods", "Balance beam", "Ball",
+    "Balloon", "Banana", "Band-aid", "Banjo", "Barge", "Barrel", "Baseball bat", "Baseball glove", "Bat (Animal)", 
+    "Bathroom accessory", "Bathroom cabinet", "Bathtub", "Beaker", "Bear", "Bed", "Bee", "Beehive", "Beer", "Beetle",
+    "Bell pepper", "Belt", "Bench", "Bicycle", "Bicycle helmet", "Bicycle wheel", "Bidet", "Billboard", "Billiard table",
+    "Binoculars", "Bird", "Blender", "Blue jay", "Boat", "Bomb", "Book", "Bookcase", "Boot", "Bottle", "Bottle opener",
+    "Bow and arrow", "Bowl", "Bowling equipment", "Box", "Boy", "Brassiere", "Bread", "Briefcase", "Broccoli", 
+    "Bronze sculpture", "Brown bear", "Building", "Bull", "Burrito", "Bus", "Bust", "Butterfly", "Cabbage", "Cabinetry",
+    "Cake", "Cake stand", "Calculator", "Camel", "Camera", "Can opener", "Canary", "Candle", "Candy", "Cannon", "Canoe",
+    "Cantaloupe", "Car", "Carnivore", "Carrot", "Cart", "Cassette deck", "Castle", "Cat", "Cat furniture", "Caterpillar",
+    "Cattle", "Ceiling fan", "Cello", "Centipede", "Chainsaw", "Chair", "Cheese", "Cheetah", "Chest of drawers", 
+    "Chicken", "Chime", "Chisel", "Chopsticks", "Christmas tree", "Clock", "Closet", "Clothing", "Coat", "Cocktail",
+    "Cocktail shaker", "Coconut", "Coffee", "Coffee cup", "Coffee table", "Coffeemaker", "Coin", "Common fig", 
+    "Common sunflower", "Computer keyboard", "Computer monitor", "Computer mouse", "Container", "Convenience store",
+    "Cookie", "Cooking spray", "Corded phone", "Cosmetics", "Couch", "Countertop", "Cowboy hat", "Crab", "Cream", 
+    "Cricket ball", "Crocodile", "Croissant", "Crown", "Crutch", "Cucumber", "Cupboard", "Curtain", "Cutting board",
+    "Dagger", "Dairy Product", "Deer", "Desk", "Dessert", "Diaper", "Dice", "Digital clock", "Dinosaur", "Dishwasher",
+    "Dog", "Dog bed", "Doll", "Dolphin", "Door", "Door handle", "Doughnut", "Dragonfly", "Drawer", "Dress", "Drill (Tool)",
+    "Drink", "Drinking straw", "Drum", "Duck", "Dumbbell", "Eagle", "Earrings", "Egg (Food)", "Elephant", "Envelope",
+    "Eraser", "Face powder", "Facial tissue holder", "Falcon", "Fashion accessory", "Fast food", "Fax", "Fedora", 
+    "Filing cabinet", "Fire hydrant", "Fireplace", "Fish", "Flag", "Flashlight", "Flower", "Flowerpot", "Flute",
+    "Flying disc", "Food", "Food processor", "Football", "Football helmet", "Footwear", "Fork", "Fountain", "Fox",
+    "French fries", "French horn", "Frog", "Fruit", "Frying pan", "Furniture", "Garden Asparagus", "Gas stove",
+    "Giraffe", "Girl", "Glasses", "Glove", "Goat", "Goggles", "Goldfish", "Golf ball", "Golf cart", "Gondola", "Goose",
+    "Grape", "Grapefruit", "Grinder", "Guacamole", "Guitar", "Hair dryer", "Hair spray", "Hamburger", "Hammer", 
+    "Hamster", "Hand dryer", "Handbag", "Handgun", "Harbor seal", "Harmonica", "Harp", "Harpsichord", "Hat", "Headphones",
+    "Heater", "Hedgehog", "Helicopter", "Helmet", "High heels", "Hiking equipment", "Hippopotamus", "Home appliance",
+    "Honeycomb", "Horizontal bar", "Horse", "Hot dog", "House", "Houseplant", "Human arm", "Human beard", "Human body",
+    "Human ear", "Human eye", "Human face", "Human foot", "Human hair", "Human hand", "Human head", "Human leg",
+    "Human mouth", "Human nose", "Humidifier", "Ice cream", "Indoor rower", "Infant bed", "Insect", "Invertebrate", 
+    "Ipod", "Isopod", "Jacket", "Jacuzzi", "Jaguar (Animal)", "Jeans", "Jellyfish", "Jet ski", "Jug", "Juice",
+    "Kangaroo", "Kettle", "Kitchen & dining room table", "Kitchen appliance", "Kitchen knife", "Kitchen utensil",
+    "Kitchenware", "Kite", "Knife", "Koala", "Ladder", "Ladle", "Ladybug", "Lamp", "Land vehicle", "Lantern", "Laptop",
+    "Lavender (Plant)", "Lemon", "Leopard", "Light bulb", "Light switch", "Lighthouse", "Lily", "Limousine", "Lion",
+    "Lipstick", "Lizard", "Lobster", "Loveseat", "Luggage and bags", "Lynx", "Magpie", "Mammal", "Man", "Mango",
+    "Maple", "Maracas", "Marine invertebrates", "Marine mammal", "Measuring cup", "Mechanical fan", "Medical equipment",
+    "Microphone", "Microwave oven", "Milk", "Miniskirt", "Mirror", "Missile", "Mixer", "Mixing bowl", "Mobile phone",
+    "Monkey", "Moths and butterflies", "Motorcycle", "Mouse", "Muffin", "Mug", "Mule", "Mushroom", "Musical instrument",
+    "Musical keyboard", "Nail (Construction)", "Necklace", "Nightstand", "Oboe", "Office building", "Office supplies",
+    "Orange", "Organ (Musical Instrument)", "Ostrich", "Otter", "Oven", "Owl", "Oyster", "Paddle", "Palm tree",
+    "Pancake", "Panda", "Paper cutter", "Paper towel", "Parachute", "Parking meter", "Parrot", "Pasta", "Pastry",
+    "Peach", "Pear", "Pen", "Pencil case", "Pencil sharpener", "Penguin", "Perfume", "Person", "Personal care",
+    "Personal flotation device", "Piano", "Picnic basket", "Picture frame", "Pig", "Pillow", "Pineapple", "Pitcher (Container)",
+    "Pizza", "Pizza cutter", "Plant", "Plastic bag", "Plate", "Platter", "Plumbing fixture", "Polar bear", "Pomegranate",
+    "Popcorn", "Porch", "Porcupine", "Poster", "Potato", "Power plugs and sockets", "Pressure cooker", "Pretzel", 
+    "Printer", "Pumpkin", "Punching bag", "Rabbit", "Raccoon", "Racket", "Radish", "Ratchet (Device)", "Raven",
+    "Rays and skates", "Red panda", "Refrigerator", "Remote control", "Reptile", "Rhinoceros", "Rifle", "Ring binder",
+    "Rocket", "Roller skates", "Rose", "Rugby ball", "Ruler", "Salad", "Salt and pepper shakers", "Sandal", "Sandwich",
+    "Saucer", "Saxophone", "Scale", "Scarf", "Scissors", "Scoreboard", "Scorpion", "Screwdriver", "Sculpture", "Sea lion",
+    "Sea turtle", "Seafood", "Seahorse", "Seat belt", "Segway", "Serving tray", "Sewing machine", "Shark", "Sheep",
+    "Shelf", "Shellfish", "Shirt", "Shorts", "Shotgun", "Shower", "Shrimp", "Sink", "Skateboard", "Ski", "Skirt",
+    "Skull", "Skunk", "Skyscraper", "Slow cooker", "Snack", "Snail", "Snake", "Snowboard", "Snowman", "Snowmobile",
+    "Snowplow", "Soap dispenser", "Sock", "Sofa bed", "Sombrero", "Sparrow", "Spatula", "Spice rack", "Spider", "Spoon",
+    "Sports equipment", "Sports uniform", "Squash (Plant)", "Squid", "Squirrel", "Stairs", "Stapler", "Starfish",
+    "Stationary bicycle", "Stethoscope", "Stool", "Stop sign", "Strawberry", "Street light", "Stretcher", "Studio couch",
+    "Submarine", "Submarine sandwich", "Suit", "Suitcase", "Sun hat", "Sunglasses", "Surfboard", "Sushi", "Swan",
+    "Swim cap", "Swimming pool", "Swimwear", "Sword", "Syringe", "Table", "Table tennis racket", "Tablet computer",
+    "Tableware", "Taco", "Tank", "Tap", "Tart", "Taxi", "Tea", "Teapot", "Teddy bear", "Telephone", "Television",
+    "Tennis ball", "Tennis racket", "Tent", "Tiara", "Tick", "Tie", "Tiger", "Tin can", "Tire", "Toaster", "Toilet",
+    "Toilet paper", "Tomato", "Tool", "Toothbrush", "Torch", "Tortoise", "Towel", "Tower", "Toy", "Traffic light",
+    "Traffic sign", "Train", "Training bench", "Treadmill", "Tree", "Tree house", "Tripod", "Trombone", "Trousers",
+    "Truck", "Trumpet", "Turkey", "Turtle", "Umbrella", "Unicycle", "Van", "Vase", "Vegetable", "Vehicle",
+    "Vehicle registration plate", "Violin", "Volleyball (Ball)", "Waffle", "Waffle iron", "Wall clock", "Wardrobe",
+    "Washing machine", "Waste container", "Watch", "Watercraft", "Watermelon", "Weapon", "Whale", "Wheel",
+    "Wheelchair", "Whisk", "Whiteboard", "Willow", "Window", "Window blind", "Wine", "Wine glass", "Wine rack",
+    "Winter melon", "Wok", "Woman", "Wood-burning stove", "Woodpecker", "Worm", "Wrench", "Zebra", "Zucchini"
+    ]
+    let tags = []
+    
+    function searchOD(a) {
+      ODList.innerHTML = ``;
+      for (od of ods) {
+        if (od.toLowerCase().includes(a)) {
+          item = document.createElement("li");
+          item.classList.add('odItem');
+          item.innerHTML = `
+          <button class="odItem" onclick="addTag('${od}');">
+          ${od}
+          `;
+          ODList.appendChild(item);
+          }
+        }
+      }
+        
+    function addTag(tagName) {
+        if (!tags.includes(tagName)) {
+          tags.push(tagName);
+          const tagContainer = document.getElementById('tag-query');
+          const tag = document.createElement('div');
+          tag.className = 'tag';
+          tag.onclick = () => deleteTag(tag, tagName);
+          tag.innerHTML = `${tagName} <span>&times;</span>`;
+          tagContainer.appendChild(tag);
+        }
+      }
+       
+    function deleteTag(element, tagName) {
+        element.parentNode.removeChild(element);
+        tags = tags.filter(tag => tag !== tagName);
+    }
 
+    searchInputOD.addEventListener('input', () => {
+      searchOD(searchInputOD.value.toLowerCase())
+    });
+
+    searchOD('')
+    
 
     //help button and image interactions
     const helpButton = document.getElementById('helpButton');
@@ -402,6 +638,7 @@
     const slide3 = document.querySelector('.slide-3');
     const overlay = document.getElementById('overlay');
     const carouselimg = document.querySelectorAll(".carousel-image");
+    const IRBtn = document.querySelectorAll('.IR_Btn');
     let jsonData = {}; 
     
     fetch('../data/path_video.json')
@@ -441,10 +678,17 @@
       const seconds = convertFrameToSeconds(frameId);
       slide2.innerHTML = `
       <h2>Frame information</h2>
-      <p><b>url</b>: <a target="_blank" href="https://www.youtube.com/watch?v=${videoId}&t=${Math.floor(seconds)}s">https://www.youtube.com/watch?v=${videoId}&t=${Math.floor(seconds)}s<a><br><b>frame_id</b>: ${frameId}</p>
-      <iframe id="player" width="100%" height="300px" src="https://www.youtube-nocookie.com/embed/${videoId}?start=${Math.floor(seconds)}&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
-      ;
+      <p><b>url</b>: <a target="_blank" href="https://www.youtube.com/watch?v=${videoId}&t=${Math.floor(seconds)}s">https://www.youtube.com/watch?v=${videoId}&t=${Math.floor(seconds)}s<a><br><b>frame_id</b>: ${frameId}</p>`;
     }
+
+    IRBtn.forEach(btn => {
+      btn.addEventListener("click", function() {
+        const url = new URL('/img', window.location.origin);
+        url.searchParams.set('page', 1); 
+        url.searchParams.set('imgid', this.getAttribute('data')); 
+        window.location.href = url.toString();
+      })
+    })
     
     carouselimg.forEach(img => {
         img.addEventListener("click", function() {
@@ -462,7 +706,6 @@
     closeButton.addEventListener('click', () => {
         modalBox.style.display = 'none';
         overlay.style.display = 'none';
-        document.getElementById("player").stopVideo();
     });
 
     overlay.addEventListener('click', () => {
@@ -541,6 +784,14 @@
             clipcheck = document.getElementById("Clip");
             handleCheckboxChange(clipcheck);
             clipcheck.checked = true;
+            document.getElementById("textInput").focus();
+        }
+        if (event.key === "4") {
+            event.preventDefault();
+            document.getElementById("text").click();
+            ICcheck = document.getElementById("IC");
+            handleCheckboxChange(ICcheck);
+            ICcheck.checked = true;
             document.getElementById("textInput").focus();
         }
         if (event.key === "Enter") {

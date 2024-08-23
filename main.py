@@ -86,6 +86,7 @@ async def startup_event():
 class QueryParams(BaseModel):
     query: Optional[str] = Query(None)
     page: int = Query(1, ge=1)
+    imgid: Optional[int] = Query(None)
     
 @app.get("/", response_class=HTMLResponse)
 async def show_images(request: Request, params: QueryParams = Depends()):
@@ -102,6 +103,31 @@ async def show_images(request: Request, params: QueryParams = Depends()):
         "num_pages": num_pages
     })
 
+@app.get("/img", response_class=HTMLResponse)
+async def img(
+    request: Request,
+    params: QueryParams = Depends()
+):
+    if MyFaiss is None:
+        return HTMLResponse(content="MyFaiss not initialized", status_code=500)
+    _, list_ids, _, list_image_paths = MyFaiss.image_search(params.imgid, k=180)
+    
+    limit = 100 
+    pagefile = [{'imgpath': imgpath, 'id': int(id)} for imgpath, id in zip(list_image_paths, list_ids)]
+    start_idx = (params.page - 1) * limit
+    end_idx = start_idx + limit
+    paginated_data = pagefile[start_idx:end_idx]
+
+    num_pages = (len(pagefile) // limit) + 1
+
+    return templates.TemplateResponse("home.html", {
+        "request": request,
+        "data": paginated_data,
+        "page": params.page,
+        "num_pages": num_pages,
+        "imgid": params.imgid
+    })
+
 @app.get("/clip", response_class=HTMLResponse)
 async def clip(
     request: Request,
@@ -109,7 +135,7 @@ async def clip(
 ):
     if MyFaiss is None:
         return HTMLResponse(content="MyFaiss not initialized", status_code=500)
-    _, list_ids, _, list_image_paths = MyFaiss.text_search(params.query, k=200)
+    _, list_ids, _, list_image_paths = MyFaiss.text_search(params.query, k=180)
     limit = 100 
     pagefile = [{'imgpath': imgpath, 'id': int(id)} for imgpath, id in zip(list_image_paths, list_ids)]
     start_idx = (params.page - 1) * limit
@@ -131,7 +157,7 @@ async def ocrsearch(
     request: Request,
     params: QueryParams = Depends()
 ):
-    matching_frame_ids = search_ocr(params.query, "ocr", 200)
+    matching_frame_ids = search_ocr(params.query, "ocr", 180)
     pagefile = [{'imgpath': DictImagePath[int(frame_id)], 'id': str(frame_id)} for frame_id in matching_frame_ids]
     limit = 100
     start_idx = (params.page - 1) * limit
@@ -153,7 +179,7 @@ async def asrsearch(
     request: Request,
     params: QueryParams = Depends()
 ):
-    matching_frame_ids = search_video_scenes(params.query, "asr", 200)
+    matching_frame_ids = search_video_scenes(params.query, "asr", 180)
     pagefile = [{'imgpath': DictImagePath[int(frame_id)], 'id': str(frame_id)} for frame_id in matching_frame_ids]
     limit = 100
     start_idx = (params.page - 1) * limit
@@ -176,7 +202,7 @@ async def objectsearch(
     query: Optional[List[str]] = Query(None),
     params: QueryParams = Depends()
 ):
-    matching_frame_ids = search_od(query, "object", 200)
+    matching_frame_ids = search_od(query, "object", 180)
     pagefile = [{'imgpath': DictImagePath[int(frame_id)], 'id': str(frame_id)} for frame_id in matching_frame_ids]
     limit = 100
     start_idx = (params.page - 1) * limit
