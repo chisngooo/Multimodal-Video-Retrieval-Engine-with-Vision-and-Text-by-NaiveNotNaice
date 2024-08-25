@@ -13,7 +13,7 @@ from utils.search_by_place import search_place
 from utils.search_by_asr import search_video_scenes
 from utils.search_by_ocr import search_ocr
 from elasticsearch import Elasticsearch
-
+from urllib.parse import unquote
 
 es = Elasticsearch(["http://localhost:9200"])
 index_name1 = 'ocr'
@@ -202,6 +202,14 @@ async def objectsearch(
     query: Optional[List[str]] = Query(None),
     params: QueryParams = Depends()
 ):
+
+    query = [i.split() for i in [unquote(item) for item in query]]
+    for i in query:
+        i[1] = i[1].replace("+"," ")
+        if i[0] == "None":
+            pass
+        else:
+            i[0] = int(i[0])
     matching_frame_ids = search_od(query, "object", 180)
     pagefile = [{'imgpath': DictImagePath[int(frame_id)], 'id': str(frame_id)} for frame_id in matching_frame_ids]
     limit = 100
