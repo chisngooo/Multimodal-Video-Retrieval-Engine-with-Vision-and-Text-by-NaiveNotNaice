@@ -483,10 +483,9 @@
           <button id="closeButton">&times;</button>
           <div class="slide-1">
             <h2><b>Shortcut</b></h2>
-            <p>press <b>"1"</b> for OCR (text on screen)<br>press <b>"2"</b> for ASR (audio)<br>press <b>"3"</b> for Clip (text embedding)<br>press <b>"4"</b> for Image captioning<br>press <b>"Enter"</b> to search</p>
+            <p>press <b>Ctrl + "1"</b> for OCR (text on screen)<br>press <b>Ctrl + "2"</b> for ASR (audio)<br>press <b>Ctrl + "3"</b> for Clip (text embedding)<br>press <b>Ctrl + "4"</b> for Image captioning<br>press <b>Ctrl + "5"</b> to open Object search<br>press <b>Ctrl + Space</b> for add rows in Object search<br>press <b>Ctrl + "Enter"</b> to search</p>
             <h2><b>Bugs and ignore it 💩</b></h2>
-            <p>You close the popup without stopping the video. It will still run in the background</p>
-            <p>When you type in "search text", if you press "1","2","3" or "4", it will detect as a shortcut and change checkboxes' status </p>
+            <p>Do not have any bugs - Hurrayy</p>
             <p>:D</p>
           </div>
           <div class="slide-2"></div>
@@ -571,8 +570,8 @@
       btn.addEventListener('click', function() {
       const searchElement = document.querySelector('#textInput');
       const searchText = searchElement.value;
-      if (true) {
-        tags = getTags();
+      tags = getTags();
+      if (tags.length > 0) {
         const url = new URL('/obj', window.location.origin);
         url.searchParams.set('page', 1);
         object_query = tags.map(item => `query=${encodeURIComponent(item)}`).join('&');
@@ -775,49 +774,54 @@
     });
     
     // Shortcut 
-    // document.addEventListener("keyup", function(event) {
-    //     if (event.key === "1") {
-    //         event.preventDefault();
-    //         document.getElementById("text").click();
-    //         document.getElementById("textInput").focus();
-    //         ocrcheck = document.getElementById("OCR");
-    //         handleCheckboxChange(ocrcheck);
-    //         ocrcheck.checked = true;
-    //     }
-    //     if (event.key === "2") {
-    //         event.preventDefault();
-    //         document.getElementById("text").click();
-    //         document.getElementById("textInput").focus();
-    //         asrcheck = document.getElementById("ASR");
-    //         handleCheckboxChange(asrcheck);
-    //         asrcheck.checked = true;
-    //       }
-    //     if (event.key === "3") {
-    //         event.preventDefault();
-    //         document.getElementById("text").click();
-    //         clipcheck = document.getElementById("Clip");
-    //         handleCheckboxChange(clipcheck);
-    //         clipcheck.checked = true;
-    //         document.getElementById("textInput").focus();
-    //     }
-    //     if (event.key === "4") {
-    //         event.preventDefault();
-    //         document.getElementById("text").click();
-    //         ICcheck = document.getElementById("IC");
-    //         handleCheckboxChange(ICcheck);
-    //         ICcheck.checked = true;
-    //         document.getElementById("textInput").focus();
-    //     }
-    //     if (event.key === "Enter") {
-    //         event.preventDefault();
-    //         searchBtn.click();
-    //     }
-    //     if (event.key === "Escape") {
-    //         event.preventDefault();
-    //         modalBox.style.display = 'none';
-    //         overlay.style.display = 'none';
-    //     }
-    // });
+    document.addEventListener("keydown", function(event) {
+        if (event.key === "1" && event.ctrlKey) {
+            event.preventDefault();
+            document.getElementById("text").click();
+            document.getElementById("textInput").focus();
+            ocrcheck = document.getElementById("OCR");
+            handleCheckboxChange(ocrcheck);
+            ocrcheck.checked = true;
+        }
+        if (event.key === "2" && event.ctrlKey) {
+            event.preventDefault();
+            document.getElementById("text").click();
+            document.getElementById("textInput").focus();
+            asrcheck = document.getElementById("ASR");
+            handleCheckboxChange(asrcheck);
+            asrcheck.checked = true;
+          }
+        if (event.key === "3" && event.ctrlKey) {
+            event.preventDefault();
+            document.getElementById("text").click();
+            clipcheck = document.getElementById("Clip");
+            handleCheckboxChange(clipcheck);
+            clipcheck.checked = true;
+            document.getElementById("textInput").focus();
+        }
+        if (event.key === "4" && event.ctrlKey) {
+            event.preventDefault();
+            document.getElementById("text").click();
+            ICcheck = document.getElementById("IC");
+            handleCheckboxChange(ICcheck);
+            ICcheck.checked = true;
+            document.getElementById("textInput").focus();
+        }
+        if (event.key === "5" && event.ctrlKey) {
+            event.preventDefault();
+            document.getElementById("object").click();
+        }
+        if (event.key === " " && event.ctrlKey) {
+            event.preventDefault();
+            addBtn.click();
+        }
+        if (event.key === "Enter" && event.ctrlKey) {
+            event.preventDefault();
+            searchBtn.forEach(btn => {
+            btn.click();
+        });
+        }
+    });
   </script>
   
 </body>
