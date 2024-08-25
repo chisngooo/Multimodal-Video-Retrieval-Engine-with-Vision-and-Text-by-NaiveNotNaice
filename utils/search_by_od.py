@@ -1,50 +1,49 @@
 from elasticsearch import Elasticsearch
+from elasticsearch.helpers import bulk
+import json
+# Connect to Elasticsearch
+es = Elasticsearch(["http://localhost:9200"])
 
-def search_od(query, index_name, size):
-    # Tạo điều kiện truy vấn cho từng từ khóa trong mảng
-    es = Elasticsearch(["http://localhost:9200"])
-    must_conditions = [{"match": {"objects": keyword}} for keyword in query]
+# Define the index name
+index_name = "object"
 
-    # Tìm kiếm dữ liệu với nhiều điều kiện match
-    search_query = {
+
+
+# Search function
+def search_od(query):
+    must_clauses = []
+    for q in query:
+        quantity, name, attribute = q
+        clause = {
+            "nested": {
+                "path": "objects",
+                "query": {
+                    "bool": {
+                        "must": [
+                            {"match": {"objects.name": name}} if name != "None" else {"match_all": {}},
+                            {"match": {"objects.attribute": attribute}} if attribute != "None" else {"match_all": {}}
+                        ]
+                    }
+                }
+            }
+        }
+        if quantity != "None":
+            clause["nested"]["query"]["bool"]["must"].append(
+                {"range": {"objects.quantity": {"gte": int(quantity)}}}
+            )
+        must_clauses.append(clause)
+
+    body = {
         "query": {
             "bool": {
-                "must": must_conditions
+                "must": must_clauses
             }
         },
-        "size": size  # Trả về số lượng kết quả tùy ý
+        "_source": False  # Don't return the source document
     }
 
-    response = es.search(index=index_name, body=search_query)
-    hits = response['hits']['hits']
+    results = es.search(index=index_name, body=body)
+    
+    # Return the document IDs (which are the original keys)
+    return list(map(int,[hit['_id'] for hit in results['hits']['hits']]))
 
-    # Lấy các ID khớp
-    matching_ids = [hit['_id'] for hit in hits]
-    num_matching = len(matching_ids)
-
-    if num_matching < size:
-        # Truy vấn để lấy các tài liệu không khớp hoặc có điểm số thấp
-        additional_query = {
-            "query": {
-                "bool": {
-                    "must_not": [
-                        {
-                            "ids": {
-                                "values": matching_ids
-                            }
-                        }
-                    ]
-                }
-            },
-            "size": size - num_matching
-        }
-
-        additional_response = es.search(index=index_name, body=additional_query)
-        additional_hits = additional_response['hits']['hits']
-        additional_ids = [hit['_id'] for hit in additional_hits]
-        matching_ids.extend(additional_ids)  # Thêm các ID bổ sung vào danh sách kết quả
-    else:
-        # Nếu số lượng tài liệu khớp đủ
-        matching_ids = matching_ids
-
-    return matching_ids
