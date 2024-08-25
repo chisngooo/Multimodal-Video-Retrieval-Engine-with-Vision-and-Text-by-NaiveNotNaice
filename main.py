@@ -67,6 +67,8 @@ if not es.indices.exists(index=index_name4):
 app = FastAPI()
 templates = Jinja2Templates(directory="templates")
 app.mount("/data", StaticFiles(directory="data"), name="data")
+app.mount("/DataBase", StaticFiles(directory="DataBase"), name="DataBase")
+
 DictImagePath, LenDictPath, MyFaiss = {}, 0, None
 
 async def load_data() -> Tuple[dict, int]:
