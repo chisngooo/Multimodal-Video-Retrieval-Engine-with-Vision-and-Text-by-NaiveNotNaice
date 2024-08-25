@@ -775,49 +775,49 @@
     });
     
     // Shortcut 
-    document.addEventListener("keyup", function(event) {
-        if (event.key === "1") {
-            event.preventDefault();
-            document.getElementById("text").click();
-            document.getElementById("textInput").focus();
-            ocrcheck = document.getElementById("OCR");
-            handleCheckboxChange(ocrcheck);
-            ocrcheck.checked = true;
-        }
-        if (event.key === "2") {
-            event.preventDefault();
-            document.getElementById("text").click();
-            document.getElementById("textInput").focus();
-            asrcheck = document.getElementById("ASR");
-            handleCheckboxChange(asrcheck);
-            asrcheck.checked = true;
-          }
-        if (event.key === "3") {
-            event.preventDefault();
-            document.getElementById("text").click();
-            clipcheck = document.getElementById("Clip");
-            handleCheckboxChange(clipcheck);
-            clipcheck.checked = true;
-            document.getElementById("textInput").focus();
-        }
-        if (event.key === "4") {
-            event.preventDefault();
-            document.getElementById("text").click();
-            ICcheck = document.getElementById("IC");
-            handleCheckboxChange(ICcheck);
-            ICcheck.checked = true;
-            document.getElementById("textInput").focus();
-        }
-        if (event.key === "Enter") {
-            event.preventDefault();
-            searchBtn.click();
-        }
-        if (event.key === "Escape") {
-            event.preventDefault();
-            modalBox.style.display = 'none';
-            overlay.style.display = 'none';
-        }
-    });
+    // document.addEventListener("keyup", function(event) {
+    //     if (event.key === "1") {
+    //         event.preventDefault();
+    //         document.getElementById("text").click();
+    //         document.getElementById("textInput").focus();
+    //         ocrcheck = document.getElementById("OCR");
+    //         handleCheckboxChange(ocrcheck);
+    //         ocrcheck.checked = true;
+    //     }
+    //     if (event.key === "2") {
+    //         event.preventDefault();
+    //         document.getElementById("text").click();
+    //         document.getElementById("textInput").focus();
+    //         asrcheck = document.getElementById("ASR");
+    //         handleCheckboxChange(asrcheck);
+    //         asrcheck.checked = true;
+    //       }
+    //     if (event.key === "3") {
+    //         event.preventDefault();
+    //         document.getElementById("text").click();
+    //         clipcheck = document.getElementById("Clip");
+    //         handleCheckboxChange(clipcheck);
+    //         clipcheck.checked = true;
+    //         document.getElementById("textInput").focus();
+    //     }
+    //     if (event.key === "4") {
+    //         event.preventDefault();
+    //         document.getElementById("text").click();
+    //         ICcheck = document.getElementById("IC");
+    //         handleCheckboxChange(ICcheck);
+    //         ICcheck.checked = true;
+    //         document.getElementById("textInput").focus();
+    //     }
+    //     if (event.key === "Enter") {
+    //         event.preventDefault();
+    //         searchBtn.click();
+    //     }
+    //     if (event.key === "Escape") {
+    //         event.preventDefault();
+    //         modalBox.style.display = 'none';
+    //         overlay.style.display = 'none';
+    //     }
+    // });
   </script>
   
 </body>
