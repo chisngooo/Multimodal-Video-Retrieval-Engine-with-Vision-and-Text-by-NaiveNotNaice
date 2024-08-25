@@ -9,10 +9,10 @@ import json
 from utils.query_processing import Translation
 from utils.faiss import Myfaiss
 from utils.search_by_od import search_od
-from utils.search_by_place import search_place
 from utils.search_by_asr import search_video_scenes
 from utils.search_by_ocr import search_ocr
 from elasticsearch import Elasticsearch
+from elasticsearch.helpers import bulk
 from urllib.parse import unquote
 
 es = Elasticsearch(["http://localhost:9200"])
@@ -27,31 +27,42 @@ if not es.indices.exists(index=index_name1):
                 'ocr': value 
             })
 
-index_name2 = 'place'
-if not es.indices.exists(index=index_name2):
-    es.indices.create(index=index_name2)
-    with open('DataBase/PLACE.json', 'r', encoding='utf-8') as file:
-        place_data = json.load(file)
-        for key, value in place_data.items():
-            es.index(index=index_name2, id=key, body={
-                'scene': key,
-                'place': value 
-            })
 
 index_name3 = 'object'
-if not es.indices.exists(index=index_name3):
-    es.indices.create(index=index_name3)
-    with open('DataBase/OBJECT.json', 'r', encoding='utf-8') as file:
-        object_data = json.load(file)
-        for key, value in object_data.items():
-            if isinstance(value, list):
-                es.index(index=index_name3, id=key, body={
-                    'scene': key,
-                    'objects': ' '.join(value)  
-                })
-            else:
-                print(f"Skipping {key}: Data is not a list")
-            
+mapping = {
+    "mappings": {
+        "properties": {
+            "objects": {
+                "type": "nested",
+                "properties": {
+                    "quantity": {"type": "integer"},
+                    "name": {"type": "keyword"},
+                    "attribute": {"type": "keyword"}
+                }
+            }
+        }
+    }
+}
+with open('DataBase/OBJECT.json', 'r') as file:
+    data = json.load(file)
+    print(data)
+es.indices.create(index=index_name3, body=mapping, ignore=400)
+
+
+def gen_docs():
+    for key, objects in data.items():
+        yield {
+            "_index": index_name3,
+            "_id": key,  # Use the key as the document ID
+            "_source": {
+                "objects": [
+                    {"quantity": obj[0], "name": obj[1], "attribute": obj[2]}
+                    for obj in objects
+                ]
+            }
+        }
+bulk(es, gen_docs())
+
 index_name4 = 'asr'
 if not es.indices.exists(index=index_name4):
     es.indices.create(index=index_name4)
@@ -160,6 +171,7 @@ async def ocrsearch(
     params: QueryParams = Depends()
 ):
     matching_frame_ids = search_ocr(params.query, "ocr", 180)
+    print(matching_frame_ids)
     pagefile = [{'imgpath': DictImagePath[int(frame_id)], 'id': str(frame_id)} for frame_id in matching_frame_ids]
     limit = 100
     start_idx = (params.page - 1) * limit
@@ -212,7 +224,7 @@ async def objectsearch(
             pass
         else:
             i[0] = int(i[0])
-    matching_frame_ids = search_od(query, "object", 180)
+    matching_frame_ids = search_od(query)
     pagefile = [{'imgpath': DictImagePath[int(frame_id)], 'id': str(frame_id)} for frame_id in matching_frame_ids]
     limit = 100
     start_idx = (params.page - 1) * limit
@@ -228,4 +240,3 @@ async def objectsearch(
         "num_pages": num_pages,
         "query": query
     })
-
