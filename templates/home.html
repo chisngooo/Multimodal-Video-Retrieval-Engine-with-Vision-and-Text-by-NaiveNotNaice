@@ -700,49 +700,47 @@
     const overlay = document.getElementById('overlay');
     const carouselimg = document.querySelectorAll(".carousel-image");
     const IRBtn = document.querySelectorAll('.IR_Btn');
-    let jsonData = {}; 
     
-    fetch('../data/path_video.json')
-    .then(response => response.json())
-    .then(data => {
-        jsonData = data;
-    })
-    .catch(error => {
-        alert('Error loading the JSON file, reload the page to fix:', error);
-    });
-
     function getYouTubeVideoId(url) {
-        if (url) {
-          const regex = /[?&]v=([^&#]*)/;
-          const match = url.match(regex);
-          return match ? match[1] : null;
-        } 
-        return null;
+    if (url) {
+        const regex = /[?&]v=([^&#]*)/;
+        const match = url.match(regex);
+        return match ? match[1] : null;
     }
-    
+      return null;
+    }
+
     function convertFrameToSeconds(frameNumber, fps = 30) {
-      return parseInt(frameNumber.replace("frame_",""), 10) / fps;
+        return parseInt(frameNumber.replace("frame_",""), 10) / fps;
     }
 
     function hideSlide() {
-      slide3.style.display = 'none';
-      slide2.style.display = 'none';
-      slide1.style.display = 'none';
+        slide3.style.display = 'none';
+        slide2.style.display = 'none';
+        slide1.style.display = 'none';
     }
 
     function showModal(src) {
-      hideSlide()
-      modalBox.style.display = 'block';
-      overlay.style.display = 'block';
-      slide2.style.display = 'block';
-      const imgpath = src.split("/");
-      const video_url = jsonData[imgpath[imgpath.length-2]];
-      const videoId = getYouTubeVideoId(video_url);
-      const frameId = imgpath[imgpath.length-1].replace(".png","")
-      const seconds = convertFrameToSeconds(frameId);
-      slide2.innerHTML = `
-      <h2>Frame information</h2>
-      <p><b>url</b>: <a target="_blank" href="">https://www.youtube.com/watch?v=${videoId}&t=${Math.floor(seconds)}s<a><br><b>frame_id</b>: ${frameId}</p>`;
+        hideSlide();
+        modalBox.style.display = 'block';
+        overlay.style.display = 'block';
+        slide2.style.display = 'block';
+        
+        const imgpath = src.split("/");
+        const videopath = imgpath[imgpath.length-2];
+        fetch(`../data/metadata/${videopath}.json`)
+        .then(response => response.json())
+        .then(data => {
+            const video_url = data['watch_url'];
+            const videoId = getYouTubeVideoId(video_url);
+            const frameId = imgpath[imgpath.length-1].replace("frame_","").replace(".jpg","")
+            const seconds = convertFrameToSeconds(frameId);
+            
+            slide2.innerHTML = `
+            <h2>Frame information</h2>
+            <p><b>url</b>: <a target="_blank" href="https://www.youtube.com/watch?v=${videoId}&t=${Math.floor(seconds)}s">https://www.youtube.com/watch?v=${videoId}&t=${Math.floor(seconds)}s<a><br><b>Video_id</b>: ${videopath}<br><b>frame_id</b>: ${frameId}</p> 
+            <iframe id="videoIframe" width="100%" height="315" src="https://www.youtube.com/embed/${videoId}?start=${Math.floor(seconds)}&autoplay=1" title="YouTube video player" frameborder="0" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`        
+        })
     }
 
     IRBtn.forEach(btn => {
