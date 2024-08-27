@@ -1,0 +1,46 @@
+{
+    "0": [
+        "2 Skyscraper black",
+        "2 Skyscraper brown",
+        "1 Skyscraper light salmon"
+    ],
+    "1": [
+        "1 Traffic sign brown"
+    ],
+    "2": [
+        "1 Clothing silver",
+        "1 Clothing light salmon",
+        "2 Man silver",
+        "1 Man light salmon",
+        "1 Man white"
+    ],
+    "3": [],
+    "4": [
+        "1 Person black",
+        "1 Person silver"
+    ],
+    "5": [
+        "2 Car gray",
+        "3 Wheel black"
+    ],
+    "6": [
+        "1 Palm tree black",
+        "1 Tree black",
+        "2 Tree gray"
+    ],
+    "7": [],
+    "8": [
+        "1 Tree black",
+        "1 Tree gray"
+    ],
+    "9": [
+        "2 Building gray",
+        "1 Person maroon",
+        "1 Person black"
+    ],
+    "10": [
+        "1 Car gray",
+        "1 Building gray",
+        "2 Wheel gray"
+    ]
+}
