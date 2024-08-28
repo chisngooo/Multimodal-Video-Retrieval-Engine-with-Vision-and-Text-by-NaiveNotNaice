@@ -42,7 +42,7 @@ def search_od(query):
         "_source": False  # Don't return the source document
     }
 
-    results = es.search(index=index_name, body=body)
+    results = es.search(index=index_name, body=body, size=200)
     
     # Return the document IDs (which are the original keys)
     return list(map(int,[hit['_id'] for hit in results['hits']['hits']]))

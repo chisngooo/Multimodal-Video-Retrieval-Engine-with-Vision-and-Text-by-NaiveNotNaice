@@ -45,23 +45,24 @@ mapping = {
 }
 with open('DataBase/OBJECT.json', 'r') as file:
     data = json.load(file)
-    print(data)
-es.indices.create(index=index_name3, body=mapping, ignore=400)
-
-
-def gen_docs():
-    for key, objects in data.items():
-        yield {
-            "_index": index_name3,
-            "_id": key,  # Use the key as the document ID
-            "_source": {
-                "objects": [
-                    {"quantity": obj[0], "name": obj[1], "attribute": obj[2]}
-                    for obj in objects
-                ]
+if not es.indices.exists(index=index_name3):
+    es.indices.create(index=index_name3, body=mapping, ignore=400)
+    def gen_docs():
+        for key, objects in data.items():
+            yield {
+                "_index": index_name3,
+                "_id": key,  # Use the key as the document ID
+                "_source": {
+                    "objects": [
+                        {"quantity": obj[0], "name": obj[1], "attribute": obj[2]}
+                        for obj in objects
+                    ]
+                }
             }
-        }
-bulk(es, gen_docs())
+    bulk(es, gen_docs())
+
+
+
 
 index_name4 = 'asr'
 if not es.indices.exists(index=index_name4):
@@ -225,6 +226,7 @@ async def objectsearch(
         else:
             i[0] = int(i[0])
     matching_frame_ids = search_od(query)
+    print(matching_frame_ids)
     pagefile = [{'imgpath': DictImagePath[int(frame_id)], 'id': str(frame_id)} for frame_id in matching_frame_ids]
     limit = 100
     start_idx = (params.page - 1) * limit
