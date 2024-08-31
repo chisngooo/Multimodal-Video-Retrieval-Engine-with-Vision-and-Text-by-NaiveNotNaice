@@ -15,10 +15,10 @@ echo "deb https://artifacts.elastic.co/packages/7.x/apt stable main" | sudo tee 
 sudo apt-get update
 sudo apt-get install elasticsearch
 ```
-
 ## Run 
 ```
 sudo service elasticsearch start
 curl -X GET "localhost:9200/"
 watchmedo auto-restart --directory=./ --pattern=*.py --recursive -- uvicorn main:app --reload
 ```
+## TÙNG SÚC
