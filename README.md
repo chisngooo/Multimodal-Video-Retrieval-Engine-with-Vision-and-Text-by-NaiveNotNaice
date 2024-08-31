@@ -18,7 +18,6 @@ sudo apt-get install elasticsearch
 ## Run 
 ```
 sudo service elasticsearch start
-curl -X GET "localhost:9200/"
 watchmedo auto-restart --directory=./ --pattern=*.py --recursive -- uvicorn main:app --reload
 ```
-### GOODNIGHT
+<h1><center> GOODNIGHT</center></h1>
