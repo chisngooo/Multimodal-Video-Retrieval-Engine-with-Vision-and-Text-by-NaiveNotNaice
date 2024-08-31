@@ -1,4 +1,4 @@
-<h1><center>Pipeline HCM AI CHALLENGE 2023 <br> Event Retrieval from Visual Data</center></h1>
+<h1><center>Pipeline HCM AI CHALLENGE 2024 <br> Event Retrieval from Visual Data</center></h1>
 
 ## Setup 
 ```
@@ -20,5 +20,5 @@ sudo apt-get install elasticsearch
 ```
 sudo service elasticsearch start
 curl -X GET "localhost:9200/"
-watchmedo auto-restart --directory=./ --pattern=*.py --recursive -- uvicorn main:app --reload
+uvicorn main:app --reload
 ```

@@ -1,5 +1,9 @@
-__pycache__
 *.png
 *.jpg
-/data/
-*.bin
+/data/*.json
+/data_btc/*.json
+/data/metadata/*.json
+/data_btc/metadata/*.json
+/data/*.bin
+/data_btc/*.bin
+data/faiss_index.bin
