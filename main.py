@@ -3,6 +3,7 @@ from fastapi.responses import HTMLResponse
 from fastapi.templating import Jinja2Templates
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
+from langdetect import detect
 from typing import List, Tuple, Optional
 import json
 
@@ -11,6 +12,7 @@ from utils.faiss import Myfaiss
 from utils.search_by_od import search_od
 from utils.search_by_asr import search_video_scenes
 from utils.search_by_ocr import search_ocr
+from utils.search_by_ic import search_ic
 from elasticsearch import Elasticsearch
 from elasticsearch.helpers import bulk
 from urllib.parse import unquote
@@ -27,26 +29,38 @@ if not es.indices.exists(index=index_name1):
                 'ocr': value 
             })
 
+index_name2 = 'ic'
+if not es.indices.exists(index=index_name2):
+    es.indices.create(index=index_name2)
+    with open('DataBase/IC.json', 'r', encoding='utf-8') as file:
+        ic_data = json.load(file)
+        for key, value in ic_data.items():
+            es.index(index=index_name2, id=key, body={
+                'scene': key,
+                'ic': value 
+            })
 
 index_name3 = 'object'
-mapping = {
-    "mappings": {
-        "properties": {
-            "objects": {
-                "type": "nested",
-                "properties": {
-                    "quantity": {"type": "integer"},
-                    "name": {"type": "keyword"},
-                    "attribute": {"type": "keyword"}
+if not es.indices.exists(index=index_name3):
+    mapping = {
+        "mappings": {
+            "properties": {
+                "objects": {
+                    "type": "nested",
+                    "properties": {
+                        "quantity": {"type": "integer"},
+                        "name": {"type": "keyword"},
+                        "attribute": {"type": "keyword"}
+                    }
                 }
             }
         }
     }
-}
-with open('DataBase/OBJECT.json', 'r') as file:
-    data = json.load(file)
-if not es.indices.exists(index=index_name3):
+    with open('DataBase/OBJECT.json', 'r') as file:
+        data = json.load(file)
     es.indices.create(index=index_name3, body=mapping, ignore=400)
+
+
     def gen_docs():
         for key, objects in data.items():
             yield {
@@ -60,9 +74,6 @@ if not es.indices.exists(index=index_name3):
                 }
             }
     bulk(es, gen_docs())
-
-
-
 
 index_name4 = 'asr'
 if not es.indices.exists(index=index_name4):
@@ -79,9 +90,11 @@ if not es.indices.exists(index=index_name4):
 app = FastAPI()
 templates = Jinja2Templates(directory="templates")
 app.mount("/data", StaticFiles(directory="data"), name="data")
+app.mount("/data_btc", StaticFiles(directory="data_btc"), name="data_btc")
 app.mount("/DataBase", StaticFiles(directory="DataBase"), name="DataBase")
 
 DictImagePath, LenDictPath, MyFaiss = {}, 0, None
+DictImagePath_btc, LenDictPath_btc, MyFaiss_btc = {}, 0, None
 
 async def load_data() -> Tuple[dict, int]:
     with open('data/path_index.json') as json_file:
@@ -90,12 +103,23 @@ async def load_data() -> Tuple[dict, int]:
         LenDictPath = len(DictImagePath)
     return DictImagePath, LenDictPath
 
+async def load_data_btc() -> Tuple[dict, int]:
+    with open('data_btc/path_index.json') as json_file_btc:
+        json_dict_btc = json.load(json_file_btc)
+        DictImagePath_btc = {int(key): value for key, value in json_dict_btc.items()}
+        LenDictPath_btc = len(DictImagePath_btc)
+    return DictImagePath_btc, LenDictPath_btc
+
 @app.on_event("startup")
 async def startup_event():
     global DictImagePath, LenDictPath, MyFaiss
+    global DictImagePath_btc, LenDictPath_btc, MyFaiss_btc
     DictImagePath, LenDictPath = await load_data()
+    DictImagePath_btc, LenDictPath_btc = await load_data_btc()
     bin_file = 'data/faiss_index.bin'
-    MyFaiss = Myfaiss(bin_file, DictImagePath, 'cuda', Translation(), "ViT-B/32")
+    bin_file_btc = 'data_btc/faiss_index.bin'
+    MyFaiss = Myfaiss(bin_file, DictImagePath, 'cpu', Translation(), "ViT-B/32")
+    MyFaiss_btc = Myfaiss(bin_file_btc, DictImagePath_btc, 'cpu', Translation(), "ViT-B/16")
     
 class QueryParams(BaseModel):
     query: Optional[str] = Query(None)
@@ -142,8 +166,8 @@ async def img(
         "imgid": params.imgid
     })
 
-@app.get("/clip", response_class=HTMLResponse)
-async def clip(
+@app.get("/clip_B32", response_class=HTMLResponse)
+async def clipB32(
     request: Request,
     params: QueryParams = Depends()
 ):
@@ -166,13 +190,62 @@ async def clip(
         "query": params.query
     })
 
+@app.get("/clip_BigG14", response_class=HTMLResponse)
+async def clip_big(
+    request: Request,
+    params: QueryParams = Depends()
+):
+    if MyFaiss is None:
+        return HTMLResponse(content="MyFaiss not initialized", status_code=500)
+    _, list_ids, _, list_image_paths = MyFaiss_btc.text_search(params.query, k=180)
+    limit = 100 
+    pagefile = [{'imgpath': imgpath, 'id': int(id)} for imgpath, id in zip(list_image_paths, list_ids)]
+    start_idx = (params.page - 1) * limit
+    end_idx = start_idx + limit
+    paginated_data = pagefile[start_idx:end_idx]
+
+    num_pages = (len(pagefile) // limit) + 1
+
+    return templates.TemplateResponse("home.html", {
+        "request": request,
+        "data": paginated_data,
+        "page": params.page,
+        "num_pages": num_pages,
+        "query": params.query
+    })
+
+
 @app.get("/ocr", response_class=HTMLResponse)
 async def ocrsearch(
     request: Request,
     params: QueryParams = Depends()
 ):
     matching_frame_ids = search_ocr(params.query, "ocr", 180)
-    print(matching_frame_ids)
+    pagefile = [{'imgpath': DictImagePath[int(frame_id)], 'id': str(frame_id)} for frame_id in matching_frame_ids]
+    limit = 100
+    start_idx = (params.page - 1) * limit
+    end_idx = start_idx + limit
+    paginated_data = pagefile[start_idx:end_idx]
+
+    num_pages = (len(pagefile) // limit) + 1
+
+    return templates.TemplateResponse("home.html", {
+        "request": request,
+        "data": paginated_data,
+        "page": params.page,
+        "num_pages": num_pages,
+        "query": params.query
+    })
+
+@app.get("/ic", response_class=HTMLResponse)
+async def icsearch(
+    request: Request,
+    params: QueryParams = Depends()
+):
+    text = params.query
+    if detect(text) == 'vi':
+        text = Translation(text)
+    matching_frame_ids = search_ic(text, "ic", 180)
     pagefile = [{'imgpath': DictImagePath[int(frame_id)], 'id': str(frame_id)} for frame_id in matching_frame_ids]
     limit = 100
     start_idx = (params.page - 1) * limit
@@ -226,7 +299,6 @@ async def objectsearch(
         else:
             i[0] = int(i[0])
     matching_frame_ids = search_od(query)
-    print(matching_frame_ids)
     pagefile = [{'imgpath': DictImagePath[int(frame_id)], 'id': str(frame_id)} for frame_id in matching_frame_ids]
     limit = 100
     start_idx = (params.page - 1) * limit

@@ -20,5 +20,5 @@ sudo apt-get install elasticsearch
 ```
 sudo service elasticsearch start
 curl -X GET "localhost:9200/"
-watchmedo auto-restart --directory=./ --pattern=*.py --recursive -- uvicorn main:app --reload
+uvicorn main:app --reload
 ```
