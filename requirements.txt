@@ -1,3 +1,4 @@
+natsort
 fastapi==0.111.1
 fastapi-cli==0.0.4
 Jinja2==3.1.4
