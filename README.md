@@ -2,6 +2,8 @@
 
 ## Setup 
 ```
+pip install gdown
+gdown https://drive.google.com/uc?id=1N-dgZrnXympn3hdOp05CjAqD1bHXOo6K --output /mnt/HCM-AIC24/data/faiss_index.bin
 pip install -r requirements.txt
 sudo apt-get install pkg-config libcairo2-dev
 pip install pycairo
