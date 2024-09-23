@@ -1,0 +1,8 @@
+deep-translator==1.11.4
+faiss-gpu==1.7.2
+torch==2.3.0
+torchvision==0.18.0
+translate==3.6.1
+gdown==5.2.0
+elasticsearch==7.17.1
+
