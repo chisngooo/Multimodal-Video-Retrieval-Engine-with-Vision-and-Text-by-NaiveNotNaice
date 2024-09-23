@@ -2,20 +2,12 @@
 
 ## Setup 
 ```
-pip install gdown
-gdown https://drive.google.com/uc?id=1N-dgZrnXympn3hdOp05CjAqD1bHXOo6K --output /mnt/HCM-AIC24/data/faiss_index.bin
-pip install -r requirements.txt
-sudo apt-get install pkg-config libcairo2-dev
-pip install pycairo
-pip install httpx==0.13.3
-pip install numpy==1.23.5
-pip install torch==2.4.0
-pip install --upgrade torchvision
 wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
 sudo apt-get install apt-transport-https
 echo "deb https://artifacts.elastic.co/packages/7.x/apt stable main" | sudo tee -a /etc/apt/sources.list.d/elastic-7.x.list
 sudo apt-get update
-sudo apt-get install elasticsearch
+pip install -r requirements.txt
+gdown --folder https://drive.google.com/drive/folders/1FnoIyy_DewSigiX6H121PhPNqIHz4ySB -O data
 ```
 
 ## Run 

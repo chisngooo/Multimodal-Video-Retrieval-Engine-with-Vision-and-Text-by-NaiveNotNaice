@@ -1,19 +1,8 @@
-clip @ git+https://github.com/openai/CLIP.git@dcba3cb2e2827b402d2701e7e1c7d9fed8a20ef1
 deep-translator==1.11.4
-elastic-transport==8.13.1
-elasticsearch==8.14.0
 faiss-gpu==1.7.2
-fastapi==0.111.1
-fastapi-cli==0.0.4
-ffmpeg==1.4
-nvidia-cudnn-cu12==8.9.2.26
-pillow==10.4.0
-requests==2.32.3
-sentence-transformers==2.2.2
-tokenizers==0.19.1
-torch==2.3.1
-torchvision==0.18.1
-tqdm==4.64.1
-transformers==4.42.4
+torch==2.3.0
+torchvision==0.18.0
 translate==3.6.1
-uvicorn==0.30.5
+gdown==5.2.0
+elasticsearch==7.17.1
+

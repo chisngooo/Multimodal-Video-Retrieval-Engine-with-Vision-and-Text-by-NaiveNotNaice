@@ -9,13 +9,15 @@ from sklearn.preprocessing import normalize
 import matplotlib.pyplot as plt
 import math
 from langdetect import detect
+from transformers import AutoModel, AutoTokenizer
 
 class Myfaiss_sbert:
     def __init__(self, bin_file: str, id2img_fps, device, translater):
         self.device = device
         self.index = self.load_bin_file(bin_file)
         self.id2img_fps = id2img_fps
-        self.model = SentenceTransformer('/mlcv2/WorkingSpace/Personal/khoind/code/paraphrase-multilingual-mpnet-base-v2')
+        self.model = AutoModel.from_pretrained('sentence-transformers/paraphrase-multilingual-mpnet-base-v2')
+        self.tokenizer = AutoTokenizer.from_pretrained('sentence-transformers/paraphrase-multilingual-mpnet-base-v2')
         self.translater = translater
 
     def load_bin_file(self, bin_file: str):
@@ -43,7 +45,6 @@ class Myfaiss_sbert:
                 ax.set_title('/'.join(img_path.split('/')[-3:]))
                 plt.imshow(img)
                 plt.axis("off")
-
         plt.show()
 
     def normalize(self, x):
@@ -52,9 +53,11 @@ class Myfaiss_sbert:
     def extract_text_features(self, text):
         if detect(text) == 'vi':
             text = self.translater(text)
-        text_features = self.model.encode(text, convert_to_tensor=False)
-        text_features = np.array(text_features, dtype=np.float32)
-        return self.normalize(text_features.reshape(1, -1))
+        inputs = self.tokenizer(text, return_tensors='pt', padding=True, truncation=True)
+        with torch.no_grad():
+            text_features = self.model(**inputs).last_hidden_state.mean(dim=1) 
+        text_features = text_features.numpy().astype(np.float32)
+        return self.normalize(text_features)
 
     def image_search(self, id_query, k):
         query_feats = self.index.reconstruct(id_query).reshape(1, -1)
