@@ -3,7 +3,6 @@ from fastapi.responses import HTMLResponse
 from fastapi.templating import Jinja2Templates
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
-from langdetect import detect
 from typing import List, Tuple, Optional
 import json
 
@@ -12,80 +11,11 @@ from utils.faiss import Myfaiss
 from utils.faiss_sbert import Myfaiss_sbert
 from utils.ElasticSearch import search_by_od, search_by_ocr, search_by_ic, search_by_asr
 from elasticsearch import Elasticsearch
-from elasticsearch.helpers import bulk
 from urllib.parse import unquote
-
+from utils.elasticsearch_indexer import index_data
 
 es = Elasticsearch(["http://localhost:9200"])
-index_name1 = 'ocr'
-if not es.indices.exists(index=index_name1):
-    es.indices.create(index=index_name1)
-    with open('DataBase/OCR.json', 'r', encoding='utf-8') as file:
-        ocr_data = json.load(file)
-        for key, value in ocr_data.items():
-            es.index(index=index_name1, id=key, body={
-                'scene': key,
-                'ocr': value 
-            })
-
-index_name2 = 'ic'
-if not es.indices.exists(index=index_name2):
-    es.indices.create(index=index_name2)
-    with open('DataBase/IC.json', 'r', encoding='utf-8') as file:
-        ic_data = json.load(file)
-        for key, value in ic_data.items():
-            es.index(index=index_name2, id=key, body={
-                'scene': key,
-                'ic': value 
-            })
-
-index_name3 = 'object'
-if not es.indices.exists(index=index_name3):
-    mapping = {
-        "mappings": {
-            "properties": {
-                "objects": {
-                    "type": "nested",
-                    "properties": {
-                        "quantity": {"type": "integer"},
-                        "name": {"type": "keyword"},
-                        "attribute": {"type": "keyword"}
-                    }
-                }
-            }
-        }
-    }
-    with open('DataBase/OBJECT.json', 'r') as file:
-        data = json.load(file)
-    es.indices.create(index=index_name3, body=mapping, ignore=400)
-
-
-    def gen_docs():
-        for key, objects in data.items():
-            yield {
-                "_index": index_name3,
-                "_id": key,  # Use the key as the document ID
-                "_source": {
-                    "objects": [
-                        {"quantity": obj[0], "name": obj[1], "attribute": obj[2]}
-                        for obj in objects
-                    ]
-                }
-            }
-    bulk(es, gen_docs())
-
-index_name4 = 'asr'
-if not es.indices.exists(index=index_name4):
-    es.indices.create(index=index_name4)
-    with open('DataBase/ASR.json', 'r', encoding='utf-8') as file:
-        asr_data = json.load(file)
-        for key, value in asr_data.items():
-            es.index(index=index_name4, id=key, body={
-                'scene': key,
-                'asr': value
-            })
-                
-
+index_data(es, 'DataBase')
 app = FastAPI()
 templates = Jinja2Templates(directory="templates")
 app.mount("/data", StaticFiles(directory="data"), name="data")
