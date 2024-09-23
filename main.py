@@ -45,7 +45,7 @@ async def startup_event():
     DictImagePath2, LenDictPath2 = await load_data_mid()
     bin_file = 'data/faiss_index.bin'
     bin_file_sbert = 'data/sbert.bin'
-    #MyFaiss = Myfaiss(bin_file , DictImagePath2, 'cuda', Translation(), "hf-hub:laion/CLIP-ViT-bigG-14-laion2B-39B-b160k")
+    MyFaiss = Myfaiss(bin_file , DictImagePath2, 'cuda', Translation(), "hf-hub:laion/CLIP-ViT-bigG-14-laion2B-39B-b160k")
     MyFaiss_sbert = Myfaiss_sbert(bin_file_sbert, DictImagePath, 'cuda',Translation())
     
 class QueryParams(BaseModel):
@@ -152,7 +152,7 @@ async def icsearch(
 ):
     if MyFaiss_sbert is None:
         return HTMLResponse(content="MyFaiss not initialized", status_code=500)
-    _, list_ids, _, list_image_paths = MyFaiss_sbert.text_search(params.query, k=180)
+    _, list_ids, _, list_image_paths = MyFaiss_sbert.text_search(params.query, k=400)
     print(list_ids)
     limit = 100 
     pagefile = [{'imgpath': imgpath, 'id': int(id)} for imgpath, id in zip(list_image_paths, list_ids)]

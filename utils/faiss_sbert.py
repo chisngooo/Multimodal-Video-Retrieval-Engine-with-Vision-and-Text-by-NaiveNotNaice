@@ -8,15 +8,14 @@ from sklearn.preprocessing import normalize
 import matplotlib.pyplot as plt
 import math
 from langdetect import detect
-from transformers import AutoModel, AutoTokenizer
+from sentence_transformers import SentenceTransformer
 
 class Myfaiss_sbert:
     def __init__(self, bin_file: str, id2img_fps, device, translater):
         self.device = device
         self.index = self.load_bin_file(bin_file)
         self.id2img_fps = id2img_fps
-        self.model = AutoModel.from_pretrained('sentence-transformers/paraphrase-multilingual-mpnet-base-v2')
-        self.tokenizer = AutoTokenizer.from_pretrained('sentence-transformers/paraphrase-multilingual-mpnet-base-v2')
+        self.model = SentenceTransformer("sentence-transformers/all-roberta-large-v1")
         self.translater = translater
 
     def load_bin_file(self, bin_file: str):
@@ -52,10 +51,8 @@ class Myfaiss_sbert:
     def extract_text_features(self, text):
         if detect(text) == 'vi':
             text = self.translater(text)
-        inputs = self.tokenizer(text, return_tensors='pt', padding=True, truncation=True)
-        with torch.no_grad():
-            text_features = self.model(**inputs).last_hidden_state.mean(dim=1) 
-        text_features = text_features.numpy().astype(np.float32)
+        text_features = self.model.encode([text], convert_to_numpy=True, normalize_embeddings=True)
+        text_features = text_features.astype(np.float32)
         return text_features
 
     def image_search(self, id_query, k):
@@ -78,7 +75,6 @@ class Myfaiss_sbert:
 
     def text_search(self, text, k):
         text_features = self.extract_text_features(text)
-        text_features = text_features / np.linalg.norm(text_features)
         scores, idx_image = self.index.search(text_features, k=k)
         idx_image = idx_image.flatten()
         infos_query = [self.id2img_fps.get(i) for i in idx_image]
