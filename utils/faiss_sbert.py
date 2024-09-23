@@ -4,7 +4,6 @@ from natsort import natsorted
 import numpy as np
 import faiss
 import torch
-from sentence_transformers import SentenceTransformer
 from sklearn.preprocessing import normalize
 import matplotlib.pyplot as plt
 import math
@@ -57,7 +56,7 @@ class Myfaiss_sbert:
         with torch.no_grad():
             text_features = self.model(**inputs).last_hidden_state.mean(dim=1) 
         text_features = text_features.numpy().astype(np.float32)
-        return self.normalize(text_features)
+        return text_features
 
     def image_search(self, id_query, k):
         query_feats = self.index.reconstruct(id_query).reshape(1, -1)
@@ -79,6 +78,7 @@ class Myfaiss_sbert:
 
     def text_search(self, text, k):
         text_features = self.extract_text_features(text)
+        text_features = text_features / np.linalg.norm(text_features)
         scores, idx_image = self.index.search(text_features, k=k)
         idx_image = idx_image.flatten()
         infos_query = [self.id2img_fps.get(i) for i in idx_image]
