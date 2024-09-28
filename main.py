@@ -1,4 +1,4 @@
-	from fastapi import FastAPI, Request, Query, Depends
+from fastapi import FastAPI, Request, Query, Depends
 from fastapi.responses import HTMLResponse
 from fastapi.templating import Jinja2Templates
 from fastapi.staticfiles import StaticFiles
