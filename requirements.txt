@@ -16,3 +16,4 @@ matplotlib==3.9.2
 sentence_transformers==3.1.1
 git+https://github.com/openai/CLIP.git
 sentencepiece==0.2.0
+
