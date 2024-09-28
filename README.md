@@ -1,4 +1,4 @@
-<h1><center>Pipeline HCM AI CHALLENGE 2024 <br> Event Retrieval from Visual Data</center></h1>
+<h1><center>HCM AI CHALLENGE 2024 <br> Event Retrieval from Visual Data</center></h1>
 
 ## Setup 
 ```
