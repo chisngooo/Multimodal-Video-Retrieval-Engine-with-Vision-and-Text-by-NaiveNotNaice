@@ -8,6 +8,8 @@ echo "deb https://artifacts.elastic.co/packages/7.x/apt stable main" | sudo tee 
 sudo apt-get update
 pip install -r requirements.txt
 gdown --folder https://drive.google.com/drive/folders/1n5sLuf9YckDArIktTLd4WRwhl1XxUy7B?hl=vi -O data/bin
+gdown --folder https://drive.google.com/drive/folders/16GueLfWnK4yQtPbsaBe8QNk-zUga-QDo?dmr=1&ec=wgc-drive-globalnav-goto -O data/bin
+                
 ```
 
 ## Run 
