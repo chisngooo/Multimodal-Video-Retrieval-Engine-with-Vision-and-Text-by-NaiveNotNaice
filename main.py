@@ -52,7 +52,7 @@ async def startup_event():
     l14 = 'data/bin/l14.bin'
     bigg14_datacomp = 'data/bin/bigg14_datacomp.bin'
     robert = 'data/bin/robert.bin'
-    is = 'data/bin/is.bin'
+    ims = 'data/bin/is.bin'
     MyFaiss_bigg14_laion = Myfaiss(bigg14_laion , DictImagePath2, 'cuda', Translation(), "hf-hub:laion/CLIP-ViT-bigG-14-laion2B-39B-b160k")
     MyFaiss_b32 = Myfaiss_opai(b32 , DictImagePath2, 'cuda', Translation(), "ViT-B/32")
     MyFaiss_g14_laion = Myfaiss(g14_laion , DictImagePath2, 'cuda', Translation(), "hf-hub:laion/CLIP-ViT-g-14-laion2B-s34B-b88K")
@@ -61,7 +61,7 @@ async def startup_event():
     MyFaiss_l14 = Myfaiss_opai(l14 , DictImagePath2, 'cuda', Translation(), "ViT-L/14@336px")
     MyFaiss_bigg14_datacomp = Myfaiss(bigg14_datacomp , DictImagePath2, 'cpu', Translation(), "hf-hub:UCSC-VLAA/ViT-bigG-14-CLIPA-datacomp1B")
     
-    MyFaiss_robert = Myfaiss_robert(robert, is, DictImagePath, 'cuda',Translation())
+    MyFaiss_robert = Myfaiss_robert(robert, ims, DictImagePath, 'cuda',Translation())
     
     
 class QueryParams(BaseModel):
