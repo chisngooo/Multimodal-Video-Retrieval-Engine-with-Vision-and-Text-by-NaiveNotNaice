@@ -81,56 +81,6 @@ def search_by_od(query, index_name):
     results = es.search(index=index_name, body=body, size=200)
     return list(map(int, [hit['_id'] for hit in results['hits']['hits']]))
 
-
-def search_by_ic(query, index_name, size):
-    es = Elasticsearch(["http://localhost:9200"])
-
-    search_query = {
-        "query": {
-            "more_like_this": {
-                "fields": ["ic"],
-                "like": [
-                    {
-                        "doc": {
-                            "ic": query
-                        }
-                    }
-                ],
-                "min_term_freq": 1,
-                "max_query_terms": 12
-            }
-        },
-        "size": size
-    }
-
-    response = es.search(index=index_name, body=search_query)
-    hits = response['hits']['hits']
-    matching_ids = [hit['_id'] for hit in hits]
-    num_matching = len(matching_ids)
-    
-    if num_matching < size:
-        additional_query = {
-            "query": {
-                "bool": {
-                    "must_not": [
-                        {
-                            "ids": {
-                                "values": matching_ids
-                            }
-                        }
-                    ]
-                }
-            },
-            "size": size - num_matching
-        }
-        
-        additional_response = es.search(index=index_name, body=additional_query)
-        additional_hits = additional_response['hits']['hits']
-        additional_ids = [hit['_id'] for hit in additional_hits]
-        matching_ids.extend(additional_ids)
-    
-    return matching_ids
-
 def search_by_asr(query, index_name, size):
     es = Elasticsearch(["http://localhost:9200"])
 
