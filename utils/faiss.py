@@ -1,6 +1,5 @@
 import os
 import json
-from natsort import natsorted
 import numpy as np
 from PIL import Image
 import faiss
@@ -23,9 +22,9 @@ class Myfaiss:
 
     def load_bin_file(self, bin_file: str):
         index = faiss.read_index(bin_file)
-        if self.device == "cuda":
-            res = faiss.StandardGpuResources()
-            index = faiss.index_cpu_to_gpu(res, 0, index)
+        #if self.device == "cuda":
+        #    res = faiss.StandardGpuResources()
+        #    index = faiss.index_cpu_to_gpu(res, 0, index)
         return index
 
     def show_images(self, image_paths):
@@ -63,7 +62,6 @@ class Myfaiss:
     def image_search(self, id_query, k):
         query_feats = self.index.reconstruct(id_query).reshape(1, -1)
         query_feats = query_feats.astype(np.float32)
-        query_feats = self.normalize(query_feats)
         if self.device == "cuda":
             query_feats = torch.tensor(query_feats).cuda()
             query_feats = query_feats.cpu().numpy()

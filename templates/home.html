@@ -10,11 +10,12 @@
   header {
     background-color: black;
     color: white;
-    height: 3rem;
+    height: 3.5rem;
     align-items: center;
     display: flex;
     padding: 1rem;
   }
+
   * {
     padding: 0;
     margin: 0;
@@ -66,6 +67,7 @@
     justify-content: center;
     align-items: center;
     font-weight: bold;
+    cursor: pointer;
   }
 
   
@@ -121,7 +123,7 @@
     fill: blue;
   }
   #textInput {
-    width: 15vw;
+    width: 100%;
     height: 30vh;
     padding: 0.5rem;
     border: 1px solid gray;
@@ -435,7 +437,15 @@
             <input class="checkbox-item" type="checkbox" id="ASR"> Audio (ASR)<br>
             <input class="checkbox-item" type="checkbox" id="Clip"> Clip <br>
             <input class="checkbox-item" type="checkbox" id="IC"> Image Captioning <br>
-            <input class="checkbox-item" type="checkbox" id="Glip"> Glip <br>
+	        <select class="custom-select mr-sm-2" id="faiss-select">
+                <option value="1">bigg14_laion</option>
+                <option value="2">bigg14_datacomp</option>
+                <option value="3">g14_laion</option>
+                <option value="4">h14_quickgelu</option>
+                <option value="5">h14_apple</option>
+                <option value="6">l14</option>
+                <option value="7">b32</option>
+            </select>
             Search text:
             <textarea type="text" id="textInput"></textarea>
           </div>
@@ -457,31 +467,31 @@
                   </div>
               </div>
           </div>
+          <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center mt-4">
+                <!-- First and Previous buttons -->
+                {% if page > 1 %}
+                    <li class="page-item"><a class="page-link" id="firstPage">First</a></li>
+                    <li class="page-item"><a class="page-link" id="prevPage">Previous</a></li>
+                {% else %}
+                    <li class="page-item disabled"><a class="page-link">First</a></li>
+                    <li class="page-item disabled"><a class="page-link">Previous</a></li>
+                {% endif %}
+      
+                <!-- Current page indicator -->
+                <li class="page-item disabled"><a class="page-link" id="counterpage">Page {{ page }} of {{ num_pages }}</a></li>
+      
+                <!-- Next and Last buttons -->
+                {% if page < num_pages %}
+                    <li class="page-item"><a class="page-link" id="nextPage">Next</a></li>
+                    <li class="page-item"><a class="page-link" id="lastPage">Last</a></li>
+                {% else %}
+                    <li class="page-item disabled"><a class="page-link">Next</a></li>
+                    <li class="page-item disabled"><a class="page-link">Last</a></li>
+                {% endif %}
+            </ul>
+        </nav>
       </div>
-      <nav aria-label="Page navigation example">
-          <ul class="pagination justify-content-center mt-4">
-              <!-- First and Previous buttons -->
-              {% if page > 1 %}
-                  <li class="page-item"><a class="page-link" id="firstPage" href="?page=1{% if query %}&query={{ query }}{% endif %}{% if faiss %}&faiss={{ faiss }}{% endif %}">First</a></li>
-                  <li class="page-item"><a class="page-link" id="prevPage" href="?page={{ page - 1 }}{% if query %}&query={{ query }}{% endif %}{% if faiss %}&faiss={{ faiss }}{% endif %}">Previous</a></li>
-              {% else %}
-                  <li class="page-item disabled"><a class="page-link">First</a></li>
-                  <li class="page-item disabled"><a class="page-link">Previous</a></li>
-              {% endif %}
-
-              <!-- Current page indicator -->
-              <li class="page-item disabled"><a class="page-link">Page {{ page }} of {{ num_pages }}</a></li>
-
-              <!-- Next and Last buttons -->
-              {% if page < num_pages %}
-                  <li class="page-item"><a class="page-link" id="nextPage" href="?page={{ page + 1 }}{% if query %}&query={{ query }}{% endif %}{% if faiss %}&faiss={{ faiss }}{% endif %}">Next</a></li>
-                  <li class="page-item"><a class="page-link" id="lastPage" href="?page={{ num_pages }}{% if query %}&query={{ query }}{% endif %}{% if faiss %}&faiss={{ faiss }}{% endif %}">Last</a></li>
-              {% else %}
-                  <li class="page-item disabled"><a class="page-link">Next</a></li>
-                  <li class="page-item disabled"><a class="page-link">Last</a></li>
-              {% endif %}
-          </ul>
-      </nav>
       <button id="helpButton">?</button>
       <div id="overlay"></div>
 
@@ -528,6 +538,49 @@
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script type="text/javascript">
+    const nextpage = document.getElementById("nextPage");
+    if (nextpage) {
+      nextpage.addEventListener("click", updateNextPageLink());
+    }
+    const prevpage = document.getElementById("prevPage");
+    if (prevpage) {
+      prevpage.addEventListener("click", updatePrevPageLink());
+    }
+    const lastpage = document.getElementById("lastPage");
+    if (lastpage) {
+      lastpage.addEventListener("click", updateLastPageLink());
+    }
+    const firstpage = document.getElementById("firstPage");
+    if (firstpage) {
+      firstpage.addEventListener("click", updateFirstPageLink());
+    }
+    function updateNextPageLink() {
+      const urlParams = new URLSearchParams(window.location.search);
+      let currentPage = parseInt(urlParams.get('page')) || 1;
+      let Page = currentPage + 1;
+      urlParams.set('page', Page);
+      nextpage.href = '?' + urlParams.toString(); 
+    }
+    function updatePrevPageLink() {
+      const urlParams = new URLSearchParams(window.location.search);
+      let currentPage = parseInt(urlParams.get('page')) || 1;
+      let Page = currentPage - 1;
+      urlParams.set('page', Page);
+      prevpage.href = '?' + urlParams.toString(); 
+    }
+    function updateLastPageLink() {
+      const urlParams = new URLSearchParams(window.location.search);
+      let Page = document.getElementById("counterpage").text.match(/Page (\d+) of (\d+)/)[2];
+      urlParams.set('page', Page);
+      lastpage.href = '?' + urlParams.toString(); 
+    }
+    function updateFirstPageLink() {
+      const urlParams = new URLSearchParams(window.location.search);
+      let Page = 1;
+      urlParams.set('page', Page);
+      firstpage.href = '?' + urlParams.toString(); 
+    }
+    
     function hideSearch() {
         document.querySelector('.textRelated').style.display = 'none';
     }
@@ -540,7 +593,12 @@
             if (checkbox !== changedCheckbox) {
                 checkbox.checked = false;
             }
-                    });
+            if (changedCheckbox.id == "Clip") {
+              faissChoose.disabled = false;
+            } else {
+              faissChoose.disabled = true;
+            }
+        });
     }
 
     checkboxes.forEach(checkbox => {
@@ -594,9 +652,10 @@
             url.searchParams.set('query', searchText); 
             window.location.href = url.toString(); 
           } else if (document.getElementById('Clip').checked) {
-            const url = new URL('/clip_BigG14', window.location.origin);
+            const url = new URL('/clip', window.location.origin);
             url.searchParams.set('page', 1); 
             url.searchParams.set('query', searchText); 
+            url.searchParams.set('faiss', faissChoose.value);
             window.location.href = url.toString(); 
           } else if (document.getElementById('IC').checked) {
             const url = new URL('/ic', window.location.origin);
@@ -608,6 +667,10 @@
         alert("Please type the search text")
       }
       })});
+    
+    //faiss select
+    const faissChoose = document.getElementById("faiss-select");
+    faissChoose.disabled = true;
     
     //object search
     const addBtn = document.getElementById('addObject');
@@ -643,7 +706,8 @@
     const data = {
       quantity: ["None", '1', '2', '3', '4', '5', '6','7', '8', '9','10'],
       objname: ["None", "Accordion", "Adhesive tape", "Aircraft", "Airplane", "Alarm clock", "Alpaca", "Ambulance", "Animal", "Ant", "Antelope","Apple", "Armadillo", "Artichoke", "Auto part", "Axe", "Backpack", "Bagel", "Baked goods", "Balance beam", "Ball","Balloon", "Banana", "Band-aid", "Banjo", "Barge", "Barrel", "Baseball bat", "Baseball glove", "Bat (Animal)", "Bathroom accessory", "Bathroom cabinet", "Bathtub", "Beaker", "Bear", "Bed", "Bee", "Beehive", "Beer", "Beetle","Bell pepper", "Belt", "Bench", "Bicycle", "Bicycle helmet", "Bicycle wheel", "Bidet", "Billboard", "Billiard table","Binoculars", "Bird", "Blender", "Blue jay", "Boat", "Bomb", "Book", "Bookcase", "Boot", "Bottle", "Bottle opener","Bow and arrow", "Bowl", "Bowling equipment", "Box", "Boy", "Brassiere", "Bread", "Briefcase", "Broccoli", "Bronze sculpture", "Brown bear", "Building", "Bull", "Burrito", "Bus", "Bust", "Butterfly", "Cabbage", "Cabinetry","Cake", "Cake stand", "Calculator", "Camel", "Camera", "Can opener", "Canary", "Candle", "Candy", "Cannon", "Canoe","Cantaloupe", "Car", "Carnivore", "Carrot", "Cart", "Cassette deck", "Castle", "Cat", "Cat furniture", "Caterpillar","Cattle", "Ceiling fan", "Cello", "Centipede", "Chainsaw", "Chair", "Cheese", "Cheetah", "Chest of drawers", "Chicken", "Chime", "Chisel", "Chopsticks", "Christmas tree", "Clock", "Closet", "Clothing", "Coat", "Cocktail","Cocktail shaker", "Coconut", "Coffee", "Coffee cup", "Coffee table", "Coffeemaker", "Coin", "Common fig", "Common sunflower", "Computer keyboard", "Computer monitor", "Computer mouse", "Container", "Convenience store","Cookie", "Cooking spray", "Corded phone", "Cosmetics", "Couch", "Countertop", "Cowboy hat", "Crab", "Cream", "Cricket ball", "Crocodile", "Croissant", "Crown", "Crutch", "Cucumber", "Cupboard", "Curtain", "Cutting board","Dagger", "Dairy Product", "Deer", "Desk", "Dessert", "Diaper", "Dice", "Digital clock", "Dinosaur", "Dishwasher","Dog", "Dog bed", "Doll", "Dolphin", "Door", "Door handle", "Doughnut", "Dragonfly", "Drawer", "Dress", "Drill (Tool)","Drink", "Drinking straw", "Drum", "Duck", "Dumbbell", "Eagle", "Earrings", "Egg (Food)", "Elephant", "Envelope","Eraser", "Face powder", "Facial tissue holder", "Falcon", "Fashion accessory", "Fast food", "Fax", "Fedora", "Filing cabinet", "Fire hydrant", "Fireplace", "Fish", "Flag", "Flashlight", "Flower", "Flowerpot", "Flute","Flying disc", "Food", "Food processor", "Football", "Football helmet", "Footwear", "Fork", "Fountain", "Fox","French fries", "French horn", "Frog", "Fruit", "Frying pan", "Furniture", "Garden Asparagus", "Gas stove","Giraffe", "Girl", "Glasses", "Glove", "Goat", "Goggles", "Goldfish", "Golf ball", "Golf cart", "Gondola", "Goose","Grape", "Grapefruit", "Grinder", "Guacamole", "Guitar", "Hair dryer", "Hair spray", "Hamburger", "Hammer", "Hamster", "Hand dryer", "Handbag", "Handgun", "Harbor seal", "Harmonica", "Harp", "Harpsichord", "Hat", "Headphones","Heater", "Hedgehog", "Helicopter", "Helmet", "High heels", "Hiking equipment", "Hippopotamus", "Home appliance","Honeycomb", "Horizontal bar", "Horse", "Hot dog", "House", "Houseplant", "Human arm", "Human beard", "Human body","Human ear", "Human eye", "Human face", "Human foot", "Human hair", "Human hand", "Human head", "Human leg","Human mouth", "Human nose", "Humidifier", "Ice cream", "Indoor rower", "Infant bed", "Insect", "Invertebrate", "Ipod", "Isopod", "Jacket", "Jacuzzi", "Jaguar (Animal)", "Jeans", "Jellyfish", "Jet ski", "Jug", "Juice","Kangaroo", "Kettle", "Kitchen & dining room table", "Kitchen appliance", "Kitchen knife", "Kitchen utensil","Kitchenware", "Kite", "Knife", "Koala", "Ladder", "Ladle", "Ladybug", "Lamp", "Land vehicle", "Lantern", "Laptop","Lavender (Plant)", "Lemon", "Leopard", "Light bulb", "Light switch", "Lighthouse", "Lily", "Limousine", "Lion","Lipstick", "Lizard", "Lobster", "Loveseat", "Luggage and bags", "Lynx", "Magpie", "Mammal", "Man", "Mango","Maple", "Maracas", "Marine invertebrates", "Marine mammal", "Measuring cup", "Mechanical fan", "Medical equipment","Microphone", "Microwave oven", "Milk", "Miniskirt", "Mirror", "Missile", "Mixer", "Mixing bowl", "Mobile phone","Monkey", "Moths and butterflies", "Motorcycle", "Mouse", "Muffin", "Mug", "Mule", "Mushroom", "Musical instrument","Musical keyboard", "Nail (Construction)", "Necklace", "Nightstand", "Oboe", "Office building", "Office supplies","Orange", "Organ (Musical Instrument)", "Ostrich", "Otter", "Oven", "Owl", "Oyster", "Paddle", "Palm tree","Pancake", "Panda", "Paper cutter", "Paper towel", "Parachute", "Parking meter", "Parrot", "Pasta", "Pastry","Peach", "Pear", "Pen", "Pencil case", "Pencil sharpener", "Penguin", "Perfume", "Person", "Personal care","Personal flotation device", "Piano", "Picnic basket", "Picture frame", "Pig", "Pillow", "Pineapple", "Pitcher (Container)","Pizza", "Pizza cutter", "Plant", "Plastic bag", "Plate", "Platter", "Plumbing fixture", "Polar bear", "Pomegranate","Popcorn", "Porch", "Porcupine", "Poster", "Potato", "Power plugs and sockets", "Pressure cooker", "Pretzel", "Printer", "Pumpkin", "Punching bag", "Rabbit", "Raccoon", "Racket", "Radish", "Ratchet (Device)", "Raven","Rays and skates", "Red panda", "Refrigerator", "Remote control", "Reptile", "Rhinoceros", "Rifle", "Ring binder","Rocket", "Roller skates", "Rose", "Rugby ball", "Ruler", "Salad", "Salt and pepper shakers", "Sandal", "Sandwich","Saucer", "Saxophone", "Scale", "Scarf", "Scissors", "Scoreboard", "Scorpion", "Screwdriver", "Sculpture", "Sea lion","Sea turtle", "Seafood", "Seahorse", "Seat belt", "Segway", "Serving tray", "Sewing machine", "Shark", "Sheep","Shelf", "Shellfish", "Shirt", "Shorts", "Shotgun", "Shower", "Shrimp", "Sink", "Skateboard", "Ski", "Skirt","Skull", "Skunk", "Skyscraper", "Slow cooker", "Snack", "Snail", "Snake", "Snowboard", "Snowman", "Snowmobile","Snowplow", "Soap dispenser", "Sock", "Sofa bed", "Sombrero", "Sparrow", "Spatula", "Spice rack", "Spider", "Spoon","Sports equipment", "Sports uniform", "Squash (Plant)", "Squid", "Squirrel", "Stairs", "Stapler", "Starfish","Stationary bicycle", "Stethoscope", "Stool", "Stop sign", "Strawberry", "Street light", "Stretcher", "Studio couch","Submarine", "Submarine sandwich", "Suit", "Suitcase", "Sun hat", "Sunglasses", "Surfboard", "Sushi", "Swan","Swim cap", "Swimming pool", "Swimwear", "Sword", "Syringe", "Table", "Table tennis racket", "Tablet computer","Tableware", "Taco", "Tank", "Tap", "Tart", "Taxi", "Tea", "Teapot", "Teddy bear", "Telephone", "Television","Tennis ball", "Tennis racket", "Tent", "Tiara", "Tick", "Tie", "Tiger", "Tin can", "Tire", "Toaster", "Toilet","Toilet paper", "Tomato", "Tool", "Toothbrush", "Torch", "Tortoise", "Towel", "Tower", "Toy", "Traffic light","Traffic sign", "Train", "Training bench", "Treadmill", "Tree", "Tree house", "Tripod", "Trombone", "Trousers","Truck", "Trumpet", "Turkey", "Turtle", "Umbrella", "Unicycle", "Van", "Vase", "Vegetable", "Vehicle","Vehicle registration plate", "Violin", "Volleyball (Ball)", "Waffle", "Waffle iron", "Wall clock", "Wardrobe","Washing machine", "Waste container", "Watch", "Watercraft", "Watermelon", "Weapon", "Whale", "Wheel","Wheelchair", "Whisk", "Whiteboard", "Willow", "Window", "Window blind", "Wine", "Wine glass", "Wine rack","Winter melon", "Wok", "Woman", "Wood-burning stove", "Woodpecker", "Worm", "Wrench", "Zebra", "Zucchini"],
-      color: ["None", "red", "blue", "green", "yellow", "black", "white", "orange", "purple", "pink", "brown"]
+       color : ["None", "đỏ", "cam", "vàng", "xanh lá", "xanh dương", "tím", "đen", "trắng", "hồng", "nâu", "xám", "xanh lá sáng", "bạc", "vàng ánh kim", "đỏ cam", "xanh ngọc", "nâu đất", "xanh rêu", "cam đất", "xanh nhạt", "đỏ nâu", "kem", "đỏ cà chua", "xanh tím", "xanh nón chuối", "xanh da trời", "hồng đậm", "xanh lá cây", "đỏ lửa", "xanh biển"]
+
     }
 
     function showDropdown(input) {
@@ -716,10 +780,6 @@
       return null;
     }
 
-    function convertFrameToSeconds(frameNumber, fps = 25) {
-        return parseInt(frameNumber, 10) / fps;
-    }
-    
     function hideSlide() {
         slide3.style.display = 'none';
         slide2.style.display = 'none';
@@ -736,53 +796,34 @@
         const videopath = imgpath[imgpath.length-2];
         fetch(`../data/metadata/${videopath}.json`)
         .then(response => response.json())
-        .then(metadata => {
-          if (imgpath.includes('data')) {
-            return Promise.all([
-              metadata, 
-              fetch('../data/start_frames.json').then(res => res.json())
-            ]);
-          } else {
-            return [metadata, null]; 
-          }
-        })
-        .then(([metadata, startframe]) => {
-          
+        .then((metadata) => {
           const video_url = metadata['watch_url'];
           const videoId = getYouTubeVideoId(video_url);
           const frameId = imgpath[imgpath.length - 1].replace("frame_", "").replace(".webp", "").replace("key", "");
-          let startframeId = null;
-          if (startframe) {
-            startframeId = startframe[id]; 
-          } else {
-            startframeId = frameId;
-          }
-          const seconds = convertFrameToSeconds(frameId);
-          const secondsKeyframe = convertFrameToSeconds(parseInt(frameId, 10));
-
-          slide2.innerHTML = `
+          fetch("../data/index/fps.json") 
+          .then(response => response.json())
+          .then((fpsdata) => {
+            seconds = frameId/fpsdata[videopath];
+            slide2.innerHTML = `
             <h2>Frame information</h2>
             <p><b>url</b>: <a target="_blank" href="https://www.youtube.com/watch?v=${videoId}&t=${Math.floor(seconds)}s">
               https://www.youtube.com/watch?v=${videoId}&t=${Math.floor(seconds)}s<a><br>
               <b>Video_id</b>: ${videopath}<br>
-              <b>startframe</b>: ${startframeId}<br>
               <b id="keyframe">keyframe</b>: ${frameId}</p> 
-            <iframe id="videoIframe" width="100%" height="315" 
+              <b id="fps">fps</b>: ${fpsdata[videopath]}</p>
+              <iframe id="videoIframe" width="100%" height="315" 
               src="https://www.youtube.com/embed/${videoId}?start=${Math.floor(seconds)}&autoplay=1&rel=0" 
               title="YouTube video player" frameborder="0" loading="lazy" 
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
               referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
+          })
         });
     }
 
     IRBtn.forEach(btn => {
       btn.addEventListener("click", function() {
         let url = '';
-        if (btn.getAttribute('alt').split("/").includes("data")) {
-          url = new URL('/img', window.location.origin);
-        } else {
-          url = new URL('/img_btc', window.location.origin);
-        }
+        url = new URL('/img', window.location.origin);
         url.searchParams.set('page', 1); 
         url.searchParams.set('imgid', this.getAttribute('data')); 
         newwindow = window.open(url.toString(), '_blank');
@@ -814,6 +855,18 @@
         document.getElementById("videoIframe").src = '';
     });
     
+    function cycleOptions() {
+      let currentIndex = faissChoose.selectedIndex;
+      let totalOptions = faissChoose.options.length;
+      faissChoose.selectedIndex = (currentIndex + 1) % totalOptions;
+    }
+    function cycleOptionsUp() {
+      let currentIndex = faissChoose.selectedIndex;
+      let totalOptions = faissChoose.options.length;
+      faissChoose.selectedIndex = (currentIndex - 1 + totalOptions) % totalOptions;
+    }
+
+
     // Shortcut 
     document.addEventListener("keydown", function(event) {
         if (event.key === "1" && event.ctrlKey) {
@@ -854,16 +907,24 @@
         }
         if (event.ctrlKey && event.key === 'ArrowRight') {
             event.preventDefault(); 
-            document.getElementById("nextPage").click(); 
+            nextpage.click();
         }
+        if (event.ctrlKey && event.key === 'ArrowDown') {
+                  event.preventDefault(); 
+                  cycleOptions(); 
+              }
         if (event.ctrlKey && event.key === 'ArrowLeft') {
             event.preventDefault(); 
-            document.getElementById("prevPage").click(); 
+            prevpage.click();
         }
-          if (event.key === " " && event.ctrlKey) {
-            event.preventDefault();
-            addBtn.click();
-        }
+        if (event.ctrlKey && event.key === 'ArrowUp') {
+                  event.preventDefault(); 
+                  cycleOptionsUp(); 
+              }
+        if (event.key === " " && event.ctrlKey) {
+                  event.preventDefault();
+                  addBtn.click();
+              }
         if (event.key === "Enter" && event.ctrlKey) {
             event.preventDefault();
             searchBtn.forEach(btn => {
