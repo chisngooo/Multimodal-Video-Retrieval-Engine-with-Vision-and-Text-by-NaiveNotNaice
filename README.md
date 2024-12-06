@@ -45,31 +45,41 @@ uvicorn main:app --reload
 
 <style>
   .video-thumbnail {
-    position: relative;
-    width: 600px;
+    position: relative; /* Đảm bảo phần tử này là container cho nút Play */
+    width: 600px; /* Đặt kích thước cố định cho thumbnail */
     height: auto;
     display: inline-block;
   }
 
   .play-icon {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80px;
-    height: 80px; 
-    opacity: 0.8;
-    transition: all 0.3s ease;
+    position: absolute; /* Đặt nút Play ở vị trí tuyệt đối trong container */
+    top: 50%; /* Căn giữa theo chiều dọc */
+    left: 50%; /* Căn giữa theo chiều ngang */
+    transform: translate(-50%, -50%); /* Điều chỉnh vị trí tâm */
+    width: 80px; /* Kích thước của nút Play */
+    height: 80px;
+    opacity: 0.8; /* Độ trong suốt */
+    transition: all 0.3s ease; /* Tạo hiệu ứng khi hover */
   }
 
+  /* Hiệu ứng hover: nút Play rõ ràng hơn */
   .video-thumbnail:hover .play-icon {
     opacity: 1;
   }
 
+  /* Hiệu ứng hover cho ảnh thumbnail */
   .video-thumbnail:hover {
     opacity: 0.8;
   }
 </style>
+
+<p align="center">
+  <a href="https://drive.google.com/file/d/12bVfUk2ctRZkEcpc4jaMZptK0BWoH2Tq/view?usp=drive_link" class="video-thumbnail">
+    <img src="./image/demo_video.jpg" width="600" alt="Demo Video Thumbnail"> <!-- Đường dẫn ảnh thumbnail -->
+    <img src="./image/play_button.png" class="play-icon" alt="Play Icon"> <!-- Đường dẫn nút Play -->
+  </a>
+</p>
+
 
 <p align="center">
   <a href="https://drive.google.com/file/d/12bVfUk2ctRZkEcpc4jaMZptK0BWoH2Tq/view?usp=drive_link" class="video-thumbnail">
