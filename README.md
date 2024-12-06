@@ -3,6 +3,7 @@
 </p>
 
 <h1 align="center">Cross-Modal-Video-Retrieval-Engine-with-Vision-and-Text </h1>
+![Static Badge](https://img.shields.io/badge/python->=3.10-blue)
 
 
 ## Setup 
@@ -23,3 +24,12 @@ sudo service elasticsearch start
 curl -X GET "localhost:9200/"
 uvicorn main:app --reload
 ```
+
+
+## Demo
+
+<p align="center">
+  <img src="/image/demo1.jpg" width="400">
+  <img src="/image/demo2.jpg" width="400">
+  <img src="/image/demo3.jpg" width="400">
+</p>
