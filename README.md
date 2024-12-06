@@ -80,10 +80,3 @@ uvicorn main:app --reload
   </a>
 </p>
 
-
-<p align="center">
-  <a href="https://drive.google.com/file/d/12bVfUk2ctRZkEcpc4jaMZptK0BWoH2Tq/view?usp=drive_link" class="video-thumbnail">
-    <img src="/image/demo_video.jpg" width="600">
-    <img src="/image/play_button.png" class="play-icon"> 
-  </a>
-</p>
