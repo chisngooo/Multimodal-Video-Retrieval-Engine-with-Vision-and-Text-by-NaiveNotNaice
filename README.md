@@ -6,6 +6,21 @@
 ![Static Badge](https://img.shields.io/badge/python->=3.10-blue)
 
 
+## Demo
+
+<p align="center">
+  <img src="/image/demo1.jpg" width="600">
+</p>
+
+<p align="center">
+  <img src="/image/demo2.jpg" width="600">
+</p>
+
+<p align="center">
+  <img src="/image/demo3.jpg" width="600">
+</p>
+
+
 ## Setup 
 ```
 wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
@@ -26,19 +41,6 @@ uvicorn main:app --reload
 ```
 
 
-## Demo
-
-<p align="center">
-  <img src="/image/demo1.jpg" width="600">
-</p>
-
-<p align="center">
-  <img src="/image/demo2.jpg" width="600">
-</p>
-
-<p align="center">
-  <img src="/image/demo3.jpg" width="600">
-</p>
 
 
 ## Demo Video
