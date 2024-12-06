@@ -29,7 +29,13 @@ uvicorn main:app --reload
 ## Demo
 
 <p align="center">
-  <img src="/image/demo1.jpg" width="400">
-  <img src="/image/demo2.jpg" width="400">
-  <img src="/image/demo3.jpg" width="400">
+  <img src="/path/to/your/image1.png" width="600">
+</p>
+
+<p align="center">
+  <img src="/path/to/your/image2.png" width="600">
+</p>
+
+<p align="center">
+  <img src="/path/to/your/image3.png" width="600">
 </p>
