@@ -43,9 +43,35 @@ uvicorn main:app --reload
 
 ## Demo Video
 
+<style>
+  .video-thumbnail {
+    position: relative;
+    transition: all 0.3s ease;
+  }
+
+  .video-thumbnail:hover {
+    opacity: 0.8;
+  }
+
+  .play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+  }
+
+  .video-thumbnail:hover .play-icon {
+    opacity: 1;
+  }
+</style>
+
 <p align="center">
-  <a href="https://drive.google.com/file/d/12bVfUk2ctRZkEcpc4jaMZptK0BWoH2Tq/view?usp=drive_link">
-    <img src="/image/demo_video.jpg" width="600">
+  <a href="https://drive.google.com/file/d/12bVfUk2ctRZkEcpc4jaMZptK0BWoH2Tq/view?usp=drive_link" class="video-thumbnail">
+    <img src="/image/demo_video.jpg" width="600"> <!-- Thay đổi đường dẫn ảnh thumbnail -->
+    <img src="/images/play_button_icon.png" class="play-icon"> <!-- Thay đổi đường dẫn biểu tượng play -->
   </a>
 </p>
 
