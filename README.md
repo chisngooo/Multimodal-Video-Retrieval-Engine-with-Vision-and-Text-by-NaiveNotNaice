@@ -3,7 +3,6 @@
 </p>
 
 <h1 align="center">Cross-Modal-Video-Retrieval-Engine-with-Vision-and-Text </h1>
-![Static Badge](https://img.shields.io/badge/python->=3.10-blue)
 
 
 ## Demo
