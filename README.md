@@ -58,8 +58,8 @@ uvicorn main:app --reload
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 80px;  
-    height: 80px;
+    width: 10px;  
+    height: 10px;
     opacity: 0.8;
     transition: all 0.3s ease;
   }
