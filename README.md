@@ -44,9 +44,9 @@ uvicorn main:app --reload
 ## Demo Video
 
 <p align="center">
-  <video width="600" controls>
-    <source src="https://drive.google.com/uc?export=download&id=12bVfUk2ctRZkEcpc4jaMZptK0BWoH2Tq" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+  <a href="https://drive.google.com/file/d/12bVfUk2ctRZkEcpc4jaMZptK0BWoH2Tq/view?usp=drive_link">
+    <img src="https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg" width="600">
+  </a>
 </p>
+
 
