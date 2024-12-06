@@ -1,4 +1,7 @@
-<h1><center>HCM AI CHALLENGE 2024 <br> Event Retrieval from Visual Data</center></h1>
+<p align="center">
+  <img src="/image/AIC2024-Banner.png" width="1080">
+</p>
+
 
 ## Setup 
 ```
