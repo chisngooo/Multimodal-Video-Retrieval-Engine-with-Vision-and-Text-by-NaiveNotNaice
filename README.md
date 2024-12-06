@@ -45,8 +45,7 @@ uvicorn main:app --reload
 
 <p align="center">
   <a href="https://drive.google.com/file/d/12bVfUk2ctRZkEcpc4jaMZptK0BWoH2Tq/view?usp=drive_link">
-    <img src="https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg" width="600">
+    <img src="/image/demo_video.jpg" width="600">
   </a>
 </p>
-
 
